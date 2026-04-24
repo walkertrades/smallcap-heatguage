@@ -10,23 +10,23 @@ function DayDetailInline({ entry, thresholds, onClose, onDeleteRunner }) {
   // Reasoning bullets — three factor calls with pos/mid/neg signals
   const factors = [];
   if (entry.hod >= thresholds.hodHot) {
-    factors.push({ kind: "pos", label: "HOD", detail: `+${entry.hod}% ≥ ${thresholds.hodHot}%`, tag: "HOT" });
+    factors.push({ kind: "pos", label: "AVG HOD", detail: `+${entry.hod}% ≥ ${thresholds.hodHot}%`, tag: "HOT" });
   } else if (entry.hod >= thresholds.hodNeutralLo) {
-    factors.push({ kind: "mid", label: "HOD", detail: `+${entry.hod}% (${thresholds.hodNeutralLo}–${thresholds.hodHot}%)`, tag: "NEUTRAL" });
+    factors.push({ kind: "mid", label: "AVG HOD", detail: `+${entry.hod}% (${thresholds.hodNeutralLo}–${thresholds.hodHot}%)`, tag: "NEUTRAL" });
   } else {
-    factors.push({ kind: "neg", label: "HOD", detail: `+${entry.hod}% < ${thresholds.hodNeutralLo}%`, tag: "COLD" });
+    factors.push({ kind: "neg", label: "AVG HOD", detail: `+${entry.hod}% < ${thresholds.hodNeutralLo}%`, tag: "COLD" });
   }
   if (entry.fade <= thresholds.fadeHot) {
-    factors.push({ kind: "pos", label: "FADE", detail: `${entry.fade}% ≤ ${thresholds.fadeHot}%`, tag: "HOT" });
+    factors.push({ kind: "pos", label: "AVG FADE", detail: `${entry.fade}% ≤ ${thresholds.fadeHot}%`, tag: "HOT" });
   } else if (entry.fade <= thresholds.fadeCold) {
-    factors.push({ kind: "mid", label: "FADE", detail: `${entry.fade}% (${thresholds.fadeHot}–${thresholds.fadeCold}%)`, tag: "NEUTRAL" });
+    factors.push({ kind: "mid", label: "AVG FADE", detail: `${entry.fade}% (${thresholds.fadeHot}–${thresholds.fadeCold}%)`, tag: "NEUTRAL" });
   } else {
-    factors.push({ kind: "neg", label: "FADE", detail: `${entry.fade}% > ${thresholds.fadeCold}%`, tag: "COLD" });
+    factors.push({ kind: "neg", label: "AVG FADE", detail: `${entry.fade}% > ${thresholds.fadeCold}%`, tag: "COLD" });
   }
   const timeLabel = entry.hodTime === "session" ? "SESSION" : entry.hodTime === "premarket" ? "PREMARKET" : "MIXED";
   const timeKind = entry.hodTime === "session" ? "pos" : entry.hodTime === "premarket" ? "neg" : "mid";
   const timeTag = entry.hodTime === "session" ? "HOT" : entry.hodTime === "premarket" ? "COLD" : "NEUTRAL";
-  factors.push({ kind: timeKind, label: "TIME", detail: timeLabel, tag: timeTag });
+  factors.push({ kind: timeKind, label: "TIME · MAJORITY", detail: timeLabel, tag: timeTag });
 
   // PM risk flag — shown when premarket-dominant regardless of state
   const pmFlag = entry.hodTime === "premarket";

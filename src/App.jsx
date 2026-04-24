@@ -43,32 +43,24 @@ function normalizeEntry(raw) {
   const sortedByHod = [...runners].sort((a, b) => (b.hod || 0) - (a.hod || 0));
   const top = sortedByHod[0];
 
-  // Day HOD / fade: average across all runners (not just the lead).
-  // Prevents a single outlier (e.g. +1200% warrant) from skewing the score.
-  // If the source already has explicit values, those win.
-  const avgHod = runners.length
-    ? Math.round(runners.reduce((s, r) => s + (Number(r.hod) || 0), 0) / runners.length)
-    : null;
-  const avgFade = runners.length
-    ? Math.round(runners.reduce((s, r) => s + (Number(r.fade) || 0), 0) / runners.length)
-    : null;
-  // Always average — day-level hod/fade in the source JSON are ignored.
-  // Individual runner stats are preserved on each runner object below.
-  const hod = avgHod;
-  const fade = avgFade;
+  // Day HOD / fade = AVERAGE across all runners on that day (tape-wide heat),
+  // not the top runner. Source can still override with explicit hod/fade.
+  const numericHods = runners.map((r) => Number(r.hod)).filter((v) => Number.isFinite(v));
+  const numericFades = runners.map((r) => Number(r.fade)).filter((v) => Number.isFinite(v));
+  const avgHod = numericHods.length ? numericHods.reduce((s, v) => s + v, 0) / numericHods.length : null;
+  const avgFade = numericFades.length ? numericFades.reduce((s, v) => s + v, 0) / numericFades.length : null;
+  const hod = raw.hod != null ? raw.hod : (avgHod != null ? Math.round(avgHod) : null);
+  const fade = raw.fade != null ? raw.fade : (avgFade != null ? Math.round(avgFade) : null);
 
-  // Day hodTime: HOD-weighted vote across runners. Whichever bucket owns the
-  // biggest share of the day's total % gain defines the day.
+  // Day hodTime: equal-weighted majority vote across runners.
+  // Session if ≥ 60% session; Premarket if ≥ 50% premarket; else Mixed.
   let hodTime = raw.hodTime || null;
   if (!hodTime && runners.length) {
-    const weights = { session: 0, premarket: 0, mixed: 0 };
-    for (const r of runners) {
-      const w = Math.max(1, Number(r.hod) || 1);
-      weights[r.time] = (weights[r.time] || 0) + w;
-    }
-    const total = weights.session + weights.premarket + weights.mixed;
-    const sessShare = total ? weights.session / total : 0;
-    const pmShare = total ? weights.premarket / total : 0;
+    const counts = { session: 0, premarket: 0, mixed: 0 };
+    for (const r of runners) counts[r.time] = (counts[r.time] || 0) + 1;
+    const total = counts.session + counts.premarket + counts.mixed;
+    const sessShare = total ? counts.session / total : 0;
+    const pmShare = total ? counts.premarket / total : 0;
     if (sessShare >= 0.6) hodTime = "session";
     else if (pmShare >= 0.5) hodTime = "premarket";
     else hodTime = "mixed";
@@ -442,9 +434,9 @@ function StateCard({ state, rules, latest, streak }) {
         )}
         {!warn && latest && (
           <div className="latest-stats">
-            <Stat label="HOD" value={`+${latest.hod}%`} verdict={latest.hod >= 150 ? "hot" : latest.hod >= 100 ? "neutral" : "cold"} />
+            <Stat label="AVG HOD" value={`+${latest.hod}%`} verdict={latest.hod >= 150 ? "hot" : latest.hod >= 100 ? "neutral" : "cold"} />
             <Stat label="TIME" value={latest.hodTime === "premarket" ? "PM" : latest.hodTime === "mixed" ? "MIX" : "SESS"} verdict={latest.hodTime === "session" ? "hot" : latest.hodTime === "premarket" ? "cold" : "neutral"} />
-            <Stat label="FADE" value={`${latest.fade}%`} verdict={latest.fade <= 25 ? "hot" : latest.fade <= 40 ? "neutral" : "cold"} />
+            <Stat label="AVG FADE" value={`${latest.fade}%`} verdict={latest.fade <= 25 ? "hot" : latest.fade <= 40 ? "neutral" : "cold"} />
           </div>
         )}
       </div>
@@ -497,7 +489,7 @@ function HistoryLog({ entries }) {
             <span className="history-date">{e.date}</span>
             <span className={`history-state state-text-${e.state.toLowerCase()}`}>{e.state}</span>
             <span className="history-score">{e.score}</span>
-            <span className="history-meta">HOD {e.hod}% · {e.hodTime.slice(0, 4).toUpperCase()} · FADE {e.fade}%</span>
+            <span className="history-meta">avg HOD {e.hod}% · {e.hodTime.slice(0, 4).toUpperCase()} · avg FADE {e.fade}%</span>
           </div>
         ))}
       </div>
