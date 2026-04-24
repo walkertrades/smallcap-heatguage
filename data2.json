@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-04-24T13:18:28.821Z",
-  "count": 23,
+  "exportedAt": "2026-04-24T14:11:10.377166Z",
+  "count": 248,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -10242,6 +10242,2531 @@
       "hodTime": "session",
       "theme": "Strong Closes",
       "note": "AZTR led +116% (26% fade). session-led across the board. 4/6 held <20% — closing strong. news: ANNA — \"Qatar LNG Blown Offline, U.S. Gas Stocks Ignite (None)\"."
+    },
+    {
+      "date": "2022-08-05",
+      "runners": [
+        {
+          "sym": "IONM",
+          "hod": 169,
+          "hodExact": 169.05,
+          "news": [
+            "Why Cooper-Standard Is Trading Higher By 70%, Here Are 81 Stocks Moving In Friday's Mid-Day Session",
+            "Markets Open Lower; U.S. Economy Adds Higher-Than-Expected Jobs In July",
+            "Why Is Marker Therapeutics Trading Higher By 119%: Here Are 42 Stocks Moving Premarket"
+          ],
+          "tag": "SYMPATHY",
+          "name": "ASSURE HLDGS CORP",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.1,
+          "open": 5.25,
+          "gapPct": 150.0,
+          "time": "premarket",
+          "high": 5.65,
+          "hodTimeExact": "12:28 AM ET",
+          "close": 2.54,
+          "fade": 55,
+          "fadeExact": 55.04,
+          "vwap": 4.2496,
+          "vsVwap": "below",
+          "pmHigh": 10.86,
+          "volRaw": "24.4M",
+          "relVol": 164.3,
+          "avgVolM": 0.1
+        },
+        {
+          "sym": "CPS",
+          "hod": 98,
+          "hodExact": 98.81,
+          "news": [
+            "Nasdaq Falls Over 100 Points, Marker Therapeutics Shares Spike Higher",
+            "Why Cooper-Standard Is Trading Higher By 70%, Here Are 81 Stocks Moving In Friday's Mid-Day Session",
+            "Dow Drops 150 Points, Crude Oil Rises Over 2%",
+            "Markets Open Lower; U.S. Economy Adds Higher-Than-Expected Jobs In July",
+            "Why Is Marker Therapeutics Trading Higher By 119%: Here Are 42 Stocks Moving Premarket"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Cooper-Standard Automotive Inc.",
+          "sector": "MOTOR VEHICLE PARTS & ACCESSORIES",
+          "country": "US",
+          "floatM": 17.76,
+          "floatSrc": "Polygon",
+          "marketCap": "$546M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.03,
+          "open": 7.15,
+          "gapPct": 42.15,
+          "time": "premarket",
+          "high": 10,
+          "hodTimeExact": "08:32 AM ET",
+          "close": 8.53,
+          "fade": 14,
+          "fadeExact": 14.7,
+          "vwap": 8.9042,
+          "vsVwap": "below",
+          "pmHigh": 7.15,
+          "volRaw": "9.1M",
+          "relVol": 45.2,
+          "avgVolM": 0.2
+        },
+        {
+          "sym": "BQ",
+          "hod": 94,
+          "hodExact": 94.1,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Boqii Holding Limited",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 4.3,
+          "floatSrc": "Polygon",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 4.3M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 4.3M + RelVol 56.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 4.3M + RelVol 56.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.0093,
+          "open": 2.03,
+          "gapPct": 1.03,
+          "time": "session",
+          "high": 3.9,
+          "hodTimeExact": "10:53 AM ET",
+          "close": 2.71,
+          "fade": 30,
+          "fadeExact": 30.51,
+          "vwap": 3.0547,
+          "vsVwap": "below",
+          "pmHigh": 2.2,
+          "volRaw": "8.2M",
+          "relVol": 56.9,
+          "avgVolM": 0.1
+        },
+        {
+          "sym": "HIHO",
+          "hod": 80,
+          "hodExact": 80.68,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Highway Holdings Ltd",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 4.6,
+          "floatSrc": "Polygon",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 4.6M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 4.6M + RelVol 178.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 4.6M + RelVol 178.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.8264,
+          "open": 1.8,
+          "gapPct": -1.45,
+          "time": "premarket",
+          "high": 3.3,
+          "hodTimeExact": "07:45 AM ET",
+          "close": 2.24,
+          "fade": 32,
+          "fadeExact": 32.12,
+          "vwap": 2.7103,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "3.9M",
+          "relVol": 178.5,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "ILAG",
+          "hod": 75,
+          "hodExact": 75.8,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Intelligent Living Application Group Inc. Ordinary Shares",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 2.08,
+          "floatSrc": "Polygon",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 2.08M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 2.08M + RelVol 5.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 2.08M + RelVol 5.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.19,
+          "open": 2.15,
+          "gapPct": -1.83,
+          "time": "session",
+          "high": 3.85,
+          "hodTimeExact": "01:30 PM ET",
+          "close": 3.6,
+          "fade": 6,
+          "fadeExact": 6.49,
+          "vwap": 3.4237,
+          "vsVwap": "above",
+          "pmHigh": 2.33,
+          "volRaw": "69.1M",
+          "relVol": 5.6,
+          "avgVolM": 12.4
+        },
+        {
+          "sym": "MOBQ",
+          "hod": 58,
+          "hodExact": 58.33,
+          "news": [
+            "Why Cooper-Standard Is Trading Higher By 70%, Here Are 81 Stocks Moving In Friday's Mid-Day Session",
+            "Mobiquity Technologies Announces Exclusive 12-Month Global Contract with GroveToken LLC following a $25 Million Commitment from GEM Digital Limited for Market Defined Green Crypto Currency"
+          ],
+          "tag": "RIG",
+          "name": "MOBIQUITY TECH INC",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Gapped +55.1% on news catalyst",
+                "Why Cooper-Standard Is Trading Higher By 70%, Here Are 81 Stocks Moving In Friday's Mid-Day Session",
+                "Mobiquity Technologies Announces Exclusive 12-Month Global Contract with GroveToken LLC following a $25 Million Commitment from GEM Digital Limited for Market Defined Green Crypto Currency"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Gapped +55.1% on news catalyst",
+            "Why Cooper-Standard Is Trading Higher By 70%, Here Are 81 Stocks Moving In Friday's Mid-Day Session",
+            "Mobiquity Technologies Announces Exclusive 12-Month Global Contract with GroveToken LLC following a $25 Million Commitment from GEM Digital Limited for Market Defined Green Crypto Currency"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.56,
+          "open": 2.42,
+          "gapPct": 55.13,
+          "time": "premarket",
+          "high": 2.47,
+          "hodTimeExact": "05:00 AM ET",
+          "close": 1.83,
+          "fade": 25,
+          "fadeExact": 25.91,
+          "vwap": 2.2226,
+          "vsVwap": "below",
+          "pmHigh": 2.62,
+          "volRaw": "15.1M",
+          "relVol": 221.7,
+          "avgVolM": 0.1
+        },
+        {
+          "sym": "CPOP",
+          "hod": 53,
+          "hodExact": 53.85,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Pop Culture Group Co., Ltd Class A Ordinary Shares",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 71.36,
+          "floatSrc": "Polygon",
+          "marketCap": "$29M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No catalyst identified — momentum/retail driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No catalyst identified — momentum/retail driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.43,
+          "open": 1.44,
+          "gapPct": 0.7,
+          "time": "session",
+          "high": 2.2,
+          "hodTimeExact": "09:44 AM ET",
+          "close": 1.72,
+          "fade": 21,
+          "fadeExact": 21.82,
+          "vwap": 1.85,
+          "vsVwap": "below",
+          "pmHigh": 1.52,
+          "volRaw": "2.8M",
+          "relVol": 54.2,
+          "avgVolM": 0.1
+        },
+        {
+          "sym": "SNTG",
+          "hod": 51,
+          "hodExact": 51.54,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Sentage Holdings Inc. Class A Ordinary Shares",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 2.81,
+          "floatSrc": "Polygon",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 2.81M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 2.81M + RelVol 4.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 2.81M + RelVol 4.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6393,
+          "open": 0.62,
+          "gapPct": -3.03,
+          "time": "premarket",
+          "high": 0.9689,
+          "hodTimeExact": "09:04 AM ET",
+          "close": 0.71,
+          "fade": 26,
+          "fadeExact": 26.72,
+          "vwap": 0.8234,
+          "vsVwap": "below",
+          "pmHigh": 0.6394,
+          "volRaw": "3.2M",
+          "relVol": 4.8,
+          "avgVolM": 0.7
+        },
+        {
+          "sym": "PGY",
+          "hod": 47,
+          "hodExact": 47.26,
+          "news": [
+            "Why Cooper-Standard Is Trading Higher By 70%, Here Are 81 Stocks Moving In Friday's Mid-Day Session",
+            "Why Is Marker Therapeutics Trading Higher By 119%: Here Are 42 Stocks Moving Premarket",
+            "Lyft, DoorDash, Expedia And Some Other Big Stocks Moving Higher In Today's Pre-Market Session",
+            "Why NanoViricides Jumped Over 48%; Here Are 106 Biggest Movers From Yesterday",
+            "Is Pagaya Technologies Stock a Buy?"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "Pagaya Technologies Ltd. Class A Ordinary Shares",
+          "sector": "FINANCE SERVICES",
+          "country": "US",
+          "floatM": 71.24,
+          "floatSrc": "Polygon",
+          "marketCap": "$1.1B",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No catalyst identified — momentum/retail driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No catalyst identified — momentum/retail driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 17.69,
+          "open": 21.05,
+          "gapPct": 18.99,
+          "time": "premarket",
+          "high": 26.05,
+          "hodTimeExact": "05:42 AM ET",
+          "close": 22.76,
+          "fade": 12,
+          "fadeExact": 12.63,
+          "vwap": 23.2098,
+          "vsVwap": "below",
+          "pmHigh": 22.99,
+          "volRaw": "3.7M",
+          "relVol": 0.3,
+          "avgVolM": 13.2
+        },
+        {
+          "sym": "CVNA",
+          "hod": 44,
+          "hodExact": 44.57,
+          "news": [
+            "U.S. stocks close mostly lower as robust July jobs report stokes worries over Fed rate hikes",
+            "Why Cooper-Standard Is Trading Higher By 70%, Here Are 81 Stocks Moving In Friday's Mid-Day Session",
+            "Why Carvana Stock Is Skyrocketing Today",
+            "Carvana (CVNA) Q2 Loss Wider Than Expected, Revenues Miss",
+            "Why Is Marker Therapeutics Trading Higher By 119%: Here Are 42 Stocks Moving Premarket"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "Carvana Co.",
+          "sector": "RETAIL-AUTO DEALERS & GASOLINE STATIONS",
+          "country": "US",
+          "floatM": 142.99,
+          "floatSrc": "Polygon",
+          "marketCap": "$57.6B",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No catalyst identified — momentum/retail driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No catalyst identified — momentum/retail driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 33.54,
+          "open": 34.71,
+          "gapPct": 3.49,
+          "time": "premarket",
+          "high": 48.49,
+          "hodTimeExact": "06:17 AM ET",
+          "close": 46.98,
+          "fade": 3,
+          "fadeExact": 3.11,
+          "vwap": 44.6345,
+          "vsVwap": "above",
+          "pmHigh": 37,
+          "volRaw": "46.8M",
+          "relVol": 4.4,
+          "avgVolM": 10.7
+        }
+      ],
+      "hod": 169,
+      "fade": 22,
+      "hodTime": "premarket",
+      "theme": "PM-Led Tape",
+      "note": "IONM led +169.05% (55% fade). 4/10 held <20% fade."
+    },
+    {
+      "date": "2022-08-04",
+      "runners": [
+        {
+          "sym": "CGTX",
+          "hod": 182,
+          "hodExact": 182.37,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Cognition Therapeutics, Inc. Common Stock",
+          "sector": "BIOLOGICAL PRODUCTS, (NO DIAGNOSTIC SUBSTANCES)",
+          "country": "US",
+          "floatM": 89.35,
+          "floatSrc": "Polygon",
+          "marketCap": "$113M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No catalyst identified — momentum/retail driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No catalyst identified — momentum/retail driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.22,
+          "open": 2.29,
+          "gapPct": 3.15,
+          "time": "session",
+          "high": 6.2686,
+          "hodTimeExact": "11:07 AM ET",
+          "close": 3.6,
+          "fade": 42,
+          "fadeExact": 42.57,
+          "vwap": 4.5837,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "21.5M",
+          "relVol": 613.9,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "NERV",
+          "hod": 166,
+          "hodExact": 166.79,
+          "news": [
+            "Why ChemoCentryx Is Trading Higher By 110%, Here Are 95 Stocks Moving In Thursday's Mid-Day Session"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "Minerva Neurosciences, Inc",
+          "sector": "PHARMACEUTICAL PREPARATIONS",
+          "country": "US",
+          "floatM": 43.84,
+          "floatSrc": "Polygon",
+          "marketCap": "$299M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No catalyst identified — momentum/retail driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No catalyst identified — momentum/retail driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.68,
+          "open": 3.02,
+          "gapPct": 12.69,
+          "time": "premarket",
+          "high": 7.15,
+          "hodTimeExact": "09:03 AM ET",
+          "close": 4.7,
+          "fade": 34,
+          "fadeExact": 34.27,
+          "vwap": 5.6576,
+          "vsVwap": "below",
+          "pmHigh": 3.19,
+          "volRaw": "37.7M",
+          "relVol": 1453.7,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "CCXI",
+          "hod": 111,
+          "hodExact": 111.12,
+          "news": [
+            "Gold Tops 1,800; Alibaba Reports Upbeat Results",
+            "Why ChemoCentryx Is Trading Higher By 110%, Here Are 95 Stocks Moving In Thursday's Mid-Day Session",
+            "Nasdaq Edges Higher; Crude Oil Falls Sharply",
+            "Dow Drops Over 100 Points; U.S. Trade Deficit Shrinks To This Level In June",
+            "Why ChemoCentryx Stock Is On Fire Today"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Churchill Capital Corp XI Class A Ordinary Shares",
+          "sector": "BLANK CHECKS",
+          "country": "US",
+          "floatM": 41.9,
+          "floatSrc": "Polygon",
+          "marketCap": "$571M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 24.11,
+          "open": 50.25,
+          "gapPct": 108.42,
+          "time": "premarket",
+          "high": 50.9,
+          "hodTimeExact": "04:31 AM ET",
+          "close": 50.43,
+          "fade": 0,
+          "fadeExact": 0.92,
+          "vwap": 50.3674,
+          "vsVwap": "above",
+          "pmHigh": 51.5,
+          "volRaw": "36.2M",
+          "relVol": 42.3,
+          "avgVolM": 0.9
+        },
+        {
+          "sym": "GRNQ",
+          "hod": 108,
+          "hodExact": 108.19,
+          "news": [
+            "Why ChemoCentryx Is Trading Higher By 110%, Here Are 95 Stocks Moving In Thursday's Mid-Day Session",
+            "Penny Stocks To Buy Now? 5 To Watch After BlackRock COIN Stock News",
+            "Why Is Yellow Trading Higher By 33%: Here Are 48 Stocks Moving Premarket"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "Greenpro Capital Corp. Common Stock",
+          "sector": "SERVICES-MANAGEMENT CONSULTING SERVICES",
+          "country": "US",
+          "floatM": 8.63,
+          "floatSrc": "Polygon",
+          "marketCap": "$43M",
+          "riskBadges": [
+            "Float 8.63M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No catalyst identified — momentum/retail driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No catalyst identified — momentum/retail driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.83,
+          "open": 2.04,
+          "gapPct": 11.48,
+          "time": "premarket",
+          "high": 3.8099,
+          "hodTimeExact": "07:38 AM ET",
+          "close": 2.41,
+          "fade": 36,
+          "fadeExact": 36.74,
+          "vwap": 3.1144,
+          "vsVwap": "below",
+          "pmHigh": 3.08,
+          "volRaw": "14.1M",
+          "relVol": 16.1,
+          "avgVolM": 0.9
+        },
+        {
+          "sym": "IONM",
+          "hod": 107,
+          "hodExact": 107.92,
+          "news": [
+            "Progyny (PGNY) Q2 Earnings and Revenues Beat Estimates"
+          ],
+          "tag": "NEWS-DRIVEN",
+          "name": "ASSURE HLDGS CORP",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst — no dilution data available (Polygon only)",
+                "Progyny (PGNY) Q2 Earnings and Revenues Beat Estimates"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst — no dilution data available (Polygon only)",
+            "Progyny (PGNY) Q2 Earnings and Revenues Beat Estimates"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.01,
+          "open": 1.1199,
+          "gapPct": 10.88,
+          "time": "session",
+          "high": 2.1,
+          "hodTimeExact": "12:33 PM ET",
+          "close": 2.1,
+          "fade": 0,
+          "fadeExact": 0.0,
+          "vwap": 2.4919,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "2.8M",
+          "relVol": 365.5,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "SOPA",
+          "hod": 67,
+          "hodExact": 67.91,
+          "news": [
+            "Gold Tops 1,800; Alibaba Reports Upbeat Results",
+            "Why ChemoCentryx Is Trading Higher By 110%, Here Are 95 Stocks Moving In Thursday's Mid-Day Session"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Society Pass Incorporated Common Stock",
+          "sector": "SERVICES-BUSINESS SERVICES, NEC",
+          "country": "US",
+          "floatM": 7.61,
+          "floatSrc": "Polygon",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 7.61M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.87,
+          "open": 2.66,
+          "gapPct": 42.25,
+          "time": "session",
+          "high": 3.14,
+          "hodTimeExact": "09:50 AM ET",
+          "close": 2.36,
+          "fade": 24,
+          "fadeExact": 24.84,
+          "vwap": 2.6792,
+          "vsVwap": "below",
+          "pmHigh": 2.77,
+          "volRaw": "78.9M",
+          "relVol": 307.1,
+          "avgVolM": 0.3
+        },
+        {
+          "sym": "CNET",
+          "hod": 65,
+          "hodExact": 65.91,
+          "news": [
+            "Why ChemoCentryx Is Trading Higher By 110%, Here Are 95 Stocks Moving In Thursday's Mid-Day Session",
+            "Penny Stocks To Buy Now? 5 To Watch After BlackRock COIN Stock News"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "ZW Data Action Technologies Inc. Common Stock",
+          "sector": "SERVICES-COMPUTER PROGRAMMING, DATA PROCESSING, ETC.",
+          "country": "US",
+          "floatM": 3.27,
+          "floatSrc": "Polygon",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 3.27M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 3.27M + RelVol 13.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 3.27M + RelVol 13.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.5749,
+          "open": 0.6433,
+          "gapPct": 11.9,
+          "time": "premarket",
+          "high": 0.9538,
+          "hodTimeExact": "07:13 AM ET",
+          "close": 0.83,
+          "fade": 12,
+          "fadeExact": 12.98,
+          "vwap": 0.7954,
+          "vsVwap": "above",
+          "pmHigh": 0.9,
+          "volRaw": "4.2M",
+          "relVol": 13.1,
+          "avgVolM": 0.3
+        },
+        {
+          "sym": "NNVC",
+          "hod": 57,
+          "hodExact": 57.72,
+          "news": [
+            "10 Top Monkeypox Stocks To Watch Right Now",
+            "Why ChemoCentryx Is Trading Higher By 110%, Here Are 95 Stocks Moving In Thursday's Mid-Day Session"
+          ],
+          "tag": "SYMPATHY",
+          "name": "NanoViricides Inc.",
+          "sector": "PHARMACEUTICAL PREPARATIONS",
+          "country": "US",
+          "floatM": 21.59,
+          "floatSrc": "Polygon",
+          "marketCap": "$28M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.46,
+          "open": 3.6,
+          "gapPct": 46.34,
+          "time": "premarket",
+          "high": 3.88,
+          "hodTimeExact": "03:16 AM ET",
+          "close": 3.65,
+          "fade": 5,
+          "fadeExact": 5.93,
+          "vwap": 3.4442,
+          "vsVwap": "above",
+          "pmHigh": 4.37,
+          "volRaw": "27.4M",
+          "relVol": 351.8,
+          "avgVolM": 0.1
+        },
+        {
+          "sym": "BAOS",
+          "hod": 44,
+          "hodExact": 44.09,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Baosheng Media Group Holdings Limited Ordinary shares",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 1.53,
+          "floatSrc": "Polygon",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.53M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 1.53M + RelVol 5.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 1.53M + RelVol 5.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.27,
+          "open": 1.3,
+          "gapPct": 2.36,
+          "time": "session",
+          "high": 1.83,
+          "hodTimeExact": "10:28 AM ET",
+          "close": 1.5,
+          "fade": 18,
+          "fadeExact": 18.03,
+          "vwap": 1.563,
+          "vsVwap": "below",
+          "pmHigh": 1.36,
+          "volRaw": "2.0M",
+          "relVol": 5.8,
+          "avgVolM": 0.3
+        },
+        {
+          "sym": "GOVX",
+          "hod": 42,
+          "hodExact": 42.34,
+          "news": [
+            "10 Top Monkeypox Stocks To Watch Right Now",
+            "Why ChemoCentryx Is Trading Higher By 110%, Here Are 95 Stocks Moving In Thursday's Mid-Day Session",
+            "Why Is Yellow Trading Higher By 33%: Here Are 48 Stocks Moving Premarket"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "GeoVax Labs, Inc. New",
+          "sector": "PHARMACEUTICAL PREPARATIONS",
+          "country": "US",
+          "floatM": 2.89,
+          "floatSrc": "Polygon",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 2.89M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 2.89M + RelVol 1.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 2.89M + RelVol 1.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.74,
+          "open": 2.4,
+          "gapPct": -12.41,
+          "time": "session",
+          "high": 3.9,
+          "hodTimeExact": "10:35 AM ET",
+          "close": 3.57,
+          "fade": 8,
+          "fadeExact": 8.46,
+          "vwap": 3.2201,
+          "vsVwap": "above",
+          "pmHigh": 2.75,
+          "volRaw": "81.9M",
+          "relVol": 1.6,
+          "avgVolM": 50.6
+        }
+      ],
+      "hod": 182,
+      "fade": 18,
+      "hodTime": "session",
+      "theme": "Choppy Mixed",
+      "note": "CGTX led +182.37% (42% fade). 6/10 held <20% fade."
+    },
+    {
+      "date": "2022-08-03",
+      "runners": [
+        {
+          "sym": "QNRX",
+          "hod": 553,
+          "hodExact": 553.72,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Quoin Pharmaceuticals, Ltd. American Depositary Shares",
+          "sector": "PHARMACEUTICAL PREPARATIONS",
+          "country": "US",
+          "floatM": 1.8,
+          "floatSrc": "Polygon",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 1.8M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 1.8M + RelVol 32.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 1.8M + RelVol 32.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.3,
+          "open": 4.33,
+          "gapPct": 0.7,
+          "time": "session",
+          "high": 28.11,
+          "hodTimeExact": "11:22 AM ET",
+          "close": 19.8,
+          "fade": 29,
+          "fadeExact": 29.56,
+          "vwap": 14.0715,
+          "vsVwap": "above",
+          "pmHigh": 7.25,
+          "volRaw": "29.2M",
+          "relVol": 32.8,
+          "avgVolM": 0.9
+        },
+        {
+          "sym": "HSDT",
+          "hod": 328,
+          "hodExact": 328.57,
+          "news": [
+            "Why Poseida Therapeutics Almost Doubled Today, Here Are 75 Stocks Moving In Wednesday's Mid-Day Session",
+            "This Healthcare Stock Is Trading Higher By 148%: Here Are 40 Stocks Moving Premarket"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Solana Company Class A Common Stock (DE)",
+          "sector": "ELECTROMEDICAL & ELECTROTHERAPEUTIC APPARATUS",
+          "country": "US",
+          "floatM": 54.89,
+          "floatSrc": "Polygon",
+          "marketCap": "$113M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.644,
+          "open": 2,
+          "gapPct": 210.56,
+          "time": "premarket",
+          "high": 2.76,
+          "hodTimeExact": "05:44 AM ET",
+          "close": 1.58,
+          "fade": 42,
+          "fadeExact": 42.75,
+          "vwap": 1.8955,
+          "vsVwap": "below",
+          "pmHigh": 2.6,
+          "volRaw": "40.0M",
+          "relVol": 42.8,
+          "avgVolM": 0.9
+        },
+        {
+          "sym": "HSCS",
+          "hod": 246,
+          "hodExact": 246.82,
+          "news": [
+            "3 Low Float Penny Stocks To Watch After KSPN Stock Explodes 180%"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "HeartSciences Inc. Common Stock",
+          "sector": "ORTHOPEDIC, PROSTHETIC & SURGICAL APPLIANCES & SUPPLIES",
+          "country": "US",
+          "floatM": 3.18,
+          "floatSrc": "Polygon",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 3.18M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 3.18M + RelVol 300.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 3.18M + RelVol 300.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.73,
+          "open": 1.79,
+          "gapPct": 3.47,
+          "time": "premarket",
+          "high": 6,
+          "hodTimeExact": "08:10 AM ET",
+          "close": 3.28,
+          "fade": 45,
+          "fadeExact": 45.33,
+          "vwap": 4.1807,
+          "vsVwap": "below",
+          "pmHigh": 1.89,
+          "volRaw": "28.4M",
+          "relVol": 300.8,
+          "avgVolM": 0.1
+        },
+        {
+          "sym": "ENVB",
+          "hod": 133,
+          "hodExact": 133.81,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Enveric Biosciences, Inc. Common Stock",
+          "sector": "PHARMACEUTICAL PREPARATIONS",
+          "country": "US",
+          "floatM": 1.89,
+          "floatSrc": "Polygon",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 1.89M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 1.89M + RelVol 1.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 1.89M + RelVol 1.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 6.36,
+          "open": 6.5,
+          "gapPct": 2.2,
+          "time": "session",
+          "high": 14.87,
+          "hodTimeExact": "11:56 AM ET",
+          "close": 13.1,
+          "fade": 11,
+          "fadeExact": 11.9,
+          "vwap": 11.2417,
+          "vsVwap": "above",
+          "pmHigh": 6.7873,
+          "volRaw": "6.1M",
+          "relVol": 1.7,
+          "avgVolM": 3.6
+        },
+        {
+          "sym": "AREB",
+          "hod": 113,
+          "hodExact": 113.17,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "American Rebel Holdings, Inc. Common Stock",
+          "sector": "MISCELLANEOUS FABRICATED METAL PRODUCTS",
+          "country": "US",
+          "floatM": 3.45,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [
+            "Float 3.45M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 3.45M + RelVol 3.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 3.45M + RelVol 3.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6286,
+          "open": 0.6045,
+          "gapPct": -3.83,
+          "time": "premarket",
+          "high": 1.34,
+          "hodTimeExact": "07:46 AM ET",
+          "close": 1,
+          "fade": 25,
+          "fadeExact": 25.37,
+          "vwap": 1.0598,
+          "vsVwap": "below",
+          "pmHigh": 0.6728,
+          "volRaw": "10.1M",
+          "relVol": 3.0,
+          "avgVolM": 3.4
+        },
+        {
+          "sym": "CUEN",
+          "hod": 112,
+          "hodExact": 112.73,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "CUENTAS INC",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No catalyst identified — momentum/retail driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No catalyst identified — momentum/retail driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.5265,
+          "open": 0.5431,
+          "gapPct": 3.15,
+          "time": "session",
+          "high": 1.12,
+          "hodTimeExact": "09:56 AM ET",
+          "close": 0.9014,
+          "fade": 19,
+          "fadeExact": 19.52,
+          "vwap": 0.8785,
+          "vsVwap": "above",
+          "pmHigh": null,
+          "volRaw": "4.6M",
+          "relVol": 256.2,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "MDIA",
+          "hod": 74,
+          "hodExact": 74.93,
+          "news": [
+            "Why Poseida Therapeutics Almost Doubled Today, Here Are 75 Stocks Moving In Wednesday's Mid-Day Session",
+            "This Healthcare Stock Is Trading Higher By 148%: Here Are 40 Stocks Moving Premarket"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Mediaco Holding Inc. Class A Common Stock",
+          "sector": "RADIO BROADCASTING STATIONS",
+          "country": "US",
+          "floatM": 76.32,
+          "floatSrc": "Polygon",
+          "marketCap": "$74M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.79,
+          "open": 6.4,
+          "gapPct": 68.87,
+          "time": "premarket",
+          "high": 6.63,
+          "hodTimeExact": "12:29 AM ET",
+          "close": 5.65,
+          "fade": 14,
+          "fadeExact": 14.78,
+          "vwap": 5.5889,
+          "vsVwap": "above",
+          "pmHigh": 6.99,
+          "volRaw": "8.8M",
+          "relVol": 16.0,
+          "avgVolM": 0.6
+        },
+        {
+          "sym": "NMTC",
+          "hod": 62,
+          "hodExact": 62.5,
+          "news": [
+            "Why Poseida Therapeutics Almost Doubled Today, Here Are 75 Stocks Moving In Wednesday's Mid-Day Session"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "NeuroOne Medical Technologies Corporation Common Stock",
+          "sector": "SURGICAL & MEDICAL INSTRUMENTS & APPARATUS",
+          "country": "US",
+          "floatM": 8.45,
+          "floatSrc": "Polygon",
+          "marketCap": "$40M",
+          "riskBadges": [
+            "Float 8.45M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No catalyst identified — momentum/retail driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No catalyst identified — momentum/retail driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.2,
+          "open": 1.5,
+          "gapPct": 25.0,
+          "time": "premarket",
+          "high": 1.95,
+          "hodTimeExact": "05:37 AM ET",
+          "close": 1.75,
+          "fade": 10,
+          "fadeExact": 10.26,
+          "vwap": 1.6841,
+          "vsVwap": "above",
+          "pmHigh": 1.54,
+          "volRaw": "5.2M",
+          "relVol": 151.8,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "ALNY",
+          "hod": 55,
+          "hodExact": 55.61,
+          "news": [
+            "Why Poseida Therapeutics Almost Doubled Today, Here Are 75 Stocks Moving In Wednesday's Mid-Day Session",
+            "Why Alnylam Pharmaceuticals Stock Is Vaulting Higher Today"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Alnylam Pharmaceuticals, Inc.",
+          "sector": "PHARMACEUTICAL PREPARATIONS",
+          "country": "US",
+          "floatM": 133.43,
+          "floatSrc": "Polygon",
+          "marketCap": "$41.9B",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 141.97,
+          "open": 210,
+          "gapPct": 47.92,
+          "time": "premarket",
+          "high": 220.92,
+          "hodTimeExact": "04:10 AM ET",
+          "close": 212.01,
+          "fade": 4,
+          "fadeExact": 4.03,
+          "vwap": 208.3459,
+          "vsVwap": "above",
+          "pmHigh": 230,
+          "volRaw": "8.5M",
+          "relVol": 14.4,
+          "avgVolM": 0.6
+        },
+        {
+          "sym": "RVSN",
+          "hod": 54,
+          "hodExact": 54.24,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Rail Vision Ltd. Ordinary Share",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 2.19,
+          "floatSrc": "Polygon",
+          "marketCap": "$18M",
+          "riskBadges": [
+            "Float 2.19M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 2.19M + RelVol 42.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 2.19M + RelVol 42.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9208,
+          "open": 0.9483,
+          "gapPct": 2.99,
+          "time": "premarket",
+          "high": 1.4202,
+          "hodTimeExact": "08:12 AM ET",
+          "close": 1.1,
+          "fade": 22,
+          "fadeExact": 22.55,
+          "vwap": 1.1342,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "2.2M",
+          "relVol": 42.4,
+          "avgVolM": 0.1
+        }
+      ],
+      "hod": 553,
+      "fade": 22,
+      "hodTime": "session",
+      "theme": "PM-Led Tape",
+      "note": "QNRX led +553.72% (29% fade). 5/10 held <20% fade."
+    },
+    {
+      "date": "2022-08-02",
+      "runners": [
+        {
+          "sym": "AMTD",
+          "hod": 520,
+          "hodExact": 520.19,
+          "news": [
+            "Why AMTD Idea Group Stock Skyrocketed Today",
+            "Dow Drops More Than 200 Points; Caterpillar Shares Fall Following Q2 Results",
+            "Why Applied DNA Sciences Is Trading Higher By 166%, Here Are 75 Stocks Moving In Tuesday's Mid-Day Session",
+            "Nasdaq Turns Positive; Crude Oil Moves Higher",
+            "Why U.S. Stocks Are Trading Lower; Job Openings Drop To This Level In June"
+          ],
+          "tag": "SYMPATHY",
+          "name": "AMTD IDEA Group American Depositary Shares, each representing six (6) Class A Ordinary Shares",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 56.18,
+          "floatSrc": "Polygon",
+          "marketCap": "$82M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.08,
+          "open": 10.74,
+          "gapPct": 416.35,
+          "time": "premarket",
+          "high": 12.9,
+          "hodTimeExact": "04:35 AM ET",
+          "close": 7,
+          "fade": 45,
+          "fadeExact": 45.74,
+          "vwap": 8.8953,
+          "vsVwap": "below",
+          "pmHigh": 14.4,
+          "volRaw": "230.4M",
+          "relVol": 40.0,
+          "avgVolM": 5.8
+        },
+        {
+          "sym": "MTC",
+          "hod": 418,
+          "hodExact": 418.12,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "MMTec, Inc. Common Shares",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 99.59,
+          "floatSrc": "Polygon",
+          "marketCap": "$647M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No catalyst identified — momentum/retail driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No catalyst identified — momentum/retail driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.6,
+          "open": 1.6516,
+          "gapPct": 3.22,
+          "time": "session",
+          "high": 8.29,
+          "hodTimeExact": "12:04 PM ET",
+          "close": 7.85,
+          "fade": 5,
+          "fadeExact": 5.31,
+          "vwap": 5.4175,
+          "vsVwap": "above",
+          "pmHigh": 1.68,
+          "volRaw": "13.1M",
+          "relVol": 47.2,
+          "avgVolM": 0.3
+        },
+        {
+          "sym": "TAOP",
+          "hod": 110,
+          "hodExact": 110.84,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Taoping Inc. BVI Ordinary Shares (0 par)",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 1.36,
+          "floatSrc": "Polygon",
+          "marketCap": "$11M",
+          "riskBadges": [
+            "Float 1.36M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 1.36M + RelVol 163.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 1.36M + RelVol 163.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.83,
+          "open": 0.8699,
+          "gapPct": 4.81,
+          "time": "premarket",
+          "high": 1.75,
+          "hodTimeExact": "09:09 AM ET",
+          "close": 1.05,
+          "fade": 40,
+          "fadeExact": 40.0,
+          "vwap": 1.3089,
+          "vsVwap": "below",
+          "pmHigh": 0.885,
+          "volRaw": "6.8M",
+          "relVol": 163.3,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "ILAG",
+          "hod": 110,
+          "hodExact": 110.11,
+          "news": [
+            "Why Applied DNA Sciences Is Trading Higher By 166%, Here Are 75 Stocks Moving In Tuesday's Mid-Day Session",
+            "This Financial Services Is Trading Higher By Over 217%; Here Are 38 Stocks Moving Premarket"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "Intelligent Living Application Group Inc. Ordinary Shares",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 2.08,
+          "floatSrc": "Polygon",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 2.08M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 2.08M + RelVol 4.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 2.08M + RelVol 4.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.88,
+          "open": 2.49,
+          "gapPct": 32.45,
+          "time": "session",
+          "high": 3.95,
+          "hodTimeExact": "10:37 AM ET",
+          "close": 3.33,
+          "fade": 15,
+          "fadeExact": 15.7,
+          "vwap": 3.1242,
+          "vsVwap": "above",
+          "pmHigh": 3.15,
+          "volRaw": "49.9M",
+          "relVol": 4.6,
+          "avgVolM": 10.9
+        },
+        {
+          "sym": "DUO",
+          "hod": 98,
+          "hodExact": 98.1,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Fangdd Network Group Ltd. Class A Ordinary Shares",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 3.9,
+          "floatSrc": "Polygon",
+          "marketCap": "$54M",
+          "riskBadges": [
+            "Float 3.9M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 3.9M + RelVol 56.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 3.9M + RelVol 56.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.1,
+          "open": 2.1,
+          "gapPct": 0.0,
+          "time": "session",
+          "high": 4.16,
+          "hodTimeExact": "11:48 AM ET",
+          "close": 3.4,
+          "fade": 18,
+          "fadeExact": 18.27,
+          "vwap": 3.0499,
+          "vsVwap": "above",
+          "pmHigh": 3.19,
+          "volRaw": "1.9M",
+          "relVol": 56.5,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "OST",
+          "hod": 92,
+          "hodExact": 92.61,
+          "news": [
+            "Why Applied DNA Sciences Is Trading Higher By 166%, Here Are 75 Stocks Moving In Tuesday's Mid-Day Session",
+            "This Financial Services Is Trading Higher By Over 217%; Here Are 38 Stocks Moving Premarket"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "Ostin Technology Group Co., Ltd. Class A Ordinary Shares",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 149.1,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No catalyst identified — momentum/retail driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No catalyst identified — momentum/retail driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.76,
+          "open": 2.14,
+          "gapPct": 21.59,
+          "time": "session",
+          "high": 3.3899,
+          "hodTimeExact": "01:26 PM ET",
+          "close": 2.75,
+          "fade": 18,
+          "fadeExact": 18.88,
+          "vwap": 2.782,
+          "vsVwap": "below",
+          "pmHigh": 2.74,
+          "volRaw": "36.1M",
+          "relVol": 131.4,
+          "avgVolM": 0.3
+        },
+        {
+          "sym": "QNRX",
+          "hod": 90,
+          "hodExact": 90.39,
+          "news": [
+            "Why Applied DNA Sciences Is Trading Higher By 166%, Here Are 75 Stocks Moving In Tuesday's Mid-Day Session"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "Quoin Pharmaceuticals, Ltd. American Depositary Shares",
+          "sector": "PHARMACEUTICAL PREPARATIONS",
+          "country": "US",
+          "floatM": 1.8,
+          "floatSrc": "Polygon",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 1.8M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 1.8M + RelVol 5.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 1.8M + RelVol 5.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.85,
+          "open": 6.78,
+          "gapPct": 76.1,
+          "time": "premarket",
+          "high": 7.33,
+          "hodTimeExact": "02:56 AM ET",
+          "close": 4.3,
+          "fade": 41,
+          "fadeExact": 41.34,
+          "vwap": 6.0127,
+          "vsVwap": "below",
+          "pmHigh": 8.9,
+          "volRaw": "4.7M",
+          "relVol": 5.3,
+          "avgVolM": 0.9
+        },
+        {
+          "sym": "ACON",
+          "hod": 66,
+          "hodExact": 66.51,
+          "news": [
+            "Why Applied DNA Sciences Is Trading Higher By 166%, Here Are 75 Stocks Moving In Tuesday's Mid-Day Session",
+            "This Financial Services Is Trading Higher By Over 217%; Here Are 38 Stocks Moving Premarket"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "Aclarion, Inc. Common Stock",
+          "sector": "SERVICES-MEDICAL LABORATORIES",
+          "country": "US",
+          "floatM": 2.28,
+          "floatSrc": "Polygon",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 2.28M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 2.28M + RelVol 20.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 2.28M + RelVol 20.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9549,
+          "open": 1.05,
+          "gapPct": 9.96,
+          "time": "premarket",
+          "high": 1.59,
+          "hodTimeExact": "06:13 AM ET",
+          "close": 1.3,
+          "fade": 18,
+          "fadeExact": 18.24,
+          "vwap": 1.2702,
+          "vsVwap": "above",
+          "pmHigh": 1.1,
+          "volRaw": "4.9M",
+          "relVol": 20.7,
+          "avgVolM": 0.2
+        },
+        {
+          "sym": "AEMD",
+          "hod": 63,
+          "hodExact": 63.77,
+          "news": [
+            "This Financial Services Is Trading Higher By Over 217%; Here Are 38 Stocks Moving Premarket",
+            "Why Revlon Shares Jumped 90%; Here Are 83 Biggest Movers From Yesterday"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "AETHLON MEDICAL INC",
+          "sector": "SURGICAL & MEDICAL INSTRUMENTS & APPARATUS",
+          "country": "US",
+          "floatM": 1.57,
+          "floatSrc": "Polygon",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.57M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 1.57M + RelVol 7.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 1.57M + RelVol 7.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.38,
+          "open": 1.43,
+          "gapPct": 3.62,
+          "time": "session",
+          "high": 2.26,
+          "hodTimeExact": "02:16 PM ET",
+          "close": 1.99,
+          "fade": 11,
+          "fadeExact": 11.95,
+          "vwap": 1.9171,
+          "vsVwap": "above",
+          "pmHigh": 1.64,
+          "volRaw": "47.3M",
+          "relVol": 7.8,
+          "avgVolM": 6.1
+        },
+        {
+          "sym": "BQ",
+          "hod": 60,
+          "hodExact": 60.0,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Boqii Holding Limited",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 4.3,
+          "floatSrc": "Polygon",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 4.3M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 4.3M + RelVol 58.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 4.3M + RelVol 58.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.7,
+          "open": 1.7,
+          "gapPct": 0.0,
+          "time": "session",
+          "high": 2.72,
+          "hodTimeExact": "12:03 PM ET",
+          "close": 2.69,
+          "fade": 1,
+          "fadeExact": 1.1,
+          "vwap": 2.5427,
+          "vsVwap": "above",
+          "pmHigh": null,
+          "volRaw": "1.1M",
+          "relVol": 58.5,
+          "avgVolM": 0.0
+        }
+      ],
+      "hod": 520,
+      "fade": 21,
+      "hodTime": "premarket",
+      "theme": "Hot Tape",
+      "note": "AMTD led +520.19% (45% fade). 7/10 held <20% fade."
+    },
+    {
+      "date": "2022-08-01",
+      "runners": [
+        {
+          "sym": "VRAX",
+          "hod": 154,
+          "hodExact": 154.63,
+          "news": [
+            "This Biotechnology Stock Is Trading Lower By 77%, Here Are 62 Stocks Moving In Monday's Mid-Day Session",
+            "Why Stocks Are Trading Slightly Lower; U.S. Manufacturing PMI Slips",
+            "Why Celyad Oncology Is Trading Higher By Over 31%; Here Are 29 Stocks Moving Premarket",
+            "This Communication Services Stock Jumped 149%; Here Are 90 Biggest Movers From Friday"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "Virax Biolabs Group Limited Ordinary Shares",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 4.34,
+          "floatSrc": "Polygon",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 4.34M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 4.34M + RelVol 19.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 4.34M + RelVol 19.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.4,
+          "open": 7.48,
+          "gapPct": 38.52,
+          "time": "premarket",
+          "high": 13.75,
+          "hodTimeExact": "07:23 AM ET",
+          "close": 11.85,
+          "fade": 13,
+          "fadeExact": 13.82,
+          "vwap": 10.8343,
+          "vsVwap": "above",
+          "pmHigh": 8.39,
+          "volRaw": "57.5M",
+          "relVol": 19.3,
+          "avgVolM": 3.0
+        },
+        {
+          "sym": "MDIA",
+          "hod": 119,
+          "hodExact": 119.51,
+          "news": [
+            "U.S. Stocks Turn Negative; Dow Drops Over 100 Points",
+            "This Biotechnology Stock Is Trading Lower By 77%, Here Are 62 Stocks Moving In Monday's Mid-Day Session",
+            "U.S. Stocks Turn Higher; Crude Oil Tumbles",
+            "Why Stocks Are Trading Slightly Lower; U.S. Manufacturing PMI Slips",
+            "Around $30 Million Bet On This Communication Services Stock? 4 Penny Stocks Insiders Are Buying"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "Mediaco Holding Inc. Class A Common Stock",
+          "sector": "RADIO BROADCASTING STATIONS",
+          "country": "US",
+          "floatM": 76.32,
+          "floatSrc": "Polygon",
+          "marketCap": "$74M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No catalyst identified — momentum/retail driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No catalyst identified — momentum/retail driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.05,
+          "open": 2.51,
+          "gapPct": 22.44,
+          "time": "session",
+          "high": 4.5,
+          "hodTimeExact": "01:04 PM ET",
+          "close": 3.33,
+          "fade": 26,
+          "fadeExact": 26.0,
+          "vwap": 3.7083,
+          "vsVwap": "below",
+          "pmHigh": 2.5,
+          "volRaw": "8.7M",
+          "relVol": 379.8,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "MGAM",
+          "hod": 85,
+          "hodExact": 85.34,
+          "news": [
+            "This Biotechnology Stock Is Trading Lower By 77%, Here Are 62 Stocks Moving In Monday's Mid-Day Session",
+            "Why Stocks Are Trading Slightly Lower; U.S. Manufacturing PMI Slips",
+            "Why Celyad Oncology Is Trading Higher By Over 31%; Here Are 29 Stocks Moving Premarket"
+          ],
+          "tag": "SYMPATHY",
+          "name": "MOBILE GLOBAL ESPORTS INC",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 11.19,
+          "open": 16.3,
+          "gapPct": 45.67,
+          "time": "premarket",
+          "high": 20.74,
+          "hodTimeExact": "05:48 AM ET",
+          "close": 12.98,
+          "fade": 37,
+          "fadeExact": 37.42,
+          "vwap": 16.6299,
+          "vsVwap": "below",
+          "pmHigh": 19.69,
+          "volRaw": "24.3M",
+          "relVol": 1.6,
+          "avgVolM": 15.3
+        },
+        {
+          "sym": "AEMD",
+          "hod": 72,
+          "hodExact": 72.0,
+          "news": [
+            "This Biotechnology Stock Is Trading Lower By 77%, Here Are 62 Stocks Moving In Monday's Mid-Day Session",
+            "Why Celyad Oncology Is Trading Higher By Over 31%; Here Are 29 Stocks Moving Premarket"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "AETHLON MEDICAL INC",
+          "sector": "SURGICAL & MEDICAL INSTRUMENTS & APPARATUS",
+          "country": "US",
+          "floatM": 1.57,
+          "floatSrc": "Polygon",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.57M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 1.57M + RelVol 32.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 1.57M + RelVol 32.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1,
+          "open": 1.54,
+          "gapPct": 54.0,
+          "time": "premarket",
+          "high": 1.72,
+          "hodTimeExact": "05:37 AM ET",
+          "close": 1.38,
+          "fade": 19,
+          "fadeExact": 19.77,
+          "vwap": 1.4781,
+          "vsVwap": "below",
+          "pmHigh": 1.64,
+          "volRaw": "76.2M",
+          "relVol": 32.2,
+          "avgVolM": 2.4
+        },
+        {
+          "sym": "MAIA",
+          "hod": 66,
+          "hodExact": 66.21,
+          "news": [
+            "This Biotechnology Stock Is Trading Lower By 77%, Here Are 62 Stocks Moving In Monday's Mid-Day Session",
+            "Why Celyad Oncology Is Trading Higher By Over 31%; Here Are 29 Stocks Moving Premarket",
+            "This Communication Services Stock Jumped 149%; Here Are 90 Biggest Movers From Friday"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "MAIA Biotechnology, Inc.",
+          "sector": "PHARMACEUTICAL PREPARATIONS",
+          "country": "US",
+          "floatM": 60.67,
+          "floatSrc": "Polygon",
+          "marketCap": "$76M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No catalyst identified — momentum/retail driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No catalyst identified — momentum/retail driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.8,
+          "open": 7,
+          "gapPct": 20.69,
+          "time": "premarket",
+          "high": 9.64,
+          "hodTimeExact": "01:08 AM ET",
+          "close": 7.8,
+          "fade": 19,
+          "fadeExact": 19.09,
+          "vwap": 8.16,
+          "vsVwap": "below",
+          "pmHigh": 9.7,
+          "volRaw": "12.5M",
+          "relVol": 3.2,
+          "avgVolM": 3.9
+        },
+        {
+          "sym": "GOVX",
+          "hod": 57,
+          "hodExact": 57.51,
+          "news": [
+            "This Biotechnology Stock Is Trading Lower By 77%, Here Are 62 Stocks Moving In Monday's Mid-Day Session",
+            "FAANGs ain't what they used to be, so beware the bear-market bounce says this hedge fund manager",
+            "Why Celyad Oncology Is Trading Higher By Over 31%; Here Are 29 Stocks Moving Premarket",
+            "This Communication Services Stock Jumped 149%; Here Are 90 Biggest Movers From Friday"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "GeoVax Labs, Inc. New",
+          "sector": "PHARMACEUTICAL PREPARATIONS",
+          "country": "US",
+          "floatM": 2.89,
+          "floatSrc": "Polygon",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 2.89M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No news catalyst — social/momentum driven",
+                "Float 2.89M + RelVol 2.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No news catalyst — social/momentum driven",
+            "Float 2.89M + RelVol 2.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.73,
+          "open": 4.26,
+          "gapPct": 56.04,
+          "time": "premarket",
+          "high": 4.3,
+          "hodTimeExact": "04:04 AM ET",
+          "close": 3.9,
+          "fade": 9,
+          "fadeExact": 9.3,
+          "vwap": 3.906,
+          "vsVwap": "below",
+          "pmHigh": 4.48,
+          "volRaw": "115.6M",
+          "relVol": 2.7,
+          "avgVolM": 43.2
+        },
+        {
+          "sym": "TXMD",
+          "hod": 54,
+          "hodExact": 54.25,
+          "news": [
+            "U.S. Stocks Turn Negative; Dow Drops Over 100 Points",
+            "This Biotechnology Stock Is Trading Lower By 77%, Here Are 62 Stocks Moving In Monday's Mid-Day Session",
+            "U.S. Stocks Turn Higher; Crude Oil Tumbles"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "TherapeuticsMD, Inc.",
+          "sector": "PHARMACEUTICAL PREPARATIONS",
+          "country": "US",
+          "floatM": 11.57,
+          "floatSrc": "Polygon",
+          "marketCap": "$25M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No catalyst identified — momentum/retail driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No catalyst identified — momentum/retail driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 6.23,
+          "open": 6.809,
+          "gapPct": 9.29,
+          "time": "session",
+          "high": 9.61,
+          "hodTimeExact": "10:32 AM ET",
+          "close": 8.51,
+          "fade": 11,
+          "fadeExact": 11.45,
+          "vwap": 8.2867,
+          "vsVwap": "above",
+          "pmHigh": 8.72,
+          "volRaw": "6.4M",
+          "relVol": 6.5,
+          "avgVolM": 1.0
+        },
+        {
+          "sym": "REED",
+          "hod": 47,
+          "hodExact": 47.21,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Reed's, Inc.",
+          "sector": "BOTTLED & CANNED SOFT DRINKS & CARBONATED WATERS",
+          "country": "US",
+          "floatM": 11.82,
+          "floatSrc": "Polygon",
+          "marketCap": "$44M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No catalyst identified — momentum/retail driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No catalyst identified — momentum/retail driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1576,
+          "open": 0.1616,
+          "gapPct": 2.54,
+          "time": "session",
+          "high": 0.232,
+          "hodTimeExact": "11:42 AM ET",
+          "close": 0.2049,
+          "fade": 11,
+          "fadeExact": 11.68,
+          "vwap": 0.1811,
+          "vsVwap": "above",
+          "pmHigh": 0.158,
+          "volRaw": "2.0M",
+          "relVol": 3.0,
+          "avgVolM": 0.6
+        },
+        {
+          "sym": "PSHG",
+          "hod": 45,
+          "hodExact": 45.45,
+          "news": [
+            "Penny Stocks To Buy Now? 3 To Watch After LTRPB Stock Jumped Over 372%",
+            "This Biotechnology Stock Is Trading Lower By 77%, Here Are 62 Stocks Moving In Monday's Mid-Day Session"
+          ],
+          "tag": "RETAIL PUMP",
+          "name": "Performance Shipping Inc. Common Shares",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 12.43,
+          "floatSrc": "Polygon",
+          "marketCap": "$22M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No catalyst identified — momentum/retail driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No catalyst identified — momentum/retail driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.275,
+          "open": 0.3359,
+          "gapPct": 22.15,
+          "time": "session",
+          "high": 0.4,
+          "hodTimeExact": "11:32 AM ET",
+          "close": 0.36,
+          "fade": 10,
+          "fadeExact": 10.0,
+          "vwap": 0.347,
+          "vsVwap": "above",
+          "pmHigh": 0.36,
+          "volRaw": "14.6M",
+          "relVol": 3.1,
+          "avgVolM": 4.7
+        },
+        {
+          "sym": "SPRC",
+          "hod": 39,
+          "hodExact": 39.24,
+          "news": [
+            "SciSparc Signs Clinical Trial Agreement with Yale University to Conduct its Phase IIb Trial in Tourette Syndrome"
+          ],
+          "tag": "NEWS-DRIVEN",
+          "name": "SciSparc Ltd. Ordinary Shares",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 0.57,
+          "floatSrc": "Polygon",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 0.57M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst — no dilution data available (Polygon only)",
+                "SciSparc Signs Clinical Trial Agreement with Yale University to Conduct its Phase IIb Trial in Tourette Syndrome"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst — no dilution data available (Polygon only)",
+            "SciSparc Signs Clinical Trial Agreement with Yale University to Conduct its Phase IIb Trial in Tourette Syndrome"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.58,
+          "open": 1.79,
+          "gapPct": 13.29,
+          "time": "premarket",
+          "high": 2.2,
+          "hodTimeExact": "05:34 AM ET",
+          "close": 1.43,
+          "fade": 35,
+          "fadeExact": 35.0,
+          "vwap": 1.7886,
+          "vsVwap": "below",
+          "pmHigh": 1.71,
+          "volRaw": "1.2M",
+          "relVol": 6.9,
+          "avgVolM": 0.2
+        }
+      ],
+      "hod": 154,
+      "fade": 19,
+      "hodTime": "premarket",
+      "theme": "PM-Led Tape",
+      "note": "VRAX led +154.63% (13% fade). 7/10 held <20% fade."
     }
   ]
 }
