@@ -44,13 +44,14 @@ function normalizeEntry(raw) {
   const top = sortedByHod[0];
 
   // Day HOD / fade = AVERAGE across all runners on that day (tape-wide heat),
-  // not the top runner. Source can still override with explicit hod/fade.
+  // not the top runner. Always compute from runners — ignore any top-level
+  // hod/fade in the source JSON (those are often leftover top-runner values).
   const numericHods = runners.map((r) => Number(r.hod)).filter((v) => Number.isFinite(v));
   const numericFades = runners.map((r) => Number(r.fade)).filter((v) => Number.isFinite(v));
   const avgHod = numericHods.length ? numericHods.reduce((s, v) => s + v, 0) / numericHods.length : null;
   const avgFade = numericFades.length ? numericFades.reduce((s, v) => s + v, 0) / numericFades.length : null;
-  const hod = raw.hod != null ? raw.hod : (avgHod != null ? Math.round(avgHod) : null);
-  const fade = raw.fade != null ? raw.fade : (avgFade != null ? Math.round(avgFade) : null);
+  const hod = avgHod != null ? Math.round(avgHod) : (raw.hod != null ? raw.hod : null);
+  const fade = avgFade != null ? Math.round(avgFade) : (raw.fade != null ? raw.fade : null);
 
   // Day hodTime: equal-weighted majority vote across runners.
   // Session if ≥ 60% session; Premarket if ≥ 50% premarket; else Mixed.
