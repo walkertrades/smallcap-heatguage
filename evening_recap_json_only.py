@@ -58,10 +58,30 @@ HOLIDAYS = set([
 def is_valid_ticker(t):
     if not t: return False
     t = t.upper().strip()
-    if "." in t: return False
-    if len(t) >= 5 and (t.endswith("WS") or t.endswith("WT")): return False
-    if len(t) >= 6 and t.endswith("W"): return False
-    if len(t) >= 5 and t.endswith("R"): return False
+
+    # Must be letters only, 1-5 chars
+    if not t.isalpha(): return False
+    if len(t) < 1 or len(t) > 5: return False
+
+    # Warrants
+    if t.endswith("W") or t.endswith("WS") or t.endswith("WT"): return False
+
+    # Rights
+    if t.endswith("R"): return False
+
+    # Units
+    if t.endswith("U"): return False
+
+    # Known ETFs/ETPs
+    KNOWN_ETFS = {
+        "SPY","QQQ","IWM","DIA","GLD","SLV","TLT","HYG","LQD","XLF","XLE",
+        "XLK","XLV","XLI","XLY","XLP","XLU","XLB","XLRE","VXX","UVXY","SVXY",
+        "SQQQ","TQQQ","SPXU","SPXL","LABD","LABU","SOXS","SOXL","FNGU","FNGD",
+        "ARKK","ARKG","ARKW","ARKF","ARKQ","BOIL","KOLD","UNG","USO","UCO",
+        "SCO","VIXY","TVIX","SDOW","UDOW","TNA","TZA","FAS","FAZ","ERX","ERY",
+    }
+    if t in KNOWN_ETFS: return False
+
     return True
 
 def is_trading_day(d):
