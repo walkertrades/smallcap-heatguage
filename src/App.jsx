@@ -52,8 +52,10 @@ function normalizeEntry(raw) {
   const avgFade = runners.length
     ? Math.round(runners.reduce((s, r) => s + (Number(r.fade) || 0), 0) / runners.length)
     : null;
-  const hod = raw.hod != null ? raw.hod : avgHod;
-  const fade = raw.fade != null ? raw.fade : avgFade;
+  // Always average — day-level hod/fade in the source JSON are ignored.
+  // Individual runner stats are preserved on each runner object below.
+  const hod = avgHod;
+  const fade = avgFade;
 
   // Day hodTime: HOD-weighted vote across runners. Whichever bucket owns the
   // biggest share of the day's total % gain defines the day.
