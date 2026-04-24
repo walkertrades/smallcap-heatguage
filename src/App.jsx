@@ -43,10 +43,17 @@ function normalizeEntry(raw) {
   const sortedByHod = [...runners].sort((a, b) => (b.hod || 0) - (a.hod || 0));
   const top = sortedByHod[0];
 
-  // Day HOD / fade come from the headline runner. Already present on source
-  // if the user explicitly set them; otherwise derive from the top runner.
-  const hod = raw.hod != null ? raw.hod : (top ? top.hod : null);
-  const fade = raw.fade != null ? raw.fade : (top ? top.fade : null);
+  // Day HOD / fade: average across all runners (not just the lead).
+  // Prevents a single outlier (e.g. +1200% warrant) from skewing the score.
+  // If the source already has explicit values, those win.
+  const avgHod = runners.length
+    ? Math.round(runners.reduce((s, r) => s + (Number(r.hod) || 0), 0) / runners.length)
+    : null;
+  const avgFade = runners.length
+    ? Math.round(runners.reduce((s, r) => s + (Number(r.fade) || 0), 0) / runners.length)
+    : null;
+  const hod = raw.hod != null ? raw.hod : avgHod;
+  const fade = raw.fade != null ? raw.fade : avgFade;
 
   // Day hodTime: HOD-weighted vote across runners. Whichever bucket owns the
   // biggest share of the day's total % gain defines the day.
