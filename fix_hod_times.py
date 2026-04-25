@@ -20,6 +20,46 @@ BACKUP_FILE = DATA_FILE.replace(".json", "_backup_pre_hodfix.json")
 MARKET_OPEN_ET  = 9.5   # 9:30 AM
 MARKET_CLOSE_ET = 16.0  # 4:00 PM
 
+def et_offset(date_str):
+    """
+    Return the ET offset error introduced by the timezone bug.
+    The bug: .astimezone() converted UTC to local EST (UTC-5), then
+    subtracted 4 more hours, giving an effective offset of UTC-9.
+    Correct ET is EDT (UTC-4) Mar-Nov, EST (UTC-5) Nov-Mar.
+    So the error = correct_offset - applied_offset.
+    EDT months: correct=-4, applied=-9, error=+5... wait
+    Actually simpler: the script subtracted 4 from local time.
+    Local (EST) = UTC-5. Then -4 more = UTC-9.
+    Correct EDT = UTC-4. So stored = UTC-9, correct = UTC-4 → add 5 for EDT months.
+    Correct EST = UTC-5. So stored = UTC-9, correct = UTC-5 → add 4 for EST months.
+    DST in US: starts 2nd Sunday March, ends 1st Sunday November.
+    """
+    if not date_str:
+        return 4
+    try:
+        from datetime import date as _date
+        import calendar
+        d = _date.fromisoformat(date_str[:10])
+        year, month, day = d.year, d.month, d.day
+
+        # Find 2nd Sunday of March (DST start)
+        march_days = [i for i in range(1, 32)
+                      if _date(year, 3, i).weekday() == 6]
+        dst_start = _date(year, 3, march_days[1])  # 2nd Sunday
+
+        # Find 1st Sunday of November (DST end)
+        nov_days = [i for i in range(1, 31)
+                    if _date(year, 11, i).weekday() == 6]
+        dst_end = _date(year, 11, nov_days[0])  # 1st Sunday
+
+        if dst_start <= d < dst_end:
+            return 5   # EDT: stored UTC-9, correct UTC-4, add 5
+        else:
+            return 4   # EST: stored UTC-9, correct UTC-5, add 4
+    except:
+        return 4   # safe default
+
+
 # Only fix entries BEFORE this date (evening recap was fixed on this date)
 CUTOFF_DATE = "2026-03-19"
 
@@ -104,7 +144,7 @@ def main():
             old_time    = runner.get("hodTimeExact")
             old_session = runner.get("time", "session")
 
-            new_time, new_session = correct_time(old_time, offset_hours=5)
+            new_time, new_session = correct_time(old_time, offset_hours=et_offset(entry.get("date", "")))
 
             if new_time != old_time or new_session != old_session:
                 total_fixed += 1
@@ -113,6 +153,12 @@ def main():
 
             runner["hodTimeExact"] = new_time
             runner["time"]         = new_session
+
+        # Re-vote day-level hodTime from corrected runners
+        runners = entry.get("runners", [])
+        if runners:
+            pm_count   = sum(1 for r in runners if r.get("time") == "premarket")
+            entry["hodTime"] = "premarket" if pm_count >= len(runners) * 0.6 else "session"
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
