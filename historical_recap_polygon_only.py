@@ -25,6 +25,7 @@ TOP_N        = 10
 NEAR_MISS_PCT = 100
 MIN_VOLUME   = 500_000
 MAX_FLOAT_M  = 150
+MAX_HOD_PCT  = 10000  # filters reverse split artifacts
 
 POLYGON_BASE = "https://api.polygon.io"
 
@@ -127,28 +128,29 @@ def fetch_intraday_minute(ticker, date_str):
         {"adjusted": "false", "sort": "asc", "limit": 1000}
     ).get("results") or []
 
+def _to_et(ts_ms):
+    """Convert Polygon ms-epoch UTC to (et_hour, et_min). Handles EDT/EST automatically."""
+    dt_utc = datetime.fromtimestamp(ts_ms / 1000, tz=timezone.utc)
+    offset = -4 if 3 <= dt_utc.month <= 10 else -5
+    return (dt_utc.hour + offset) % 24, dt_utc.minute
+
 def analyze_intraday(bars):
     if not bars:
         return None, "session", None
-    hod_bar  = max(bars, key=lambda b: b.get("h", 0))
-    ts       = hod_bar.get("t", 0) / 1000
-    hod_dt   = datetime.fromtimestamp(ts, tz=timezone.utc).astimezone()
-    # Convert to ET (rough — EDT offset -4)
-    et_hour  = (hod_dt.hour - 4) % 24
-    et_min   = hod_dt.minute
-    time_dec = et_hour + et_min / 60
-    session  = "premarket" if time_dec < 9.5 else "session"
-    ampm     = "AM" if et_hour < 12 else "PM"
-    disp_h   = et_hour if et_hour <= 12 else et_hour - 12
-    if disp_h == 0: disp_h = 12
-    hod_time_str = f"{disp_h:02d}:{et_min:02d} {ampm} ET"
 
-    market_open_dec = 9.5
-    pm_bars  = [b for b in bars
-                if ((datetime.fromtimestamp(b.get("t",0)/1000, tz=timezone.utc).hour - 4) % 24
-                    + datetime.fromtimestamp(b.get("t",0)/1000, tz=timezone.utc).minute / 60)
-                < market_open_dec]
-    pm_high  = max((b.get("h",0) for b in pm_bars), default=None) if pm_bars else None
+    hod_bar         = max(bars, key=lambda b: b.get("h", 0))
+    et_hour, et_min = _to_et(hod_bar.get("t", 0))
+    time_dec        = et_hour + et_min / 60
+    session         = "premarket" if time_dec < 9.5 else "session"
+    ampm            = "AM" if et_hour < 12 else "PM"
+    disp_h          = et_hour if et_hour <= 12 else et_hour - 12
+    if disp_h == 0: disp_h = 12
+    hod_time_str    = f"{disp_h:02d}:{et_min:02d} {ampm} ET"
+
+    pm_bars = [b for b in bars
+               if (_to_et(b.get("t", 0))[0] + _to_et(b.get("t", 0))[1] / 60) < 9.5]
+    pm_high = max((b.get("h", 0) for b in pm_bars), default=None) if pm_bars else None
+
     return hod_time_str, session, pm_high
 
 def fetch_avg_volume(ticker, date_str, days=20):
@@ -245,6 +247,7 @@ def get_day_movers_historical(target_date):
         if hod <= 0: continue
         hod_pct = round((hod - pc) / pc * 100, 2)
         if hod_pct <= 0: continue
+        if hod_pct > MAX_HOD_PCT: continue  # reverse split artifact
         gap_pct = round((r.get("o",0) - pc) / pc * 100, 2) if pc else 0
 
         all_movers.append({

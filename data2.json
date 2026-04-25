@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
   "exportedAt": "2026-04-25T12:34:22.855313Z",
-  "count": 9188,
+  "count": 9153,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -23956,55 +23956,6 @@
       "date": "2026-02-10",
       "runners": [
         {
-          "sym": "FGL",
-          "hod": 17364,
-          "hodExact": 17364.65,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "Founder Group Limited Class A Ordinary Shares",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": 0.35,
-          "floatSrc": "Polygon",
-          "marketCap": "$1M",
-          "riskBadges": [
-            "Float 0.35M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 0.35M + RelVol 0.3x"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 0.35M + RelVol 0.3x"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.099,
-          "open": 10.25,
-          "gapPct": 10253.54,
-          "time": "session",
-          "high": 17.29,
-          "hodTimeExact": "12:26 PM ET",
-          "close": 15.44,
-          "fade": 10,
-          "fadeExact": 10.7,
-          "vwap": 14.6738,
-          "vsVwap": "above",
-          "pmHigh": null,
-          "volRaw": "862K",
-          "relVol": 0.3,
-          "avgVolM": 3.1
-        },
-        {
           "sym": "ANY",
           "hod": 1041,
           "hodExact": 1041.12,
@@ -24428,7 +24379,7 @@
           "avgVolM": 3.0
         }
       ],
-      "hod": 17364,
+      "hod": 1041,
       "fade": 15,
       "hodTime": "session",
       "theme": "PM-Led Tape",
@@ -29217,55 +29168,6 @@
       "date": "2026-01-26",
       "runners": [
         {
-          "sym": "MTEN",
-          "hod": 17414,
-          "hodExact": 17414.79,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "Mingteng International Corporation Inc. Class A Ordinary Shares",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": 1.21,
-          "floatSrc": "Polygon",
-          "marketCap": "$6M",
-          "riskBadges": [
-            "Float 1.21M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 1.21M"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 1.21M"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0169,
-          "open": 2.24,
-          "gapPct": 13154.44,
-          "time": "premarket",
-          "high": 2.96,
-          "hodTimeExact": "09:00 AM ET",
-          "close": 2.62,
-          "fade": 11,
-          "fadeExact": 11.49,
-          "vwap": 2.483,
-          "vsVwap": "above",
-          "pmHigh": null,
-          "volRaw": "1.3M",
-          "relVol": 0.0,
-          "avgVolM": 124.1
-        },
-        {
           "sym": "CISS",
           "hod": 2855,
           "hodExact": 2855.08,
@@ -29695,8 +29597,8 @@
           "avgVolM": 20.1
         }
       ],
-      "hod": 17414,
-      "fade": 23,
+      "hod": 2855,
+      "fade": 25,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "MTEN led +17414.79% (11% fade). 4/10 held <20% fade."
@@ -31653,53 +31555,6 @@
       "date": "2026-01-16",
       "runners": [
         {
-          "sym": "OCG",
-          "hod": 24949,
-          "hodExact": 24949.5,
-          "news": [],
-          "tag": "SYMPATHY",
-          "name": "Oriental Culture Holding LTD Ordinary Shares",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": 5.81,
-          "floatSrc": "Polygon",
-          "marketCap": "$4M",
-          "riskBadges": [
-            "Float 5.81M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0101,
-          "open": 2.51,
-          "gapPct": 24751.49,
-          "time": "premarket",
-          "high": 2.53,
-          "hodTimeExact": "09:09 AM ET",
-          "close": 1.8,
-          "fade": 28,
-          "fadeExact": 28.85,
-          "vwap": 2.3311,
-          "vsVwap": "below",
-          "pmHigh": null,
-          "volRaw": "11.0M",
-          "relVol": 0.0,
-          "avgVolM": 222.4
-        },
-        {
           "sym": "ASBP",
           "hod": 4215,
           "hodExact": 4215.99,
@@ -32129,8 +31984,8 @@
           "avgVolM": 0.0
         }
       ],
-      "hod": 24949,
-      "fade": 26,
+      "hod": 4215,
+      "fade": 25,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "OCG led +24949.5% (28% fade). 3/10 held <20% fade."
@@ -37935,55 +37790,6 @@
       "date": "2025-12-29",
       "runners": [
         {
-          "sym": "WOK",
-          "hod": 21500,
-          "hodExact": 21500.0,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "WORK Medical Technology Group LTD Class A Ordinary Shares",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": 2.06,
-          "floatSrc": "Polygon",
-          "marketCap": "$1M",
-          "riskBadges": [
-            "Float 2.06M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 2.06M + RelVol 0.3x"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 2.06M + RelVol 0.3x"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0275,
-          "open": 5.4,
-          "gapPct": 19536.36,
-          "time": "premarket",
-          "high": 5.94,
-          "hodTimeExact": "09:08 AM ET",
-          "close": 3.41,
-          "fade": 42,
-          "fadeExact": 42.59,
-          "vwap": 4.5643,
-          "vsVwap": "below",
-          "pmHigh": null,
-          "volRaw": "18.1M",
-          "relVol": 0.3,
-          "avgVolM": 68.6
-        },
-        {
           "sym": "RPGL",
           "hod": 230,
           "hodExact": 230.35,
@@ -38415,8 +38221,8 @@
           "avgVolM": 0.1
         }
       ],
-      "hod": 21500,
-      "fade": 24,
+      "hod": 230,
+      "fade": 22,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "WOK led +21500.0% (42% fade). 5/10 held <20% fade."
@@ -40828,55 +40634,6 @@
       "date": "2025-12-18",
       "runners": [
         {
-          "sym": "PAVS",
-          "hod": 19146,
-          "hodExact": 19146.23,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "Paranovus Entertainment Technology Ltd. Class A Ordinary Shares",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": 1.02,
-          "floatSrc": "Polygon",
-          "marketCap": "$1M",
-          "riskBadges": [
-            "Float 1.02M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 1.02M + RelVol 0.2x"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 1.02M + RelVol 0.2x"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0199,
-          "open": 2.81,
-          "gapPct": 14020.6,
-          "time": "premarket",
-          "high": 3.83,
-          "hodTimeExact": "09:01 AM ET",
-          "close": 2.45,
-          "fade": 36,
-          "fadeExact": 36.03,
-          "vwap": 3.0013,
-          "vsVwap": "below",
-          "pmHigh": null,
-          "volRaw": "53.6M",
-          "relVol": 0.2,
-          "avgVolM": 263.3
-        },
-        {
           "sym": "DFLI",
           "hod": 921,
           "hodExact": 921.59,
@@ -41298,8 +41055,8 @@
           "avgVolM": 0.3
         }
       ],
-      "hod": 19146,
-      "fade": 19,
+      "hod": 921,
+      "fade": 17,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "PAVS led +19146.23% (36% fade). 5/10 held <20% fade."
@@ -42752,55 +42509,6 @@
       "date": "2025-12-12",
       "runners": [
         {
-          "sym": "ARBK",
-          "hod": 20069,
-          "hodExact": 20069.01,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "Argo Blockchain plc American Depositary Shares",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": 0.33,
-          "floatSrc": "Polygon",
-          "marketCap": "$1M",
-          "riskBadges": [
-            "Float 0.33M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 0.33M + RelVol 0.7x"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 0.33M + RelVol 0.7x"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.142,
-          "open": 27.71,
-          "gapPct": 19414.08,
-          "time": "session",
-          "high": 28.64,
-          "hodTimeExact": "09:37 AM ET",
-          "close": 6.87,
-          "fade": 76,
-          "fadeExact": 76.01,
-          "vwap": 7.5182,
-          "vsVwap": "below",
-          "pmHigh": null,
-          "volRaw": "2.1M",
-          "relVol": 0.7,
-          "avgVolM": 2.9
-        },
-        {
           "sym": "AZI",
           "hod": 6012,
           "hodExact": 6012.33,
@@ -43228,8 +42936,8 @@
           "avgVolM": 3.0
         }
       ],
-      "hod": 20069,
-      "fade": 38,
+      "hod": 6012,
+      "fade": 34,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "ARBK led +20069.01% (76% fade). 3/10 held <20% fade."
@@ -51854,53 +51562,6 @@
       "date": "2025-11-14",
       "runners": [
         {
-          "sym": "YDKG",
-          "hod": 11100,
-          "hodExact": 11100.0,
-          "news": [],
-          "tag": "SYMPATHY",
-          "name": "Yueda Digital Holding Class A Ordinary Share",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": 5.54,
-          "floatSrc": "Polygon",
-          "marketCap": "$5M",
-          "riskBadges": [
-            "Float 5.54M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.02,
-          "open": 2.1,
-          "gapPct": 10400.0,
-          "time": "premarket",
-          "high": 2.24,
-          "hodTimeExact": "09:09 AM ET",
-          "close": 1.7,
-          "fade": 24,
-          "fadeExact": 24.11,
-          "vwap": 1.8538,
-          "vsVwap": "below",
-          "pmHigh": null,
-          "volRaw": "688K",
-          "relVol": 0.0,
-          "avgVolM": 264.5
-        },
-        {
           "sym": "WTO",
           "hod": 125,
           "hodExact": 125.0,
@@ -52322,8 +51983,8 @@
           "avgVolM": 19.5
         }
       ],
-      "hod": 11100,
-      "fade": 26,
+      "hod": 125,
+      "fade": 27,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "YDKG led +11100.0% (24% fade). 2/10 held <20% fade."
@@ -60461,55 +60122,6 @@
       "date": "2025-10-21",
       "runners": [
         {
-          "sym": "WOK",
-          "hod": 11877,
-          "hodExact": 11877.72,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "WORK Medical Technology Group LTD Class A Ordinary Shares",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": 2.06,
-          "floatSrc": "Polygon",
-          "marketCap": "$1M",
-          "riskBadges": [
-            "Float 2.06M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 2.06M + RelVol 0.1x"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 2.06M + RelVol 0.1x"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0359,
-          "open": 3.72,
-          "gapPct": 10262.12,
-          "time": "session",
-          "high": 4.3,
-          "hodTimeExact": "05:16 PM ET",
-          "close": 3.92,
-          "fade": 8,
-          "fadeExact": 8.84,
-          "vwap": 5.2701,
-          "vsVwap": "below",
-          "pmHigh": 4.38,
-          "volRaw": "2.9M",
-          "relVol": 0.1,
-          "avgVolM": 51.4
-        },
-        {
           "sym": "NERV",
           "hod": 368,
           "hodExact": 368.42,
@@ -60919,8 +60531,8 @@
           "avgVolM": 0.1
         }
       ],
-      "hod": 11877,
-      "fade": 16,
+      "hod": 368,
+      "fade": 17,
       "hodTime": "session",
       "theme": "Hot Tape",
       "note": "WOK led +11877.72% (8% fade). 7/10 held <20% fade."
@@ -67646,55 +67258,6 @@
       "date": "2025-09-30",
       "runners": [
         {
-          "sym": "RAYA",
-          "hod": 14068,
-          "hodExact": 14068.8,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "Erayak Power Solution Group Inc. Class A Ordinary Shares",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": 0.98,
-          "floatSrc": "Polygon",
-          "marketCap": "$3M",
-          "riskBadges": [
-            "Float 0.98M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 0.98M"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 0.98M"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0391,
-          "open": 5.04,
-          "gapPct": 12790.03,
-          "time": "session",
-          "high": 5.54,
-          "hodTimeExact": "10:11 AM ET",
-          "close": 4.09,
-          "fade": 26,
-          "fadeExact": 26.17,
-          "vwap": 4.3479,
-          "vsVwap": "below",
-          "pmHigh": 7.66,
-          "volRaw": "974K",
-          "relVol": 0.0,
-          "avgVolM": 67.7
-        },
-        {
           "sym": "YAAS",
           "hod": 7638,
           "hodExact": 7638.36,
@@ -68128,7 +67691,7 @@
           "avgVolM": 11.9
         }
       ],
-      "hod": 14068,
+      "hod": 7638,
       "fade": 22,
       "hodTime": "session",
       "theme": "PM-Led Tape",
@@ -70578,51 +70141,6 @@
       "date": "2025-09-22",
       "runners": [
         {
-          "sym": "BINI",
-          "hod": 24339,
-          "hodExact": 24339.92,
-          "news": [],
-          "tag": "SYMPATHY",
-          "name": "BOLLINGER INNOVATIONS NEW",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": null,
-          "floatSrc": "Polygon",
-          "marketCap": "N/A",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0491,
-          "open": 7.41,
-          "gapPct": 14991.65,
-          "time": "session",
-          "high": 12,
-          "hodTimeExact": "02:36 PM ET",
-          "close": 8.51,
-          "fade": 29,
-          "fadeExact": 29.08,
-          "vwap": 8.6966,
-          "vsVwap": "below",
-          "pmHigh": 8.7,
-          "volRaw": "2.0M",
-          "relVol": 0.0,
-          "avgVolM": 45.1
-        },
-        {
           "sym": "BOXL",
           "hod": 550,
           "hodExact": 550.64,
@@ -71049,7 +70567,7 @@
           "avgVolM": 4.5
         }
       ],
-      "hod": 24339,
+      "hod": 550,
       "fade": 22,
       "hodTime": "session",
       "theme": "PM-Led Tape",
@@ -84416,55 +83934,6 @@
       "date": "2025-08-11",
       "runners": [
         {
-          "sym": "NCNA",
-          "hod": 15831,
-          "hodExact": 15831.68,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "NuCana plc American Depositary Share",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": 4.16,
-          "floatSrc": "Polygon",
-          "marketCap": "$9M",
-          "riskBadges": [
-            "Float 4.16M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 4.16M"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 4.16M"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0322,
-          "open": 4.28,
-          "gapPct": 13191.93,
-          "time": "session",
-          "high": 5.13,
-          "hodTimeExact": "10:00 AM ET",
-          "close": 4.47,
-          "fade": 12,
-          "fadeExact": 12.87,
-          "vwap": 4.5105,
-          "vsVwap": "below",
-          "pmHigh": 6.44,
-          "volRaw": "1.5M",
-          "relVol": 0.0,
-          "avgVolM": 193.1
-        },
-        {
           "sym": "EQ",
           "hod": 152,
           "hodExact": 152.42,
@@ -84880,7 +84349,7 @@
           "avgVolM": 0.7
         }
       ],
-      "hod": 15831,
+      "hod": 152,
       "fade": 12,
       "hodTime": "session",
       "theme": "Hot Tape",
@@ -86778,51 +86247,6 @@
       "date": "2025-08-04",
       "runners": [
         {
-          "sym": "BINI",
-          "hod": 19554,
-          "hodExact": 19554.18,
-          "news": [],
-          "tag": "SYMPATHY",
-          "name": "BOLLINGER INNOVATIONS NEW",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": null,
-          "floatSrc": "Polygon",
-          "marketCap": "N/A",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0347,
-          "open": 6.48,
-          "gapPct": 18574.35,
-          "time": "session",
-          "high": 6.82,
-          "hodTimeExact": "10:29 AM ET",
-          "close": 5.95,
-          "fade": 12,
-          "fadeExact": 12.76,
-          "vwap": 5.8857,
-          "vsVwap": "above",
-          "pmHigh": 6.908,
-          "volRaw": "1.5M",
-          "relVol": 0.0,
-          "avgVolM": 176.9
-        },
-        {
           "sym": "NIVF",
           "hod": 537,
           "hodExact": 537.18,
@@ -87246,8 +86670,8 @@
           "avgVolM": 0.2
         }
       ],
-      "hod": 19554,
-      "fade": 21,
+      "hod": 537,
+      "fade": 22,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "BINI led +19554.18% (12% fade). 5/10 held <20% fade."
@@ -87255,55 +86679,6 @@
     {
       "date": "2025-08-01",
       "runners": [
-        {
-          "sym": "HCTI",
-          "hod": 19130,
-          "hodExact": 19130.77,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "Healthcare Triangle, Inc. Common Stock",
-          "sector": "SERVICES-COMPUTER INTEGRATED SYSTEMS DESIGN",
-          "country": "US",
-          "floatM": 1.97,
-          "floatSrc": "Polygon",
-          "marketCap": "$4M",
-          "riskBadges": [
-            "Float 1.97M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 1.97M"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 1.97M"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0312,
-          "open": 4.83,
-          "gapPct": 15380.77,
-          "time": "session",
-          "high": 6,
-          "hodTimeExact": "10:00 AM ET",
-          "close": 4.75,
-          "fade": 20,
-          "fadeExact": 20.83,
-          "vwap": 4.6359,
-          "vsVwap": "above",
-          "pmHigh": 7,
-          "volRaw": "4.8M",
-          "relVol": 0.0,
-          "avgVolM": 566.7
-        },
         {
           "sym": "LOBO",
           "hod": 253,
@@ -87724,8 +87099,8 @@
           "avgVolM": 0.4
         }
       ],
-      "hod": 19130,
-      "fade": 28,
+      "hod": 253,
+      "fade": 29,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "HCTI led +19130.77% (20% fade). 2/10 held <20% fade."
@@ -91533,55 +90908,6 @@
       "date": "2025-07-21",
       "runners": [
         {
-          "sym": "GVH",
-          "hod": 20298,
-          "hodExact": 20298.86,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "Globavend Holdings Limited Ordinary Shares",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": 2.29,
-          "floatSrc": "Polygon",
-          "marketCap": "$7M",
-          "riskBadges": [
-            "Float 2.29M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 2.29M"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 2.29M"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0351,
-          "open": 6.68,
-          "gapPct": 18931.34,
-          "time": "session",
-          "high": 7.16,
-          "hodTimeExact": "07:56 PM ET",
-          "close": 7.16,
-          "fade": 0,
-          "fadeExact": 0.0,
-          "vwap": 8.8407,
-          "vsVwap": "below",
-          "pmHigh": 7.9,
-          "volRaw": "1.7M",
-          "relVol": 0.0,
-          "avgVolM": 130.1
-        },
-        {
           "sym": "TWG",
           "hod": 8069,
           "hodExact": 8069.93,
@@ -91997,8 +91323,8 @@
           "avgVolM": 0.0
         }
       ],
-      "hod": 20298,
-      "fade": 32,
+      "hod": 8069,
+      "fade": 35,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "GVH led +20298.86% (0% fade). 2/10 held <20% fade."
@@ -98679,55 +98005,6 @@
       "date": "2025-06-27",
       "runners": [
         {
-          "sym": "GNLN",
-          "hod": 67042,
-          "hodExact": 67042.86,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "Greenlane Holdings, Inc. Class A Common Stock",
-          "sector": "WHOLESALE-DURABLE GOODS, NEC",
-          "country": "US",
-          "floatM": 0.63,
-          "floatSrc": "Polygon",
-          "marketCap": "$2M",
-          "riskBadges": [
-            "Float 0.63M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 0.63M"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 0.63M"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.007,
-          "open": 4.51,
-          "gapPct": 64328.57,
-          "time": "session",
-          "high": 4.7,
-          "hodTimeExact": "10:28 AM ET",
-          "close": 3.08,
-          "fade": 34,
-          "fadeExact": 34.47,
-          "vwap": 3.529,
-          "vsVwap": "below",
-          "pmHigh": 4.74,
-          "volRaw": "1.1M",
-          "relVol": 0.0,
-          "avgVolM": 564.4
-        },
-        {
           "sym": "LCFY",
           "hod": 448,
           "hodExact": 448.24,
@@ -99149,8 +98426,8 @@
           "avgVolM": 7.1
         }
       ],
-      "hod": 67042,
-      "fade": 40,
+      "hod": 448,
+      "fade": 41,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "GNLN led +67042.86% (34% fade). 2/10 held <20% fade."
@@ -109207,55 +108484,6 @@
       "date": "2025-05-27",
       "runners": [
         {
-          "sym": "PLRZ",
-          "hod": 28723,
-          "hodExact": 28723.53,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "Polyrizon Ltd. Ordinary Shares",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": 1.7,
-          "floatSrc": "Polygon",
-          "marketCap": "$26M",
-          "riskBadges": [
-            "Float 1.7M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 1.7M"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 1.7M"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0034,
-          "open": 0.98,
-          "gapPct": 28723.53,
-          "time": "session",
-          "high": 0.98,
-          "hodTimeExact": "10:30 AM ET",
-          "close": 0.646,
-          "fade": 34,
-          "fadeExact": 34.08,
-          "vwap": 0.7078,
-          "vsVwap": "below",
-          "pmHigh": 0.89,
-          "volRaw": "2.0M",
-          "relVol": 0.0,
-          "avgVolM": 244.2
-        },
-        {
           "sym": "EJH",
           "hod": 146,
           "hodExact": 146.52,
@@ -109669,8 +108897,8 @@
           "avgVolM": 0.2
         }
       ],
-      "hod": 28723,
-      "fade": 23,
+      "hod": 146,
+      "fade": 22,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "PLRZ led +28723.53% (34% fade). 4/10 held <20% fade."
@@ -121211,55 +120439,6 @@
       "date": "2025-04-21",
       "runners": [
         {
-          "sym": "SUNE",
-          "hod": 17350,
-          "hodExact": 17350.0,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "SUNation Energy, Inc. Common Stock",
-          "sector": "CONSTRUCTION - SPECIAL TRADE CONTRACTORS",
-          "country": "US",
-          "floatM": 3.41,
-          "floatSrc": "Polygon",
-          "marketCap": "$4M",
-          "riskBadges": [
-            "Float 3.41M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 3.41M"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 3.41M"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.02,
-          "open": 3,
-          "gapPct": 14900.0,
-          "time": "session",
-          "high": 3.49,
-          "hodTimeExact": "06:04 PM ET",
-          "close": 2.79,
-          "fade": 20,
-          "fadeExact": 20.06,
-          "vwap": 3.0316,
-          "vsVwap": "below",
-          "pmHigh": 3.79,
-          "volRaw": "2.0M",
-          "relVol": 0.0,
-          "avgVolM": 262.4
-        },
-        {
           "sym": "HOLO",
           "hod": 3713,
           "hodExact": 3713.05,
@@ -121675,8 +120854,8 @@
           "avgVolM": 6.0
         }
       ],
-      "hod": 17350,
-      "fade": 30,
+      "hod": 3713,
+      "fade": 31,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "SUNE led +17350.0% (20% fade). 3/10 held <20% fade."
@@ -132675,55 +131854,6 @@
       "date": "2025-03-17",
       "runners": [
         {
-          "sym": "ADTX",
-          "hod": 26278,
-          "hodExact": 26278.11,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "Aditxt, Inc. Common Stock",
-          "sector": "PHARMACEUTICAL PREPARATIONS",
-          "country": "US",
-          "floatM": 0.9,
-          "floatSrc": "Polygon",
-          "marketCap": "$0M",
-          "riskBadges": [
-            "Float 0.9M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 0.9M"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 0.9M"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0201,
-          "open": 5.1,
-          "gapPct": 25273.13,
-          "time": "session",
-          "high": 5.302,
-          "hodTimeExact": "10:08 AM ET",
-          "close": 4.37,
-          "fade": 17,
-          "fadeExact": 17.58,
-          "vwap": 4.7305,
-          "vsVwap": "below",
-          "pmHigh": 6,
-          "volRaw": "605K",
-          "relVol": 0.0,
-          "avgVolM": 185.2
-        },
-        {
           "sym": "WKHS",
           "hod": 1293,
           "hodExact": 1293.52,
@@ -133149,8 +132279,8 @@
           "avgVolM": 12.0
         }
       ],
-      "hod": 26278,
-      "fade": 18,
+      "hod": 1293,
+      "fade": 19,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "ADTX led +26278.11% (17% fade). 6/10 held <20% fade."
@@ -141787,51 +140917,6 @@
       "date": "2025-02-18",
       "runners": [
         {
-          "sym": "CYN",
-          "hod": 12075,
-          "hodExact": 12075.32,
-          "news": [],
-          "tag": "SYMPATHY",
-          "name": "Cyngn Inc. Common Stock",
-          "sector": "SERVICES-COMPUTER PROGRAMMING SERVICES",
-          "country": "US",
-          "floatM": 13.61,
-          "floatSrc": "Polygon",
-          "marketCap": "$22M",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0924,
-          "open": 11.17,
-          "gapPct": 11988.74,
-          "time": "premarket",
-          "high": 11.25,
-          "hodTimeExact": "09:09 AM ET",
-          "close": 8.88,
-          "fade": 21,
-          "fadeExact": 21.07,
-          "vwap": 9.4422,
-          "vsVwap": "below",
-          "pmHigh": null,
-          "volRaw": "803K",
-          "relVol": 0.0,
-          "avgVolM": 248.1
-        },
-        {
           "sym": "GCL",
           "hod": 224,
           "hodExact": 224.35,
@@ -142253,8 +141338,8 @@
           "avgVolM": 52.7
         }
       ],
-      "hod": 12075,
-      "fade": 22,
+      "hod": 224,
+      "fade": 23,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "CYN led +12075.32% (21% fade). 3/10 held <20% fade."
@@ -144147,51 +143232,6 @@
       "date": "2025-02-10",
       "runners": [
         {
-          "sym": "RIME",
-          "hod": 19529,
-          "hodExact": 19529.41,
-          "news": [],
-          "tag": "SYMPATHY",
-          "name": "Algorhythm Holdings, Inc. Common Stock",
-          "sector": "SERVICES-COMPUTER INTEGRATED SYSTEMS DESIGN",
-          "country": "US",
-          "floatM": 14.65,
-          "floatSrc": "Polygon",
-          "marketCap": "$15M",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.017,
-          "open": 3.22,
-          "gapPct": 18841.18,
-          "time": "premarket",
-          "high": 3.337,
-          "hodTimeExact": "09:03 AM ET",
-          "close": 2.98,
-          "fade": 10,
-          "fadeExact": 10.7,
-          "vwap": 3.0161,
-          "vsVwap": "below",
-          "pmHigh": null,
-          "volRaw": "1.1M",
-          "relVol": 0.0,
-          "avgVolM": 184.4
-        },
-        {
           "sym": "CYN",
           "hod": 227,
           "hodExact": 227.24,
@@ -144609,8 +143649,8 @@
           "avgVolM": 0.1
         }
       ],
-      "hod": 19529,
-      "fade": 20,
+      "hod": 227,
+      "fade": 22,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "RIME led +19529.41% (10% fade). 5/10 held <20% fade."
@@ -145589,53 +144629,6 @@
       "date": "2025-02-05",
       "runners": [
         {
-          "sym": "TNXP",
-          "hod": 11734,
-          "hodExact": 11734.32,
-          "news": [
-            "Tonix Pharmaceuticals to Participate in the 2025 BIO CEO & Investor Conference"
-          ],
-          "tag": "SYMPATHY",
-          "name": "Tonix Pharmaceuticals Holding Corp.",
-          "sector": "PHARMACEUTICAL PREPARATIONS",
-          "country": "US",
-          "floatM": 13.41,
-          "floatSrc": "Polygon",
-          "marketCap": "$177M",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.1521,
-          "open": 14.21,
-          "gapPct": 9242.54,
-          "time": "session",
-          "high": 18,
-          "hodTimeExact": "09:49 AM ET",
-          "close": 14.98,
-          "fade": 16,
-          "fadeExact": 16.78,
-          "vwap": 15.529,
-          "vsVwap": "below",
-          "pmHigh": null,
-          "volRaw": "2.1M",
-          "relVol": 0.0,
-          "avgVolM": 120.6
-        },
-        {
           "sym": "HUBCZ",
           "hod": 712,
           "hodExact": 712.38,
@@ -146055,8 +145048,8 @@
           "avgVolM": 16.7
         }
       ],
-      "hod": 11734,
-      "fade": 28,
+      "hod": 712,
+      "fade": 29,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "TNXP led +11734.32% (16% fade). 5/10 held <20% fade."
@@ -147509,100 +146502,6 @@
       "date": "2025-01-30",
       "runners": [
         {
-          "sym": "ACON",
-          "hod": 75681,
-          "hodExact": 75681.82,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "Aclarion, Inc. Common Stock",
-          "sector": "SERVICES-MEDICAL LABORATORIES",
-          "country": "US",
-          "floatM": 2.28,
-          "floatSrc": "Polygon",
-          "marketCap": "$7M",
-          "riskBadges": [
-            "Float 2.28M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 2.28M"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 2.28M"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0275,
-          "open": 8.25,
-          "gapPct": 29900.0,
-          "time": "session",
-          "high": 20.84,
-          "hodTimeExact": "12:54 PM ET",
-          "close": 8.4,
-          "fade": 59,
-          "fadeExact": 59.69,
-          "vwap": 15.0789,
-          "vsVwap": "below",
-          "pmHigh": null,
-          "volRaw": "3.3M",
-          "relVol": 0.0,
-          "avgVolM": 118.8
-        },
-        {
-          "sym": "CRKN",
-          "hod": 12297,
-          "hodExact": 12297.37,
-          "news": [],
-          "tag": "SYMPATHY",
-          "name": "CROWN ELECTROKINETICS CRP",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": null,
-          "floatSrc": "Polygon",
-          "marketCap": "N/A",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0609,
-          "open": 7.51,
-          "gapPct": 12231.69,
-          "time": "premarket",
-          "high": 7.55,
-          "hodTimeExact": "09:10 AM ET",
-          "close": 6.63,
-          "fade": 12,
-          "fadeExact": 12.19,
-          "vwap": 6.7756,
-          "vsVwap": "below",
-          "pmHigh": null,
-          "volRaw": "1.1M",
-          "relVol": 0.0,
-          "avgVolM": 135.9
-        },
-        {
           "sym": "BLRX",
           "hod": 4112,
           "hodExact": 4112.52,
@@ -147977,8 +146876,8 @@
           "avgVolM": 63.4
         }
       ],
-      "hod": 75681,
-      "fade": 27,
+      "hod": 4112,
+      "fade": 25,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "ACON led +75681.82% (59% fade). 4/10 held <20% fade."
@@ -166614,55 +165513,6 @@
       "date": "2024-11-27",
       "runners": [
         {
-          "sym": "ELAB",
-          "hod": 20700,
-          "hodExact": 20700.0,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "PMGC Holdings Inc. Common Stock",
-          "sector": "PHARMACEUTICAL PREPARATIONS",
-          "country": "US",
-          "floatM": 1.16,
-          "floatSrc": "Polygon",
-          "marketCap": "$13M",
-          "riskBadges": [
-            "Float 1.16M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 1.16M"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 1.16M"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0125,
-          "open": 2.34,
-          "gapPct": 18620.0,
-          "time": "session",
-          "high": 2.6,
-          "hodTimeExact": "10:14 AM ET",
-          "close": 2.41,
-          "fade": 7,
-          "fadeExact": 7.31,
-          "vwap": 2.2952,
-          "vsVwap": "above",
-          "pmHigh": null,
-          "volRaw": "941K",
-          "relVol": 0.0,
-          "avgVolM": 358.8
-        },
-        {
           "sym": "TSLQ",
           "hod": 541,
           "hodExact": 541.39,
@@ -167082,8 +165932,8 @@
           "avgVolM": 179.9
         }
       ],
-      "hod": 20700,
-      "fade": 22,
+      "hod": 541,
+      "fade": 24,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "ELAB led +20700.0% (7% fade). 5/10 held <20% fade."
@@ -183265,51 +182115,6 @@
       "date": "2024-10-09",
       "runners": [
         {
-          "sym": "MAXN",
-          "hod": 10617,
-          "hodExact": 10617.3,
-          "news": [],
-          "tag": "SYMPATHY",
-          "name": "Maxeon Solar Technologies, Ltd. Ordinary Shares",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": 16.93,
-          "floatSrc": "Polygon",
-          "marketCap": "$26M",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0711,
-          "open": 6.86,
-          "gapPct": 9548.38,
-          "time": "session",
-          "high": 7.62,
-          "hodTimeExact": "10:06 AM ET",
-          "close": 6.33,
-          "fade": 16,
-          "fadeExact": 16.93,
-          "vwap": 6.8215,
-          "vsVwap": "below",
-          "pmHigh": 7.8,
-          "volRaw": "986K",
-          "relVol": 0.0,
-          "avgVolM": 47.9
-        },
-        {
           "sym": "XPON",
           "hod": 9733,
           "hodExact": 9733.89,
@@ -183725,7 +182530,7 @@
           "avgVolM": 0.0
         }
       ],
-      "hod": 10617,
+      "hod": 9733,
       "fade": 16,
       "hodTime": "session",
       "theme": "PM-Led Tape",
@@ -218539,51 +217344,6 @@
       "date": "2024-06-25",
       "runners": [
         {
-          "sym": "CRKN",
-          "hod": 12719,
-          "hodExact": 12719.84,
-          "news": [],
-          "tag": "SYMPATHY",
-          "name": "CROWN ELECTROKINETICS CRP",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": null,
-          "floatSrc": "Polygon",
-          "marketCap": "N/A",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0383,
-          "open": 4.62,
-          "gapPct": 11962.66,
-          "time": "session",
-          "high": 4.91,
-          "hodTimeExact": "10:03 AM ET",
-          "close": 3.98,
-          "fade": 18,
-          "fadeExact": 18.94,
-          "vwap": 4.1083,
-          "vsVwap": "below",
-          "pmHigh": 5.2,
-          "volRaw": "1.1M",
-          "relVol": 0.0,
-          "avgVolM": 139.6
-        },
-        {
           "sym": "RGS",
           "hod": 378,
           "hodExact": 378.7,
@@ -219009,7 +217769,7 @@
           "avgVolM": 3.8
         }
       ],
-      "hod": 12719,
+      "hod": 378,
       "fade": 22,
       "hodTime": "session",
       "theme": "PM-Led Tape",
@@ -225757,55 +224517,6 @@
       "date": "2024-06-03",
       "runners": [
         {
-          "sym": "GWAV",
-          "hod": 16256,
-          "hodExact": 16256.59,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "Greenwave Technology Solutions, Inc. Common Stock",
-          "sector": "WHOLESALE-METALS SERVICE CENTERS & OFFICES",
-          "country": "US",
-          "floatM": 0.83,
-          "floatSrc": "Polygon",
-          "marketCap": "$3M",
-          "riskBadges": [
-            "Float 0.83M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 0.83M"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 0.83M"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0387,
-          "open": 6.33,
-          "gapPct": 16256.59,
-          "time": "session",
-          "high": 6.33,
-          "hodTimeExact": "10:02 AM ET",
-          "close": 4.27,
-          "fade": 32,
-          "fadeExact": 32.54,
-          "vwap": 4.5419,
-          "vsVwap": "below",
-          "pmHigh": 6.35,
-          "volRaw": "2.9M",
-          "relVol": 0.0,
-          "avgVolM": 578.2
-        },
-        {
           "sym": "ALBT",
           "hod": 388,
           "hodExact": 388.14,
@@ -226240,8 +224951,8 @@
           "avgVolM": 0.0
         }
       ],
-      "hod": 16256,
-      "fade": 27,
+      "hod": 388,
+      "fade": 26,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "GWAV led +16256.59% (32% fade). 2/10 held <20% fade."
@@ -227684,55 +226395,6 @@
       "date": "2024-05-28",
       "runners": [
         {
-          "sym": "SINT",
-          "hod": 14308,
-          "hodExact": 14308.14,
-          "news": [],
-          "tag": "RETAIL PUMP",
-          "name": "SiNtx Technologies, Inc. Common Stock",
-          "sector": "SURGICAL & MEDICAL INSTRUMENTS & APPARATUS",
-          "country": "US",
-          "floatM": 4.12,
-          "floatSrc": "Polygon",
-          "marketCap": "$10M",
-          "riskBadges": [
-            "Float 4.12M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 4.12M"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 4.12M"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0676,
-          "open": 9.24,
-          "gapPct": 13568.64,
-          "time": "session",
-          "high": 9.7399,
-          "hodTimeExact": "10:00 AM ET",
-          "close": 9.28,
-          "fade": 4,
-          "fadeExact": 4.72,
-          "vwap": 8.5637,
-          "vsVwap": "above",
-          "pmHigh": 12.24,
-          "volRaw": "830K",
-          "relVol": 0.0,
-          "avgVolM": 120.4
-        },
-        {
           "sym": "STSS",
           "hod": 285,
           "hodExact": 285.07,
@@ -228148,8 +226810,8 @@
           "avgVolM": 388.9
         }
       ],
-      "hod": 14308,
-      "fade": 18,
+      "hod": 285,
+      "fade": 19,
       "hodTime": "session",
       "theme": "Hot Tape",
       "note": "SINT led +14308.14% (4% fade). 5/10 held <20% fade."
@@ -279419,53 +278081,6 @@
       "date": "2023-12-22",
       "runners": [
         {
-          "sym": "GMBL",
-          "hod": 90376,
-          "hodExact": 90376.19,
-          "news": [
-            "Why AAR Shares Are Trading Lower By 7%? Here Are Other Stocks Moving In Friday's Mid-Day Session"
-          ],
-          "tag": "SYMPATHY",
-          "name": "ESPORTS ENTMNT GRP INC",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": null,
-          "floatSrc": "Polygon",
-          "marketCap": "N/A",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0105,
-          "open": 6.08,
-          "gapPct": 57804.76,
-          "time": "session",
-          "high": 9.5,
-          "hodTimeExact": "02:39 PM ET",
-          "close": 6.91,
-          "fade": 27,
-          "fadeExact": 27.26,
-          "vwap": 7.1051,
-          "vsVwap": "below",
-          "pmHigh": null,
-          "volRaw": "17.8M",
-          "relVol": 0.1,
-          "avgVolM": 196.6
-        },
-        {
           "sym": "NXTP",
           "hod": 319,
           "hodExact": 319.89,
@@ -279893,8 +278508,8 @@
           "avgVolM": 0.2
         }
       ],
-      "hod": 90376,
-      "fade": 22,
+      "hod": 319,
+      "fade": 21,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "GMBL led +90376.19% (27% fade). 4/10 held <20% fade."
@@ -286398,51 +285013,6 @@
       "date": "2023-12-04",
       "runners": [
         {
-          "sym": "MCOM",
-          "hod": 14860,
-          "hodExact": 14860.0,
-          "news": [],
-          "tag": "SYMPATHY",
-          "name": "MICROMOBILITY.COM INC A",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": null,
-          "floatSrc": "Polygon",
-          "marketCap": "N/A",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0125,
-          "open": 1.87,
-          "gapPct": 14860.0,
-          "time": "premarket",
-          "high": 1.87,
-          "hodTimeExact": "09:15 AM ET",
-          "close": 1.4,
-          "fade": 25,
-          "fadeExact": 25.13,
-          "vwap": 1.5366,
-          "vsVwap": "below",
-          "pmHigh": null,
-          "volRaw": "1.5M",
-          "relVol": 0.0,
-          "avgVolM": 88.3
-        },
-        {
           "sym": "TMF",
           "hod": 897,
           "hodExact": 897.05,
@@ -286870,8 +285440,8 @@
           "avgVolM": 2.8
         }
       ],
-      "hod": 14860,
-      "fade": 12,
+      "hod": 897,
+      "fade": 11,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "MCOM led +14860.0% (25% fade). 7/10 held <20% fade."
@@ -314687,56 +313257,6 @@
       "date": "2023-09-12",
       "runners": [
         {
-          "sym": "ASTI",
-          "hod": 30205,
-          "hodExact": 30205.16,
-          "news": [
-            "Why CS Disco Are Trading Lower By 22%? Here Are Other Stocks Moving In Tuesday's Mid-Day Session",
-            "Why Matrix Service Shares Are Trading Higher By 9%; Here Are 20 Stocks Moving Premarket"
-          ],
-          "tag": "SYMPATHY",
-          "name": "Ascent Solar Technologies, Inc. Common Stock",
-          "sector": "SEMICONDUCTORS & RELATED DEVICES",
-          "country": "US",
-          "floatM": 9.46,
-          "floatSrc": "Polygon",
-          "marketCap": "$51M",
-          "riskBadges": [
-            "Float 9.46M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0426,
-          "open": 11.85,
-          "gapPct": 27716.9,
-          "time": "premarket",
-          "high": 12.91,
-          "hodTimeExact": "07:36 AM ET",
-          "close": 9.2,
-          "fade": 28,
-          "fadeExact": 28.74,
-          "vwap": 10.5842,
-          "vsVwap": "below",
-          "pmHigh": 13,
-          "volRaw": "3.2M",
-          "relVol": 0.2,
-          "avgVolM": 15.1
-        },
-        {
           "sym": "TNON",
           "hod": 108,
           "hodExact": 108.62,
@@ -315165,8 +313685,8 @@
           "avgVolM": 2.2
         }
       ],
-      "hod": 30205,
-      "fade": 19,
+      "hod": 108,
+      "fade": 18,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "ASTI led +30205.16% (28% fade). 5/10 held <20% fade."
@@ -320633,59 +319153,6 @@
       "date": "2023-08-23",
       "runners": [
         {
-          "sym": "TIVC",
-          "hod": 10052,
-          "hodExact": 10052.28,
-          "news": [
-            "Why Grab Holdings Are Trading Higher By 9%? Here Are Other Stocks Moving In Wednesday's Mid-Day Session",
-            "Foot Locker, Peloton Interactive And Other Big Stocks Moving Lower On Wednesday",
-            "Nasdaq Rises 1%; US Manufacturing PMI Falls In August"
-          ],
-          "tag": "RETAIL PUMP",
-          "name": "Tivic Health Systems, Inc. Common Stock",
-          "sector": "ELECTROMEDICAL & ELECTROTHERAPEUTIC APPARATUS",
-          "country": "US",
-          "floatM": 2.88,
-          "floatSrc": "Polygon",
-          "marketCap": "$3M",
-          "riskBadges": [
-            "Float 2.88M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 2.88M"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 2.88M"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0394,
-          "open": 3.9,
-          "gapPct": 9798.48,
-          "time": "premarket",
-          "high": 4,
-          "hodTimeExact": "07:42 AM ET",
-          "close": 2.88,
-          "fade": 28,
-          "fadeExact": 28.0,
-          "vwap": 3.1753,
-          "vsVwap": "below",
-          "pmHigh": 4.69,
-          "volRaw": "1.4M",
-          "relVol": 0.0,
-          "avgVolM": 92.9
-        },
-        {
           "sym": "VCIG",
           "hod": 149,
           "hodExact": 149.06,
@@ -321136,8 +319603,8 @@
           "avgVolM": 0.0
         }
       ],
-      "hod": 10052,
-      "fade": 19,
+      "hod": 149,
+      "fade": 18,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "TIVC led +10052.28% (28% fade). 6/10 held <20% fade."
@@ -353530,56 +351997,6 @@
       "date": "2023-05-15",
       "runners": [
         {
-          "sym": "XELA",
-          "hod": 17900,
-          "hodExact": 17900.0,
-          "news": [
-            "Exela Technologies Places in Gartner® Magic Quadrant™ for Finance and Accounting Business Process Outsourcing",
-            "Why Venus Concept Shares Are Trading Lower By Over 15%? Here Are Other Stocks Moving In Monday's Mid-Day Session",
-            "US Stocks Mixed; NY Manufacturing Activity Shrinks In May",
-            "ONEOK, PacWest Bancorp And Other Big Stocks Moving Lower In Monday's Pre-Market Session"
-          ],
-          "tag": "SYMPATHY",
-          "name": "EXELA TECHNOLOGIES INC",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": null,
-          "floatSrc": "Polygon",
-          "marketCap": "N/A",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.025,
-          "open": 4.5,
-          "gapPct": 17900.0,
-          "time": "premarket",
-          "high": 4.5,
-          "hodTimeExact": "08:03 AM ET",
-          "close": 3.08,
-          "fade": 31,
-          "fadeExact": 31.56,
-          "vwap": 3.1771,
-          "vsVwap": "below",
-          "pmHigh": 4.84,
-          "volRaw": "4.9M",
-          "relVol": 0.1,
-          "avgVolM": 74.7
-        },
-        {
           "sym": "OMH",
           "hod": 208,
           "hodExact": 208.78,
@@ -354010,7 +352427,7 @@
           "avgVolM": 0.6
         }
       ],
-      "hod": 17900,
+      "hod": 208,
       "fade": 25,
       "hodTime": "session",
       "theme": "PM-Led Tape",
@@ -399847,58 +398264,6 @@
       "date": "2022-12-20",
       "runners": [
         {
-          "sym": "SINT",
-          "hod": 11299,
-          "hodExact": 11299.23,
-          "news": [
-            "Why IceCure Medical Shares Are Trading Higher By 296%? Here Are 64 Stocks Moving In Tuesday's Mid-Day Session",
-            "Arcus Biosciences, FuelCell Energy And Some Other Big Stocks Moving Lower On Tuesday"
-          ],
-          "tag": "RETAIL PUMP",
-          "name": "SiNtx Technologies, Inc. Common Stock",
-          "sector": "SURGICAL & MEDICAL INSTRUMENTS & APPARATUS",
-          "country": "US",
-          "floatM": 4.12,
-          "floatSrc": "Polygon",
-          "marketCap": "$10M",
-          "riskBadges": [
-            "Float 4.12M"
-          ],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No news catalyst — social/momentum driven",
-                "Float 4.12M + RelVol 0.1x"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No news catalyst — social/momentum driven",
-            "Float 4.12M + RelVol 0.1x"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0779,
-          "open": 8.51,
-          "gapPct": 10824.26,
-          "time": "premarket",
-          "high": 8.88,
-          "hodTimeExact": "09:00 AM ET",
-          "close": 7.47,
-          "fade": 15,
-          "fadeExact": 15.88,
-          "vwap": 7.779,
-          "vsVwap": "below",
-          "pmHigh": 8.6429,
-          "volRaw": "1.1M",
-          "relVol": 0.1,
-          "avgVolM": 8.5
-        },
-        {
           "sym": "ICCM",
           "hod": 405,
           "hodExact": 405.02,
@@ -400322,7 +398687,7 @@
           "avgVolM": 5.5
         }
       ],
-      "hod": 11299,
+      "hod": 405,
       "fade": 23,
       "hodTime": "session",
       "theme": "PM-Led Tape",
@@ -414742,53 +413107,6 @@
       "date": "2022-11-04",
       "runners": [
         {
-          "sym": "DBGI",
-          "hod": 11599,
-          "hodExact": 11599.51,
-          "news": [
-            "Why Greenhill Shares Climbed Around 25%; Here Are 100 Biggest Movers From Yesterday"
-          ],
-          "tag": "SYMPATHY",
-          "name": "Digital Brands Group, Inc. Common Stock",
-          "sector": "RETAIL-APPAREL & ACCESSORY STORES",
-          "country": "US",
-          "floatM": 16.63,
-          "floatSrc": "Polygon",
-          "marketCap": "$25M",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0812,
-          "open": 8.4,
-          "gapPct": 10244.83,
-          "time": "premarket",
-          "high": 9.5,
-          "hodTimeExact": "09:01 AM ET",
-          "close": 8.78,
-          "fade": 7,
-          "fadeExact": 7.58,
-          "vwap": 8.3698,
-          "vsVwap": "above",
-          "pmHigh": 10.5,
-          "volRaw": "2.5M",
-          "relVol": 0.1,
-          "avgVolM": 34.2
-        },
-        {
           "sym": "FRGT",
           "hod": 116,
           "hodExact": 116.0,
@@ -415252,8 +413570,8 @@
           "avgVolM": 0.1
         }
       ],
-      "hod": 11599,
-      "fade": 20,
+      "hod": 116,
+      "fade": 21,
       "hodTime": "session",
       "theme": "PM-Led Tape",
       "note": "DBGI led +11599.51% (7% fade). 6/10 held <20% fade."
