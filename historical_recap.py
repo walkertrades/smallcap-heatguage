@@ -222,6 +222,7 @@ def get_day_movers_historical(target_date, debug_first=False):
         hod_pct = round((hod - pc) / pc * 100, 2)
         gap_pct = round((r.get("o", 0) - pc) / pc * 100, 2) if pc else 0
         if hod_pct <= 0: continue
+        if hod_pct > MAX_HOD_PCT: continue  # reverse split artifact
 
         all_movers.append({
             "ticker": ticker, "hodPct": hod_pct, "gapPct": gap_pct,
@@ -253,7 +254,8 @@ def get_day_movers_historical(target_date, debug_first=False):
         float_shares = details.get("share_class_shares_outstanding")
         float_m = float_shares/1e6 if float_shares else None
 
-        if float_m and float_m > ER.MAX_FLOAT_M:
+        if float_m and float_m > ER.MAX_HOD_PCT      = 10000  # filters reverse split artifacts
+MAX_FLOAT_M:
             if c["hodPct"] >= ER.NEAR_MISS_PCT:
                 near_miss.append({**c, "name": details.get("name", ticker),
                                   "float": round(float_m,1) if float_m else None,

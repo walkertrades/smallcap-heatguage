@@ -32,6 +32,7 @@ ASKEDGAR_BASE    = "https://eapi.askedgar.io/v1"
 TOP_N            = 10
 NEAR_MISS_PCT    = 100        # any gapper >= this % that missed top 10
 MIN_VOLUME       = 500_000
+MAX_HOD_PCT      = 10000  # filters reverse split artifacts
 MAX_FLOAT_M      = 150
 
 DEBUG_MODE       = False      # set True at runtime to dump first ticker's AE JSON
@@ -893,6 +894,7 @@ def get_day_movers(target_date):
         hod_pct = round((hod - pc) / pc * 100, 2)
         gap_pct = round((r.get("o", 0) - pc) / pc * 100, 2) if pc else 0
         if hod_pct <= 0: continue
+        if hod_pct > MAX_HOD_PCT: continue  # reverse split artifact
 
         all_movers.append({
             "ticker": ticker, "hodPct": hod_pct, "gapPct": gap_pct,
