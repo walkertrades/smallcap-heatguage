@@ -339,6 +339,122 @@ def get_day_movers_historical(target_date, debug_first=False):
 
 
 # ---------------------------------------------------------------------------
+# Heat-gauge JSON builder (heat-gauge.v1 — merge.py compatible)
+# ---------------------------------------------------------------------------
+
+THRESHOLDS = {
+    "hodHot":       150,
+    "hodNeutralLo": 100,
+    "fadeHot":      25,
+    "fadeCold":     40,
+}
+
+OUTPUT_DIR = r"D:\Projects\smallcap-heatguage"
+
+def build_heat_gauge_json(results):
+    entries = []
+
+    for target_date, movers, near_miss in results:
+        date_str = str(target_date)
+        runners  = []
+
+        for m in movers:
+            c    = m["classification"]
+            news = [h["title"] for h in (m.get("headlines") or []) if h.get("title")]
+
+            # Build sections from AE classification data
+            sections = []
+            for sec in c.get("key_sections", []):
+                sections.append({
+                    "title":   sec["title"],
+                    "emoji":   sec.get("emoji"),
+                    "bullets": sec.get("bullets", []),
+                    "prose":   sec.get("prose"),
+                })
+            if not sections and c.get("reasons"):
+                sections.append({
+                    "title":   "Why it ran",
+                    "emoji":   None,
+                    "bullets": c["reasons"],
+                    "prose":   None,
+                })
+
+            runners.append({
+                "sym":          m["ticker"],
+                "hod":          int(m["hodPct"]),
+                "hodExact":     m["hodPct"],
+                "news":         news,
+                "tag":          c["primary_tag"],
+                "name":         m.get("name", m["ticker"]),
+                "sector":       m.get("sector", "Unknown"),
+                "country":      m.get("country", "US"),
+                "floatM":       m.get("float"),
+                "floatSrc":     m.get("float_src", "AskEdgar"),
+                "marketCap":    ER.fmt_mc(m.get("marketCap", 0)),
+                "riskBadges":   c.get("risk_badges", []),
+                "sections":     sections,
+                "reasons":      c.get("reasons", []),
+                "insights":     c.get("insights", []),
+                "jmtNotes":     c.get("jmt_notes", []),
+                "tldr":         c.get("tldr", []),
+                "prevClose":    m["prevClose"],
+                "open":         m["open"],
+                "gapPct":       m["gapPct"],
+                "time":         m.get("session", "session"),
+                "high":         m["high"],
+                "hodTimeExact": m.get("hodTime"),
+                "close":        m["close"],
+                "fade":         int(m["fadePct"]),
+                "fadeExact":    m["fadePct"],
+                "vwap":         m["vwap"],
+                "vsVwap":       m["vsVwap"],
+                "pmHigh":       m.get("pmHigh"),
+                "volRaw":       ER.fmt_vol(m["vol"]),
+                "relVol":       m.get("relVol"),
+                "avgVolM":      m.get("avgVol"),
+            })
+
+        # Day-level summary
+        lead    = runners[0] if runners else {}
+        avg_hod = round(sum(r["hod"] for r in runners) / len(runners)) if runners else 0
+        avg_fad = round(sum(r["fade"] for r in runners) / len(runners)) if runners else 0
+        pm_led  = sum(1 for r in runners if r["time"] == "premarket")
+
+        if pm_led >= len(runners) * 0.6:
+            theme = "PM-Led Tape"
+        elif avg_hod >= 150:
+            theme = "Hot Tape"
+        elif avg_hod >= 100:
+            theme = "Active Tape"
+        else:
+            theme = "Choppy Mixed"
+
+        note = (
+            f"{lead.get('sym','')} led +{lead.get('hodExact',0)}% "
+            f"({lead.get('fade',0)}% fade). "
+            f"{sum(1 for r in runners if r['fade'] < 20)}/{len(runners)} held <20% fade."
+        ) if runners else "No qualifying runners."
+
+        entries.append({
+            "date":    date_str,
+            "runners": runners,
+            "hod":     lead.get("hod", 0),
+            "fade":    avg_fad,
+            "hodTime": lead.get("time", "session"),
+            "theme":   theme,
+            "note":    note,
+        })
+
+    return {
+        "schema":     "heat-gauge.v1",
+        "exportedAt": datetime.utcnow().isoformat() + "Z",
+        "count":      sum(len(e["runners"]) for e in entries),
+        "thresholds": THRESHOLDS,
+        "entries":    entries,
+    }
+
+
+# ---------------------------------------------------------------------------
 # Combined markdown renderer
 # ---------------------------------------------------------------------------
 
@@ -503,16 +619,23 @@ def main():
         movers, near_miss = get_day_movers_historical(td, debug_first=(debug and is_first))
         results.append((td, movers, near_miss))
 
-    print("\n\nRendering combined markdown...")
-    md = render_combined_markdown(results)
+    print("\n\nBuilding heat-gauge JSON...")
+    payload = build_heat_gauge_json(results)
 
-    out_file = f"historical_recap_{start_d}_to_{end_d}.md"
+    out_dir = OUTPUT_DIR if OUTPUT_DIR and os.path.isdir(OUTPUT_DIR) else os.getcwd()
+    if start_d == end_d:
+        out_file = os.path.join(out_dir, f"heat-gauge-{start_d}.json")
+    else:
+        out_file = os.path.join(out_dir, f"heat-gauge-{start_d}_to_{end_d}.json")
+
     with open(out_file, "w", encoding="utf-8") as f:
-        f.write(md)
+        json.dump(payload, f, indent=2, ensure_ascii=False)
 
     print(f"\n✅ Done!")
-    print(f"   Output: {os.path.abspath(out_file)}")
-    print(f"   {len(trading_days)} trading days processed.")
+    print(f"   Output : {out_file}")
+    print(f"   Days   : {len(trading_days)}")
+    print(f"   Runners: {payload['count']}")
+    print(f"\n→ Run merge.py to fold into data2.json, then push via GitHub Desktop.")
 
 
 if __name__ == "__main__":
