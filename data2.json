@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-04-25T12:34:22.855313Z",
-  "count": 9153,
+  "exportedAt": "2026-04-27T22:31:53.897519Z",
+  "count": 9163,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,646 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-04-27",
+      "runners": [
+        {
+          "sym": "HTCO",
+          "hod": 403,
+          "hodExact": 403.02,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "High-Trend International Group Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "SG",
+          "floatM": 5.07,
+          "floatSrc": "AE",
+          "marketCap": "$205M",
+          "riskBadges": [
+            "Float 5.07M",
+            "X2 warrants ITM",
+            "$400.0M shelf",
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [],
+              "prose": "News rating applied per item (🟢 fundamental positive / 🟡 neutral / 🔴 negative):  1. 🟡 2026-04-22 (Press Release) – \"HTCO to expand into lithium (spodumene) shipping & launch share buyback\". Strategy could improve margins but no contract/R$ details yet. <https://app.askedgar.io/news/51966557?ticker=HTCO>  2. 🔴 2026-04-06 (6-K, multiple exhibits) – Proxy for 5/7/26 meetings to: • boost authorised Class A shares 4× to 2 B & Class B to 110 M • raise Class B voting power 5× • give Board discretion fo"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Rating: 🔴 High  • Outstanding convertibles:  ‑ Oct 2024 & Sep 2024 notes (agg. $5.30 M principal) convertible at $2.50 post-split → ~2.1 M shares; deep in-the-money at $16.79. Registration status not disclosed (likely unregistered PIPE; resale reg to be filed/declared effective later).  • Nov 2025 Streeterville prepaid note up to $20 M; conversion terms not fully disclosed yet but commitment/pre-delivery shares already issued.  • 1.03 M options granted Mar-2026 at $8.27 (≈49% in the money)  • Pr"
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No historical jmt415 commentary supplied for HTCO."
+            }
+          ],
+          "reasons": [
+            "X2 warrant tranches ITM (2.0M shares)",
+            "Dilution rating: High (60.8%)"
+          ],
+          "insights": [
+            "Strategic expansion into lithium resources transportation**: On April 22, 2026 (within the last week), HTCO announced a formal push into lithium transport as a core high-margin business segment. Lithium voyages doubled year-over-year in 2026 vs. 2025, optimizing cargo mix amid rising demand for EV battery materials; this update directly fueled today's momentum, as noted in analyses like Quiver Quantitative attributing the spike to this news.",
+            "Technical factors amplifying the move**: Extremely high trading volume (over 8 million shares, multiple times the float of ~2.8-6.7 million shares) on a low-float microcap stock created explosive volatility; low short interest (~60k shares, <3% of float) limits squeeze potential but supports rapid upside on buying pressure.",
+            "Broader shipping sector tailwinds**: Oil tanker stocks surged recently on Iran geopolitical tensions (e.g., potential disruptions rerouting shipments), spilling into general shipping hype on X (e.g., posts on tanker demand); however, this is not a Marine Shipping sector-wide move—sector benchmarks flat over last 7 days.",
+            "Upcoming catalyst**: Q1 2026 earnings estimated May 4-13, 2026; recent fiscal 2025 results showed 98% revenue growth to $214M, building anticipation."
+          ],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 11.25,
+          "open": 13,
+          "gapPct": 15.56,
+          "time": "regular session",
+          "high": 56.59,
+          "hodTimeExact": "02:34 PM ET",
+          "close": 38.22,
+          "fade": 32,
+          "fadeExact": 32.46,
+          "vwap": 30.9695,
+          "vsVwap": "above",
+          "pmHigh": 14,
+          "volRaw": "14.3M",
+          "relVol": 38.2,
+          "avgVolM": 0.4
+        },
+        {
+          "sym": "YAAS",
+          "hod": 176,
+          "hodExact": 176.52,
+          "news": [],
+          "tag": "RIG",
+          "name": "Youxin Technology Ltd Class A Ordinary shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 3.79,
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 3.79M",
+            "X1 warrants ITM",
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "Warrant reset mechanism allows further exercise price cuts (next adjustment window Q3-26) 🔴",
+                "Management guiding to break-even FY-26 – any update on profitability 🟡",
+                "Integration updates on Celnet & YATOP acquisitions 🟢/🟡 depending on revenue realisation",
+                "TLDR**",
+                "🟡 27-Apr-26 6-K/PR – Agrees to buy 18 % of TikTok agency YATOP for US$10.8 M in shares; expands reach but dilutive <https://app.askedgar.io/news/52057124?ticker=YAAS>"
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "Sub-15M float (3.79M) + active offering mechanics",
+            "RelVol 3717.9x — coordinated entry signature"
+          ],
+          "insights": [
+            "Primary catalyst: Strategic acquisition announcement**",
+            "Youxin Technology Ltd (NASDAQ: YAAS) announced on April 27, 2026 (today), its agreement to acquire an 18% equity stake in YATOP Group Limited, a TikTok-focused cross-border advertising and branding partner, for $10.8 million in shares.",
+            "This move aims to expand YAAS's capabilities in the global TikTok ecosystem and digital commerce, driving the stock's 66.8% surge with massive volume (128M+ shares traded).",
+            "News broke via GlobeNewswire press release ~6 hours ago, covered widely by Benzinga, GuruFocus, StockTitan, QuiverQuant, and others, reporting intraday gains of 40-60%+."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 27-Apr-26 6-K/PR – Agrees to buy 18 % of TikTok agency YATOP for US$10.8 M in shares; expands reach but dilutive <https://app.askedgar.io/news/52057124?ticker=YAAS>",
+            "🔴 19-Mar-26 6-K – Series A warrant exercise price reset to $0.78 (floor $0.216) → overhang <https://app.askedgar.io/filing?ticker=YAAS&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1964946%2F000149315226011685%2Fform6-k.htm&formType=6-K>",
+            "🟡 21-Apr-26 filings – Celnet audited results show small profit, adds ~US$2.8 M revenue <https://app.askedgar.io/news/51931815?ticker=YAAS>",
+            "🟢 Offering risk low today (no shelf/ATM) but 🔴 dilution risk high due to in-the-money resettable warrants and upcoming share issuance for YATOP.",
+            "🟡 Cash ~2 years runway but Hainan property buy consumes >50 % of cash.",
+            "🟢 Nasdaq compliant; no debt issues."
+          ],
+          "prevClose": 0.9294,
+          "open": 1.445,
+          "gapPct": 55.48,
+          "time": "regular session",
+          "high": 2.57,
+          "hodTimeExact": "03:09 PM ET",
+          "close": 2.32,
+          "fade": 9,
+          "fadeExact": 9.73,
+          "vwap": 1.6356,
+          "vsVwap": "above",
+          "pmHigh": 1.59,
+          "volRaw": "178.9M",
+          "relVol": 3717.9,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "CUE",
+          "hod": 75,
+          "hodExact": 75.02,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "Cue Biopharma, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 88.05,
+          "floatSrc": "AE",
+          "marketCap": "$3.1B",
+          "riskBadges": [
+            "Active ATM $12.7M",
+            "X2 warrants ITM",
+            "$300.0M shelf",
+            "Nasdaq risk",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "2026-04-22 8-K – 1-for-30 reverse stock split to regain Nasdaq bid compliance; trading split-adjusted 4/24/26.  (🔴)  <https://app.askedgar.io/filing?ticker=CUE&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1645460%2F000119312526168907%2Fcue-20260422.htm&formType=8-K>",
+                "2026-04-20 Social / media – Stock continuation rally; reminders of upcoming $7.5 M Boehringer milestone. (🟡)  <https://x.com/search?q=%24CUE&src=typed_query&04202026>",
+                "2026-04-15 PR – New preclinical data on CUE-401 to be presented at IMMUNOLOGY2026. Early-stage science, no revenue yet. (🟡)  <https://app.askedgar.io/news/51826752?ticker=CUE>",
+                "2026-04-08/07 8-K & PR – Boehringer Ingelheim approves first lead optimization compound; $7.5 M non-dilutive milestone cash expected May-2026; up to $337.5 M future milestones + royalties. (🟢)  <https://app.askedgar.io/filing?ticker=CUE&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1645460%2F000119312526144569%2Fcue-20260401.htm&formType=8-K>",
+                "2026-03-27 CEO transition – CFO Lucinda Warren to interim CEO after Azam resignation; strategic focus on CUE-401. (🟡)  <https://app.askedgar.io/filing?ticker=CUE&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1645460%2F000119312526128993%2Fd120770d8k.htm&formType=8-K>"
+              ],
+              "prose": "News rating key ➜ 🟢 value-adding, 🟡 neutral/early-stage, 🔴 negative/dilutive\nOther Upcoming Catalysts:\n🟢 May-2026 – Receipt of $7.5 M Boehringer milestone payment\n🟡 2Q-2026 – Planned IND filing for CUE-401 (autoimmune)\n🟡 2H-2026 – First-in-human CUE-401 SAD data\n🔴 10-Q for 1Q-2026 (est. mid-May) – cash update / possible ATM usage"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Dilution Risk: 🔴  (High) – Share count ballooned ~79% in last two years via multiple offerings & ATMs.  Warrants: exercise prices mostly $9 (Dec-25) & $15-24 (2024-25 deals) – all DEEPLY in-the-money at $25.5, creating ~1 M split-adj. warrant overhang (registered) that can be exercised for cash or cashless. Upcoming IND/clinical spend plus medium cash need raises likelihood of more ATM or new offering in 2026 despite recent RS."
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Nasdaq bid-price deficiency cured via 1-for-30 RS effective 4/23/26.  Compliance Risk: 🔴  (High) – Reverse split itself cures price deficiency, but high frequency of splits/offerings can keep company on Nasdaq radar. No equity-deficiency notices disclosed. Next challenge will be to keep price above $1 (≈$30 pre-split basis) for 10 consecutive days."
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No historical notes from user jmt415 were provided."
+            }
+          ],
+          "reasons": [
+            "X2 warrant tranches ITM (0.8M shares)",
+            "Dilution rating: High (78.6%)"
+          ],
+          "insights": [
+            "Milestone Payment Announcement Momentum**: Shares continue to rally from news earlier this month (around April 10-12, 2026) that Cue Biopharma will receive a $7.5M preclinical milestone payment from Boehringer Ingelheim under their 2025 collaboration/license agreement for CUE-501 (autoimmune diseases); payment expected in May 2026, with potential for up to $337.5M more in milestones—described as driving a \"best day in history\" surge then, with ongoing retail optimism and 300%+ YTD gains noted in analyses.",
+            "Preclinical Data Presentation**: Company reminder on April 17, 2026 (Twitter @CueBiopharma) of new preclinical data presentation on lead autoimmune candidate CUE-401 at IMMUNOLOGY2026™ (delivered ~April 18); no detailed outcomes reported yet, but aligns with recent focus shift to autoimmune/inflammatory diseases post-leadership changes.",
+            "High Trading Volume and Technical Momentum**: 3.3M+ shares traded (elevated vs. recent averages); stock volatile with 23%+ swings on April 17 alone; analysts (e.g., Lucid Capital Markets Strong Buy, $4 PT) and retail buzz cite promising CUE-101 combo data (46% ORR with Keytruda) and pipeline potential fueling multi-week uptrend (121-300% gains since early April).",
+            "Not Primarily Sector-Wide**: Biotech ETF XBI up modestly (~3-5% week-over-week into April 15-17), but no broad surge on April 20; $CUE's 26.7% outpaces peers, driven more by company-specific catalysts than industry rotation."
+          ],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 17.695,
+          "open": 17.48,
+          "gapPct": -1.22,
+          "time": "regular session",
+          "high": 30.9696,
+          "hodTimeExact": "10:21 AM ET",
+          "close": 17.93,
+          "fade": 42,
+          "fadeExact": 42.1,
+          "vwap": 23.2717,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "945K",
+          "relVol": 1.0,
+          "avgVolM": 0.9
+        },
+        {
+          "sym": "PAPL",
+          "hod": 66,
+          "hodExact": 66.34,
+          "news": [],
+          "tag": "SYMPATHY",
+          "name": "Pineapple Financial Inc.",
+          "sector": "Financial Services",
+          "country": "CA",
+          "floatM": 26.16,
+          "floatSrc": "AE",
+          "marketCap": "$39M",
+          "riskBadges": [
+            "$10.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [
+            "Continued momentum from expanded $15M share repurchase program**: Pineapple Financial announced on April 22, 2026 (just outside the 3-day window but driving recent action), an expansion of its buyback from $3M to $15M, with an immediate $3M tranche starting right away and the rest ($12M) pending board approval. This fueled surges on April 23 (+ jump), April 24 (up 10%+ per Benzinga, cited as direct reason), and today (April 27), as buybacks signal management confidence and could tighten the low float (~16M shares), sparking trader talk of squeezes.",
+            "Exceptional trading volume and technical breakout**: Over 12M shares traded today (vs. avg ~3M), following massive prior days (e.g., 155M on Apr 23, 5.9M on Apr 24). Stock broke $1 today amid bull pennant patterns, RSI overbought (~72), with resistance at $1.50; pure momentum play in thinly traded small-cap.",
+            "No sector-wide movement**: Financial - Mortgages peers (e.g., Canadian mortgage stocks like MCAN.TO) show no similar spikes; isolated to PAPL."
+          ],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9198,
+          "open": 0.95,
+          "gapPct": 3.28,
+          "time": "regular session",
+          "high": 1.53,
+          "hodTimeExact": "01:44 PM ET",
+          "close": 1.38,
+          "fade": 9,
+          "fadeExact": 9.8,
+          "vwap": 1.284,
+          "vsVwap": "above",
+          "pmHigh": 0.9477,
+          "volRaw": "22.1M",
+          "relVol": 2.4,
+          "avgVolM": 9.3
+        },
+        {
+          "sym": "BRLS",
+          "hod": 64,
+          "hodExact": 64.82,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Borealis Foods Inc. Class A Common Shares",
+          "sector": "Consumer Defensive",
+          "country": "CA",
+          "floatM": 8.84,
+          "floatSrc": "AE",
+          "marketCap": "$25M",
+          "riskBadges": [
+            "Float 8.84M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 8.84M + RelVol 85.1x",
+                "Cash runway: -6.5 months → must raise"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 8.84M + RelVol 85.1x",
+            "Cash runway: -6.5 months → must raise"
+          ],
+          "insights": [
+            "Not part of a sector-wide movement**: No evidence of broad Packaged Foods industry surge on April 27, 2026. Peers and sector dashboards (e.g., Yahoo Finance Packaged Foods) show flat/mixed performance; no notable gainers highlighted.",
+            "Upcoming key dates/catalysts**: Delayed 10-K filing expected in May 2026 (potential compliance update). Nasdaq rules provide ~60 days from notice (April 17) to regain compliance or appeal. Bid price approaching $1 threshold (stock at $0.91 close, but hit $1.07 intraday)—failure to maintain $1 for 10 consecutive days could trigger additional deficiency. No earnings date announced (last Q3 2025 reported Nov 2025)."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🔴 24-Apr-26 8-K – Nasdaq late-filing notice; no positive catalyst. <https://app.askedgar.io/filing?ticker=BRLS&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1852973%2F000121390026047085%2Fea0287380-8k_borealis.htm&formType=8-K>",
+            "🔴 Default / forbearance with Frontwell Capital; creditor can accelerate $16 M loan any time after 27-Apr-26.",
+            "🟢 Offering-ability is currently LOW (no shelf or ATM), but 🔴 cash need is HIGH and management openly seeking new financing; expect creative/dilutive structures.",
+            "🔴 Debt burden & going-concern warning; shareholders’ deficit (-$13 M) and working-capital gap (-$54 M).",
+            "🟡 Upcoming compliance deadlines – 10-K due May-26; annual meeting by 31-May-26; price near $1 bid-price level."
+          ],
+          "prevClose": 0.9101,
+          "open": 0.92,
+          "gapPct": 1.09,
+          "time": "regular session",
+          "high": 1.5,
+          "hodTimeExact": "01:43 PM ET",
+          "close": 1.13,
+          "fade": 24,
+          "fadeExact": 24.67,
+          "vwap": 1.2412,
+          "vsVwap": "below",
+          "pmHigh": 1.06,
+          "volRaw": "3.1M",
+          "relVol": 85.1,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "EDSA",
+          "hod": 63,
+          "hodExact": 63.52,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "Edesa Biotech, Inc. Common Shares",
+          "sector": "Healthcare",
+          "country": "CA",
+          "floatM": 7.57,
+          "floatSrc": "AE",
+          "marketCap": "$100M",
+          "riskBadges": [
+            "Float 7.57M",
+            "X3 warrants ITM",
+            "$150.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "X3 warrant tranches ITM (0.6M shares)",
+                "Dilution rating: High (127.7%)"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "X3 warrant tranches ITM (0.6M shares)",
+            "Dilution rating: High (127.7%)"
+          ],
+          "insights": [
+            "Technical breakout and high volume trading**: $EDSA broke key resistance around $7.96-$8 with over 1.2M shares traded (elevated volume), surging +39.3% intraday to ~$9+, signaling strong momentum and potential accumulation by traders.",
+            "Anticipation of upcoming oral presentation**: CEO Dr. Pardeep Nijhawan scheduled for inaugural oral showcase at ATS 2026 Respiratory Innovation Summit on **May 15, 2026** (plus poster on May 20), highlighting positive Phase 3 data for paridiprubart (EB05) in ARDS; announced March 31 but gaining trader attention now.",
+            "No new announcements in last 3 days**: Latest company news from March 31 (summit invite) and March 26 (Phase 2 vitiligo reaffirmation); February 24 Phase 3 update caused prior 70%+ surge, with today's move as potential continuation.",
+            "Upcoming catalysts**: Phase 2 enrollment for EB06 in vitiligo **mid-2026**; ATS presentations May 15-20, 2026."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟢 02-24-26 (8-K/PR) – Phase 3 EB05 hit mortality endpoint (27 % RRR); fundamental value driver <https://app.askedgar.io/filing?ticker=EDSA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1540159%2F000117184326001046%2Ff8k_021926.htm&formType=8-K>",
+            "🟢 05-15-26 – CEO presents Phase 3 data at ATS RIS (upcoming catalyst)",
+            "🔴 Capital risk high: active ATM (last used 12-12-25), high dilution history, more raises expected within 12 mo.",
+            "🟡 Cash ≈ $12 M, ~16 mo runway but management signals shortfall before FY-26 end.",
+            "🟢 No debt & Nasdaq-compliant; low float (7.6 M) aids squeeze potential but raises offering overhang.",
+            "🟢 Recent 13G: Point72 (7.2 %), Perceptive (6.7 %) – institutional interest supportive."
+          ],
+          "prevClose": 7.26,
+          "open": 7.375,
+          "gapPct": 1.58,
+          "time": "regular session",
+          "high": 11.8719,
+          "hodTimeExact": "02:37 PM ET",
+          "close": 11.17,
+          "fade": 5,
+          "fadeExact": 5.91,
+          "vwap": 10.6398,
+          "vsVwap": "above",
+          "pmHigh": 7.85,
+          "volRaw": "9.0M",
+          "relVol": 35.6,
+          "avgVolM": 0.3
+        },
+        {
+          "sym": "USEG",
+          "hod": 60,
+          "hodExact": 60.72,
+          "news": [],
+          "tag": "UNDERWRITER MANIP",
+          "name": "U.S. Energy Corp. Common Stock (DE)",
+          "sector": "Energy",
+          "country": "US",
+          "floatM": 33.27,
+          "floatSrc": "AE",
+          "marketCap": "$61M",
+          "riskBadges": [
+            "$50.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Summer-26 EPA MRV decision 🟢\nMay-07-26 Q1 call 🟡\nMay-08-26 shareholder vote on 20 % cap removal (could unlock equity line) 🔴\nQ1-27 Phase-1 helium/CO₂ plant start-up 🟢"
+            }
+          ],
+          "reasons": [
+            "Recent offering: 8-K 2026-04-20"
+          ],
+          "insights": [
+            "Primary Catalyst: Helium Offtake Agreement Announcement**",
+            "U.S. Energy Corp. ($USEG) announced on April 27, 2026 (today), a five-year helium sales/offtake agreement signed on April 24, 2026, with an investment-grade global industrial gas company for its Big Sky Carbon Hub in Montana.",
+            "Key terms: 100% take-or-pay for up to 1.2 MMCF/month (Phase 1 capacity), fixed $285/MCF plant-gate pricing (no deductions), annual CPI escalation from 2028, and counterparty right of first refusal in year 3.",
+            "This secures long-term revenue ahead of targeted Q1 2027 production start, de-risks the project (fully funded via recent financing), and taps into helium shortages (used in semiconductors, etc.). Seeking Alpha noted the stock \"surges\" on this news."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟢 4-27-26 8-K – Five-year 100 % offtake contract locks in helium revenue; de-risks Phase-1 (<https://app.askedgar.io/filing?ticker=USEG&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F101594%2F000143774926013368%2Fuseg20260424_8k.htm&formType=8-K>)",
+            "🟡 4-20-26 – Credit line doubled to $20 M; equity line suspended but not cancelled (<https://app.askedgar.io/filing?ticker=USEG&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F101594%2F000143774926012760%2Fuseg20260417_8k.htm&formType=8-K>)",
+            "🔴 3-09-26 – $8.8 M equity raise at $1.00 added ~17 % shares (<https://app.askedgar.io/news/51138623?ticker=USEG>)",
+            "🟡 5-07-26 – Q1 earnings call could provide project update (<https://app.askedgar.io/news/52018308?ticker=USEG>)",
+            "🔴 5-08-26 – Shareholder vote on removing Nasdaq 20 % cap → may reactivate equity line",
+            "🟢 Summer-26 – EPA MRV approval decision"
+          ],
+          "prevClose": 0.9271,
+          "open": 1.365,
+          "gapPct": 47.23,
+          "time": "premarket",
+          "high": 1.49,
+          "hodTimeExact": "08:11 AM ET",
+          "close": 1.06,
+          "fade": 28,
+          "fadeExact": 28.86,
+          "vwap": 1.3365,
+          "vsVwap": "below",
+          "pmHigh": 1.65,
+          "volRaw": "191.5M",
+          "relVol": 62.3,
+          "avgVolM": 3.1
+        },
+        {
+          "sym": "SGMT",
+          "hod": 59,
+          "hodExact": 59.9,
+          "news": [],
+          "tag": "SYMPATHY",
+          "name": "Sagimet Biosciences Inc. Series A Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 23.69,
+          "floatSrc": "AE",
+          "marketCap": "$277M",
+          "riskBadges": [
+            "Active ATM $75.0M",
+            "$300.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "2026-04-30 – KOL webcast on acne program 🟡",
+                "Mid-2026 – IND filing for denifanstat (acne) 🟡",
+                "2H-2026 – Start U.S. Phase 3 denifanstat acne trial 🟡 (late-stage trial but still no data)",
+                "2H-2026 – Phase 2 start TVB-3567 in acne 🟡",
+                "2H-2026 – Phase 2 start denifanstat + resmetirom combo in MASH (needs non-dilutive funds) 🟡"
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [
+            "Strategic pivot to acne program with Phase 3 plans**: Sagimet announced on April 27, 2026, a shift in focus to advancing denifanstat for moderate-to-severe acne in the US, planning to initiate a Phase 3 trial in 2H 2026; this derisks the pipeline and extends cash runway into 2028 with ~$104.5M pro forma cash post-offering.",
+            "Successful $175M stock offering priced at a premium**: Priced 29.2M Series A shares at $6.00 (premium to prior close), announced April 27, 2026 (~6 hours ago); strong demand from institutions like Balyasny, Blue Owl, BVF, Farallon, Great Point, Woodline signals confidence.",
+            "Not part of a broader biotech sector movement**: Biotech ETFs like XBI (up ~1-2% on April 27) and IBB (flat/slightly down) show minimal movement, indicating SGMT-specific catalyst.",
+            "Retail buzz on surge breaking 200-DMA, acne focus; some mention unconfirmed \"positive China late-stage acne results\" (e.g., @MarcJacksonLA)."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🔴 2026-04-27 8-K & Press Release (<https://app.askedgar.io/news/52057524?ticker=SGMT>): $175 M, 29 M-share offering at $6 ‑ major dilution but funds programs through 2028.",
+            "🟡 2026-04-30 KOL webcast on acne development; mid-26 IND filing & 2H-26 start of U.S. Phase 3 denifanstat acne trial offer clinical catalysts but no near-term revenues.",
+            "🟢 Cash runway > 3 yrs pro-forma; low debt and no compliance issues.",
+            "🟡 Dilution risk moderate: big raise done, but $75 M ATM still live.",
+            "🟠 Prior analyst (jmt415) neutral; highlighted prior ATM and strong data."
+          ],
+          "prevClose": 5.86,
+          "open": 7.21,
+          "gapPct": 23.04,
+          "time": "regular session",
+          "high": 9.3699,
+          "hodTimeExact": "10:25 AM ET",
+          "close": 8.12,
+          "fade": 13,
+          "fadeExact": 13.34,
+          "vwap": 8.2129,
+          "vsVwap": "below",
+          "pmHigh": 9,
+          "volRaw": "49.3M",
+          "relVol": 134.2,
+          "avgVolM": 0.4
+        },
+        {
+          "sym": "SEGG",
+          "hod": 58,
+          "hodExact": 58.78,
+          "news": [],
+          "tag": "RIG",
+          "name": "Sports Entertainment Gaming Global Corporation Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 10.81,
+          "floatSrc": "AE",
+          "marketCap": "$12M",
+          "riskBadges": [
+            "$300.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟡 30-Apr-26 (est.) – S-3 effectiveness for note conversions (dilution watch)\n🔴 Mid-Jun-26 – Nasdaq response to late 10-K plan\n🟡 Summer-26 – \"Sports.com Predict\" public launch; potential user/revenue updates\n🟢 Jun-Jul-26 – 2026 FIFA World Cup engagement surge could boost platform metrics\n🔴 By Dec-31-26 – Additional convertible note tranches may fund"
+            }
+          ],
+          "reasons": [
+            "Sub-15M float (10.81M) + active offering mechanics",
+            "Cash runway: 4.5 months → must raise"
+          ],
+          "insights": [
+            "Primary catalyst: Recent announcement on April 24, 2026** – SEGG Media launched Sports.com Predict via new subsidiary Sports Predicts Limited, entering the sports predictions market. Phased rollout expected by summer 2026, with initial revenue ahead of the 2026 FIFA World Cup; leverages Veloce Media's 500M+ monthly views for transaction-fee revenue (GlobeNewswire PR widely cited across Finviz, QuiverQuant, Instagram, Reddit).",
+            "High trading volume amplifying momentum** – 2.49M+ shares traded today (April 27), fueling 25.2% intraday surge on continued digestion of the April 24 PR; penny stock (<$1) dynamics with low float prone to rapid moves.",
+            "Other recent mentions (April 24-26)**: Expanded Soccerex partnership as 2026-2027 sponsor; promotional reports on F1 collaborations and corporate updates.",
+            "Not part of sector-wide movement** – No evidence of broad Gambling/Resorts & Casinos rally; peers like LVS, FLUT, DKNG stable/unmentioned in today's movers."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-04-23",
+              "text": "AUUD \n- dawson james offering looks close to being done cuz of the FWP and DRS - some faders the day before offering, but 2 trappy ones with SEGG and ACON https://discord.com/channels/1249146793464430633/1315676068237021285/1496834013770420284 \n- trying to hop on the AI news bandwagon: \"Auddia Expands AI Infrastructure Moat with 14th Patent Supporting Distributed Edge Data Center Deployments\""
+            }
+          ],
+          "tldr": [
+            "🟡 27-Apr-26 News – Launch of Sports.com Predict platform ahead of World Cup; potential but no revenue proof yet <https://app.askedgar.io/news/52067508?ticker=SEGG>",
+            "🔴 23-Apr-26 8-K – Nasdaq non-compliance for late 10-K; plan due by ~17-Jun-26 <https://app.askedgar.io/filing?ticker=SEGG&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1673481%2F000149315226018790%2Fform8-k.htm&formType=8-K>",
+            "🔴 Active $11.8 M 12% floorless convertible note (1st tranche funded 18-Mar-26; S-3 effectiveness target 30-Apr-26) – heavy dilution overhang <https://app.askedgar.io/filing?ticker=SEGG&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1673481%2F000149315226011299%2Fform8-k.htm&formType=8-K>",
+            "🟡 Equity-line w/ Generating Alpha up to $100 M still unused; shareholder vote date TBD (overhang)",
+            "🔴 Cash runway < 1 quarter; $29.9 M current liabilities vs $0.3 M cash; going-concern warning",
+            "🟢 Stock float ~10.8 M, history of “trappy” squeezes; World Cup (Jun-Jul-26) could fuel speculative spikes"
+          ],
+          "prevClose": 0.655,
+          "open": 0.658,
+          "gapPct": 0.46,
+          "time": "regular session",
+          "high": 1.04,
+          "hodTimeExact": "03:21 PM ET",
+          "close": 0.9335,
+          "fade": 10,
+          "fadeExact": 10.24,
+          "vwap": 0.8814,
+          "vsVwap": "above",
+          "pmHigh": 0.68,
+          "volRaw": "13.6M",
+          "relVol": 8.1,
+          "avgVolM": 1.7
+        },
+        {
+          "sym": "WYHG",
+          "hod": 52,
+          "hodExact": 52.43,
+          "news": [],
+          "tag": "SYMPATHY",
+          "name": "Wing Yip Food Holdings Group Limited American Depositary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 2.39,
+          "floatSrc": "AE",
+          "marketCap": "$39M",
+          "riskBadges": [
+            "Float 2.39M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [
+            "Primary Catalyst: Shareholder Approval of 4-for-1 Share Consolidation**",
+            "On April 22, 2026, Wing Yip Food Holdings Group Limited held its 11th AGM, where shareholders approved a 4-for-1 share consolidation, reducing outstanding shares from ~50.33M to ~12.58M ADSs.",
+            "This creates a lower float structure, attracting momentum and low-float traders, sparking the price surge (e.g., +25.32% on April 23, +31.65% reported in some sessions).",
+            "Filed as Form 6-K on April 22; traders reacting 1-2 days later with explosive volume (15M+ shares vs. typical <100K average, up to 33x spike)."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🔴 22-Apr-2026 6-K: Shareholders approved 4-for-1 reverse split to regain Nasdaq compliance; effective 8-May-2026 <https://app.askedgar.io/filing?ticker=WYHG&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1999860%2F000121390026046691%2Fea0287424-6k_wingyip.htm&formType=6-K>",
+            "🟡 Nasdaq bid-price deficiency deadline looms 22-Jun-2026; success rests on post-split price stability.",
+            "🟢 Capital raise risk currently low – no shelf, ATM or warrants; ample cash (~9+ years runway).",
+            "🟢 Balance sheet strong: liabilities ~20 % of assets; FY-25 profitable.",
+            "🟡 Expect heightened volatility around 6-May trading halt & 8-May relisting; monitor for any new financing filings post-split."
+          ],
+          "prevClose": 0.6491,
+          "open": 0.6555,
+          "gapPct": 0.99,
+          "time": "regular session",
+          "high": 0.9894,
+          "hodTimeExact": "10:43 AM ET",
+          "close": 0.7431,
+          "fade": 24,
+          "fadeExact": 24.89,
+          "vwap": 0.8486,
+          "vsVwap": "below",
+          "pmHigh": 0.727,
+          "volRaw": "7.4M",
+          "relVol": 5.0,
+          "avgVolM": 1.5
+        }
+      ],
+      "hod": 403,
+      "fade": 20,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "HTCO led +403.02% (32% fade). 5/10 held <20% fade."
+    },
     {
       "date": "2026-04-24",
       "runners": [

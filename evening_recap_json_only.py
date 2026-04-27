@@ -972,14 +972,22 @@ def get_day_movers(target_date):
         # Debug only the first ticker so we don't spam the terminal
         ae = fetch_ae_bundle(ticker, debug=(DEBUG_MODE and len(top) == 0))
 
+        # Reset per-ticker AE fields — prevents bleedover when AE is blocked
+        audited_float_m = None
+        audited_country = (details.get("locale") or "us").upper()
+        audited_sector  = details.get("sic_description", "Unknown")
+        audited_mc      = details.get("market_cap") or 0
+
         # Prefer AskEdgar's audited share structure data when available
         ae_float_out = ae["float_out"][0] if ae["float_out"] else {}
-        audited_float_m = None
         if ae_float_out.get("float"):
             audited_float_m = round(ae_float_out["float"]/1e6, 2)
-        audited_country = ae_float_out.get("country") or (details.get("locale") or "us").upper()
-        audited_sector  = ae_float_out.get("sector") or ae_float_out.get("industry") or details.get("sic_description","Unknown")
-        audited_mc      = ae_float_out.get("market_cap_final") or details.get("market_cap") or 0
+        if ae_float_out.get("country"):
+            audited_country = ae_float_out["country"].upper()
+        if ae_float_out.get("sector") or ae_float_out.get("industry"):
+            audited_sector = ae_float_out.get("sector") or ae_float_out.get("industry")
+        if ae_float_out.get("market_cap_final"):
+            audited_mc = ae_float_out["market_cap_final"]
 
         enriched = {
             **c,
