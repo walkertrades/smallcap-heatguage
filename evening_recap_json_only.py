@@ -62,15 +62,13 @@ def is_valid_ticker(t):
     # Must be letters only, 1-5 chars
     if not t.isalpha(): return False
     if len(t) < 1 or len(t) > 5: return False
+    if len(t) >= 5 and (t.endswith("W") or t.endswith("WS") or t.endswith("WT")): return False  # warrants
 
     # Warrants
-    if t.endswith("W") or t.endswith("WS") or t.endswith("WT"): return False
 
     # Rights
-    if t.endswith("R"): return False
 
     # Units
-    if t.endswith("U"): return False
 
     # Known ETFs/ETPs
     KNOWN_ETFS = {
@@ -132,7 +130,7 @@ def poly_get(path, params=None):
 
 def fetch_grouped(date_str):
     return poly_get(f"/v2/aggs/grouped/locale/us/market/stocks/{date_str}",
-                    {"adjusted": "true"}).get("results") or []
+                    {"adjusted": "false"}).get("results") or []
 
 def fetch_ticker_details(ticker):
     return poly_get(f"/v3/reference/tickers/{ticker}").get("results")
@@ -898,6 +896,9 @@ def get_day_movers(target_date):
         return [], []
 
     prev_map = {r["T"]: r["c"] for r in prev_bars if r.get("c")}
+
+
+
     all_movers = []
     for r in today_bars:
         ticker = r.get("T","")

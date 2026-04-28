@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-04-27T22:31:53.897519Z",
-  "count": 9163,
+  "exportedAt": "2026-04-28T22:31:13.278527Z",
+  "count": 9173,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,633 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-04-28",
+      "runners": [
+        {
+          "sym": "ATER",
+          "hod": 184,
+          "hodExact": 184.84,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Aterian, Inc. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 9.64,
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [
+            "Float 9.64M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 9.64M + RelVol 6112.9x",
+                "Cash runway: 0.1 months → must raise"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.64M + RelVol 6112.9x",
+            "Cash runway: 0.1 months → must raise"
+          ],
+          "insights": [
+            "Primary catalyst: Announcement of definitive agreement to sell marquee brand portfolio for $18M (today, April 28, 2026)**",
+            "Aterian announced the sale of key brands (Mueller Living, PurSteam, hOmeLabs, Squatty Potty, and others) to Trademark Global for $18M cash, subject to adjustments.",
+            "Deal requires shareholder approval; proxy statement expected early May 2026, closing targeted for Q2 2026.",
+            "Net proceeds plus contingent value rights (CVRs) to be distributed to shareholders in Q3 2026."
+          ],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6565,
+          "open": 1.1,
+          "gapPct": 67.56,
+          "time": "regular session",
+          "high": 1.87,
+          "hodTimeExact": "02:59 PM ET",
+          "close": 1.11,
+          "fade": 40,
+          "fadeExact": 40.64,
+          "vwap": 1.2293,
+          "vsVwap": "below",
+          "pmHigh": 1.23,
+          "volRaw": "257.0M",
+          "relVol": 6112.9,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "BIYA",
+          "hod": 181,
+          "hodExact": 181.13,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Baiya International Group Inc. Ordinary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 1.29,
+          "floatSrc": "AE",
+          "marketCap": "$21M",
+          "riskBadges": [
+            "Float 1.29M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.29M + RelVol 90.2x",
+                "Cash runway: -1.7 months → must raise"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.29M + RelVol 90.2x",
+            "Cash runway: -1.7 months → must raise"
+          ],
+          "insights": [
+            "Primary catalyst for 34.8% surge**: Announcement today (April 28, 2026) that public voting concluded for the company's \"Cryptocurrency Ark Plan,\" with Binance Coin (BNB) selected as the inaugural core digital asset (89.2% of votes vs. 10.8% for TRUMP); company plans immediate $1M initial purchase of BNB using four dynamic trading strategies (incremental revenue realization, anchored price round-trip, upward/downward momentum mechanisms), with 50% of realized revenues allocated to share buybacks and real-time disclosures via social media/investor channels; also filed registration for up to 30M common shares to support capital operations.",
+            "Other possible reasons**: Low float (~1.2M shares per trader mentions) amplified volume (155k shares traded) into momentum; pre-market hype built to +47% at open per X posts.",
+            "Recent news/announcements (last 3 days, April 25-28, 2026)**: Only the April 28 GlobeNewswire press release (also on StockTitan); no prior news in window; initial Ark Plan vote launch was March 30.",
+            "Upcoming key dates/catalysts**: Execution phase of Ark Plan begins immediately (initial $1M BNB buy, strategies deployment); earnings report estimated May 12, 2026 (per StockAnalysis); ongoing real-time Ark Plan updates/disclosures."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "Offering Risk 🟢 | Offering Ability 🟢 (but equity-line pending) | Offering Frequency 🟢",
+            "Dilution Risk 🔴  (PIPE + 50 M potential equity-line/registration)",
+            "Cash Need 🔴  (-1.68 months cash)",
+            "Nasdaq Compliance 🟢  (currently compliant, but sub-$1 again)"
+          ],
+          "prevClose": 0.779,
+          "open": 1.34,
+          "gapPct": 72.02,
+          "time": "regular session",
+          "high": 2.19,
+          "hodTimeExact": "10:25 AM ET",
+          "close": 1.53,
+          "fade": 30,
+          "fadeExact": 30.14,
+          "vwap": 1.6601,
+          "vsVwap": "below",
+          "pmHigh": 1.45,
+          "volRaw": "201.5M",
+          "relVol": 90.2,
+          "avgVolM": 2.2
+        },
+        {
+          "sym": "AKAN",
+          "hod": 144,
+          "hodExact": 144.38,
+          "news": [],
+          "tag": "RIG",
+          "name": "Akanda Corp. Common Shares",
+          "sector": "Healthcare",
+          "country": "GB",
+          "floatM": 0.54,
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 0.54M",
+            "Best-efforts (Univest Securities, LLC)",
+            "$5.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Sub-15M float (0.54M) + active offering mechanics"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Sub-15M float (0.54M) + active offering mechanics"
+          ],
+          "insights": [
+            "Momentum continuation from U.S. cannabis rescheduling news under Trump administration**: AKAN surged over 200% on April 27 (214% intraday to $10.21 close, +33.69% after-hours to $13.65), part of a multi-day rally (+300% weekly) triggered by reports of U.S. regulators advancing marijuana reclassification (e.g., Benzinga April 26; MSN April 27). Today's 23.1% gain with 1.25M shares traded reflects ongoing trader pile-in and volatility.",
+            "Broader cannabis sector rally, not industry-wide**: Cannabis peers like Tilray (TLRY) and Canopy Growth (CGC) also rose recently on the same policy catalyst (MarketBeat April 24; Benzinga mentions sector momentum). No evidence of movement in non-cannabis Drug Manufacturers - Specialty & Generic peers (e.g., ANI Pharmaceuticals stable per Yahoo sector data).",
+            "Recent reverse stock split boosting appeal**: 1-for-5 reverse split effective mid-April (announced April 9; Robinhood corporate actions) reduced shares outstanding (~534K now), elevated price from sub-$1, drawing momentum traders (Stocktwits/Reddit daytrading discussions April 23-27).",
+            "No confirmed company-specific news today**: Dubious X post on \"200km Fiber Expansion in Mexico\" (April 27, @KevOfMomentum) mismatches Akanda's UK/Lesotho focus—likely misinformation/pump."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-04-23",
+              "text": "AKAN regardless of the floor conversion price they cant go lower than around $3 at these prices (conversion price would be 85% of the vwap in the last 5 days) - would be around 2.5M shares"
+            },
+            {
+              "date": "2026-04-23",
+              "text": "AKAN\n- correction they only have $140k shelf capacity - the original shelf only registered $5M and theyve already used most of it, so regardless of baby shelf capacity, they cant really do anything more unless they file a bigger shelf\n- Trump apparently to reclassify weed from schedule I to schedule III (they Pr'd about this last December, but apparently Trump should be signing any day now, somewhat similar to the Psychedelic thing last week, so possible these names keep coming back like PBM until the news is out)\n- pretty good fader but can spike a lot first early (fades by mid morning) - https://discord.com/channels/1249146793464430633/1308024400884531302/1496737488327413810\n- last time they were unloading convertibles, same scenario this time although with the floor conversion price around $5, its only around 1.2M shares - its been the same investor + univest 2 times so likely they do another PIPE with convertible notes since it seems to be working really well for them\n- one thing to note is the floor price was $0.25 but they dont seem to indicate anywhere that is adjusted for the reverse split https://app.askedgar.io/filing?filingUrl=https://www.sec.gov/Archives/edgar/data/1888014/000121390026005399/ea0273313-6k_akanda.htm&ticker=AKAN&previousUrl=/ticker/AKAN/filings?news_pageIndex=1&activeFilingUrl=https://www.sec.gov/Archives/edgar/data/1888014/000121390026005399/ea027331301ex10-2_akanda.htm\n- *registration for these is still pending effect ^"
+            },
+            {
+              "date": "2026-04-22",
+              "text": "Trump apparently to reclassify weed from schedule I to schedule III as early as today https://www.axios.com/2026/04/22/trump-marijuana-rule-change\nAKAN TLRY CGC \n- mainly would mean significant tax relief and easier medical research"
+            }
+          ],
+          "tldr": [
+            "🔴 2026-04-10 6-K: 1-for-4.5 reverse split effective 04-13-26 (<https://app.askedgar.io/filing?ticker=AKAN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1888014%2F000121390026042596%2Fea0285935-6k_akanda.htm&formType=6-K>)",
+            "🔴 Pending F-1 for Jan-2026 $7 M variable-price converts; effectiveness could unleash 1-2.5 M new shares (<https://app.askedgar.io/filing?ticker=AKAN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1888014%2F000121390026007796%2Fea0273810-f1_akanda.htm&formType=F-1>)",
+            "🟡 2026-03-31 6-K: Mexican fiber build adds $2 M/10-yr contracted revenue (small but positive)",
+            "🟡 2026-04-27 Special shareholder meeting to amend articles / recap structure – watch for share-class conversions",
+            "🟡 2026-06-29 DEA hearing on marijuana Schedule III – sector catalyst",
+            "🟢 Offering Risk & Ability low today, but history of 🔴 High frequency financings; dilution risk remains 🔴 high"
+          ],
+          "prevClose": 12.1,
+          "open": 11.29,
+          "gapPct": -6.69,
+          "time": "regular session",
+          "high": 29.57,
+          "hodTimeExact": "01:58 PM ET",
+          "close": 17.49,
+          "fade": 40,
+          "fadeExact": 40.85,
+          "vwap": 20.1659,
+          "vsVwap": "below",
+          "pmHigh": 11.86,
+          "volRaw": "7.7M",
+          "relVol": 1.9,
+          "avgVolM": 4.1
+        },
+        {
+          "sym": "SBLX",
+          "hod": 101,
+          "hodExact": 101.59,
+          "news": [],
+          "tag": "RIG",
+          "name": "StableX Technologies, Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 1.44,
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 1.44M",
+            "$100.0M shelf",
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Sub-15M float (1.44M) + active offering mechanics",
+                "RelVol 883.6x — coordinated entry signature",
+                "Cash runway: 8.1 months → must raise"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Sub-15M float (1.44M) + active offering mechanics",
+            "RelVol 883.6x — coordinated entry signature",
+            "Cash runway: 8.1 months → must raise"
+          ],
+          "insights": [
+            "Primary Catalyst - Major Announcement Today (April 28, 2026)**: StableX Technologies ($SBLX) announced a transformative joint development and license agreement with Kopin Corporation ($KOPN), raising $21.5M via Series K preferred stock PIPE. The deal includes up to $15M in development payments and positions the company to develop MicroLED-based optical interconnect technology for AI data centers and \"AI factories,\" addressing GPU communication bottlenecks. This marks a strategic pivot to AI fabless semiconductors. An 8-K filing details issuance of 19.9% Series J convertible preferred stock to Kopin and a binding production plan commitment ($15-25M additional).",
+            "Name Change and Ticker Switch**: Company rebranding to Fabric.AI Inc. ($FABC), with trading under new Nasdaq ticker commencing April 29, 2026 (tomorrow). Shareholder approval sought for share issuances at a meeting by July 26, 2026.",
+            "Market Reaction**: Shares up 26.7% with 217,639 volume (vs. avg ~116K), reflecting hype around AI infrastructure play in a $100B market. Current mcap ~$50M per commentary.",
+            "Limited broader chatter; mostly low-engagement reposts of news (no negative sentiment)."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🔴 04-28-26 Form 8-K <https://app.askedgar.io/filing?ticker=SBLX&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1086745%2F000149315226019257%2Fform8-k.htm&formType=8-K> – Rebrand to Fabric.AI, $21.5 M PIPE + large preferred/warrant issuance; heavy dilution risk despite strategic AI partnership with Kopin.",
+            "🟡 Offering metrics – Medium ability & risk; low historical frequency but management guides to more raises.",
+            "🔴 Dilution – New Series J/K prefs & 1 M+ warrants could lift share count >6× current; registration statement expected soon.",
+            "🟡 Compliance – Currently in good Nasdaq standing; monitor post-ticker change.",
+            "🟡 Cash – ~8 months runway pre-deal; PIPE funds help but prefs carry high dividends & obligations.",
+            "🔴 Debt/Liabilities – No bank debt, but multiple preferred series with high dividend/redemption burdens."
+          ],
+          "prevClose": 2.51,
+          "open": 2.7,
+          "gapPct": 7.57,
+          "time": "regular session",
+          "high": 5.0599,
+          "hodTimeExact": "12:09 PM ET",
+          "close": 3.1,
+          "fade": 38,
+          "fadeExact": 38.73,
+          "vwap": 3.8693,
+          "vsVwap": "below",
+          "pmHigh": 3.3,
+          "volRaw": "92.7M",
+          "relVol": 883.6,
+          "avgVolM": 0.1
+        },
+        {
+          "sym": "SNBR",
+          "hod": 91,
+          "hodExact": 91.86,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Sleep Number Corporation Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 19.59,
+          "floatSrc": "AE",
+          "marketCap": "$79M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 19.59M + RelVol 22.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 19.59M + RelVol 22.3x"
+          ],
+          "insights": [
+            "Credit Agreement Amendment (April 28, 2026)**: Sleep Number announced a key amendment to its credit agreement with existing lenders, providing an additional $55 million in liquidity (including a new $25 million term loan at SOFR + 8%, maturing June 30, 2026). This includes a waiver of the $30 million minimum liquidity covenant until after July 1, 2026, and forbearance on other financial covenants. The move supports the company's turnaround plan (new product rollouts like ComfortMode, marketing campaign launched today) and reduces immediate bankruptcy risks amid prior warnings.",
+            "Strategic Milestones**: The amendment sets milestones for pursuing a \"strategic transaction\" to maximize enterprise value and fully repay lender obligations, signaling potential M&A, recapitalization, or other value-unlocking deals.",
+            "Q1 Performance On-Track**: Company confirmed Q1 2026 results met expectations, with full earnings release scheduled for May 12, 2026—positioning this as pre-earnings momentum ahead of Memorial Day selling season.",
+            "No Recent News in Prior 2 Days (April 25-27)**: No other major announcements; stock had been volatile but trading around $2.20-$2.36 with lower volume."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 2026-04-28 8-K & press release: $55 M incremental liquidity + covenant forbearance through 07-01-26; helpful but highlights financial distress. <https://app.askedgar.io/filing?ticker=SNBR&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F827187%2F000082718726000035%2Fsnbr-20260427.htm&formType=8-K>",
+            "🔴 Debt burden remains severe ($588 M) vs. $51 M mkt-cap; possible default if no strategic deal by 07-01-26; bankruptcy/delisting risk elevated.",
+            "🟢 Dilution tools limited (no shelf/ATM, zero warrants); current dilution risk low, though emergency equity raise can’t be ruled out.",
+            "🟡 Next major catalyst: Q1-26 earnings 05-12-26; look for revenue rebound & liquidity update.",
+            "Yellow overall stance: turnaround story with high balance-sheet risk; traders should monitor debt talks and earnings for confirmation of recovery or signs of impending restructuring."
+          ],
+          "prevClose": 2.21,
+          "open": 2.8,
+          "gapPct": 26.7,
+          "time": "regular session",
+          "high": 4.24,
+          "hodTimeExact": "10:04 AM ET",
+          "close": 3.25,
+          "fade": 23,
+          "fadeExact": 23.35,
+          "vwap": 3.4166,
+          "vsVwap": "below",
+          "pmHigh": 3.26,
+          "volRaw": "52.9M",
+          "relVol": 22.3,
+          "avgVolM": 2.4
+        },
+        {
+          "sym": "NEXR",
+          "hod": 70,
+          "hodExact": 70.0,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "Nexera Technologies Ltd Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "IL",
+          "floatM": 0.65,
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 0.65M",
+            "Best-efforts (Aegis Capital Corp.)",
+            "X2 zero-strike warrants (0.0M sh)",
+            "X4 warrants ITM",
+            "$50.0M shelf",
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "F-3 resale registration effectiveness (date TBD) 🔴 – unlocks selling by note/warrant holders.",
+                "July 16 2026 Jan-25 note maturity 🔴 if unpaid / forces conversion.",
+                "Fort Technology Nasdaq uplist 🟡 – could raise profile but timing uncertain.",
+                "Future HLS/AI contracts 🟡 – narrative, no hard figures yet."
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "0.0M zero-exercise-price warrants registered — every tick up unlocks free dilution",
+            "Toxic price protection (reset/cashless) — warrant count grows as price falls",
+            "Cash runway: -1.6 months → must raise"
+          ],
+          "insights": [
+            "Primary catalyst: KeepZone AI authorization announcement (April 28, 2026)**: Nexera's subsidiary KeepZone AI received official authorization to introduce a patented, AI-powered advanced fuel tank structural survivability system in the Gulf region, addressing critical energy infrastructure protection amid heightened regional security concerns (e.g., potential threats to oil infrastructure). This news broke pre-market, driving a pre-market spike of over 110% and intraday gains; the system offers blast/fragmentation resistance with a 25-year service life, positioning it for high-demand sales.",
+            "Low float and high short interest fueling volatility**: With a float of ~0.65M shares and market cap ~$1.6M pre-surge, the stock is highly susceptible to news-driven pumps; 125k shares traded today represents significant volume relative to float, amplifying the move.",
+            "Recent momentum from prior announcements (within last week)**:",
+            "April 20, 2026: KeepZone AI signed a white-label agreement for an AI-based voice communication decision support system, signaling expansion into AI/homeland security."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 2026-04-28 6-K/PR: Gulf authorization for blast-mitigation system <https://app.askedgar.io/news/52089018?ticker=NEXR> – nice story, no revenue yet.",
+            "🔴 Dilution overhang: Feb-26 F-3 resale (notes + repriced $1.96 warrants) pending; 233 % potential share expansion.",
+            "🔴 Cash runway <2 mths; must draw on $100 M convertible facility or raise again.",
+            "🟢 No current Nasdaq compliance issues post 2024 R/S.",
+            "🔴 Jmt415 history: repeated price resets, PR gaps fade; analyst view bearish on dilution.",
+            "🟡 Low offering ability for NEW registered deals, but large existing convertible facility & warrants create ready supply once registered."
+          ],
+          "prevClose": 2,
+          "open": 3.34,
+          "gapPct": 67.0,
+          "time": "premarket",
+          "high": 3.3999,
+          "hodTimeExact": "07:42 AM ET",
+          "close": 2.3,
+          "fade": 32,
+          "fadeExact": 32.35,
+          "vwap": 3.233,
+          "vsVwap": "below",
+          "pmHigh": 5.64,
+          "volRaw": "43.2M",
+          "relVol": 200.4,
+          "avgVolM": 0.2
+        },
+        {
+          "sym": "SEGG",
+          "hod": 67,
+          "hodExact": 67.11,
+          "news": [],
+          "tag": "RIG",
+          "name": "Sports Entertainment Gaming Global Corporation Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 10.81,
+          "floatSrc": "AE",
+          "marketCap": "$19M",
+          "riskBadges": [
+            "$300.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Sub-15M float (10.81M) + active offering mechanics",
+                "RelVol 21.6x — coordinated entry signature",
+                "Cash runway: 4.5 months → must raise"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Sub-15M float (10.81M) + active offering mechanics",
+            "RelVol 21.6x — coordinated entry signature",
+            "Cash runway: 4.5 months → must raise"
+          ],
+          "insights": [
+            "Exclusive Partnership Announcement**: SEGG Media announced today (April 28, 2026) an exclusive partnership with Polymarket to power the Sports.com Predict platform, integrating prediction markets into sports engagement—directly cited in multiple X posts as fueling today's surge (e.g., @MorningMadness4, @NuntioBot).",
+            "Recent Launch of Sports.com Predict**: On April 27 (21 hours ago) and April 24 (4 days ago), SEGG announced the entry into sports predictions market via Sports.com Predict, targeting a phased rollout in summer 2026 ahead of the 2026 FIFA World Cup—hyped as a major fan engagement tool with built-in audience from Veloce (500M monthly views).",
+            "Upcoming Catalysts**: Sports.com Predict platform launch in summer 2026, timed for 2026 FIFA World Cup; Nasdaq compliance plan due ~June 16, 2026 (60 days from April 17 notice for late 10-K, with potential 180-day extension).",
+            "Not Sector-Wide**: No evidence of broad movement in Gambling, Resorts & Casinos industry today; peers like MGM Resorts focused on unrelated Q1 earnings (April 29), with no similar spikes noted."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-04-23",
+              "text": "AUUD \n- dawson james offering looks close to being done cuz of the FWP and DRS - some faders the day before offering, but 2 trappy ones with SEGG and ACON https://discord.com/channels/1249146793464430633/1315676068237021285/1496834013770420284 \n- trying to hop on the AI news bandwagon: \"Auddia Expands AI Infrastructure Moat with 14th Patent Supporting Distributed Edge Data Center Deployments\""
+            }
+          ],
+          "tldr": [
+            "🟡 2026-04-28 8-K: Exclusive Polymarket partnership launches Sports.com Predict; positive vision but no hard numbers yet <https://app.askedgar.io/filing?ticker=SEGG&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1673481%2F000149315226019245%2Fform8-k.htm&formType=8-K>",
+            "🔴 Capital structure stress: $11.8 M convertible-note deal (03-18-26) + $100 M equity-line pending; dilution capacity >900 %, high offering risk.",
+            "🔴 Cash runway ~4-5 months; going-concern language, likely more raises soon.",
+            "🟡 Nasdaq late-10-K notice (04-23-26); 60-day plan due 06-16-26, could get 180-day extension.",
+            "🟢 Potential tailwind: World Cup-timed Sports.com Predict launch (summer 2026) may drive user & revenue growth if executed.",
+            "🟠 jmt415 sees history of both dilution overhang and periodic multi-day squeezes; neutral to slightly cautious."
+          ],
+          "prevClose": 0.9335,
+          "open": 1.06,
+          "gapPct": 13.55,
+          "time": "premarket",
+          "high": 1.56,
+          "hodTimeExact": "08:05 AM ET",
+          "close": 1.46,
+          "fade": 6,
+          "fadeExact": 6.41,
+          "vwap": 1.2168,
+          "vsVwap": "above",
+          "pmHigh": 1.39,
+          "volRaw": "49.9M",
+          "relVol": 21.6,
+          "avgVolM": 2.3
+        },
+        {
+          "sym": "RPGL",
+          "hod": 54,
+          "hodExact": 54.01,
+          "news": [],
+          "tag": "SYMPATHY",
+          "name": "Republic Power Group Limited Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "SG",
+          "floatM": 43.43,
+          "floatSrc": "AE",
+          "marketCap": "$42M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [],
+              "prose": "EGM 4-30-2026 (reverse split proposal) 🟡\nInstalment payments for NVC/NVTH deal (5-15-2026, 6-15-2026) 🟡\nPossible bid-price deficiency notice / reverse split execution (within 180 days of 4-30-2026) 🔴"
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [
+            "Primary catalyst: Strategic acquisition announcement** – On April 27, 2026 (1 day ago), Republic Power Group Limited (RPGL) announced the completion of a $5.2M acquisition of a 10% equity stake in NVC Partners Limited, plus a $2.8M technology access agreement (total $8M commitment), to enter the high-growth Real World Assets (RWA) tokenization and blockchain infrastructure markets. This news, covered by PRNewswire, GuruFocus, Investing.com, TipRanks, and others, drove the 29.3% surge amid elevated volume of 561k+ shares.",
+            "Market reaction to blockchain pivot** – The deal expands RPGL's ERP software business into crypto-adjacent sectors, sparking investor excitement for diversification and growth potential; SEC 6-K filing highlighted bullish integration prospects.",
+            "No prior catalysts in last 3 days** – No other news, earnings, or announcements from April 25-27; earlier deal signing (April 8/22) gained traction with recent publicity.",
+            "Not sector-wide** – Software - Services industry shows mixed performance (e.g., some SaaS names down, no broad rally on April 28); RPGL move is company-specific."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 4-27-2026 6-K – $8 M blockchain/RWA acquisition may broaden revenue streams but no immediate financial impact. <https://app.askedgar.io/filing?ticker=RPGL&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1912884%2F000121390026047784%2Fea0287721-6k_republic.htm&formType=6-K>",
+            "🔴 Serial dilution: IPO Oct 2025, follow-on Jan 2026, 2 M (post-split) share raise Apr 2026, insider PIPE Apr 2026 – offering machinery active & capable.",
+            "🔴 High dilution & offering risk; management already signalled more financing may be needed for expansion.",
+            "🟡 Compliance watch: sub-$1 price, EGM on 4-30-2026 includes up to 1-for-100 reverse split authorization.",
+            "🟡 Cash on hand ~$10 M vs. $8 M due for NVC/NVTH purchase; no long-term debt but runway tight if growth spend continues.",
+            "🔴 Jmt415 analyst notes label RPGL a \"sympathy / shady underwriter\" play; historically fades after raises."
+          ],
+          "prevClose": 0.688,
+          "open": 0.6825,
+          "gapPct": -0.8,
+          "time": "regular session",
+          "high": 1.0596,
+          "hodTimeExact": "03:27 PM ET",
+          "close": 1,
+          "fade": 5,
+          "fadeExact": 5.62,
+          "vwap": 0.9232,
+          "vsVwap": "above",
+          "pmHigh": 0.7675,
+          "volRaw": "4.9M",
+          "relVol": 0.5,
+          "avgVolM": 10.2
+        },
+        {
+          "sym": "ATLN",
+          "hod": 46,
+          "hodExact": 46.88,
+          "news": [],
+          "tag": "SYMPATHY",
+          "name": "Atlantic International Corp. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 37.29,
+          "floatSrc": "AE",
+          "marketCap": "$186M",
+          "riskBadges": [
+            "$75.0M shelf",
+            "Toxic price protection",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟡 13-May-26 (est.) – Q1-26 earnings call\n🔴 30-Jun-26 – $70 M revolver maturity (Credit Agreement) may need refinancing\n🔴 March-31-27 – $162 M Merger Convertible Note maturity (shareholder approval pending)\n🟡 Ongoing – Possible tuck-in acquisitions / AI & cybersecurity business wins\n🟡 Court developments in SPP lawsuit (filed 01-Apr-26)"
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven",
+            "Cash runway: -1.1 months → must raise"
+          ],
+          "insights": [
+            "Primary catalyst - Company announcement today**: Atlantic International Corp. ($ATLN) released a press release on April 28, 2026, announcing the expansion of its $1.2 billion (unaudited) revenue platform into AI, cybersecurity, and data infrastructure through its subsidiary Circle8 Group (acquired January 2026 for ~$780M revenue and 16,000+ tech professionals). Key expansions include proprietary AI software, GPU-as-a-Service, AI-native cloud/high-performance compute, managed security operations (SOC-as-a-Service), NIS2 compliance advisory, and data center assets. Management expects accelerated organic growth, material revenue increases, and improved long-term EBITDA margins, with potential acquisitions in these areas. Stock surged ~24% intraday on the news.",
+            "Elevated trading volume**: ~72k shares traded today vs. recent averages of ~90k, indicating heightened interest tied to the announcement.",
+            "No other recent news (last 3 days)**: No additional announcements, filings, or developments from April 25-27. Recent Q4 2025 earnings (April 16) showed revenue decline to $120M but narrowed losses; not directly related.",
+            "Not part of sector-wide movement**: No broad gains in Medical - Diagnostics & Research industry today (e.g., OPKO Health/Quest Diagnostics earnings upcoming but flat; sector lacks coordinated rally). Note: $ATLN has pivoted post-2024 reverse merger to workforce/staffing solutions in tech/IT (via Lyneer/Circle8), no longer focused on life sciences/omics."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🔴 26-Mar-26 8-K: $5.6 M Series B convertible preferred + warrants PIPE at $4.38; sets stage for further dilution. <https://app.askedgar.io/filing?ticker=ATLN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1605888%2F000121390026034808%2Fea0283340-8k_atlantic.htm&formType=8%20K>",
+            "🟡 28-Apr-26 PR: Company touts AI/cybersecurity expansion; no concrete revenue yet, but stock popped 24%. <https://app.askedgar.io/news/52089594?ticker=ATLN>",
+            "🔴 Liquidity squeeze: –$2.35 M cash, ~1 month runway; management pursuing more equity/debt raises.",
+            "🔴 Massive potential overhang: 53 M shares from Axiom convertible note + 4 M EF Hutton fee + 1.28 M warrant shares; resale S-3 filed 23-Mar-26.",
+            "🟡 Key near-term event: Q1-26 earnings due 13-May-26; watch for guidance on Circle8 integration.",
+            "🔴 Debt wall: $70 M revolver due 18-Jun-26; several notes in default; litigation with SPP adds risk."
+          ],
+          "prevClose": 1.6,
+          "open": 1.77,
+          "gapPct": 10.62,
+          "time": "regular session",
+          "high": 2.35,
+          "hodTimeExact": "04:32 PM ET",
+          "close": 2.08,
+          "fade": 11,
+          "fadeExact": 11.49,
+          "vwap": 2.185,
+          "vsVwap": "below",
+          "pmHigh": 1.84,
+          "volRaw": "5.8M",
+          "relVol": 85.3,
+          "avgVolM": 0.1
+        },
+        {
+          "sym": "KFRC",
+          "hod": 46,
+          "hodExact": 46.02,
+          "news": [],
+          "tag": "SYMPATHY",
+          "name": "Kforce Inc.",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 15.84,
+          "floatSrc": "AE",
+          "marketCap": "$834M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [
+            "Q1 2026 Earnings Beat and Positive Guidance (April 27, 2026 - primary catalyst)**: Kforce reported revenue of $330.4M (up 0.1% YoY, first growth in years, beat estimates of ~$329M), EPS of $0.46 (up 2.2% YoY, beat estimates of $0.39), with Flex gross margins up 90bps to 25.9% due to better spreads and lower healthcare costs. Finance & Accounting Flex revenue +5.7% YoY; Tech Flex +0.2%. Q2 guidance: revenue $344M-$352M (midpoint ~4% YoY growth, above consensus ~$336M) and EPS $0.67-$0.75. Also declared $0.40 quarterly dividend. Stock surged 20%+ after-hours April 27, continuing +29% today on high volume.",
+            "No other major news/announcements in last 3 days**: Pre-earnings, minor analyst action (e.g., Baird raised PT to $42 from $40 on April 28; William Blair upgrade to Outperform April 21 citing staffing demand).",
+            "Not part of sector-wide movement**: Staffing & Employment Services peers mixed today (e.g., KELYA +4.7%, MAN +4.7%, NSP +3.4%, but HQI -1.1%, BGSF -5.5%; KFRC outlier at +29%).",
+            "Upcoming catalysts**: Q2 earnings call ~late July 2026 (exact date TBD); ongoing share repurchases/dividends; no other key dates announced."
+          ],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 32.01,
+          "open": 40,
+          "gapPct": 24.96,
+          "time": "regular session",
+          "high": 46.74,
+          "hodTimeExact": "01:57 PM ET",
+          "close": 45.87,
+          "fade": 1,
+          "fadeExact": 1.86,
+          "vwap": 44.7883,
+          "vsVwap": "above",
+          "pmHigh": 40,
+          "volRaw": "1.8M",
+          "relVol": 7.5,
+          "avgVolM": 0.2
+        }
+      ],
+      "hod": 184,
+      "fade": 23,
+      "hodTime": "regular session",
+      "theme": "Choppy Mixed",
+      "note": "ATER led +184.84% (40% fade). 4/10 held <20% fade."
+    },
     {
       "date": "2026-04-27",
       "runners": [
