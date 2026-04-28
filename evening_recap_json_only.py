@@ -547,6 +547,10 @@ def classify_runner(m, ae, date_str):
                    "award", "authorization", "clearance", "breakthrough"]
     news_material = any(any(k in (h.get("title","").lower()) for k in material_kw)
                         for h in headlines)
+    # Also check Grok insights for material keywords (Polygon headlines often lag)
+    insights_text = " ".join(m.get("insights", []) or []).lower()
+    if not news_material and insights_text:
+        news_material = any(k in insights_text for k in material_kw)
 
     # 1. UNDERWRITER MANIP: recent offering + active ATM or best-efforts
     if recent_offering and (active_atm or active_best_efforts):
@@ -732,16 +736,22 @@ def extract_tldr(report_text):
         match = re.search(r"\*{2,}TLDR\*{2,}\s*\n(.+?)(?=\n\*{2,}|\Z)",
                           report_text, re.DOTALL)
         if match:
+            import unicodedata
             bullets = []
             for ln in match.group(1).split("\n"):
                 s = ln.strip()
                 if not s: continue
-                if s.startswith("•") or s.startswith("-") or s.startswith("*"):
+                first = s[0] if s else ""
+                is_bullet = (s.startswith("•") or s.startswith("-") or s.startswith("*")
+                             or (first and unicodedata.category(first) in ("So", "Sm", "Sc")))
+                if is_bullet:
                     clean = s.lstrip("•-* ").strip()
+                    if clean and unicodedata.category(clean[0]) in ("So", "Sm", "Sc"):
+                        clean = clean[1:].strip()
                     clean = clean_discord_emoji(clean)
                     if clean and len(clean) > 10:
                         bullets.append(clean)
-            return bullets[:6]
+            return bullets[:8]
     return []
 
 
@@ -851,25 +861,43 @@ def extract_key_sections(report_text):
     """
     Return a curated list of (title, emoji, bullets, prose) tuples
     for sections most relevant to the recap tile.
+    Handles numbered prefixes and emoji in section headers e.g.
+    "1) Recent News & Filings 🟡" -> matches "Recent News & Filings"
     """
+    import re, unicodedata
     sections = parse_report_sections(report_text)
     if not sections: return []
 
+    def normalize_title(t):
+        # Strip leading number+paren like "1) " or "2. "
+        t = re.sub(r"^\d+[\)\.]\s*", "", t.strip())
+        # Strip trailing/leading emoji characters
+        t = t.strip()
+        while t and unicodedata.category(t[-1]) in ("So", "Sm", "Sc"):
+            t = t[:-1].strip()
+        while t and unicodedata.category(t[0]) in ("So", "Sm", "Sc"):
+            t = t[1:].strip()
+        return t.lower()
+
+    # Build normalized lookup
+    normalized_sections = {normalize_title(k): v for k, v in sections.items()}
+
     # Sections we want to surface, in display order
     wanted = [
-        ("News / Why it's running", ["Recent News & Filings", "Recent News", "News", "News / Why it's running"]),
-        ("Theme",                   ["Theme"]),
-        ("Dilution Risk",           ["Dilution Risk", "Dilution"]),
-        ("Chart History",           ["Chart History"]),
-        ("Compliance",              ["Compliance"]),
-        ("Analyst Notes",           ["Jmt415 Analyst Notes", "Jmt415 Historical Commentary", "Analyst Notes"]),
-        ("Other Catalysts",         ["Other Catalysts", "Upcoming Catalysts"]),
+        ("News / Why it's running", ["Recent News & Filings", "Recent News", "News", "News / Why it's running", "Recent News Filings"]),
+        ("Theme",                    ["Theme"]),
+        ("Dilution Risk",            ["Dilution Risk", "Dilution", "Offering Risk, Ability & Frequency", "Offering Risk"]),
+        ("Chart History",            ["Chart History"]),
+        ("Compliance",               ["Compliance", "Compliance Risk"]),
+        ("Debt & Liabilities",       ["Debt & Liabilities", "Debt Liabilities", "Debt and Liabilities"]),
+        ("Analyst Notes",            ["Jmt415 Analyst Notes", "Jmt415 Historical Commentary", "Analyst Notes"]),
+        ("Other Catalysts",          ["Other Catalysts", "Upcoming Catalysts", "Upcoming Events"]),
     ]
 
     out = []
     for display_title, aliases in wanted:
         for alias in aliases:
-            sec = sections.get(alias)
+            sec = normalized_sections.get(normalize_title(alias))
             if sec and (sec["bullets"] or sec["prose"]):
                 out.append({
                     "title":   display_title,
@@ -990,6 +1018,9 @@ def get_day_movers(target_date):
         if ae_float_out.get("market_cap_final"):
             audited_mc = ae_float_out["market_cap_final"]
 
+        # Pre-extract Grok insights so classify_runner can use them for tagging
+        pre_insights = extract_insights(ae.get("news", []), target_date_str=date_str)
+
         enriched = {
             **c,
             "name":      details.get("name", ticker),
@@ -1005,6 +1036,7 @@ def get_day_movers(target_date):
             "avgVol":    round(avg_vol/1e6, 1) if avg_vol else None,
             "headlines": headlines,
             "ae":        ae,
+            "insights":  pre_insights,
             "insider_pct":       ae_float_out.get("insider_percent"),
             "institutions_pct":  ae_float_out.get("institutions_percent"),
         }

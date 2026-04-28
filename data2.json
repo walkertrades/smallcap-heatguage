@@ -1,6 +1,6 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-04-28T22:31:13.278527Z",
+  "exportedAt": "2026-04-28T23:04:14.901898Z",
   "count": 9173,
   "thresholds": {
     "hodHot": 150,
@@ -17,7 +17,7 @@
           "hod": 184,
           "hodExact": 184.84,
           "news": [],
-          "tag": "RETAIL PUMP",
+          "tag": "FUNDAMENTAL",
           "name": "Aterian, Inc. Common Stock",
           "sector": "Consumer Cyclical",
           "country": "US",
@@ -29,19 +29,52 @@
           ],
           "sections": [
             {
-              "title": "Why it ran",
-              "emoji": null,
+              "title": "News / Why it's running",
+              "emoji": "",
               "bullets": [
-                "No filings or news catalyst — social-driven",
-                "Float 9.64M + RelVol 6112.9x",
-                "Cash runway: 0.1 months → must raise"
+                "Sells six “marquee” brands to Trademark Global for a base cash price of $18 M.",
+                "Secures $7 M private placement (Series AA Pref.) from value investor David Lazar; 1st $3.5 M tranche closed 27-Apr-26, 2nd tranche to close at asset-sale completion.",
+                "Lazar to become CEO after 2nd tranche.",
+                "Company plans to distribute net sale proceeds to shareholders, potentially via a CVR tied to tariff refunds/asset liquidations.",
+                "23-Mar-26 8-K & PR – Update on strategic alternatives; no financial terms (neutral)  <https://app.askedgar.io/filing?ticker=ATER&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1757715%2F000143774926009432%2Fater20260323_8k.htm&formType=8-K>"
               ],
-              "prose": null
+              "prose": "Most recent (PR + expected 8-K) – 28-Apr-26 <https://app.askedgar.io/news/52089532?ticker=ATER>\nImplications:\n– Provides badly needed liquidity and board sees it as step in ongoing “strategic alternatives” review.\n– However, sale removes top-selling brands, leaving a much smaller legacy portfolio; ultimate impact on long-term revenue unclear.\n– Private placement introduces potential dilution (preferred stock convertible terms not yet disclosed).\nOther key filings/news\nUpcoming catalysts\n🟢 Early "
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Warrant overhang minimal – only ~$1.3 M warrant value, all OTM at $0.66 price.",
+                "Series AA Preferred terms not yet public; potential convertibility remains a risk once disclosed."
+              ],
+              "prose": "Overall short-term dilution pressure is limited, but monitor final investment documents."
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [
+                "Received Nasdaq notice (9-Dec-25) for bid < $1.00; cure deadline 8-Jun-26 (≈6 weeks away).",
+                "Options: share price recovery, reverse split, or potential delisting.",
+                "No other listing deficiencies disclosed."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "MidCap Credit Facility matures Dec-26; covenant requires $3.5 M minimum liquidity (temporarily reduced until 9-May-26 via weekly fees).",
+                "Amendment fee $137.5 k + $34 k weekly fees strain cash.",
+                "YE25 cash $4.9 M; calculated current cash ≈ $0.1 M vs quarterly burn $3.3 M → 0.1 months runway (model-based).",
+                "Accumulated deficit $730 M; going-concern warning.",
+                "Asset sale proceeds ($18 M) and $7 M investment provide lifeline but part may go to debt service or shareholder distribution, limiting operational runway."
+              ],
+              "prose": "No historical notes from jmt415 were supplied for ATER."
             }
           ],
           "reasons": [
-            "No filings or news catalyst — social-driven",
-            "Float 9.64M + RelVol 6112.9x",
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants",
             "Cash runway: 0.1 months → must raise"
           ],
           "insights": [
@@ -51,7 +84,15 @@
             "Net proceeds plus contingent value rights (CVRs) to be distributed to shareholders in Q3 2026."
           ],
           "jmtNotes": [],
-          "tldr": [],
+          "tldr": [
+            "28-Apr-26 PR/8-K – Sells key brands for $18 M; $7 M Lazar investment; plans cash distribution <https://app.askedgar.io/news/52089532?ticker=ATER>",
+            "Early May-26 – Proxy filing on asset sale / investment vote",
+            "Q2-26 – Expected close of sale + 2nd $3.5 M funding; Lazar becomes CEO",
+            "Q3-26 – Possible special dividend/CVR from sale proceeds",
+            "08-Jun-26 – Nasdaq $1 bid-price deadline; reverse split/delisting risk",
+            "Offering & dilution risk currently low (no shelf, few warrants), but watch new preferred terms",
+            "Cash nearly exhausted; debt covenant relief expires 9-May-26"
+          ],
           "prevClose": 0.6565,
           "open": 1.1,
           "gapPct": 67.56,
@@ -61,11 +102,11 @@
           "close": 1.11,
           "fade": 40,
           "fadeExact": 40.64,
-          "vwap": 1.2293,
+          "vwap": 1.2292,
           "vsVwap": "below",
           "pmHigh": 1.23,
-          "volRaw": "257.0M",
-          "relVol": 6112.9,
+          "volRaw": "257.2M",
+          "relVol": 6116.2,
           "avgVolM": 0.0
         },
         {
@@ -73,7 +114,7 @@
           "hod": 181,
           "hodExact": 181.13,
           "news": [],
-          "tag": "RETAIL PUMP",
+          "tag": "FUNDAMENTAL",
           "name": "Baiya International Group Inc. Ordinary Shares",
           "sector": "Technology",
           "country": "CN",
@@ -85,19 +126,42 @@
           ],
           "sections": [
             {
-              "title": "Why it ran",
-              "emoji": null,
+              "title": "News / Why it's running",
+              "emoji": "",
               "bullets": [
-                "No filings or news catalyst — social-driven",
-                "Float 1.29M + RelVol 90.2x",
-                "Cash runway: -1.7 months → must raise"
+                "28-Apr-26 PR (news) – “Cryptocurrency Ark Plan” moves to execution phase; BIYA will invest an initial US$1 M in Binance Coin (BNB) and use 50 % of trading gains for share buybacks. Concurrently, the company has already filed to register up to 30 M new shares to finance the program. <https://app.askedgar.io/news/52090656?ticker=BIYA>",
+                "23-Apr-26 Form 6-K – Securities Purchase Agreement for a US$4.21 M PIPE; 13.5 M Class A shares @ $0.312 (40 % discount to market). Closing expected in Q2-26. <https://app.askedgar.io/filing?ticker=BIYA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1944712%2F000121390026046890%2Fea0287272-6k_baiya.htm&formType=6-K>",
+                "20-Mar-26 & 30-Dec-25 F-1 filings – Two Standby Equity Purchase Agreements (equity lines) for up to US$55 M combined, not yet effective. <https://app.askedgar.io/filing?ticker=BIYA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1944712%2F000121390026032455%2Fea0282470-f1_baiyainter.htm&formType=F-1>"
               ],
-              "prose": null
+              "prose": "News Rating: 🔴\n– Positives: new business line + promised buybacks.\n– Negatives: registration of 30 M shares (~18× OS) signals large potential dilution.\n– Definitively dilutive and keeps float expansion narrative alive.\nPotential Upcoming Catalysts:\n🟡  • Q1-26 results (est. 01-May-26) – first look at impact of crypto strategy.\n🔴 • Closing of 13.5 M share PIPE (Q2-26) – adds ~8× current OS to float.\n🔴 • SEC effectiveness of 30 M share resale F-1 & equity-line tranches – could arrive any time.\n🟢 • "
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "13.5 M PIPE shares (~8× OS) at $0.312 pending close.",
+                "Two standby equity lines allow sale of up to 50+ M shares (>30× OS), purchase price formula can go as low as $0.2037.",
+                "Registration statement to resell up to 30 M shares for Ark Plan financing awaits SEC effectiveness.",
+                "Authorized share capital recently up-sized to 5 B Class A shares — ample room to issue."
+              ],
+              "prose": "🔴  High –\nNo registered warrants/convertibles on file, but sheer share overhang is material."
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟢  – Company regained Nasdaq $1 bid compliance in Jan-26 after Dec-25 reverse split. No current price deficiency; no other outstanding notices. Keep an eye on price as it trades just under $1 again (last close $0.779). A fresh bid-price notice could arrive if sub-$1 persists for 30 consecutive days."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟡  – Latest 10-Q/20-F not yet available for 2026; no hard numbers on total debt. Cash position estimated negative (-$1.05 M) and burn ~US$1.9 M/quarter. Accounts payable or debt maturities not disclosed in recent filings. Liquidity remains constrained, underpinning equity issuance."
             }
           ],
           "reasons": [
-            "No filings or news catalyst — social-driven",
-            "Float 1.29M + RelVol 90.2x",
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants",
             "Cash runway: -1.7 months → must raise"
           ],
           "insights": [
@@ -108,6 +172,10 @@
           ],
           "jmtNotes": [],
           "tldr": [
+            "28-Apr-26 6-K/PR – “Crypto Ark Plan” begins; simultaneous filing to sell up to 30 M shares. <https://app.askedgar.io/news/52090656?ticker=BIYA>",
+            "23-Apr-26 6-K – PIPE for 13.5 M shares @ $0.312 (US$4.2 M) set to close in Q2-26. <https://app.askedgar.io/filing?ticker=BIYA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1944712%2F000121390026046890%2Fea0287272-6k_baiya.htm&formType=6-K>",
+            "Est. 01-May-26 – Q1-26 earnings could give first look at crypto strategy impact.",
+            "Equity-line F-1 (20-Mar-26) – up to US$35.5 M (@≤$1.185/share) not yet effective; possible anytime. <https://app.askedgar.io/filing?ticker=BIYA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1944712%2F000121390026032455%2Fea0282470-f1_baiyainter.htm&formType=F-1>",
             "Offering Risk 🟢 | Offering Ability 🟢 (but equity-line pending) | Offering Frequency 🟢",
             "Dilution Risk 🔴  (PIPE + 50 M potential equity-line/registration)",
             "Cash Need 🔴  (-1.68 months cash)",
@@ -122,10 +190,10 @@
           "close": 1.53,
           "fade": 30,
           "fadeExact": 30.14,
-          "vwap": 1.6601,
+          "vwap": 1.66,
           "vsVwap": "below",
           "pmHigh": 1.45,
-          "volRaw": "201.5M",
+          "volRaw": "201.6M",
           "relVol": 90.2,
           "avgVolM": 2.2
         },
@@ -148,12 +216,47 @@
           ],
           "sections": [
             {
-              "title": "Why it ran",
-              "emoji": null,
+              "title": "News / Why it's running",
+              "emoji": "",
               "bullets": [
-                "Sub-15M float (0.54M) + active offering mechanics"
+                "Announced 1-for-4.5 reverse stock split, effective 2026-04-13, shrinking OS to ~0.53 M shares.  Reverse splits are normally viewed as a negative (used to regain/list maintain compliance) and often precede dilution.",
+                "Stock up >300% on the week, riding U.S. cannabis rescheduling headlines and extreme low-float/short-squeeze hype.  No new company-specific fundamentals released.",
+                "Subsidiary FTF added 200 km of Mexican dark-fiber, securing $2 M contracted cash‐flow over 10 yrs (≈$0.2 M/yr) – a modest revenue contribution but shows progress on new strategy (🟡)."
               ],
-              "prose": null
+              "prose": "Most-recent filing (6-K, 2026-04-10) <https://app.askedgar.io/filing?ticker=AKAN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1888014%2F000121390026042596%2Fea0285935-6k_akanda.htm&formType=6-K>\nSector-driven price spike (news, 2026-04-22 to 04-28) <https://x.com/search?q=%24AKAN&src=typed_query&04282026>\nCompany update (6-K, 2026-03-31) <https://app.askedgar.io/filing?ticker=AKAN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1888014%2F000121390026037156%2Fea"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Outstanding convertible note (Jan-2026, $7 M) is VARIABLE-PRICE (min $0.254 post-split ~$1.14).  At $17 today, investors are deep ITM; eventual conversion could add ~1.2–2.5 M shares (2-5× current OS), matching the model’s 6,215 % potential dilution figure.",
+                "F-1 registration for these shares is still Pending Effective.  Effectiveness could trigger selling pressure.",
+                "No warrants on file; risk is concentrated in the converts and future private deals.",
+                "History of frequent splits (multiple since 2024) and serial financing with Univest suggest high ongoing dilution probability."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No active NASDAQ deficiency notices disclosed.  Post-split price currently $16.96, well above the $1 minimum bid.  Shareholder-equity compliance unknown, but cash on hand appears adequate for now."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Latest public 20-F (Dec-2024) showed accumulated deficit of $57.5 M.  Current cash estimated ~$20.9 M vs. quarterly burn ~$0.19 M (ample runway > 300 months).  However, operations in UK wound down; subsidiary Bophelo in liquidation due to lack of funds.  $7 M convertible note due Jan-2027 is the main financial liability; interest 10 % p.a.  No other major maturities disclosed."
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [
+                "2026-04-23: Notes low remaining shelf ($0.14 M), highlights variable-rate converts w/ $0.25 floor (post-split ≈$1.14). Expects repeat PIPEs with Univest; calls AKAN a “pretty good fader but can spike a lot first.” 🔴",
+                "2026-04-22: Mentions potential U.S. cannabis rescheduling catalyst. 🟢",
+                "2024-08-02: Described stock as “dead-cat bounce,” noted two offerings in one day and depleted shelf. 🔴"
+              ],
+              "prose": "Overall tone: mixed but leans bearish on dilution/supply overhang → 🟠 Neutral-to-Bearish."
             }
           ],
           "reasons": [
@@ -180,12 +283,13 @@
             }
           ],
           "tldr": [
-            "🔴 2026-04-10 6-K: 1-for-4.5 reverse split effective 04-13-26 (<https://app.askedgar.io/filing?ticker=AKAN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1888014%2F000121390026042596%2Fea0285935-6k_akanda.htm&formType=6-K>)",
-            "🔴 Pending F-1 for Jan-2026 $7 M variable-price converts; effectiveness could unleash 1-2.5 M new shares (<https://app.askedgar.io/filing?ticker=AKAN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1888014%2F000121390026007796%2Fea0273810-f1_akanda.htm&formType=F-1>)",
-            "🟡 2026-03-31 6-K: Mexican fiber build adds $2 M/10-yr contracted revenue (small but positive)",
-            "🟡 2026-04-27 Special shareholder meeting to amend articles / recap structure – watch for share-class conversions",
-            "🟡 2026-06-29 DEA hearing on marijuana Schedule III – sector catalyst",
-            "🟢 Offering Risk & Ability low today, but history of 🔴 High frequency financings; dilution risk remains 🔴 high"
+            "2026-04-10 6-K: 1-for-4.5 reverse split effective 04-13-26 (<https://app.askedgar.io/filing?ticker=AKAN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1888014%2F000121390026042596%2Fea0285935-6k_akanda.htm&formType=6-K>)",
+            "Pending F-1 for Jan-2026 $7 M variable-price converts; effectiveness could unleash 1-2.5 M new shares (<https://app.askedgar.io/filing?ticker=AKAN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1888014%2F000121390026007796%2Fea0273810-f1_akanda.htm&formType=F-1>)",
+            "2026-03-31 6-K: Mexican fiber build adds $2 M/10-yr contracted revenue (small but positive)",
+            "2026-04-27 Special shareholder meeting to amend articles / recap structure – watch for share-class conversions",
+            "2026-06-29 DEA hearing on marijuana Schedule III – sector catalyst",
+            "Offering Risk & Ability low today, but history of 🔴 High frequency financings; dilution risk remains 🔴 high",
+            "Jmt415: warns of frequent fades and likely follow-on PIPEs despite limited shelf"
           ],
           "prevClose": 12.1,
           "open": 11.29,
@@ -196,7 +300,7 @@
           "close": 17.49,
           "fade": 40,
           "fadeExact": 40.85,
-          "vwap": 20.1659,
+          "vwap": 20.1618,
           "vsVwap": "below",
           "pmHigh": 11.86,
           "volRaw": "7.7M",
@@ -208,7 +312,7 @@
           "hod": 101,
           "hodExact": 101.59,
           "news": [],
-          "tag": "RIG",
+          "tag": "NEWS-DRIVEN",
           "name": "StableX Technologies, Inc. Common Stock",
           "sector": "Industrials",
           "country": "US",
@@ -222,19 +326,46 @@
           ],
           "sections": [
             {
-              "title": "Why it ran",
-              "emoji": null,
+              "title": "Dilution Risk",
+              "emoji": "",
               "bullets": [
-                "Sub-15M float (1.44M) + active offering mechanics",
-                "RelVol 883.6x — coordinated entry signature",
-                "Cash runway: 8.1 months → must raise"
+                "New Series J (51,575 sh, $2.51 conv.) & Series K (21,500 sh, $2.51 conv.) prefs plus 1 M new warrants (@$2.51) create a large potential share overhang.",
+                "Existing Series H-7 prefs ($6.19 conv.) & Series I prefs ($8.00 conv.) still outstanding.",
+                "Current common O/S 1.48 M; fully-diluted if all new prefs & warrants convert/exercise could exceed 10-12 M shares (≈ 610 % dilution, per model).",
+                "Many instruments carry default 15 % dividend and daily penalties for share-delivery failures, incentivising rapid conversion once registration is effective.",
+                "Registration statement not yet filed – status: Not Registered / Pending. Expect resale S-1 in coming weeks ahead of July 26 SH vote."
               ],
-              "prose": null
+              "prose": ""
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No active Nasdaq deficiency notices disclosed. Bid price currently $3.57 (> $1); equity likely improves post-PIPE.\nTicker change to FABC on 04-29-26 requires continued listing compliance review but no immediate risk flagged."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Series H-7 & Series I: mandatory redemptions & 15 % default dividends.",
+                "New Series J (6 % div.) & Series K (15 % default div.).",
+                "Accrued dividends + redemption payments create ongoing cash drain.",
+                "No revenue; business pivot adds R&D spend."
+              ],
+              "prose": "No traditional bank debt disclosed, but sizeable preferred-stock obligations:"
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "8) jmt415 Analyst Notes 🟠****"
+              ],
+              "prose": "🟡 04-29-26 – Ticker change to FABC & PIPE closing.\n🟡 By 05-12-26 – Q1 earnings call; first commentary on AI pivot progress.\n🔴 Q2 2026 (est.) – Filing of resale S-1 for Series J/K & warrant shares → potential selling pressure.\n🟢 H2 2026 – Potential successful “Neural I/o™” prototype demo; triggers $15-25 M production plan with Kopin.\n🟢 By 07-26-26 – Shareholder meeting to approve share issuances; if approved, clears path for full collaboration/funding.\nNo historical jmt415 notes provided in datas"
             }
           ],
           "reasons": [
-            "Sub-15M float (1.44M) + active offering mechanics",
-            "RelVol 883.6x — coordinated entry signature",
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated",
             "Cash runway: 8.1 months → must raise"
           ],
           "insights": [
@@ -261,11 +392,11 @@
           "close": 3.1,
           "fade": 38,
           "fadeExact": 38.73,
-          "vwap": 3.8693,
+          "vwap": 3.869,
           "vsVwap": "below",
           "pmHigh": 3.3,
-          "volRaw": "92.7M",
-          "relVol": 883.6,
+          "volRaw": "92.8M",
+          "relVol": 883.9,
           "avgVolM": 0.1
         },
         {
@@ -273,7 +404,7 @@
           "hod": 91,
           "hodExact": 91.86,
           "news": [],
-          "tag": "RETAIL PUMP",
+          "tag": "FUNDAMENTAL",
           "name": "Sleep Number Corporation Common Stock",
           "sector": "Consumer Cyclical",
           "country": "US",
@@ -286,15 +417,15 @@
               "title": "Why it ran",
               "emoji": null,
               "bullets": [
-                "No filings or news catalyst — social-driven",
-                "Float 19.59M + RelVol 22.3x"
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
               ],
               "prose": null
             }
           ],
           "reasons": [
-            "No filings or news catalyst — social-driven",
-            "Float 19.59M + RelVol 22.3x"
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
           ],
           "insights": [
             "Credit Agreement Amendment (April 28, 2026)**: Sleep Number announced a key amendment to its credit agreement with existing lenders, providing an additional $55 million in liquidity (including a new $25 million term loan at SOFR + 8%, maturing June 30, 2026). This includes a waiver of the $30 million minimum liquidity covenant until after July 1, 2026, and forbearance on other financial covenants. The move supports the company's turnaround plan (new product rollouts like ComfortMode, marketing campaign launched today) and reduces immediate bankruptcy risks amid prior warnings.",
@@ -348,6 +479,58 @@
           ],
           "sections": [
             {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "Rating: 🟡  – Positive narrative for HLS/energy-security expansion, but no financial terms or guaranteed revenue disclosed.",
+                "2026-04-23/20 (6-K & PR): White-label deal to develop an AI voice-comms decision-support system <https://app.askedgar.io/filing?ticker=NEXR&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1885408%2F000121390026047068%2Fea028752501ex99-1.htm&formType=6-K> – 🟡 (early-stage, no revenues yet).",
+                "2026-04-06 (6-K): FY-25 results; rev +23 % YoY to $16.8 M; warrant exercise price cut to $1.96 <https://app.askedgar.io/filing?ticker=NEXR&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1885408%2F000121390026040447%2Fea0285072-6k_nexera.htm&formType=6-K> – 🟡 (growth good, but warrant repricing signals dilution risk).",
+                "2026-03-30/31: Corporate re-brand to Nexera; SensorzTech & Skyline HLS partnerships – 🟡 narrative, no hard $$.",
+                "2026-02-19 6-K + F-3 resale reg <https://app.askedgar.io/filing?ticker=NEXR&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1885408%2F000121390026018187%2Fea0277578-6k_jeffs.htm&formType=6%20K> covering Feb-26 $0.6 M variable-price note + warrants."
+              ],
+              "prose": "Most-recent (🗓 2026-04-28 / PR): KeepZone AI received authorization to represent a Gulf-region provider of blast-mitigation infrastructure <https://app.askedgar.io/news/52089018?ticker=NEXR>.\nOther April 2026 items:\nIndications of dilution:\nPotential Upcoming Catalysts:\n🟥 Effectiveness of F-3 resale registration (could unlock selling).\n🟡 Q1-26 results / next 6-K (est. Aug 2026).\n🟡 Fort Technology potential Nasdaq uplist (no timetable).\n🟡 July 16 2026 maturity of Jan-25 promissory note (may press"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Convertible Notes:",
+                "Warrants: Aggregate 2.3 M+ warrants repriced to $1.960112 on 4/1/26. With float only 0.65 M, full exercise could triple OS. Warrants are already registered (Series A) or will be upon F-3 effectiveness.",
+                "Dilution rating 🔴 High (233 % potential expansion). Extremely small float magnifies pressure once registration goes effective.",
+                "No recent warrant exercises logged yet, but repricing implies inducement intent."
+              ],
+              "prose": "– Jun-25 $5 M note (up to $100 M facility) converts at lower of $6.80 or 88 % of 20-day VWAP, floor $0.364. Current price $2 ⇒ WELL ABOVE floor; note likely in-the-money for future resets if price fades.\n– Dec-25 $0.5 M & Feb-26 $0.6 M notes similar terms; resale F-3 filed 2/19/26 awaiting effectiveness (Registered status pending)."
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No active Nasdaq deficiency letters disclosed; bid price now $2 (above $1). Equity deficiency not cited. Latest reverse split 1-for-13 executed Nov 19 2024 keeps share count tiny; no new compliance deadlines within 3 mths."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Cash 12/31/25: $1.64 M versus quarterly burn ~$1.2 M → <2 mths runway (🔴 cash_need metric).",
+                "Convertible promissory notes outstanding: Jan-25 $2.85 M, Jun-25 $5 M, Dec-25 $0.5 M, Feb-26 $0.6 M (+ ability to draw $92.5 M more).",
+                "No traditional bank debt disclosed; liabilities mostly convertible notes & payables.",
+                "Next maturity: Jan-25 note due July 16 2026.",
+                "Balance sheet thin; company reliant on additional draws/placements."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [
+                "2026-01-16: Warned of repeated lowering of conversion/warrant prices; prior gaps faded.",
+                "2025-06-20: Capital insufficiency flagged; small offerings despite claim of $4 M shelf.",
+                "Multiple 2025 notes (May, Apr) highlight non-cash asset swaps, inducements, and frequent dilutive pipelines.",
+                "2024-10-30 & 12-06: Reverse split, 700 k float, history of quick fade after PRs."
+              ],
+              "prose": "Overall tone: consistently bearish on dilution/fade behaviour → 🔴."
+            },
+            {
               "title": "Other Catalysts",
               "emoji": "",
               "bullets": [
@@ -388,11 +571,11 @@
           "close": 2.3,
           "fade": 32,
           "fadeExact": 32.35,
-          "vwap": 3.233,
+          "vwap": 3.2325,
           "vsVwap": "below",
           "pmHigh": 5.64,
           "volRaw": "43.2M",
-          "relVol": 200.4,
+          "relVol": 200.5,
           "avgVolM": 0.2
         },
         {
@@ -400,7 +583,7 @@
           "hod": 67,
           "hodExact": 67.11,
           "news": [],
-          "tag": "RIG",
+          "tag": "NEWS-DRIVEN",
           "name": "Sports Entertainment Gaming Global Corporation Common Stock",
           "sector": "Consumer Cyclical",
           "country": "US",
@@ -413,19 +596,55 @@
           ],
           "sections": [
             {
-              "title": "Why it ran",
-              "emoji": null,
+              "title": "News / Why it's running",
+              "emoji": "",
               "bullets": [
-                "Sub-15M float (10.81M) + active offering mechanics",
-                "RelVol 21.6x — coordinated entry signature",
-                "Cash runway: 4.5 months → must raise"
+                "Announced exclusive partnership with Polymarket to power “Sports.com Predict,” a sports-prediction marketplace using a transaction-fee revenue-share model.  No financial projections or minimum-revenue guarantees were disclosed, so impact is potentially positive but unquantified.",
+                "2026-04-23 – 8-K: Received Nasdaq deficiency notice for late 10-K filing (🔴). Must submit a compliance plan by 06-16-26; up to 10-12-26 to regain compliance.",
+                "2026-04-24 to 04-27 – Series of press releases launching Sports.com Predict ahead of the 2026 FIFA World Cup (🟡).",
+                "2026-04-21 – Quadrant/Veloce viral F1 video metrics (🟡).",
+                "2026-03-18 8-K revealed a $11.8 M convertible-note private placement; first $3.5 M tranche funded."
               ],
-              "prose": null
+              "prose": "Latest 8-K (2026-04-28) <https://app.askedgar.io/filing?ticker=SEGG&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1673481%2F000149315226019245%2Fform8-k.htm&formType=8-K>\nOther April news highlights\nDilution watch:\nUpcoming catalysts\n🟡 06-16-26: Compliance plan due to Nasdaq.\n🟢 Summer/Fall 2026: Full launch of Sports.com Predict timed with 2026 FIFA World Cup.\n🟡 Shareholder vote (date TBA) to approve >19 % issuance under $100 M Generating Alpha equity line."
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "March 2026 unsecured convertible notes ($3.5 M funded, up to $11.8 M total) convert at an undisclosed but discounted rate; registration rights already in place, so resale S-3 likely forthcoming.",
+                "December 2025 secured convertible note ($2.5 M cash) also awaiting registration & shareholder approval.",
+                "Generating Alpha equity line allows sales at 90 % of 20-day VWAP, capped at 4.99 % ownership per tranche—potentially a steady overhang once approved.",
+                "Warrant overhang currently small (≈$92 K value, 🟢 low), but convertible and equity-line supply pose significant future dilution (>900 % capacity noted)."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Cash: $0.32 M (company later estimated ≈ $3.2 M after raises).",
+                "Current liabilities: $29.9 M (trade payables $8.7 M; notes payable $5.7 M; accrued expenses $12 M).",
+                "No long-term debt on balance sheet, but new 2026 convertible notes add up to $11.8 M face value (unsecured, 12 % coupon).",
+                "Going-concern warning (mgmt 2025-11-20): needs additional capital within 12 months to continue operations."
+              ],
+              "prose": "Latest 10-Q (09-30-25) shows:"
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [],
+              "prose": "2026-04-23  – Mentioned SEGG as one of the “trappy” names during Dawson-led offerings.\n2026-01-20  – Flagged $0.70 offering; noted equity-line vote pending; prior multi-day squeezes.\n2026-01-14  – Detailed upcoming reverse-split/20 % issuance vote; shelf capacity $3.5 M; convertible note at 6 % VWAP discount.\nOverall tone: cautious on dilution but acknowledges stock can produce short squeezes → Neutral 🟠."
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟢 Summer 2026 – Sports.com Predict full launch & initial revenue tied to 2026 FIFA World Cup.\n🟡 Shareholder meeting (date TBA) to approve Generating Alpha equity-line >19 % issuance & possible reverse split.\n🔴 10-K filing + Nasdaq compliance decision due 06-16-26 / up to 10-12-26."
             }
           ],
           "reasons": [
-            "Sub-15M float (10.81M) + active offering mechanics",
-            "RelVol 21.6x — coordinated entry signature",
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated",
             "Cash runway: 4.5 months → must raise"
           ],
           "insights": [
@@ -457,11 +676,11 @@
           "close": 1.46,
           "fade": 6,
           "fadeExact": 6.41,
-          "vwap": 1.2168,
+          "vwap": 1.2172,
           "vsVwap": "above",
           "pmHigh": 1.39,
-          "volRaw": "49.9M",
-          "relVol": 21.6,
+          "volRaw": "50.0M",
+          "relVol": 21.7,
           "avgVolM": 2.3
         },
         {
@@ -469,7 +688,7 @@
           "hod": 54,
           "hodExact": 54.01,
           "news": [],
-          "tag": "SYMPATHY",
+          "tag": "FUNDAMENTAL",
           "name": "Republic Power Group Limited Class A Ordinary Shares",
           "sector": "Technology",
           "country": "SG",
@@ -486,7 +705,8 @@
             }
           ],
           "reasons": [
-            "No direct catalyst — sector/sympathy driven"
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
           ],
           "insights": [
             "Primary catalyst: Strategic acquisition announcement** – On April 27, 2026 (1 day ago), Republic Power Group Limited (RPGL) announced the completion of a $5.2M acquisition of a 10% equity stake in NVC Partners Limited, plus a $2.8M technology access agreement (total $8M commitment), to enter the high-growth Real World Assets (RWA) tokenization and blockchain infrastructure markets. This news, covered by PRNewswire, GuruFocus, Investing.com, TipRanks, and others, drove the 29.3% surge amid elevated volume of 561k+ shares.",
@@ -524,7 +744,7 @@
           "hod": 46,
           "hodExact": 46.88,
           "news": [],
-          "tag": "SYMPATHY",
+          "tag": "NEWS-DRIVEN",
           "name": "Atlantic International Corp. Common Stock",
           "sector": "Healthcare",
           "country": "US",
@@ -538,6 +758,27 @@
           ],
           "sections": [
             {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "March-26-26 $5.6 M convertible pref + warrants at $4.38 (2× current price) – investors currently under water, less near-term conversion pressure but company can force convert at lower resets if allowed.",
+                "S-3 filed 23-Mar-26 to register resale of Jan-23 acquisition shares (70 M+ shares) – overhang once effective.",
+                "Management explicitly plans to raise additional debt/equity to address liquidity."
+              ],
+              "prose": "Offering Risk: 🔴  (High)\nOffering Ability: 🔴  (High) – Effective $250 M shelf; S-3 in place; recent PIPE shows willing investors.\nOffering Frequency: 🟢  (Low) – Only 1 PIPE in last 2 yrs, but changing cash position suggests pace could pick up.\nCommentary:"
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Total debt >$105 M (highlights: $70 M ABL revolver due 18-Jun-26; $35 M Merger Note + $161.9 M convertible promissory note payable March-31-27). Several notes already in default per 10-K.",
+                "Accounts payable and accrued expenses up; company over-advanced on revolver.",
+                "Management states “substantial doubt” about going-concern; only ~–$2.3 M cash with quarterly burn ≈$6.3 M (-1.1 months runway).",
+                "Jmt415 Analyst Notes :grey_question:****"
+              ],
+              "prose": "No historical analyst notes from jmt415 were provided for ATLN."
+            },
+            {
               "title": "Other Catalysts",
               "emoji": "",
               "bullets": [],
@@ -545,7 +786,8 @@
             }
           ],
           "reasons": [
-            "No direct catalyst — sector/sympathy driven",
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated",
             "Cash runway: -1.1 months → must raise"
           ],
           "insights": [
@@ -572,11 +814,11 @@
           "close": 2.08,
           "fade": 11,
           "fadeExact": 11.49,
-          "vwap": 2.185,
+          "vwap": 2.1867,
           "vsVwap": "below",
           "pmHigh": 1.84,
-          "volRaw": "5.8M",
-          "relVol": 85.3,
+          "volRaw": "5.9M",
+          "relVol": 86.4,
           "avgVolM": 0.1
         },
         {
@@ -584,7 +826,7 @@
           "hod": 46,
           "hodExact": 46.02,
           "news": [],
-          "tag": "SYMPATHY",
+          "tag": "FUNDAMENTAL",
           "name": "Kforce Inc.",
           "sector": "Industrials",
           "country": "US",
@@ -594,16 +836,15 @@
           "riskBadges": [],
           "sections": [
             {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No historical jmt415 notes were supplied for KFRC."
             }
           ],
           "reasons": [
-            "No direct catalyst — sector/sympathy driven"
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
           ],
           "insights": [
             "Q1 2026 Earnings Beat and Positive Guidance (April 27, 2026 - primary catalyst)**: Kforce reported revenue of $330.4M (up 0.1% YoY, first growth in years, beat estimates of ~$329M), EPS of $0.46 (up 2.2% YoY, beat estimates of $0.39), with Flex gross margins up 90bps to 25.9% due to better spreads and lower healthcare costs. Finance & Accounting Flex revenue +5.7% YoY; Tech Flex +0.2%. Q2 guidance: revenue $344M-$352M (midpoint ~4% YoY growth, above consensus ~$336M) and EPS $0.67-$0.75. Also declared $0.40 quarterly dividend. Stock surged 20%+ after-hours April 27, continuing +29% today on high volume.",
@@ -612,7 +853,13 @@
             "Upcoming catalysts**: Q2 earnings call ~late July 2026 (exact date TBD); ongoing share repurchases/dividends; no other key dates announced."
           ],
           "jmtNotes": [],
-          "tldr": [],
+          "tldr": [
+            "27-Apr-26 (8-K/Press Release) – Q1-26 beat & strong Q2 guide; stock +29 %. <https://app.askedgar.io/filing?ticker=KFRC&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F930420%2F000093042026000031%2Fexhibit991q12026.htm&formType=8-K>",
+            "Offering/Dilution risk minimal – no shelf, no ATM, firm buying back stock.",
+            "Adequate liquidity: $132 M unused revolver; positive cash flow; modest debt.",
+            "Next catalyst: Q2-26 earnings (late Jul-26); dividend dates 12-Jun & 26-Jun-26.",
+            "Variable-rate debt is a watch item if macro worsens, but overall balance sheet solid."
+          ],
           "prevClose": 32.01,
           "open": 40,
           "gapPct": 24.96,
@@ -622,7 +869,7 @@
           "close": 45.87,
           "fade": 1,
           "fadeExact": 1.86,
-          "vwap": 44.7883,
+          "vwap": 44.7884,
           "vsVwap": "above",
           "pmHigh": 40,
           "volRaw": "1.8M",
