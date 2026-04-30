@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
   "exportedAt": "2026-04-30T11:50:00.214143Z",
-  "count": 9183,
+  "count": 9182,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -12,124 +12,6 @@
     {
       "date": "2026-04-29",
       "runners": [
-        {
-          "sym": "CTNT",
-          "hod": 17814,
-          "hodExact": 17814.89,
-          "news": [],
-          "tag": "UNDERWRITER MANIP",
-          "name": "Cheetah Net Supply Chain Service Inc. Class A Common Stock",
-          "sector": "Consumer Cyclical",
-          "country": "US",
-          "floatM": 1.98,
-          "floatSrc": "AE",
-          "marketCap": "$7M",
-          "riskBadges": [
-            "Float 1.98M",
-            "Best-efforts (FT Global Capital Inc.)",
-            "$70.0M shelf",
-            "High offering risk"
-          ],
-          "sections": [
-            {
-              "title": "News / Why it's running",
-              "emoji": "",
-              "bullets": [
-                "24-Apr-26 – No new filings; stock up 32 % on social-media driven bounce (>300 M shares traded on 23-Apr). Purely speculative, no corporate update. <https://x.com/search?q=%24CTNT&src=typed_query&04242026>",
-                "16-Apr-26 – Signed cash deal to buy Super International Trading Ltd. for ~$5 M; seller must generate ≥$10 M annual revenue for 3 yrs or pay make-whole; closing expected by mid-Jul-26. Form 8-K. 🟡 <https://app.askedgar.io/filing?ticker=CTNT&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1951667%2F000110465926044124%2Ftm2611630d1_8k.htm&formType=8-K>",
-                "02-Apr-26 – Filed $100 M ATM program (prospectus supplement covers $70 M initial capacity) with AC Sunshine Securities. Form 8-K. 🔴 <https://app.askedgar.io/filing?ticker=CTNT&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1951667%2F000110465926039184%2Ftm2610890d1_8k.htm&formType=8-K>",
-                "25-Mar-26 – Definitive agreement to divest Edward Transit Express for $20 k to streamline ops. Form 8-K. 🟡",
-                "29-Jan-26 – Reg S Private Placement: 33.45 M shs @ $1.20 for $40.1 M gross; closing subject to Nasdaq & shareholder approval (vote held 30-Jan-26). Form 8-K. 🔴 <https://app.askedgar.io/filing?ticker=CTNT&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1951667%2F000110465926007972%2Ftm264412d1_8k.htm&formType=8%20K>"
-              ],
-              "prose": "News Rating: 🟡 (mostly momentum / neutral fundamentals)\nIndications of dilution: Active $100 M ATM, unused but effective; massive Jan-26 Reg S shares (≈90 % of current O/S) become an overhang once freely tradable.\nUpcoming Catalysts:\n🟡  • Q1-26 earnings – expected early May-26.\n🟡  • Mid-Jul-26 – Targeted closing of Super International acquisition.\n🔴  • Reverse Split authorization (1-for-5 to 1-for-20) approved Nov-25; board can implement any time to regain ≥$1 bid.\nNo near-term positive fundamen"
-            },
-            {
-              "title": "Dilution Risk",
-              "emoji": "",
-              "bullets": [
-                "Outstanding ATM ($100 M) + $70 M shelf give ample issuance capacity.",
-                "33.45 M Reg S shares (unregistered) equal ~90 % of current O/S; when registered or eligible for resale they could swamp current float (~2 M).",
-                "No warrants/convertibles on file, but upcoming reverse split would reset conversion math and make ATM viable.",
-                "Historical reverse split (1-for-16 in Oct-24) and another split already authorised signal management openness to further share-count resets."
-              ],
-              "prose": "Rating: 🔴  (High)"
-            },
-            {
-              "title": "Compliance",
-              "emoji": "",
-              "bullets": [],
-              "prose": "Bid-price has been < $1 since early Apr-26 (now $0.03). Nasdaq deficiency notice not yet disclosed, but the exchange typically issues a notice after 30 consecutive trading days below $1. Expect deficiency letter by late May-26, triggering 180-day cure period.\nCompliance Rating: 🟡 (watch for upcoming notice); board already has RS authority (1-for-5 to 1-for-20) which it may execute. No filing delinquencies reported."
-            },
-            {
-              "title": "Debt & Liabilities",
-              "emoji": "",
-              "bullets": [
-                "Loans payable: ~$0.1 M.",
-                "Accounts payable modest; working capital positive $7.7 M.",
-                "Cash only $0.2 M but bolstered by $7.4 M loan receivables and January Reg S funds once closed.",
-                "No near-term debt maturities threatening liquidity."
-              ],
-              "prose": "🟢  Low leverage"
-            },
-            {
-              "title": "Analyst Notes",
-              "emoji": "",
-              "bullets": [
-                "16-Apr-26 – \"CTNT ended up just like RDGT\" – implies pump-and-dump behaviour. 🔴",
-                "16-Apr-26 – Notes AC Sunshine-backed names often fade after volume spikes. 🔴",
-                "15-Jan-26 – Labels CTNT \"AC Sunshine pump and dump\" along with TWG, AHMA, INHD. 🔴",
-                "Dec-25 – Highlights repeated pattern: offering dip→rip; warns volume differences. 🟡",
-                "Jun-25 – Calls CTNT a \"China pump and dump\"; shelf capacity risk. 🔴"
-              ],
-              "prose": "Overall sentiment: 🔴 (Bearish, manipulation/dilution concerns)."
-            },
-            {
-              "title": "Other Catalysts",
-              "emoji": "",
-              "bullets": [],
-              "prose": "🟡  May 2026 – Q1 earnings; could show first look at 2026 revenue trend post-pivot.\n🟡  Mid-Jul 2026 – Closing of Super International acquisition; watch for revenue guidance.\n🔴  Potential reverse split to regain $1 bid – timing at board’s discretion; often followed by dilution.\n🟢  Any evidence Super International meets $10 M revenue guarantee could support bull case (no data yet)."
-            }
-          ],
-          "reasons": [
-            "Recent offering: S 3 2026-04-23",
-            "Placement agent: FT Global Capital Inc. — supply unload mechanics active"
-          ],
-          "insights": [
-            "Hype around April 16 acquisition announcement**: Ongoing social media buzz (e.g., X posts from April 27) highlights Cheetah Net's $5M deal to acquire Super International Trading Limited, which includes a 7-year profit guarantee paying CTNT cash if minimums aren't met; stock traded near $3 pre-deal, fueling \"undervalued\" narratives despite being outside the 3-day window.",
-            "No developments in the last 3 days**: No new corporate news, earnings, or announcements from April 25-28; price action appears purely technical/ speculative.",
-            "Not part of sector-wide movement**: Auto Dealerships industry shows no correlated gains; broader forecasts indicate declining new-vehicle sales (e.g., April SAAR down 7.3% YoY), with no peer surges tied to CTNT.",
-            "Upcoming catalyst**: Q1 2026 earnings report scheduled for May 18, 2026, which could provide updates on acquisition integration or financials."
-          ],
-          "jmtNotes": [
-            {
-              "date": "2026-04-25",
-              "text": "CTNT AC sunshine completely hammered the ATM - good to know for next time\n\nThe Company also disclosed that as of April 23, 2026, it had sold 355,000,000 shares of Class A Common Stock in at-the-market transactions under a previously disclosed Sales Agreement dated March 31, 2026, with AC Sunshine Securities LLC."
-            }
-          ],
-          "tldr": [
-            "🟡  24-Apr-26: Stock spiking on social-media momentum; no new fundamentals. <https://x.com/search?q=%24CTNT&src=typed_query&04242026>",
-            "🔴  02-Apr-26: $100 M ATM / $70 M shelf with AC Sunshine (Form 8-K) – significant dilution capacity. <https://app.askedgar.io/filing?ticker=CTNT&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1951667%2F000110465926039184%2Ftm2610890d1_8k.htm&formType=8-K>",
-            "🟡  16-Apr-26: ~$5 M cash acquisition aims to add ≥$10 M/yr revenue; closing by mid-Jul-26 (Form 8-K). <https://app.askedgar.io/filing?ticker=CTNT&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1951667%2F000110465926044124%2Ftm2611630d1_8k.htm&formType=8-K>",
-            "🔴  Jan-26: 33.45 M Reg S private placement @ $1.20 (Form 8-K) – huge overhang vs $0.03 price. <https://app.askedgar.io/filing?ticker=CTNT&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1951667%2F000110465926007972%2Ftm264412d1_8k.htm&formType=8%20K>",
-            "🟡  Compliance: Likely to receive Nasdaq $1 bid-price deficiency notice in late May; RS already authorised (1-for-5/20). Potential split = near-term risk.",
-            "🟢  Balance sheet light on debt; runway >12 mos after recent capital raise."
-          ],
-          "prevClose": 0.0235,
-          "open": 4.15,
-          "gapPct": 17559.57,
-          "time": "premarket",
-          "high": 4.21,
-          "hodTimeExact": "09:00 AM ET",
-          "close": 3.37,
-          "fade": 19,
-          "fadeExact": 19.95,
-          "vwap": 3.5117,
-          "vsVwap": "below",
-          "pmHigh": 4.85,
-          "volRaw": "712K",
-          "relVol": 0.5,
-          "avgVolM": 1.6
-        },
         {
           "sym": "RDAC",
           "hod": 389,
@@ -875,7 +757,7 @@
           "avgVolM": 10.5
         }
       ],
-      "hod": 17814,
+      "hod": 389,
       "fade": 22,
       "hodTime": "premarket",
       "theme": "Hot Tape",
