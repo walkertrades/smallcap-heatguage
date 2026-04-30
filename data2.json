@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-04-28T23:04:14.901898Z",
-  "count": 9173,
+  "exportedAt": "2026-04-30T11:50:00.214143Z",
+  "count": 9183,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,878 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-04-29",
+      "runners": [
+        {
+          "sym": "CTNT",
+          "hod": 17814,
+          "hodExact": 17814.89,
+          "news": [],
+          "tag": "UNDERWRITER MANIP",
+          "name": "Cheetah Net Supply Chain Service Inc. Class A Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 1.98,
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 1.98M",
+            "Best-efforts (FT Global Capital Inc.)",
+            "$70.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "24-Apr-26 – No new filings; stock up 32 % on social-media driven bounce (>300 M shares traded on 23-Apr). Purely speculative, no corporate update. <https://x.com/search?q=%24CTNT&src=typed_query&04242026>",
+                "16-Apr-26 – Signed cash deal to buy Super International Trading Ltd. for ~$5 M; seller must generate ≥$10 M annual revenue for 3 yrs or pay make-whole; closing expected by mid-Jul-26. Form 8-K. 🟡 <https://app.askedgar.io/filing?ticker=CTNT&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1951667%2F000110465926044124%2Ftm2611630d1_8k.htm&formType=8-K>",
+                "02-Apr-26 – Filed $100 M ATM program (prospectus supplement covers $70 M initial capacity) with AC Sunshine Securities. Form 8-K. 🔴 <https://app.askedgar.io/filing?ticker=CTNT&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1951667%2F000110465926039184%2Ftm2610890d1_8k.htm&formType=8-K>",
+                "25-Mar-26 – Definitive agreement to divest Edward Transit Express for $20 k to streamline ops. Form 8-K. 🟡",
+                "29-Jan-26 – Reg S Private Placement: 33.45 M shs @ $1.20 for $40.1 M gross; closing subject to Nasdaq & shareholder approval (vote held 30-Jan-26). Form 8-K. 🔴 <https://app.askedgar.io/filing?ticker=CTNT&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1951667%2F000110465926007972%2Ftm264412d1_8k.htm&formType=8%20K>"
+              ],
+              "prose": "News Rating: 🟡 (mostly momentum / neutral fundamentals)\nIndications of dilution: Active $100 M ATM, unused but effective; massive Jan-26 Reg S shares (≈90 % of current O/S) become an overhang once freely tradable.\nUpcoming Catalysts:\n🟡  • Q1-26 earnings – expected early May-26.\n🟡  • Mid-Jul-26 – Targeted closing of Super International acquisition.\n🔴  • Reverse Split authorization (1-for-5 to 1-for-20) approved Nov-25; board can implement any time to regain ≥$1 bid.\nNo near-term positive fundamen"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Outstanding ATM ($100 M) + $70 M shelf give ample issuance capacity.",
+                "33.45 M Reg S shares (unregistered) equal ~90 % of current O/S; when registered or eligible for resale they could swamp current float (~2 M).",
+                "No warrants/convertibles on file, but upcoming reverse split would reset conversion math and make ATM viable.",
+                "Historical reverse split (1-for-16 in Oct-24) and another split already authorised signal management openness to further share-count resets."
+              ],
+              "prose": "Rating: 🔴  (High)"
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Bid-price has been < $1 since early Apr-26 (now $0.03). Nasdaq deficiency notice not yet disclosed, but the exchange typically issues a notice after 30 consecutive trading days below $1. Expect deficiency letter by late May-26, triggering 180-day cure period.\nCompliance Rating: 🟡 (watch for upcoming notice); board already has RS authority (1-for-5 to 1-for-20) which it may execute. No filing delinquencies reported."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Loans payable: ~$0.1 M.",
+                "Accounts payable modest; working capital positive $7.7 M.",
+                "Cash only $0.2 M but bolstered by $7.4 M loan receivables and January Reg S funds once closed.",
+                "No near-term debt maturities threatening liquidity."
+              ],
+              "prose": "🟢  Low leverage"
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [
+                "16-Apr-26 – \"CTNT ended up just like RDGT\" – implies pump-and-dump behaviour. 🔴",
+                "16-Apr-26 – Notes AC Sunshine-backed names often fade after volume spikes. 🔴",
+                "15-Jan-26 – Labels CTNT \"AC Sunshine pump and dump\" along with TWG, AHMA, INHD. 🔴",
+                "Dec-25 – Highlights repeated pattern: offering dip→rip; warns volume differences. 🟡",
+                "Jun-25 – Calls CTNT a \"China pump and dump\"; shelf capacity risk. 🔴"
+              ],
+              "prose": "Overall sentiment: 🔴 (Bearish, manipulation/dilution concerns)."
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟡  May 2026 – Q1 earnings; could show first look at 2026 revenue trend post-pivot.\n🟡  Mid-Jul 2026 – Closing of Super International acquisition; watch for revenue guidance.\n🔴  Potential reverse split to regain $1 bid – timing at board’s discretion; often followed by dilution.\n🟢  Any evidence Super International meets $10 M revenue guarantee could support bull case (no data yet)."
+            }
+          ],
+          "reasons": [
+            "Recent offering: S 3 2026-04-23",
+            "Placement agent: FT Global Capital Inc. — supply unload mechanics active"
+          ],
+          "insights": [
+            "Hype around April 16 acquisition announcement**: Ongoing social media buzz (e.g., X posts from April 27) highlights Cheetah Net's $5M deal to acquire Super International Trading Limited, which includes a 7-year profit guarantee paying CTNT cash if minimums aren't met; stock traded near $3 pre-deal, fueling \"undervalued\" narratives despite being outside the 3-day window.",
+            "No developments in the last 3 days**: No new corporate news, earnings, or announcements from April 25-28; price action appears purely technical/ speculative.",
+            "Not part of sector-wide movement**: Auto Dealerships industry shows no correlated gains; broader forecasts indicate declining new-vehicle sales (e.g., April SAAR down 7.3% YoY), with no peer surges tied to CTNT.",
+            "Upcoming catalyst**: Q1 2026 earnings report scheduled for May 18, 2026, which could provide updates on acquisition integration or financials."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-04-25",
+              "text": "CTNT AC sunshine completely hammered the ATM - good to know for next time\n\nThe Company also disclosed that as of April 23, 2026, it had sold 355,000,000 shares of Class A Common Stock in at-the-market transactions under a previously disclosed Sales Agreement dated March 31, 2026, with AC Sunshine Securities LLC."
+            }
+          ],
+          "tldr": [
+            "🟡  24-Apr-26: Stock spiking on social-media momentum; no new fundamentals. <https://x.com/search?q=%24CTNT&src=typed_query&04242026>",
+            "🔴  02-Apr-26: $100 M ATM / $70 M shelf with AC Sunshine (Form 8-K) – significant dilution capacity. <https://app.askedgar.io/filing?ticker=CTNT&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1951667%2F000110465926039184%2Ftm2610890d1_8k.htm&formType=8-K>",
+            "🟡  16-Apr-26: ~$5 M cash acquisition aims to add ≥$10 M/yr revenue; closing by mid-Jul-26 (Form 8-K). <https://app.askedgar.io/filing?ticker=CTNT&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1951667%2F000110465926044124%2Ftm2611630d1_8k.htm&formType=8-K>",
+            "🔴  Jan-26: 33.45 M Reg S private placement @ $1.20 (Form 8-K) – huge overhang vs $0.03 price. <https://app.askedgar.io/filing?ticker=CTNT&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1951667%2F000110465926007972%2Ftm264412d1_8k.htm&formType=8%20K>",
+            "🟡  Compliance: Likely to receive Nasdaq $1 bid-price deficiency notice in late May; RS already authorised (1-for-5/20). Potential split = near-term risk.",
+            "🟢  Balance sheet light on debt; runway >12 mos after recent capital raise."
+          ],
+          "prevClose": 0.0235,
+          "open": 4.15,
+          "gapPct": 17559.57,
+          "time": "premarket",
+          "high": 4.21,
+          "hodTimeExact": "09:00 AM ET",
+          "close": 3.37,
+          "fade": 19,
+          "fadeExact": 19.95,
+          "vwap": 3.5117,
+          "vsVwap": "below",
+          "pmHigh": 4.85,
+          "volRaw": "712K",
+          "relVol": 0.5,
+          "avgVolM": 1.6
+        },
+        {
+          "sym": "RDAC",
+          "hod": 389,
+          "hodExact": 389.59,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "Rising Dragon Acquisition Corp. Ordinary Shares",
+          "sector": "Financial Services",
+          "country": "CN",
+          "floatM": 0.08,
+          "floatSrc": "AE",
+          "marketCap": "$29M",
+          "riskBadges": [
+            "Float 0.08M",
+            "Best-efforts (Lucid Capital Markets)"
+          ],
+          "sections": [
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Dilution Risk – 🟢****",
+                "No public warrants or convertibles are in-the-money (exercise price $11.50 vs. $4.90).",
+                "Insider promissory notes can convert at $10.00; far above market, so unlikely to convert until after a de-SPAC.",
+                "No PIPE, equity-line, shelf, or ATM in place.",
+                "Compliance Risk – 🟢****"
+              ],
+              "prose": "Offering Risk 🟢  (Low)\nOffering Ability 🟢  (Low) – No shelf, ATM or S-1 on file; warrants far OTM ($11.50); only small insider promissory notes are available.\nOffering Frequency 🟢  (Low) – No public offerings or warrant exercises since the Oct-2024 IPO.\nConclusion: Near-term dilution from new share issuance is minimal unless the company secures a new financing facility for the merger.\nNo Nasdaq deficiency notices disclosed.  Shares trade well above the $1.00 minimum.  The only existential risk i"
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants",
+            "Cash runway: -6.8 months → must raise"
+          ],
+          "insights": [
+            "Recent SEC filings on merger deadline extension** (April 23-28, 2026):",
+            "April 28: PRE 14A preliminary proxy filed, seeking shareholder approval for charter/trust amendments to allow up to 15 additional one-month extensions beyond current ~July 15, 2026 deadline (potentially to Oct 2027), funded by sponsor deposits (~$100k/month or $0.033/share).",
+            "April 23: 8-K on sponsor issuing $100k in unsecured notes deposited to trust, extending initial deadline to May 15, 2026; prior deposits in Jan-Apr 2026.",
+            "Ongoing reverse merger with HZJL Cayman Limited**: Announced Jan 27, 2025 (~$350M valuation per X chatter); prior shareholder approval Nov 20, 2025 (despite heavy redemptions: 5.7M shares); F-4 effective Sep 2025; company still pursuing closing."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "28-Apr-2026 PRE 14A filed to extend merger deadline up to Oct-2027; vote 28-May-2026. <https://app.askedgar.io/filing?ticker=RDAC&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F2018145%2F000121390026048686%2Fea0287917-01.htm&formType=PRE%2014A>",
+            "Offering & dilution risk low – no shelf/ATM, warrants @ $11.50; insider notes convert @ $10.",
+            "Cash tight outside the trust; requires sponsor loans if merger delayed; cash-need high.",
+            "Catalysts: 01-May record date, 26-May redemption deadline, 28-May vote, July-2026 liquidation unless extended.",
+            "No Nasdaq bid-price or filing deficiencies."
+          ],
+          "prevClose": 4.9,
+          "open": 6.87,
+          "gapPct": 40.2,
+          "time": "regular session",
+          "high": 23.99,
+          "hodTimeExact": "04:52 PM ET",
+          "close": 20.51,
+          "fade": 14,
+          "fadeExact": 14.51,
+          "vwap": 15.8366,
+          "vsVwap": "above",
+          "pmHigh": 8.8,
+          "volRaw": "16.4M",
+          "relVol": 4107.5,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "XTLB",
+          "hod": 111,
+          "hodExact": 111.74,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "XTL Biopharmaceuticals Ltd. American Depositary Shares",
+          "sector": "Healthcare",
+          "country": "IL",
+          "floatM": 1.94,
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 1.94M"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "29-Apr-26 (PR, 6-K) – Definitive agreement to acquire 100 % of Psyga Bio in an all-stock deal.  Psyga holders will receive ADSs equal to 40 % of the enlarged share count at closing plus milestone shares (3×10 %).  <https://app.askedgar.io/news/52126326?ticker=XTLB>",
+                "29-Apr-26 – 1-for-4 reverse ADS split became effective.  Aimed at regaining $1 bid compliance.",
+                "20-Mar-26 (PR & 6-K) – Announced the above ADS-ratio change.  <https://app.askedgar.io/news/51391196?ticker=XTLB>",
+                "27-Feb-26 (6-K) – Nasdaq delist determination citing “public shell” status and equity/bid-price deficiencies.  Company requested hearing.  <https://app.askedgar.io/filing?ticker=XTLB&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1023549%2F000121390026021691%2Fea0279045-6k_xtlbio.htm&formType=6-K>",
+                "24-Feb-26 (6-K) – Shareholders approved 1.45 B increase in authorized ordinary shares and a US$2 M private placement contingency.  <https://app.askedgar.io/filing?ticker=XTLB&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1023549%2F000121390026019877%2Fea0278174-6k_xtlbio.htm&formType=6-K>"
+              ],
+              "prose": "News Rating 🟡 (neutral-to-mixed)\n– Adds psychedelic pipeline but no near-term revenue; immediately dilutes existing holders by ≈ 67 % post-milestones.\nUpcoming Catalysts\n🟡 – Shareholder vote / closing of Psyga acquisition (H1-26).\n🔴 – Nasdaq hearing decision (expected within ~30–60 days of request).\n🟡 – Initiation of at least three Psyga Phase 2 trials within 12 months of closing (milestone tied)."
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "No in-the-money registered warrants or converts reported.",
+                "HOWEVER the Psyga transaction will issue new ADSs equal to 40 % of the *fully-diluted* company, plus up to another 30 % on milestones – a potential 67 % increase.",
+                "February EGM raised authorized share count to 2.9 B ordinary shares, giving management plenty of headroom for future equity issuance despite current low offering ability.",
+                "4) Compliance Risk** 🟡**",
+                "5) Debt & Liabilities** 🔴**"
+              ],
+              "prose": "Dilution Risk Rating: 🟡 Medium (27.5 %)\nNasdaq flagged XTLB for (1) stockholders’ equity < $2.5 M, (2) bid-price deficiency, and (3) “public shell” designation.  A hearing request stays delisting but a decision is due this spring/summer.  Reverse split helps bid rule but equity still negative."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants",
+            "Cash runway: -13.4 months → must raise"
+          ],
+          "insights": [
+            "Acquisition Announcement**: XTL Biopharmaceuticals announced today (April 29, 2026) its intent to acquire Psyga Bio, creating a psychedelics biotechnology platform with an advanced clinical pipeline, licensed GMP manufacturing, and proprietary psilocybin technologies. This appears to be the primary catalyst driving today's 32.2% surge, as highlighted in a GlobeNewswire press release.",
+            "1-for-4 Reverse Stock Split**: Effective today (announced ~8 hours ago), XTLB executed a 1:4 reverse split, consolidating shares and boosting the per-share price mechanically while potentially attracting momentum traders amid low float volatility.",
+            "Subsidiary Liquidation**: XTL's subsidiary Social Proxy entered liquidation following a court order (~7 hours ago), which may have cleared balance sheet overhang but introduced short-term uncertainty; not clearly positive.",
+            "Ongoing Momentum from Prior Catalysts**: Stock has seen prior surges (e.g., 58% in Jan 2026 on NeuroNOS acquisition for autism treatments with FDA orphan drug status; recent mentions of 22-315% rallies on \"biotech catalysts\" and liquidity inflows), suggesting speculative buying in micro-cap biotech."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 29-Apr-26: All-stock acquisition of Psyga Bio (6-K/PR). Adds psychedelic assets but dilutes existing holders by 40–67%. <https://app.askedgar.io/news/52126326?ticker=XTLB>",
+            "🟡 29-Apr-26: 1-for-4 reverse split to regain Nasdaq bid compliance.  Short-term float reduction; no cash impact.",
+            "🔴 Nasdaq delist hearings pending (notice 27-Feb-26). Outcome within weeks could remove listing.",
+            "🟢 Offering risk currently low (no shelf/ATM), but large share authorization and cash-burn mean future private placements likely.",
+            "🔴 Cash nearly exhausted; management admits going-concern risk.",
+            "🟠 Stock is ultra-low float and headline-sensitive; history of “pop-and-drop” per jmt415."
+          ],
+          "prevClose": 2.3,
+          "open": 3.77,
+          "gapPct": 63.91,
+          "time": "regular session",
+          "high": 4.87,
+          "hodTimeExact": "01:45 PM ET",
+          "close": 3.56,
+          "fade": 26,
+          "fadeExact": 26.9,
+          "vwap": 3.8636,
+          "vsVwap": "below",
+          "pmHigh": 4.2799,
+          "volRaw": "114.1M",
+          "relVol": 15593.1,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "EUDA",
+          "hod": 108,
+          "hodExact": 108.33,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "EUDA Health Holdings Limited Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "SG",
+          "floatM": 1.56,
+          "floatSrc": "AE",
+          "marketCap": "$37M",
+          "riskBadges": [
+            "Float 1.56M",
+            "$100.0M shelf",
+            "Toxic price protection",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Offering risk: 🔴",
+                "Ability (Shelf $92.5 M; ATM $10 M, active F-3): 🔴",
+                "Frequency (3 registered offerings in last 14 months plus convert note): 🔴",
+                "Dilution Risk 🔴****",
+                "High (88.5 % potential dilution per tracker)"
+              ],
+              "prose": "Last raise (Mar-26 RDO) priced at $6 vs. $18 stock, so those shares are in the money ~3× and could be an overhang.\nNo warrant exercises yet, but both securities are now attractive for holders.\nNasdaq MVLS deficiency (Rule 5550(b)(2)) — grace period expires 20-Oct-26. Current market value ~$30 M (below $35 M). Failure could lead to delisting or a hearing. No bid-price issues post-split.\nLatest balance sheet (31-Dec-25 figures per 20-F): working-capital deficit $4.8 M; short-term bank & related-pa"
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "TLDR**",
+                "🔴 Frequent dilution: High offering ability & history; Mar-02-26 RDO at $6 vs. $18 now; convertible securities in-the-money.",
+                "🔴 Nasdaq MVLS deficiency notice (27-Apr-26 6-K); must fix by 20-Oct-26 or risk delisting. <https://app.askedgar.io/filing?ticker=EUDA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1847846%2F000149315226019083%2Fform6-k.htm&formType=6-K>",
+                "🟡 Partner’s TCR-T program approved for Chinese R&D support (28-Apr-26 PR) — promising but long timeline; no near-term revenue. <https://app.askedgar.io/filing?ticker=EUDA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1847846%2F000149315226019415%2Fex99-1.htm&formType=6-K>",
+                "🔴 Heavily leveraged balance sheet & going-concern warning; current liabilities > current assets."
+              ],
+              "prose": "🟡 Possible Q1-26 earnings (early May 2026, date TBD)\n🔴 Any additional capital raise via ATM, shelf or convert note drawdowns (timing unknown)\n🟡 Updates on wellness clinic roll-outs and stem-cell distribution agreements in Asia (ongoing 2026-27)\n🔴 Potential further corporate actions (additional reverse splits) if compliance not regained by Oct-26\nOverall stance: Very high dilution & compliance risks outweigh early-stage pipeline upside; suitable only for high-risk, short-term traders."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated"
+          ],
+          "insights": [
+            "Recent Shenzhen R&D Approval Highlight (April 27-28, 2026)**: EUDA announced its linked partner Shenzhen Inno received approval for a TCR-T project under Shenzhen's key industry R&D program. This ties into EUDA's stem cell/longevity platform expansion, fueling some biotech hype amid the run-up.",
+            "Nasdaq Deficiency Notice (April 27, 2026)**: Received Nasdaq MVLS notice for failing minimum market value of listed securities; 180-day compliance period until ~October 2026. Typically negative, but microcaps often rally on \"buy the news\" defiance of delisting risks.",
+            "Q1 2026 Earnings Miss (Reported April 28, 2026)**: Revenue of $1.92M missed estimates of $3.90M badly, yet stock extended gains—indicating momentum overriding fundamentals.",
+            "Not a Sector-Wide Move**: No broad rally in Medical - Healthcare Information Services; peers like Tempus AI (TEM) down ~7%, others flat/mixed. Isolated to $EUDA's microcap profile."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "Frequent dilution: High offering ability & history; Mar-02-26 RDO at $6 vs. $18 now; convertible securities in-the-money.",
+            "Nasdaq MVLS deficiency notice (27-Apr-26 6-K); must fix by 20-Oct-26 or risk delisting. <https://app.askedgar.io/filing?ticker=EUDA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1847846%2F000149315226019083%2Fform6-k.htm&formType=6-K>",
+            "Partner’s TCR-T program approved for Chinese R&D support (28-Apr-26 PR) — promising but long timeline; no near-term revenue. <https://app.askedgar.io/filing?ticker=EUDA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1847846%2F000149315226019415%2Fex99-1.htm&formType=6-K>",
+            "Heavily leveraged balance sheet & going-concern warning; current liabilities > current assets.",
+            "Cash runway model shows ~69 months, but management still signals need for more capital.",
+            "Low-float post-split (~1.6 M) creates high volatility and trader interest."
+          ],
+          "prevClose": 12,
+          "open": 11.31,
+          "gapPct": -5.75,
+          "time": "regular session",
+          "high": 25,
+          "hodTimeExact": "10:12 AM ET",
+          "close": 14.49,
+          "fade": 42,
+          "fadeExact": 42.04,
+          "vwap": 16.8098,
+          "vsVwap": "below",
+          "pmHigh": 11.75,
+          "volRaw": "789K",
+          "relVol": 2.9,
+          "avgVolM": 0.3
+        },
+        {
+          "sym": "SAGT",
+          "hod": 99,
+          "hodExact": 99.41,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "SAGTEC GLOBAL LIMITED Class A Ordinary shares",
+          "sector": "Technology",
+          "country": "MY",
+          "floatM": 3.89,
+          "floatSrc": "AE",
+          "marketCap": "$40M",
+          "riskBadges": [
+            "Float 3.89M"
+          ],
+          "sections": [
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "jmt415 Analyst Notes :yellow_circle****"
+              ],
+              "prose": "🟢 Q4-26 – Target completion of \"Sovereign AI Data Center\" (NVIDIA-powered IaaS).\n🟢 Q2-26 – Expected close of 60 % Malaya Heritage restaurant acquisition (US$3 M).\n🟡 21-Jun-26 – Final US$150 k litigation settlement payment due (minor cash outflow).\nNo prior jmt415 notes available for SAGT."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [
+            "Anticipation of FY2025 Earnings Release Today**: Sagtec Global Limited (NASDAQ: SAGT) announced on April 28, 2026 (yesterday), via correction notice, that it will release fiscal year 2025 financial results (ended December 31, 2025) on April 29, 2026—today. This follows preliminary results shared in January 2026 estimating 64% revenue growth. The stock's 21.2% surge with elevated volume (92,840 shares) aligns with pre-earnings momentum in this low-float (~4M shares), small-cap name (market cap ~$22M).",
+            "No Recent Company-Specific News Beyond Earnings**: No other announcements, partnerships, or developments in the last 3 days (April 26-29, 2026). Older catalysts include NVIDIA-powered data center plans (target Q4 2026 completion) and a March 2026 term sheet for 60% stake in Malaya Heritage Holding, but these are not driving today's move.",
+            "Not Part of Sector-Wide Movement**: No evidence of broad gains in Malaysia's Software - Application industry stocks (e.g., no surges noted in peers like those on Bursa Malaysia). Searches for sector activity in April 2026 yielded no relevant trends.",
+            "Upcoming Catalysts**: FY2025 earnings and conference call today (April 29, 2026)—potential for detailed 2026 growth outlook (e.g., data center progress). No other confirmed dates."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟢 29-Apr-26 6-K – Record FY-25 revenue US$19.1 M (+49 % YoY), profitable; validates growth strategy. <https://app.askedgar.io/filing?ticker=SAGT&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F2029138%2F000121390026048819%2Fea028817701ex99-1.htm&formType=6-K>",
+            "🟢 Offering & dilution risk low; no active shelf/ATM, cash-flow positive; next possible float increase Aug-26 (5.5 M Kinetic Seas shares unlock).",
+            "🟢 No Nasdaq compliance issues; debt minimal, US$2.3 M cash on hand covers near-term needs.",
+            "🟢 Growth catalysts ahead – Q2-26 Malaya Heritage acquisition closing, Q4-26 NVIDIA-powered AI data-center launch.",
+            "🟡 Equity-line with Helena (US$25 M) exists but inactive; relationship recently mended via US$250 k settlement (final payment due 18-Jun-26)."
+          ],
+          "prevClose": 1.7,
+          "open": 3.065,
+          "gapPct": 80.29,
+          "time": "regular session",
+          "high": 3.39,
+          "hodTimeExact": "09:34 AM ET",
+          "close": 2.17,
+          "fade": 35,
+          "fadeExact": 35.99,
+          "vwap": 2.6208,
+          "vsVwap": "below",
+          "pmHigh": 3.28,
+          "volRaw": "107.2M",
+          "relVol": 655.7,
+          "avgVolM": 0.2
+        },
+        {
+          "sym": "INHD",
+          "hod": 88,
+          "hodExact": 88.24,
+          "news": [
+            "Inno Holdings Inc. Announces 1-for-20 Reverse Stock Split in Ongoing Nasdaq Compliance Efforts"
+          ],
+          "tag": "NEWS-DRIVEN",
+          "name": "Inno Holdings Inc. Common Stock",
+          "sector": "Basic Materials",
+          "country": "HK",
+          "floatM": 5.44,
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 5.44M",
+            "$150.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [],
+              "prose": "News / Filing chronology (newest first)\n🔴 1. 2026-04-22 (8-K) – Board change (director resignation, replacement). <https://app.askedgar.io/filing?ticker=INHD&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1961847%2F000149315226018581%2Fform8-k.htm&formType=8-K>  ➜ Neutral governance item (🟡)\n🟡 2. 2026-04-08 (8-K press release) – “AI Strategic Initiative” for smartphone quality inspection. Early planning, no revenue. <https://app.askedgar.io/filing?ticker=INHD&filingUrl=https%3A%"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🔴 High – Authorized share cap just increased to 1 B (from 100 M). Outstanding shares already up ~1,500 % YoY post 1-for-24 reverse split Dec-2025.  • ATM ($22 M unused) and equity lines sit well above today’s $1.1 M market-cap; any uptick in share price can be monetised immediately.  • No in-the-money warrants/convertibles, but sheer shelf/ATM/SEPA capacity dwarfs float. Expect continuing share expansion."
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟢 None reported – Company is currently Nasdaq-compliant after the 1-for-24 reverse split. No open bid-price or equity-deficiency notices."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟢 Clean balance sheet: $37.1 M cash vs. only $0.18 M current liabilities and $0 debt (SEPA liability was marked-to-market to zero). Liquidity is strong, but cash was entirely raised from equity sales, not operations."
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Colour rating: 🔴  – The analyst consistently labels INHD an \"AC Sunshine pump-and-dump\" and cites historical faders.  • 2026-01-15: \"AC Sunshine pump and dump stock like CTNT TWG AHMA INHD\"  • 2026-01-13: Warns INHD can run then dump.  • 2025-12-01: Lists INHD among IPOs that eventually \"faded\" after AC Sunshine involvement.  • 2025-05-12: Reminder to watch out for liquidation-style moves on AC Sunshine deals."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated"
+          ],
+          "insights": [
+            "Momentum rebound after sharp prior-day decline**: $INHD dropped 39% on April 28, 2026 (closing at $0.08), but surged 37% after-hours and over 58% pre-market on April 29, leading to +42.4% intraday with elevated volume (1.24M shares); typical penny stock volatility post-drop.",
+            "Recent 1-for-24 reverse stock split**: Completed recently (noted in corporate actions trackers), reducing float and creating low-float setup prone to explosive moves; traders highlighting this as fueling volatility.",
+            "Low-float/micro-cap trader interest**: Tiny market cap and post-split structure attracting momentum day traders; no fundamental news, but X chatter positions it as a \"low-float style mover\" with AI/steel themes.",
+            "No major company announcements in last 3 days**: No press releases, filings, or earnings confirmed for April 26-29; one April 28 reference speculated \"earnings today\" (April 29), but unverified and no reports of release or results driving move."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "2026-04-22 (8-K): Board shuffle – neutral.",
+            "2026-04-08 (8-K): AI initiative PR – early-stage, no revenue yet.",
+            "2026-03-03 (8-K): Share cap lifted to 1 B + reverse split authority – major dilution overhang.",
+            "2026-01-23 (8-K): 1.332 M share offering @ $0.55 – latest cash raise.",
+            "Offering Risk/Ability/Frequency all High; ATM $22 M + shelves ready.",
+            "Cash rich ($37 M) & virtually debt-free; 49 months runway, but management still signals need for more funding.",
+            "Jmt415 flags INHD as serial pump/fader tied to AC Sunshine.",
+            "Next catalyst: ATM expiry 2026-05-12 (could prompt last-minute sales); next 10-Q expected Aug-2026."
+          ],
+          "prevClose": 0.08,
+          "open": 0.1382,
+          "gapPct": 72.75,
+          "time": "premarket",
+          "high": 0.1506,
+          "hodTimeExact": "06:07 AM ET",
+          "close": 0.12,
+          "fade": 20,
+          "fadeExact": 20.31,
+          "vwap": 0.1281,
+          "vsVwap": "below",
+          "pmHigh": 0.1599,
+          "volRaw": "610.5M",
+          "relVol": 27.4,
+          "avgVolM": 22.3
+        },
+        {
+          "sym": "AKAN",
+          "hod": 81,
+          "hodExact": 81.25,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "Akanda Corp. Common Shares",
+          "sector": "Healthcare",
+          "country": "GB",
+          "floatM": 0.54,
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [
+            "Float 0.54M",
+            "Best-efforts (Univest Securities, LLC)",
+            "$5.0M shelf",
+            "RegSHO"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "🟡",
+              "bullets": [
+                "Adjourned special shareholder meeting (lack of quorum); new date 25-May-26. No operational updates – neutral.",
+                "22-30 Apr-26 – Post-split low-float squeeze (+600% in a week) tied to (1) U.S. cannabis Schedule III speculation and (2) trader hype. No new fundamentals disclosed. 🟡",
+                "10-Apr-26 & 13-Apr-26 – Reverse split 1-for-4.5 to regain Nasdaq price compliance. This is generally dilution-linked / negative. 🔴",
+                "Jan-26 $7 M variable-price convertible note (floor $0.254 pre-split ≈ $1.14 post-split) – now deep in the money; resale F-1 filed 26-Jan-26, still pending effectiveness.",
+                "25-May-26 – Reconvened Special Shareholder Meeting (could approve share class changes & facilitate future financings). 🔴"
+              ],
+              "prose": "Most‐recent filing (6-K, 29-Apr-26) <https://app.askedgar.io/filing?ticker=AKAN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1888014%2F000121390026048856%2Fea028814601ex99-1.htm&formType=6-K>\nMarket-driving headlines (social-media–fueled):\nIndications of dilution:\nUpcoming catalysts:"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "🔴",
+              "bullets": [
+                "Jan-26 $7 M convertible note (matures Jan-27) converts at lesser of $1.27, 85 % of 5-day VWAP, or $0.254 floor (pre-split). At current $25.99 (> 4× post-split conversion price) the note is fully in-the-money. Approx. 1.2 M shares (220 % of float) could be issued – registration statement (F-1, 26-Jan-26) pending effectiveness.",
+                "Historical dilution massive: 6,200 % increase in OS over last two years.",
+                "No outstanding registered warrants; warrant-exercise risk rated 🟢.",
+                "Reverse splits (Jan-26 1-for-5, Apr-26 1-for-4.5) reset conversion floors lower in absolute dollar terms, facilitating future dilution.",
+                "Compliance Risk** 🟢**"
+              ],
+              "prose": "Overall dilution risk remains 🔴 High.\nCurrent compliance risk appears low, but continued price volatility & dilution could pressure bid."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "🟡",
+              "bullets": [
+                "No recent 10-K/Q filed since Jun-25 (last 20-F). Latest data (Dec-24) shows $57.5 M accumulated deficit.",
+                "$7 M Jan-26 convertible note (10 % coupon, 12-mo maturity) is only material debt disclosed.",
+                "Accounts payable, other liabilities undisclosed in supplied data.",
+                "Cash est. $20.9 M; burn ~$0.19 M/qtr → 27+ yrs runway IF operations remain minimal.",
+                "However, wind-down of subsidiaries and pivot to telecom suggest future cash needs; management admits reliance on external financing."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [
+                "29-Apr-26 – Expects Jan-26 note largely converted; anticipates another convertible deal soon; shelf nearly exhausted; views move as squeeze more than fundamental. 🔴",
+                "23-Apr-26 – Notes only ~$140 K shelf left; floor conversion price ≈ $3 pre-RS equivalent; calls AKAN a “pretty good fader” after early spikes; same investors/Univest likely to repeat PIPE. 🔴",
+                "22-Apr-26 – Highlights potential U.S. cannabis rescheduling catalyst. 🟠",
+                "02-Aug-24 – Said stock looked like a “dead-cat bounce,” no cash need but no shelf capacity; points to serial offerings. 🔴"
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "25-May-26 Special Shareholder Meeting (potential approval of share-class changes / recap) – 🔴",
+                "29-Jun-26 DEA hearing on marijuana Schedule III – 🟡 (macro sentiment)",
+                "Potential F-1 becoming effective enabling resale of ~1.2 M shares from Jan-26 note – 🔴 (dilutive overhang)",
+                "Possibility of new Univest-led convertible note per historical pattern – 🔴"
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated"
+          ],
+          "insights": [
+            "Momentum continuation from explosive multi-day rally**: $AKAN has surged over 600% in the past week, with +96.69% on April 28 (Tuesday), +140% intraday squeeze noted by traders, and today's +23.2% gain amid ongoing volatility; trading halted multiple times (e.g., LULD pause); ultra-low float post recent 1-for-4.5 reverse split fueling squeezes and trader interest (134k shares traded today notable for float size).",
+            "Cannabis sector tailwinds from U.S. rescheduling news**: Rally tied to April 22 DOJ/DEA final order rescheduling cannabis-derived drugs (less dangerous than heroin), sparking sector-wide moves in pot stocks (e.g., Tilray Brands, Canopy Growth highlighted as top watches April 27-28); $AKAN benefiting as a cannabis cultivator/manufacturer despite UK/Lesotho focus; not indicative of broader \"Drug Manufacturers - Specialty & Generic\" industry movement.",
+            "Subsidiary developments in telecom/fiber optics**: Hype around First Towers & Fiber unit securing 200km fiber expansion in Mexico, building 700+ km dark fiber network and towers; positioned as \"cannabis king\" with infrastructure angle drawing trader narratives (e.g., April 27 X post by @KevOfMomentum, 25+ likes).",
+            "Upcoming catalyst**: Board meeting tomorrow (April 30, 2026) for 2025 Annual Report release; no confirmed earnings date, but potential for updates on operations/Mexico expansion."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-04-29",
+              "text": "AKAN I suspect the convertible note has been converted and they'll do another convertible note soon (did one in sept and january both with Alternative Investment and Corbo via Univest)\n- filing another shelf is possible but would take them longer to raise captial and they arent over baby shelf (would prob need like a $35 close at least to get over depending on how many shares were converted)\n\nnot totally sure if just simply a short squeeze and/or people buying and holding hoping for some kind of Trump follow up tweet to this one about CBD https://truthsocial.com/@realDonaldTrump/posts/116456354024090916"
+            },
+            {
+              "date": "2026-04-23",
+              "text": "AKAN regardless of the floor conversion price they cant go lower than around $3 at these prices (conversion price would be 85% of the vwap in the last 5 days) - would be around 2.5M shares"
+            },
+            {
+              "date": "2026-04-23",
+              "text": "AKAN\n- correction they only have $140k shelf capacity - the original shelf only registered $5M and theyve already used most of it, so regardless of baby shelf capacity, they cant really do anything more unless they file a bigger shelf\n- Trump apparently to reclassify weed from schedule I to schedule III (they Pr'd about this last December, but apparently Trump should be signing any day now, somewhat similar to the Psychedelic thing last week, so possible these names keep coming back like PBM until the news is out)\n- pretty good fader but can spike a lot first early (fades by mid morning) - https://discord.com/channels/1249146793464430633/1308024400884531302/1496737488327413810\n- last time they were unloading convertibles, same scenario this time although with the floor conversion price around $5, its only around 1.2M shares - its been the same investor + univest 2 times so likely they do another PIPE with convertible notes since it seems to be working really well for them\n- one thing to note is the floor price was $0.25 but they dont seem to indicate anywhere that is adjusted for the reverse split https://app.askedgar.io/filing?filingUrl=https://www.sec.gov/Archives/edgar/data/1888014/000121390026005399/ea0273313-6k_akanda.htm&ticker=AKAN&previousUrl=/ticker/AKAN/filings?news_pageIndex=1&activeFilingUrl=https://www.sec.gov/Archives/edgar/data/1888014/000121390026005399/ea027331301ex10-2_akanda.htm\n- *registration for these is still pending effect ^"
+            },
+            {
+              "date": "2026-04-22",
+              "text": "Trump apparently to reclassify weed from schedule I to schedule III as early as today https://www.axios.com/2026/04/22/trump-marijuana-rule-change\nAKAN TLRY CGC \n- mainly would mean significant tax relief and easier medical research"
+            }
+          ],
+          "tldr": [
+            "🟡 29-Apr-26 6-K: Special meeting adjourned, reconvenes 25-May-26 – no new fundamentals but may pave way for share-class changes (<https://app.askedgar.io/filing?...>)",
+            "🔴 Jan-26 $7 M variable-price convertible note is deep in-the-money; resale F-1 filed 26-Jan-26 still pending – heavy dilution likely once effective.",
+            "🟢 Cash runway appears long (≈ 27 yrs burn), yet management signals need for external funding & business pivot.",
+            "🔴 Serial history of offerings (6 in 24 mo) + exhausted shelf → high probability of another PIPE/convertible.",
+            "🟡 Current price surge driven by low-float squeeze + cannabis Schedule III chatter; not backed by revenue or operational news.",
+            "🟢 No active Nasdaq bid-price deficiency after 1-for-4.5 reverse split."
+          ],
+          "prevClose": 17.49,
+          "open": 19.46,
+          "gapPct": 11.26,
+          "time": "regular session",
+          "high": 31.7,
+          "hodTimeExact": "12:17 PM ET",
+          "close": 25.99,
+          "fade": 18,
+          "fadeExact": 18.01,
+          "vwap": 24.6182,
+          "vsVwap": "above",
+          "pmHigh": 23.85,
+          "volRaw": "12.3M",
+          "relVol": 2.7,
+          "avgVolM": 4.5
+        },
+        {
+          "sym": "BRLS",
+          "hod": 79,
+          "hodExact": 79.65,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Borealis Foods Inc. Class A Common Shares",
+          "sector": "Consumer Defensive",
+          "country": "CA",
+          "floatM": 8.84,
+          "floatSrc": "AE",
+          "marketCap": "$41M",
+          "riskBadges": [
+            "Float 8.84M"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "🟡",
+              "bullets": [
+                "BRLS refinanced its distressed Frontwell facility with a new $17 M five-year term loan from Oxus Capital (12% coupon, no cash interest for 12 mos). The deal:  – repays defaulted debt, terminates forbearance, removes CRO requirement, and should improve short-term liquidity.  – BRLS must raise ≥$70 M at ≥$9.00 per share by 1 Jul 2026 or ~$29 M insider debt will automatically convert to common stock (size & terms not yet registered).",
+                "Stock reacted +20-30 % on 28-29 Apr with volume spikes (>300 k shares)."
+              ],
+              "prose": "Latest material item (Form 8-K, 8-K Ex.99-1, GlobeNewswire – 28 Apr 2026)\n<https://app.askedgar.io/filing?ticker=BRLS&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1852973%2F000121390026048551%2Fea028808401ex99-1_borealis.htm&formType=8-K>\nEarlier April filings  (all Form 8-Ks) were negative: forbearance agreement (02 Apr), default notice (17 Apr) and Nasdaq deficiency for late 10-K (23 Apr).\nUpcoming catalysts\n🟡 11 May 2026 – two Oxus board seats must be appointed.\n🔴 31 May 20"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "🔴",
+              "bullets": [
+                "Potential dilution is very high (rating 🔴) even though no warrants are currently in-the-money.",
+                "No recent registered resale statements or warrant exercises."
+              ],
+              "prose": "– Insider/related-party debt ($29 M) will convert into common stock automatically if the $70 M raise is not achieved by 1 Jul 2026. Conversion price not disclosed yet; if it converts anywhere near market, it could roughly double the share count (>100% dilution – the model flags 123.7%).\n– IPO SPAC warrants (11.5 $ strike) are far out-of-the-money (stock $1.54).\n– No baby-shelf capacity, so any large raise would likely be a highly dilutive PIPE/S-1 with deep discount."
+            },
+            {
+              "title": "Compliance",
+              "emoji": "🔴",
+              "bullets": [],
+              "prose": "BRLS has two open Nasdaq issues:\n1) Late FY-25 Form 10-K (rule 5250(c)(1)) – notice dated 17 Apr 2026; plan due 16 Jun 2026; potential cure by Oct 2026.\n2) Annual-meeting rule 5620(a) – must hold meeting by 31 May 2026 (already once extended).\nStock price is currently above $1 but only recently; a sub-$1 bid streak would introduce a third deficiency.\nFailure to meet any deadline risks delisting within the next 2-5 months."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "🔴",
+              "bullets": [
+                "Cash: $0.13 M vs quarterly burn ~$1.25 M (-6.5 months runway at that time).",
+                "Current liabilities: $64.1 M vs current assets $9.5 M → working-capital deficit $54.6 M.",
+                "Total debt (lines of credit + notes + leases) ≈ $35 M current + $4 M LT + $19 M related-party → >$58 M.",
+                "Shareholders’ deficit: ‑$12.9 M."
+              ],
+              "prose": "Latest 10-Q (19 Nov 2025) shows:\nThe 28 Apr 2026 Oxus refinancing repaid ~$16 M Frontwell debt but replaced it with $17 M 5-yr term loan, so leverage remains heavy and interest (12%) is high."
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No historical jmt415 notes were provided for BRLS."
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 8.84M + RelVol 51.3x",
+            "Cash runway: -6.6 months → must raise"
+          ],
+          "insights": [
+            "Primary catalyst: $17M refinancing announcement (April 28, 2026)**",
+            "Technical factors**",
+            "No recent negative overhang resolution**",
+            "Not part of sector-wide movement**"
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 28 Apr 2026 (8-K/PR) – $17 M Oxus refinancing removes default & CRO clause but still requires a massive $70 M equity raise by 1 Jul 2026. <https://app.askedgar.io/filing?ticker=BRLS&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1852973%2F000121390026048551%2Fea028808401ex99-1_borealis.htm&formType=8-K>",
+            "🔴 Dilution risk extremely high – insider debt converts if raise fails; model flags 123% potential dilution.",
+            "🔴 Liquidity runway minimal; leverage heavy even after refinancing.",
+            "🔴 Nasdaq non-compliant (late 10-K & annual-meeting); key deadlines 31 May  & 16 Jun 2026.",
+            "🟢 Offering mechanics currently limited (no shelf/ATM), but management is actively pursuing a large equity financing, meaning a new S-1/PIPE could drop anytime.",
+            "🟡 Short-term catalyst: appointment of two Oxus board reps by 11 May 2026 (neutral), delayed 10-K filing in May (could lift some compliance pressure)."
+          ],
+          "prevClose": 1.13,
+          "open": 1.23,
+          "gapPct": 8.85,
+          "time": "regular session",
+          "high": 2.0301,
+          "hodTimeExact": "04:04 PM ET",
+          "close": 1.89,
+          "fade": 6,
+          "fadeExact": 6.9,
+          "vwap": 1.7986,
+          "vsVwap": "above",
+          "pmHigh": 1.2,
+          "volRaw": "10.6M",
+          "relVol": 51.3,
+          "avgVolM": 0.2
+        },
+        {
+          "sym": "AIXI",
+          "hod": 65,
+          "hodExact": 65.74,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "XIAO-I Corporation American Depositary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 16.15,
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [
+            "$100.0M shelf",
+            "RegSHO",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "Announces a 1-for-20 reverse ADS split effective on/around 11 May 2026 to regain Nasdaq $1 bid compliance.",
+                "Q1-26 results released; details still limited, but headline drove a +22% intraday spike on >2.5 M volume.",
+                "6-K (2026-04-01) <https://app.askedgar.io/filing?ticker=AIXI&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1935172%2F000121390026038157%2Fea028436201ex99-1.htm&formType=6-K> – China’s Supreme People’s Court upheld Xiao-I’s core AI patents, ending Apple’s invalidation attempts. Market is speculating on >$1 B potential damages/licence settlement.",
+                "Multiple social-media bursts (04-06 to 04-29) around:  – imminent punitive damages law in China (effective 01 May 2026) 🟡;  – high short-interest “squeeze” chatter 🟡."
+              ],
+              "prose": "News Colour: 🟡  (mixed – legal win is bullish, but a reverse split & large cash burn offset)\nMost-recent filing (6-K, 2026-04-23) <https://app.askedgar.io/news/52018820?ticker=AIXI>\nToday – 2026-04-29 (likely 6-K/press release – earnings) <https://x.com/search?q=%24AIXI&src=typed_query&04292026>\nApril 1–26, 2026 – Series of press releases / 6-Ks & heavy social-media coverage\nUpcoming Catalysts\n🟢 01 May 2026 – China’s new punitive IP-damages law takes effect; increases pressure on Apple settlemen"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "$6.1 M (Jun-25) and $4.3 M (Jan-25) converts are deep in-the-money due to 85 % of market VWAP conversion formulas → constant share issuance pressure.",
+                "No significant registered warrant overhang, but convert holders can request registration after share issuance.  All prior converts were registered at issuance (June 2025) or are PIPE (Oct 2024) – shares from PIPE may still require registration before resale.",
+                "No recent 424B/424B5 resale filing spotted yet, but risk of future S-1 resale or inducement offers is elevated."
+              ],
+              "prose": "Dilution Risk: 🔴  (High – 155 % potential per model)"
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [
+                "07 Apr 2026 – Calls AIXI “a scam… Chinese Prime Number Capital IPO,” expects fade as convert holder (likely Streeterville) sells.",
+                "22 Apr 2026 – Flags need for shareholder approval of convert issuances & reverse split on 22 May.",
+                "08 Apr 2026 – Mentions AIXI run is part of Streeterville-backed convertible note playbook."
+              ],
+              "prose": "Overall Tone : 🔴  (bearish)\nTake-away: Jmt sees consistent dilution & pump-and-dump behavior."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated",
+            "Cash runway: -0.7 months → must raise"
+          ],
+          "insights": [
+            "Earnings Release Today**: Xiao-I Corporation ($AIXI) announced its Q1 2026 earnings report on April 29, 2026, which appears to have driven the 21.9% surge amid high trading volume of over 2.5 million shares. Specific details on beats/misses are not detailed in recent reports, but the timing aligns directly with today's movement in this volatile penny stock.",
+            "Announcement of ADS Ratio Change (Reverse Split Equivalent)**: On April 28-29 (17 hours ago), the company disclosed plans for an American Depositary Shares (ADS) ratio change effectively acting as a reverse split. While often viewed negatively, some retail sentiment sees it as beneficial for longs (e.g., aiding Nasdaq compliance and positioning ahead of potential Apple settlement).",
+            "Momentum from Recent Patent Victory vs. Apple**: Ongoing buzz from China's Supreme People's Court upholding key AI patents against Apple (final ruling ~April 23-26), rejecting invalidation attempts. This has fueled multi-day gains (e.g., 60%+ premarket surges earlier in the week), with today's move as continuation amid speculation of settlement.",
+            "Anticipation of China's Punitive Damages Law**: New Chinese law enabling punitive damages takes effect May 1, 2026 (tomorrow). Traders speculate Apple may settle the infringement case beforehand to avoid 5x damages (potentially $1.4B+), adding urgency as a near-term catalyst."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-04-22",
+              "text": "FFAI yet another Streeterville runner (ELAB AIXI RIME some recent ones) - still need shareholder approval on May 22 though to approve all the convertible notes/share issuances as well as a reverse split"
+            }
+          ],
+          "tldr": [
+            "04-29-26 6-K/Press Release – Q1 earnings pop (+22%) but no numbers yet <https://x.com/search?q=%24AIXI&src=typed_query&04292026>",
+            "04-23-26 6-K – 1-for-20 reverse split (ADS ratio change) to meet Nasdaq bid <https://app.askedgar.io/news/52018820?ticker=AIXI>",
+            "04-01-26 6-K – China Supreme Court upholds patents vs. Apple; fuels settlement hopes <https://app.askedgar.io/filing?ticker=AIXI&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1935172%2F000121390026038157%2Fea028436201ex99-1.htm&formType=6-K>",
+            "01 May 26 – New Chinese punitive-damages law takes effect; could pressure Apple to settle.",
+            "11 May 26 – Reverse split effective; often followed by dilution.",
+            "22 May 26 – Shareholder meeting to approve issuance linked to convertibles (per jmt415).",
+            "16 Jun 26 – Nasdaq $1 bid deadline."
+          ],
+          "prevClose": 0.73,
+          "open": 0.905,
+          "gapPct": 23.97,
+          "time": "regular session",
+          "high": 1.2099,
+          "hodTimeExact": "10:25 AM ET",
+          "close": 0.899,
+          "fade": 25,
+          "fadeExact": 25.7,
+          "vwap": 0.9608,
+          "vsVwap": "below",
+          "pmHigh": 0.935,
+          "volRaw": "138.9M",
+          "relVol": 0.9,
+          "avgVolM": 159.9
+        },
+        {
+          "sym": "RPGL",
+          "hod": 62,
+          "hodExact": 62.0,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "Republic Power Group Limited Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "SG",
+          "floatM": 43.43,
+          "floatSrc": "AE",
+          "marketCap": "$64M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [
+                "Prior bid-price deficiency remedied via Feb-26 1-for-20 reverse split; no active Nasdaq notice disclosed.",
+                "EGM authorises further reverse splits (1:2–1:100) within 180 days – suggests management anticipates potential future bid-price issues.",
+                "No equity-deficiency or filing delinquency cited.  Next compliance checkpoint ~Oct-26 (12-month bid test)."
+              ],
+              "prose": "Risk: medium – company prepared to act, but further price erosion could trigger new notices."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [
+            "Strategic Acquisition and Pivot Announcement (April 27, 2026)**: Republic Power Group Limited announced the acquisition of a 10% equity stake in NVC Partners Limited and a technology access agreement to enter the high-growth Real World Assets (RWA) tokenization and blockchain infrastructure markets. This positions the Singapore-based ERP software provider into digital assets, sparking investor excitement and driving the 23% surge with elevated volume (922k shares).",
+            "Insider Activity**: Recent Form 3 filings from a director (April 28) and CFO (April 29) disclosing initial beneficial ownership, signaling confidence.",
+            "No Sector-Wide Movement**: Software - Services industry shows mixed performance (e.g., software stocks lagging amid AI/chip focus); RPGL's gain is company-specific.",
+            "Upcoming Catalysts**: No confirmed key dates (e.g., no earnings announced); monitor RWA platform integration, potential NVC stake increases, or Q1 2026 earnings (TBD). April 30 EGM mentioned in older news for capital structure but not recent."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "27-Apr-26 6-K: Buys 10 % of NVC & licenses RWA tokenisation tech – speculative growth angle, stock +45 %. <https://app.askedgar.io/filing?ticker=RPGL&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1912884%2F000121390026047784%2Fea0287721-6k_republic.htm&formType=6-K>",
+            "Repeated equity raises: 40 M shares @ $0.25 on 8-Apr-26; 44.8 M @ $0.20 on 30-Jan-26; 688k Class B insider PIPE on 14-Apr-26. High dilution & overhang risk.",
+            "30-Apr-26 EGM will vote on up-to-1:100 reverse split & insider share exchange – monitor results.",
+            "Compliance: no current Nasdaq deficiency, but board seeking split authority suggests bid-price vigilance.",
+            "Funding: ~US$8 M NVC deal creates cash need; more raises likely.",
+            "jmt415 historical notes label RPGL as heavy diluter / Bancroft underwriter."
+          ],
+          "prevClose": 1,
+          "open": 1.07,
+          "gapPct": 7.0,
+          "time": "regular session",
+          "high": 1.62,
+          "hodTimeExact": "12:34 PM ET",
+          "close": 1.43,
+          "fade": 11,
+          "fadeExact": 11.73,
+          "vwap": 1.3931,
+          "vsVwap": "above",
+          "pmHigh": 1.09,
+          "volRaw": "13.1M",
+          "relVol": 1.3,
+          "avgVolM": 10.5
+        }
+      ],
+      "hod": 17814,
+      "fade": 22,
+      "hodTime": "premarket",
+      "theme": "Hot Tape",
+      "note": "CTNT led +17814.89% (19% fade). 5/10 held <20% fade. news: INHD — \"Inno Holdings Inc. Announces 1-for-20 Reverse Stock Split in Ongoing Nasdaq Compliance Efforts\"."
+    },
     {
       "date": "2026-04-28",
       "runners": [
