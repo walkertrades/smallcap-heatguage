@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
   "exportedAt": "2026-05-04T12:27:04.489810Z",
-  "count": 9199,
+  "count": 9198,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -12,73 +12,6 @@
     {
       "date": "2026-05-01",
       "runners": [
-        {
-          "sym": "GMEX",
-          "hod": 733,
-          "hodExact": 733.06,
-          "news": [],
-          "tag": "RIG",
-          "name": "GMEX ROBOTICS CORPORATION Class A Ordinary Shares",
-          "sector": "Consumer Cyclical",
-          "country": "AU",
-          "floatM": 0.85,
-          "floatSrc": "AE",
-          "marketCap": "$2M",
-          "riskBadges": [
-            "Float 0.85M",
-            "Active ATM $6.9M",
-            "$150.0M shelf",
-            "Toxic price protection",
-            "High offering risk"
-          ],
-          "sections": [
-            {
-              "title": "Other Catalysts",
-              "emoji": "",
-              "bullets": [
-                "Possible additional closings of Series D note (any time until 2029-03-13) 🔴",
-                "Potential follow-on contracts for hospital or kitchen robots (no dates) 🟡",
-                "Crypto-treasury mark-to-market updates; could swing earnings with BTC price 🟡",
-                "Offering Risk** 🟢**",
-                "Offering Ability** 🟢**"
-              ],
-              "prose": "overall_offering_risk: Low 🟢\nThe shelf has effectively run out (baby-shelf cap hit) and ATM capacity shows $0. Past deals relied on private/secured convertibles that require investor consent. While management has proven willing to issue notes, registrar capacity is currently limited.\nLow 🟢 – Shelf capacity $0; ATM capacity $0; warrant exercises minimal. Future cash will likely come from the still-open convertible-note facilities rather than a quick F-3/ATM raise.\nHigh 🔴 – 4 registered convertibl"
-            }
-          ],
-          "reasons": [
-            "Sub-15M float (0.85M) + active offering mechanics"
-          ],
-          "insights": [
-            "Advancement in Hospital Logistics Robot (April 21, 2026)**: GMEX announced significant upgrades to its Autonomous Hospital Logistics Robot, focusing on enhanced durability, resilience, ergonomics, safety, and efficiency. This press release (via GlobeNewswire, StockTitan) is the primary recent catalyst, sparking renewed trader interest after the stock tested lows on April 23 amid market weakness.",
-            "High trading volume and technical rebound**: 406k shares traded today (elevated for microcap), up 24.4% from recent ~$0.37-0.39 levels; traders note overreaction dip on April 23 bad market, now reversing with \"energy building.\"",
-            "Lingering momentum from prior robotics wins**: AU$4.2M first commercial kitchen robot order (announced March 23, 2026) referenced in recent X posts; company's March rebrand from Fitell to GMEX Robotics (NASDAQ:GMEX) shifted focus to AI/robotics from gym equipment.",
-            "Not a sector-wide Specialty Retail movement**: No evidence of broad gains in ASX/NASDAQ Specialty Retail (e.g., ASX peers like Super Retail Group/SUL.AX mixed/flat); surge tied to individual robotics news/hype amid AI boom, not retail peers."
-          ],
-          "jmtNotes": [],
-          "tldr": [
-            "🟡 2026-04-21 6-K/PR: Upgraded hospital robot; tech progress but no revenues yet <https://app.askedgar.io/news/51935820?ticker=GMEX>",
-            "🔴 2026-03-13 6-K: New $2 M senior secured convert, converts well below market – fresh dilution overhang.",
-            "🟢 2026-03-23 6-K: First AU$4.2 M kitchen-robot order validates new business direction.",
-            "🔴 Serial fundraiser: 4 convertibles + 3 ATM uses in 24 m; dilution risk high, ability limited by baby-shelf.",
-            "🟢 Currently Nasdaq-compliant; low offering ability due to exhausted shelf.",
-            "🟠 Jmt415 largely bearish; stock historically fades after PR/offerings."
-          ],
-          "prevClose": 0.3001,
-          "open": 2.2,
-          "gapPct": 633.09,
-          "time": "premarket",
-          "high": 2.5,
-          "hodTimeExact": "09:26 AM ET",
-          "close": 2.14,
-          "fade": 14,
-          "fadeExact": 14.4,
-          "vwap": 2.244,
-          "vsVwap": "below",
-          "pmHigh": 2.64,
-          "volRaw": "664K",
-          "relVol": 0.7,
-          "avgVolM": 0.9
-        },
         {
           "sym": "AIOS",
           "hod": 263,
@@ -661,11 +594,11 @@
           "avgVolM": 0.5
         }
       ],
-      "hod": 733,
-      "fade": 19,
+      "hod": 263,
+      "fade": 20,
       "hodTime": "session",
       "theme": "Hot Tape",
-      "note": "GMEX led +733.06% (14% fade). 4/8 held <20% fade."
+      "note": "AIOS led +263.41% (35% fade). 3/7 held <20% fade."
     },
     {
       "date": "2026-04-30",

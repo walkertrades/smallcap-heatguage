@@ -166,6 +166,19 @@ def fetch_avg_volume(ticker, date_str, days=20):
         return sum(past[:days]) / min(len(past), days)
     return None
 
+def fetch_reverse_split(ticker, date_str):
+    """Returns True if Polygon shows a reverse split for this ticker on date_str."""
+    res = poly_get("/v3/reference/splits", {
+        "ticker":           ticker,
+        "execution_date":   date_str,
+        "limit":            5,
+    }).get("results", [])
+    for s in res:
+        if s.get("split_from", 1) > s.get("split_to", 1):
+            return True   # split_from > split_to = reverse split
+    return False
+
+
 def fetch_news(ticker, date_str):
     res = poly_get("/v2/reference/news", {
         "ticker": ticker,
@@ -970,6 +983,13 @@ def get_day_movers(target_date):
         if not details: continue
         float_shares = details.get("share_class_shares_outstanding")
         float_m = float_shares/1e6 if float_shares else None
+
+        # Skip reverse splits that occurred on this exact trading day
+        if fetch_reverse_split(ticker, date_str):
+            print(f"    [SKIP] {ticker} — reverse split on {date_str}")
+            time.sleep(0.03)
+            continue
+        time.sleep(0.03)
 
         # Near-miss logic: gapped >= NEAR_MISS_PCT but float too high or not top N
         if float_m and float_m > MAX_FLOAT_M:
