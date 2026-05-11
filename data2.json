@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-05-11T12:50:26.875092Z",
-  "count": 9247,
+  "exportedAt": "2026-05-11T21:28:55.501918Z",
+  "count": 9257,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,771 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-05-11",
+      "runners": [
+        {
+          "sym": "POM",
+          "hod": 225,
+          "hodExact": 225.33,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "POMDOCTOR LIMITED American Depositary Shares",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 47.09,
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Most recent item (last 30 days):  • 20-Apr-26 – Two 6-K filings: (i) auditor switch from Marcum Asia to HYYH CPA, (ii) Marcum concurrence letter. <https://app.askedgar.io/filing?ticker=POM&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1877971%2F000121390026045579%2Fea0286934-6k_pomdoctor.htm>  Impact: neutral (change of auditor; no financial update).  • 08-Apr-26 – VP resignation (6-K) – neutral/negative optics.  • 13-Mar-26 – Press-release announcing strategic pivot to “AI + m"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "No registered or unregistered warrants or convertibles on file.  • Float equals ~39 % of OS; no baby-shelf capacity; thus minimal near-term mechanical dilution risk."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Latest filings contain no long-term debt detail and no 10-K/10-Q indicates material borrowings. With $17.2 M cash and ~$1 M quarterly burn, payables appear manageable and no near-term maturities were disclosed."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [
+            "Dead cat bounce after recent sharp decline**: $POM dropped approximately 86% in the prior session (closing around $0.07-$0.08), likely due to panic selling in this low-float microcap stock; today's 26.4% surge to a day's high near $0.53 on elevated volume (637k shares) appears to be a technical rebound from oversold levels.",
+            "No recent news or announcements (last 3 days)**: No company-specific press releases, earnings reports, or regulatory filings identified for May 8-11, 2026; most recent notable items include a delayed 20-F filing (Apr 30) and a past class action investor deadline (Apr 13), neither driving today's move.",
+            "Not part of sector-wide movement**: No evidence of broad gains in Medical-Pharmaceuticals industry today (May 11); sector searches highlight unrelated Q1 earnings from larger peers like Viatris/Lilly (late April) but nothing indicating group momentum."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "20-Apr-26 (6-K) – Auditor change; no revenue impact <https://app.askedgar.io/filing?ticker=POM&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1877971%2F000121390026045579%2Fea0286934-6k_pomdoctor.htm>",
+            "13-Mar-26 (PR) – Announces AI-wearable strategy; very early stage <https://app.askedgar.io/news/51237163?ticker=POM>",
+            "02-Feb-26 (6-K) – Nasdaq $1.00 bid-price deficiency; cure by 28-Jul-26 <https://app.askedgar.io/filing?ticker=POM&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1877971%2F000121390026010516%2Fea027500101ex99-1_pomdoctor.htm>",
+            "Cash runway ~4 years; no shelf/ATM; dilution risk low",
+            "Key catalyst ahead: possible reverse split or delisting action before 28-Jul-26"
+          ],
+          "prevClose": 0.075,
+          "open": 0.0713,
+          "gapPct": -4.93,
+          "time": "regular session",
+          "high": 0.244,
+          "hodTimeExact": "12:19 PM ET",
+          "close": 0.1481,
+          "fade": 39,
+          "fadeExact": 39.3,
+          "vwap": 0.1751,
+          "vsVwap": "below",
+          "pmHigh": 0.1088,
+          "volRaw": "326.8M",
+          "relVol": 98.7,
+          "avgVolM": 3.3
+        },
+        {
+          "sym": "WOK",
+          "hod": 219,
+          "hodExact": 219.53,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "WORK Medical Technology Group LTD Class A Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 1.22,
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 1.22M",
+            "X2 zero-strike warrants (0.0M sh)",
+            "$300.0M shelf",
+            "Toxic price protection",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "Strategic cooperation with Shanghai Novabioplus to co-develop AI-driven biopharma models (“Data-Model-Application” & “BioToken”).",
+                "No financial terms, customers, or near-term revenue guidance disclosed.",
+                "01-May-26 – Appointed Vice President Unit of Hong Kong Web3.0 Standardization Association; unveiled “Asset Tokenization Whitepaper.” No revenue impact yet. 🟡",
+                "15-Apr-26 – Board change (6-K). Neutral corporate housekeeping. 🟡",
+                "27-Feb-26 – AGM results (6-K): Shareholders approved a 1,000-fold boost in authorized shares (to 20 B) and **authorized a potential 4,000-for-1 forward share consolidation** (reverse split) within 2 years. Highly dilutive set-up. 🔴"
+              ],
+              "prose": "Most-recent item (11-May-26, PR – <https://app.askedgar.io/news/52446852?ticker=WOK>):\nInterpretation: Interesting pivot toward AI/biotech, but still early and non-monetized → 🟡 (neutral/early-stage).\nOther material 2026 filings/news (chronological):\nUpcoming Known Catalysts:"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Share capital expanded from 20 M to 20 B authorized shares (Feb-26).",
+                "100:1 reverse split already executed (Dec-25); another mega split (4,000:1) pre-approved.",
+                "No in-the-money warrants reported post-split (warrant-exercise risk 🟢 low), but management has ample shelf/ATM capacity to issue new shares at will.",
+                "Float could balloon rapidly once new shares are sold, crushing the current low-float trading dynamic."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [
+                "Regained Nasdaq $1 bid compliance on 04-Nov-25 and remains in good standing.",
+                "No near-term deficiency deadlines (< 3 mos).",
+                "Future risk: sustaining $1 bid if additional splits/dilution occur."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Latest publicly available 20-F (30-Jan-26) shows FY 2025 net loss $1.2 M; however, operating cash flow +$1.56 M → no immediate going-concern flag.",
+                "No detail on long-term debt or upcoming maturities disclosed in provided data.",
+                "Management still \"expects to require additional financing\" for expansion."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [
+                "16-Apr-26 – Notes WOK had prior low-volume gaps that faded; implies cautious stance.  🔴",
+                "27-Jun-25 – Groups WOK with other \"scammy\" Univest deals, cost basis ~$0.05 (pre-RS). 🔴",
+                "21-May-25 – Highlights history of post-offering spikes within 60 days (trader caution). 🟡",
+                "20-Feb-25 – Multiple comments: lock-up expiry, pending F-1, typical \"good shorts\" after momentum fades. 🔴"
+              ],
+              "prose": "Overall sentiment: Mostly skeptical about sustainability; rates 🟠 (leaning bearish)."
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "H1 2026 – Begin manufacturing AI Blood Cell Morphology Analyzer (revenue potential yet unproven) 🟡",
+                "Board-authorized share consolidation (up to 4,000:1) can be enacted any time before Feb-2028 → likely tied to future capital raises 🔴"
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "0.0M zero-exercise-price warrants registered — every tick up unlocks free dilution",
+            "Toxic price protection (reset/cashless) — warrant count grows as price falls"
+          ],
+          "insights": [
+            "Primary catalyst: Partnership announcement with Novabioplus**",
+            "WORK Medical Technology Group announced a collaboration with Novabioplus today (May 11, 2026) to leverage AI for unlocking biological data value, advancing AI-driven protein therapeutics R&D, and promoting a \"BioToken\" assetization model in biotech/Web3.",
+            "Positions the company as a \"life sciences digital ecosystem builder,\" blending AI, biotech, and medical devices—hot speculative themes driving trader interest and a pre-market/US trading hours pop.",
+            "No prior mentions in last 3 days; this fresh news directly correlates with the 50.4% surge and volume spike to 101,486 shares (vs. recent avg ~16k-28k)."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 11-May-26 (PR) – Partnership with Shanghai Novabioplus to build AI biotech models; intriguing but no revenue disclosed. <https://app.askedgar.io/news/52446852?ticker=WOK>",
+            "🔴 Company has **high offering & dilution risk**: $297 M shelf, $185 M ATM, history of frequent raises, and shareholder approval for 20 B authorized shares plus potential 4,000:1 split.",
+            "🟢 Currently Nasdaq-compliant after 1-for-100 RS (Dec-25); no deficiency deadlines within 3 mos.",
+            "🟡 Cashflow positive last quarter, but management still flags need for more capital for growth; no debt details provided.",
+            "🟠 jmt415 notes: past low-float spikes tend to fade; labels WOK comparable to other \"scammy\" Univest/Kingswood deals – cautious outlook.",
+            "🔴 Watch for surprise ATM/RDO usage or board-approved mega reverse split; either could hit the tiny float hard."
+          ],
+          "prevClose": 1.28,
+          "open": 1.58,
+          "gapPct": 23.44,
+          "time": "regular session",
+          "high": 4.09,
+          "hodTimeExact": "04:03 PM ET",
+          "close": 3.92,
+          "fade": 4,
+          "fadeExact": 4.16,
+          "vwap": 1.7582,
+          "vsVwap": "above",
+          "pmHigh": 2.56,
+          "volRaw": "147.7M",
+          "relVol": 4823.2,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "ODYS",
+          "hod": 153,
+          "hodExact": 153.36,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "Odysight.ai Inc. Common Stock",
+          "sector": "Technology",
+          "country": "IL",
+          "floatM": 9.19,
+          "floatSrc": "AE",
+          "marketCap": "$105M",
+          "riskBadges": [
+            "Float 9.19M",
+            "Best-efforts (The Benchmark Company)",
+            "$200.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟡 May 19 2026 – Q1-26 earnings (could update backlog, cash & guidance)\n🟢 2H-26 – U.S. Navy CRADA milestones / potential follow-on contracts\n🟡 2026-27 – Monetisation of $13.8 M backlog; European defense deployments via GACI; UH-60 flight-test data (XP Services) & STC/AWR progress\n🟡 TASE dual-listing may boost liquidity and local-investor demand (already effective)"
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated"
+          ],
+          "insights": [
+            "US Navy CRADA Announcement (May 11, 2026)**: Odysight.ai signed a Cooperative Research and Development Agreement (CRADA) with the U.S. Navy's Naval Air Warfare Center Aircraft Division (NAWCAD) to develop AI/ML-driven visual sensing for predictive maintenance. Initial focus on carrier arresting cables for real-time anomaly detection to boost fleet readiness and cut unscheduled maintenance; potential expansion to aircraft, ground vehicles, and more defense applications. This validates the company's tech in defense, building on prior NASA work. Press release via GlobeNewswire today triggered the 30.5% surge (intraday highs over 100%) and elevated volume of 70,566 shares.",
+            "No other news or announcements in the last 3 days**: Prior developments (e.g., TASE dual listing in April 2026, Q4 2025 earnings in March) are older and unrelated to today's move.",
+            "Upcoming catalysts**: Q1 2026 earnings expected around May 19, 2026 (per TipRanks; other estimates Jun 12-22), which could provide updates on revenue, backlog, and defense progress.",
+            "Not part of a sector-wide movement**: No evidence of broad gains in the Hardware, Equipment & Parts industry today (May 11, 2026); searches show isolated tech/defense interest but no sector surge (e.g., top May performers like RXT unrelated)."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "05-11-26 8-K/PR – Signed U.S. Navy CRADA; early validation but no revenue yet.",
+            "05-19-26 – Q1 earnings; could update on backlog & Navy progress.",
+            "Offering set-up: $22 M shelf remains; history of low frequency but management open to future raises.",
+            "Cash ~16-month runway, no debt; balance sheet clean.",
+            "No Nasdaq compliance issues.",
+            "Large legacy private warrants (~32 M) are ITM; watch for potential resale registration."
+          ],
+          "prevClose": 4.46,
+          "open": 9.8,
+          "gapPct": 119.73,
+          "time": "premarket",
+          "high": 11.3,
+          "hodTimeExact": "08:53 AM ET",
+          "close": 4.75,
+          "fade": 57,
+          "fadeExact": 57.96,
+          "vwap": 8.5927,
+          "vsVwap": "below",
+          "pmHigh": 13.57,
+          "volRaw": "39.1M",
+          "relVol": 2357.7,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "MEHA",
+          "hod": 131,
+          "hodExact": 131.34,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "Functional Brands, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 15.64,
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Last raise was private placement Series A/B pref at $4.00 (pre-split) with toxic-fund circle (Leonite, FirstFire, 3i, etc.). Well above current $0.095 price, those investors are deeply underwater but have since swapped into Series C/Notes.",
+                "Management commentary says cash-flow positive & no near-term working-capital shortfall, limiting immediate need for a registered raise, but split + new equity plan could reopen the door.",
+                "3) Dilution Risk 🔴****",
+                "$837.8 K 12 % Senior Secured Notes, convertible at $0.20 (120 % of 03-09-26 close) → OTM today but only ~2× current price.  Potential 4.2 M shares.",
+                "Series C Pref ($6.0 M)  – tiered fixed prices: 50 % @ $0.30, 25 % @ $0.35, 25 % @ $0.41.  Potential 20.1 M shares. Anti-dilution language included."
+              ],
+              "prose": "Offering Risk 🟢  (Low)\nOffering Ability 🟢  (Low) – No shelf, ATM, equity line or S-1; only private placements / PIPEs possible.\nOffering Frequency 🟢  (Low) – One PIPE (11-05-25) in last two years; no cash raises since.\nConvertible overhang (Not Registered):\nAggregate potential share issuance ≈ 24.3 M (≈ 116 % of current O/S) → System flags 435 % dilution risk (🟥).\nBid-price deficiency letter; cure deadline 06-29-26. Board proposes up to 1-for-250 reverse split at 05-28-26 special meeting. No equ"
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [
+            "Binding Letter of Intent for Major Acquisition (Announced Today, May 11, 2026)**: Functional Brands Inc. signed a binding LOI to acquire assets and IP from BullionFX Ltd., including its \"Alchemy\" blockchain-based infrastructure, valued at $142.9 million in preferred stock (subject to due diligence, definitive agreement, and shareholder approval). This transformative deal for a microcap (~$2M market cap) is driving the surge, as confirmed in today's 8-K filing and press release.",
+            "Pre-Earnings Momentum**: Estimated Q1 2026 earnings release on May 15, 2026; traders citing \"strong earnings expectations\" amid recent product momentum.",
+            "Recent Product Launch Momentum (May 6, 2026)**: Launch of GLP-Squared Injection (dual Semaglutide + Tirzepatide peptide for weight management) exclusively via Tru2u.health platform, contributing to delayed retail interest.",
+            "High Volume and Technical Breakout**: 104,541 shares traded today (up from avg.); pre-market +100-110% spike noted as a \"gapper\" with low float/microcap energy."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "2026-05-06 (PR) – New GLP-1/GLP-2 combo product launch; buzz but no revenue guidance yet.",
+            "2026-04-27 (DEF 14A) – Shareholders vote 05-28-26 on up-to-1:250 reverse split & new 2026 Equity Plan.",
+            "Large unregistered Series C preferred + convertible notes (potential +435 % shares) remain overhang; conversion floors 0.30-0.41 are ≈3-4× current price but could be revised if split executed.",
+            "Financials show modest 2025 profitability and positive cash-flow; cash need rated Low.",
+            "Nasdaq bid-price cure deadline 06-29-26; split likely."
+          ],
+          "prevClose": 0.0951,
+          "open": 0.1593,
+          "gapPct": 67.51,
+          "time": "premarket",
+          "high": 0.22,
+          "hodTimeExact": "08:30 AM ET",
+          "close": 0.12,
+          "fade": 45,
+          "fadeExact": 45.45,
+          "vwap": 0.1804,
+          "vsVwap": "below",
+          "pmHigh": 0.239,
+          "volRaw": "957.6M",
+          "relVol": 134.9,
+          "avgVolM": 7.1
+        },
+        {
+          "sym": "JZXN",
+          "hod": 107,
+          "hodExact": 107.73,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "Jiuzi Holdings, Inc. Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 2.17,
+          "floatSrc": "AE",
+          "marketCap": "$54M",
+          "riskBadges": [
+            "Float 2.17M",
+            "$200.0M shelf",
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [],
+              "prose": "News items are color-coded for likely fundamental impact.\n🟡 2026-05-11 (PR) – $210 k realised crypto gains + $100 k share-buyback; minor, validates DAT but immaterial to $1 M market-cap. <https://app.askedgar.io/news/52444946?ticker=JZXN>\n🟡 2026-05-06 (6-K) – CEO change (Tao Li out, Hongye Zhang in); neutral/strategic reset. <https://app.askedgar.io/filing?ticker=JZXN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1816172%2F000121390026052934%2Fea0289549-6k_jiuzi.htm&formType=6-"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "40 M shares (92% of current OS) pending from Feb-12 SPA – not yet effective/closed; would more than double OS.",
+                "Sept-25 RDO included 461 k 5.5-yr $24 warrants (post-split) – far OTM at $0.91 price.",
+                "No near-the-money registered warrants, but shelf capacity ($500 M) + equity-for-crypto plans create open-ended issuance path.",
+                "Three large private placements since Oct-25 signal willingness to dilute for cash/crypto."
+              ],
+              "prose": "Dilution Risk: 🔴 High (potential dilution 1,079% vs current OS)."
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Nasdaq compliance: 🟢 Low – Deficiency cured Jan-09-26 via 1:40 RS; bid now >$1.\nNo immediate deficiency deadlines within 3 months."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "No recent 10-Q/K filed post-Oct-31-25, but FY-2025 20-F shows:",
+                "Company now values part of treasury in crypto (100 BTC on balance sheet as of Jan-26). Volatility of holdings adds financial-risk overlay."
+              ],
+              "prose": "– Cash: $4.6 M (before subsequent $60-80 M raises and crypto consideration).\n– Accumulated deficit ≈ $88 M; auditors cite going-concern doubt.\n– No major long-term debt disclosed; biggest obligations are trade payables (~$1.0 M) and lease liabilities (<$0.5 M)."
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [
+                "2025-10-02 – “lol JZXN going for the same play as CJET (they actually mention crypto though)” – 🔴 (skeptical/potential pump)"
+              ],
+              "prose": "No bullish notes logged."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated"
+          ],
+          "insights": [
+            "Primary catalyst: Fresh pre-market announcement today (May 11, 2026)** – Jiuzi Holdings announced $210,000 in realized gains from its Distributed Capital Intelligence Protocol (DCIP) digital asset investment (via AetheriumX partnership) and approved a $100,000 share repurchase program funded by these gains. This validates the company's Digital Asset Treasury (DAT) strategy and signals management confidence, driving pre-market gains of ~33% that carried into the session (multiple X posts timestamped ~12:15-12:30 GMT citing the PR).",
+            "Crypto treasury narrative momentum** – Recent prior developments (e.g., $80M strategic investment at $2/share, MOU for $30M into AetheriumX, proposed 10,000 BTC acquisition plans) have pivoted focus from EV dealerships to digital assets/blockchain, attracting speculative traders amid crypto hype; referenced in today's X chatter as rotation into \"China micro-cap + crypto treasury names.\"",
+            "Technical/pre-market momentum** – Stock \"waking up\" pre-market with sharp volume on low float (~tiny market cap ~$5-10M at ~$0.90-$1.00/share), leading to intraday surge; X traders posting charts/targets (e.g., $1.20-$1.45 from @R7_35).",
+            "No sector-wide movement** – No evidence of broad Auto - Dealerships rally on May 11, 2026; industry searches show general 2026 outlooks (stable market, inventory trends) but nothing tying to JZXN's surge."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "05-11-26 6-K/PR – Minor $210 k crypto gain & $100 k buyback; headline pop, limited financial impact.",
+            "05-06-26 6-K – CEO swap; strategy continuity unclear.",
+            "03-23-26 PR – >100 e-truck order in Vietnam may open real revenue stream.",
+            "03-04-26 PR – Proposed $1 B stock-for-Bitcoin swap signals massive potential dilution.",
+            "Feb-12-26 6-K – Pending $60 M / 40 M share private placement at $1.50 (current price $0.91) still overhang; upsize to $300 M discussed Feb-19-26.",
+            "Offering Risk medium, Offering Ability high, Dilution risk high; history of frequent dilution.",
+            "Nasdaq-compliant post 1:40 split; no near-term deficiency dates.",
+            "Cash appears comfortable short-term (est. $68 M) but relies on equity/crypto deals; auditors still flag going-concern."
+          ],
+          "prevClose": 0.905,
+          "open": 1.245,
+          "gapPct": 37.57,
+          "time": "regular session",
+          "high": 1.88,
+          "hodTimeExact": "10:32 AM ET",
+          "close": 1.34,
+          "fade": 28,
+          "fadeExact": 28.72,
+          "vwap": 1.4767,
+          "vsVwap": "below",
+          "pmHigh": 1.71,
+          "volRaw": "91.1M",
+          "relVol": 1405.5,
+          "avgVolM": 0.1
+        },
+        {
+          "sym": "GAUZ",
+          "hod": 76,
+          "hodExact": 76.11,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "Gauzy Ltd. Ordinary Shares",
+          "sector": "Technology",
+          "country": "IL",
+          "floatM": 18.51,
+          "floatSrc": "AE",
+          "marketCap": "$15M",
+          "riskBadges": [
+            "Best-efforts (Barclays, TD, Cowen, Stifel)"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "24 current/former employees petitioned an Israeli court to open INSOLVENCY proceedings; Gauzy opposed and the court denied an immediate order but allowed further submissions. Negative headline raises concerns about liquidity and employee relations.",
+                "20 Mar 2026 6-K – Nasdaq MINIMUM-BID deficiency notice; deadline 14 Sep 2026 to cure <https://app.askedgar.io/filing?ticker=GAUZ&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1781446%2F000121390026032339%2Fea0282771-6k_gauzy.htm&formType=6-K>",
+                "19 Mar 2026 6-K – Added independent director, regained BOARD-INDEPENDENCE compliance (mild positive).",
+                "10 Mar 2026 6-K – Began TENDER process to divest/restructure three French subsidiaries under court supervision (potential asset-sale cash inflow)."
+              ],
+              "prose": "Most-recent 6-K (8 Apr 2026) <https://app.askedgar.io/filing?ticker=GAUZ&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1781446%2F000121390026041351%2Fea0285463-6k_gauzy.htm&formType=6-K>\nOther March–April 2026 items\nNo EPS/Revenue beats were disclosed in the sparse earnings updates; market moves appear largely technical.\nUpcoming potential catalysts\n🟡 Jun 2026 – Q4/FY 2025 results (date tbd)\n🔴 14 Sep 2026 – Bid-price compliance deadline / possible reverse split\n🟡 Asset-sale upd"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "No in-the-money public warrants on file; recent PIPE warrants pricing is floating (exercise = 125 % of 70 % of future market price) and will likely be near-money if issued.",
+                "No convertible notes disclosed beyond a potential $1 M amendment in Dec 2025; terms not yet finalized.",
+                "Outstanding share count (18.99 M) remains close to IPO float; recent dilution negligible (<0.1 %)."
+              ],
+              "prose": "Overall current dilution pressure low, but watch for registration of PIPE shares/warrants once F-3 clears (🔴 future risk)."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "$15 M bank term loan (Mizrahi) added mid-2025; $1 M additional note Dec 2025.",
+                "Payables & other liabilities not disclosed post-IPO.",
+                "No near-term maturities specified; interest burden unknown.",
+                "jmt415 Historical Notes 🟠****"
+              ],
+              "prose": "No 10-Q/K since IPO. Latest disclosures show:\nNo archived jmt415 comments found for GAUZ."
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "TLDR**",
+                "🔴 8 Apr 2026 6-K: Employees sought insolvency; court paused case. Raises going-concern worries.",
+                "🟢 19 Mar 2026 6-K: Added independent director, regained Nasdaq committee compliance.",
+                "🔴 20 Mar 2026 6-K: Still below $1; cure deadline 14 Sep 2026 (reverse-split risk).",
+                "🟢 Offering risk currently low—no effective shelf/ATM, but 🔴 $150 M F-3 pending could open floodgates."
+              ],
+              "prose": "🔴 Pending $150 M F-3 shelf effectiveness (filed 3 Jul 2025)\n🟡 Update on French subsidiary tender / potential asset sale (timing TBD)\n🔴 Bid-price cure or reverse split deadline 14 Sep 2026\n🟡 Next earnings report (estimated June 2026) – could clarify cash & margins\nOverall: Near-term dilution limited, but structural cash strain, insolvency noise, and bid-price deficiency keep GAUZ speculative. Maintain caution on any spikes."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants",
+            "Cash runway: 12.0 months → must raise"
+          ],
+          "insights": [
+            "Bounce from oversold levels**: Stock trading at ~$0.49–$0.75 (mkt cap ~$9–14M), down 90%+ YTD from $10 highs, attracting bargain hunters amid high analyst targets ($10–$11.50, implying 1,200%+ upside).",
+            "Nasdaq compliance narrative**: X commentary highlighted ongoing efforts to maintain Nasdaq listing (resolved board independence in March 2026; prior bid price deficiency noted), potentially resurfacing as positive sentiment amid low price.",
+            "Earnings anticipation**: Upcoming Q4 2025/Q1 2026 earnings est. May 19–22, 2026, could be drawing speculative interest; expected EPS loss of -$0.18, revenue ~$47M.",
+            "No recent news (last 3 days)**: Zero headlines/announcements from Yahoo Finance, Nasdaq, or other sources May 8–11, 2026; no partnerships, regulatory updates, or previews."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "8 Apr 2026 6-K: Employees sought insolvency; court paused case. Raises going-concern worries.",
+            "19 Mar 2026 6-K: Added independent director, regained Nasdaq committee compliance.",
+            "20 Mar 2026 6-K: Still below $1; cure deadline 14 Sep 2026 (reverse-split risk).",
+            "Offering risk currently low—no effective shelf/ATM, but 🔴 $150 M F-3 pending could open floodgates.",
+            "Cash runway ~1 year; management already raised $12 M (PIPE) & $15 M debt, more likely.",
+            "Dilution minimal so far, though PIPE warrants may hit once registered."
+          ],
+          "prevClose": 0.4901,
+          "open": 0.5,
+          "gapPct": 2.02,
+          "time": "regular session",
+          "high": 0.8631,
+          "hodTimeExact": "09:58 AM ET",
+          "close": 0.6194,
+          "fade": 28,
+          "fadeExact": 28.24,
+          "vwap": 0.642,
+          "vsVwap": "below",
+          "pmHigh": 0.5002,
+          "volRaw": "8.8M",
+          "relVol": 133.3,
+          "avgVolM": 0.1
+        },
+        {
+          "sym": "EZGO",
+          "hod": 71,
+          "hodExact": 71.5,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "EZGO Technologies Ltd. Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 0.72,
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 0.72M",
+            "Active ATM $100.0M",
+            "Best-efforts (AC Sunshine Securities LLC)",
+            "X1 zero-strike warrants (0.0M sh)",
+            "$100.0M shelf",
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "0.0M zero-exercise-price warrants registered — every tick up unlocks free dilution",
+                "Toxic price protection (reset/cashless) — warrant count grows as price falls"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "0.0M zero-exercise-price warrants registered — every tick up unlocks free dilution",
+            "Toxic price protection (reset/cashless) — warrant count grows as price falls"
+          ],
+          "insights": [
+            "No recent news or announcements in last 3 days**: Searches yielded no company-specific press releases, filings, or events from May 8-11, 2026. Most recent notable development was Apr 21 (ownership of Changzhou manufacturing facility targeting 2026 production scale-up), which may be fueling lingering speculative interest but is outside the 3-day window.",
+            "Not part of sector-wide movement**: Auto - Recreational Vehicles peers (e.g., Thor Industries $THO, Winnebago $WGO) show no similar gains or volume spikes on May 11; sector searches indicate flat/sideways performance.",
+            "No immediate upcoming catalysts**: No earnings dates confirmed for near term (next possibly Q2 2026); vague 2026 target for Changzhou plant operations, but no specific timelines post-Apr news. No other events like conferences or filings noted."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-05-06",
+              "text": "EZGO seems like they dumping the 20M shares from the jan pipe altough they really shouldnt be allowed to yet lol"
+            }
+          ],
+          "tldr": [
+            "Company now has a $200 M shelf & $100 M active ATM despite sub-$1 share price; offering ability 🔴, overall risk 🟡, dilution risk 🔴.",
+            "Cash runway appears long, but history shows frequent capital raises; expect management to sell into volatility.",
+            "Compliance currently fine, but another bid-price deficiency possible if post-momentum price drifts below $1.",
+            "No recent 10-Q/K → limited visibility on debt; liabilities appear modest.",
+            "Jmt415 flags active dumping of PIPE shares → caution advised."
+          ],
+          "prevClose": 0.04,
+          "open": 0.0559,
+          "gapPct": 39.75,
+          "time": "premarket",
+          "high": 0.0686,
+          "hodTimeExact": "04:37 AM ET",
+          "close": 0.04,
+          "fade": 41,
+          "fadeExact": 41.69,
+          "vwap": 0.0639,
+          "vsVwap": "below",
+          "pmHigh": 0.101,
+          "volRaw": "1727.0M",
+          "relVol": 42.9,
+          "avgVolM": 40.3
+        },
+        {
+          "sym": "MRAM",
+          "hod": 65,
+          "hodExact": 65.51,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "Everspin Technologies, Inc",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 21.97,
+          "floatSrc": "AE",
+          "marketCap": "$946M",
+          "riskBadges": [
+            "$100.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Dilution Risk** 🟢**",
+                "Compliance Risk** 🟢**",
+                "Debt & Liabilities** 🟢**",
+                "Debt-free balance sheet (no notes, converts, or credit facility).",
+                "Current liabilities $11.1 M vs. cash $40.5 M; working-capital ratio ≈5.8x."
+              ],
+              "prose": "Offering Risk: 🟡  (Medium)\nOffering Ability: 🔴  (High) ‑ Active $100 M shelf filed 11/27/23 (424B5). No ATM in place.\nOffering Frequency: 🟢  (Low) ‑ 0 registered offers in last 24 mo.\nCommentary: Although MRAM carries a $100 M effective shelf (potentially usable for a secondary or to re-establish an ATM), management explicitly stated on 4/29/26 earnings call that existing cash is sufficient for 12 months and \"no immediate capital raise is planned.\" The strong share-price move might tempt a raise"
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated"
+          ],
+          "insights": [
+            "$40M U.S. Defense Contract Announcement**: Everspin secured a major $40M agreement for Mil-Aero (military-aerospace) Toggle MRAM chips, highlighted in news from April 30–May 11 (e.g., Yahoo Finance, StockTitan). This deal includes a U.S. government clause allowing IP acquisition if production ceases, positioning MRAM as critical defense infrastructure. Premarket surge today (+30% noted) tied directly to optimism around this contract's revenue visibility and strategic importance.",
+            "Post-Q1 Earnings Momentum**: Q1 2026 results (reported April 29) showed revenue of $14.9M (beat $14.6M est., +13% YoY), non-GAAP EPS $0.11 (beat $0.09 est.), and raised Q2 guidance to $15.5–16.5M. Stock initially surged 52.7% post-earnings, with continued repricing into May 8–11 (+34–35% moves, 52-week high hit).",
+            "Technical Breakout and Re-Rating**: Stock up ~80% in the past week (May 8: +59%, May 10 dip-buying), breaking 9-year resistance on 2.4x volume. Narrative shift from \"niche microcap\" to \"monopoly in commercial-scale Toggle MRAM\" for high-reliability apps (defense, aerospace, data centers).",
+            "Sector-Wide Semiconductors Rally**: Part of a hot semiconductors move—PHLX SOX Index up 11% (5-day), 32% (1-month), 46% (3-month) as of May 8–11. Every SOX stock gained 14%+ over 25 sessions; AI/chip tailwinds boosting memory plays like MRAM (related tickers: $MU, $ATOM)."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "2026-04-29 (8-K/10-Q) – Q1 earnings beat & $40 M defense contract announced (<https://app.askedgar.io/filing?ticker=MRAM&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1438423%2F000162828026028376%2Fmram-20260331xexx991.htm&formType=8-K>)",
+            "2026-04-10 (8-K) – 10-year Microchip foundry deal secures U.S. manufacturing (<https://app.askedgar.io/filing?ticker=MRAM&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1438423%2F000162828026024696%2Fmram-20260408.htm&formType=8-K>)",
+            "Offering risk medium; $100 M shelf exists but no active ATM, cash need low.",
+            "Dilution & debt minimal; company is cash-flow positive and debt-free.",
+            "Key forward catalyst: Q2 earnings (Aug 05 26) and defense contract execution; Unisys MRAM samples in H2 26."
+          ],
+          "prevClose": 26.99,
+          "open": 36.102,
+          "gapPct": 33.76,
+          "time": "regular session",
+          "high": 44.67,
+          "hodTimeExact": "12:20 PM ET",
+          "close": 39.86,
+          "fade": 10,
+          "fadeExact": 10.77,
+          "vwap": 39.1043,
+          "vsVwap": "above",
+          "pmHigh": 39.98,
+          "volRaw": "27.8M",
+          "relVol": 11.9,
+          "avgVolM": 2.3
+        },
+        {
+          "sym": "POEL",
+          "hod": 62,
+          "hodExact": 62.03,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "Defiance Daily Target 2X Long POET ETF",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 0.3,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [
+            "Float 0.3M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [
+            "Continuation of POET Technologies (POET) momentum**: $POEL is a 2x leveraged daily ETF tracking POET stock, which surged ~50% last week (ending May 8) despite a prior Marvell/Celestial AI order cancellation debacle on April 27; POET rose 14.2% on May 8 alone amid AI photonics hype for data centers—today's 20.2% POEL gain amplifies POET's intraday strength (e.g., premarket +10-11%)",
+            "AI data center and photonics sector enthusiasm**: No specific new announcements in last 3 days (May 8-11), but ongoing buzz around POET's optical interposers/chip-scale photonics as key for AI infrastructure (e.g., NVDA Rubin GPUs needing 1.6T optical ports); retail sees POET as undervalued AI play despite thin revenue/losses",
+            "Launch of $POEL ETF amplifying volatility**: Defiance launched the first 2x long POET ETF on May 1, drawing speculative flows and boosting visibility/trading; contributes to outsized moves like today's",
+            "Anticipation of Q1 2026 earnings**: Upcoming catalyst on **May 13, 2026**—traders speculate on new orders/production ramps (e.g., Malaysia facility, Foxconn module Q2); high call volume noted May 7-8"
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 11 May 2026 X/Twitter chatter <https://x.com/search?q=%24POEL&src=typed_query&05112026> – continuing momentum from POET rebound; no new fundamentals.",
+            "🟡 Upcoming catalyst 13 May 2026 (POET Q1 earnings). Potential for volatility; unclear impact on value.",
+            "🟡 ETF structure creates a feedback loop; thin volume can enhance both upside and downside moves.",
+            "🟢 No traditional dilution or financing overhang for POEL; ETF creations at NAV are non-dilutive.",
+            "🟢 No debt, no imminent compliance issues."
+          ],
+          "prevClose": 43.5222,
+          "open": 53.25,
+          "gapPct": 22.35,
+          "time": "regular session",
+          "high": 70.52,
+          "hodTimeExact": "11:58 AM ET",
+          "close": 66.56,
+          "fade": 5,
+          "fadeExact": 5.62,
+          "vwap": 58.6919,
+          "vsVwap": "above",
+          "pmHigh": 57.599,
+          "volRaw": "1.1M",
+          "relVol": 1.5,
+          "avgVolM": 0.7
+        },
+        {
+          "sym": "NVTX",
+          "hod": 61,
+          "hodExact": 61.63,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "Tradr 2X Long NVTS Daily ETF",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 0.7,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [
+            "Float 0.7M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [
+            "Momentum from underlying NVTS stock surge**: $NVTX is a 2x leveraged ETF tracking Navitas Semiconductor (NVTS), amplifying NVTS's ~10-15% daily gains over the past few days into today's 21.6% move amid high volume (52k shares vs. typical low-volume ETF).",
+            "NVTS Q1 2026 earnings beat (May 5, most recent catalyst)**: Reported $8.6M revenue (beat $8.1M consensus, +18% sequential growth); expanded gross margins driven by high-power markets like AI data centers; Q2 guidance implies continued momentum.",
+            "Baird analyst upgrade (May 4)**: Raised price target from $9 to $20 (Outperform rating), citing \"three waves\" of secular growth in 800V AI power systems using GaN/SiC tech for data centers; NVTS positioned as key enabler for AI infrastructure power efficiency.",
+            "Technical breakout and options flow in NVTS**: NVTS broke multi-year downtrend, cup-and-handle pattern, bull flag on daily/weekly; heavy call buying (e.g., $610k-$800k OTM calls expiring May 16 targeting $20); stock hit new highs ~$20+ today."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟢 05/11/26 social-media surge on NVTS earnings beat & India GaN partnership (<https://x.com/search?q=%24NVTX&src=typed_query&05112026>) – primary driver of NVTX +22 %.",
+            "🟢 No evidence of share offerings or warrants; leveraged-ETF structure means minimal classic dilution / offering risk.",
+            "🟢 No Nasdaq compliance issues reported.",
+            "🟡 Debt & liabilities not disclosed; typical ETF counter-party risk appears manageable.",
+            "🟡 Watch NVTS Q2 ’26 earnings (~Aug 3) and further AI-power design-win news for next catalysts; note that 2× leverage magnifies both upside and downside moves."
+          ],
+          "prevClose": 72.4,
+          "open": 72.4,
+          "gapPct": 0.0,
+          "time": "regular session",
+          "high": 117.02,
+          "hodTimeExact": "01:57 PM ET",
+          "close": 108.39,
+          "fade": 7,
+          "fadeExact": 7.37,
+          "vwap": 100.7704,
+          "vsVwap": "above",
+          "pmHigh": 72.5,
+          "volRaw": "577K",
+          "relVol": 1.7,
+          "avgVolM": 0.3
+        }
+      ],
+      "hod": 225,
+      "fade": 26,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "POM led +225.33% (39% fade). 4/10 held <20% fade."
+    },
     {
       "date": "2026-05-08",
       "runners": [
