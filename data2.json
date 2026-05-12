@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-05-11T21:28:55.501918Z",
-  "count": 9257,
+  "exportedAt": "2026-05-12T21:47:42.160247Z",
+  "count": 9267,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,831 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-05-12",
+      "runners": [
+        {
+          "sym": "TDIC",
+          "hod": 175,
+          "hodExact": 175.96,
+          "news": [
+            "Why Is Dreamland Stock Gaining Tuesday?"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Dreamland Limited Class A Ordinary Shares",
+          "sector": "Communication Services",
+          "country": "HK",
+          "floatM": 23.46,
+          "floatSrc": "AE",
+          "marketCap": "$92M",
+          "riskBadges": [
+            "X1 warrants ITM"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [],
+              "prose": "News Rating legend → 🟢 fundamental positive | 🟡 neutral | 🔴 negative / dilutive\n🟡 12-May-26 (6-K) – Non-binding MoU with LinkFung Innovation to build an A.I. image-library platform. No revenue yet, 12-month project timeline. <https://app.askedgar.io/news/52477535?ticker=TDIC>\n🔴 04-May-26 (F-1) – Registered 18 M shares for resale under a 24-month $∞ “equity line” with Hudson Global Ventures (4.99 % cap). Potential continuous dilution. <https://app.askedgar.io/filing?ticker=TDIC&filingUrl=https%3A"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Jul-25 IPO – 1.34 M company shares @ $4.00.",
+                "Apr-26 RDO – 3.4 M shares sold, 2.6 M still pending.",
+                "May-26 Equity Line (Hudson) – fungible source of dilution up to daily 200 % ADV.",
+                "4) Dilution Risk 🔴****",
+                "17 M April warrants were already exercised (exercise $0.05) – new shares are free-trading and in the money."
+              ],
+              "prose": "🟢 Offering Risk (Low)\n🟢 Offering Ability (Low) – No active shelf & baby-shelf limited; only equity-line available.\n🟡 Offering Frequency (Medium) – IPO Jul-25 plus FPO Apr-26.\nHistory:\n=> Very high ongoing dilution pressure despite “Low” offering-ability flag.\nNo prior jmt415 notes found in dataset."
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟡 Formal service agreement signing for A.I. image platform (any time in next few months).\n🔴 Remaining 2.6 M shares + 13 M warrants still for sale under April follow-on (could price/close at any moment).\n🔴 Equity-line “put” notices to Hudson Global Ventures can occur any trading day for 24 months.\n🟡 Board may enact an additional reverse split (ratio 1-for-2 up to 1-for-250) any time before 28-Sep-26."
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven",
+            "Cash runway: 1.6 months → must raise"
+          ],
+          "insights": [
+            "Primary catalyst: MoU announcement for AI pivot**",
+            "On May 12, 2026, Dreamland Limited's subsidiary Trendic International Limited signed a non-binding Memorandum of Understanding (MoU) with LinkFung Innovation Limited to develop, implement, and deploy an AI-powered intelligent image library platform.",
+            "Features include real-time face detection, automated content tagging, image filtering, and cloud infrastructure—all AI-driven.",
+            "This represents a strategic pivot for the HK-based event management company into AI and digital infrastructure, sparking investor interest in growth potential."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "12-May-26 MoU for AI image platform – early-stage, no revenue (🟡).",
+            "04-May-26 F-1 registers 18 M equity-line shares – continuous dilution risk (🔴).",
+            "08-May-26 regained Nasdaq bid-price compliance – positive but cosmetic (🟡).",
+            "23-Apr-26 follow-on offering: 3.4 M shares sold, 17 M warrants exercised; 2.6 M shares + 13 M warrants still for sale (🔴).",
+            "Cash runway ~1.6 months → expect more issuance via equity-line or remaining RDO (🔴).",
+            "Stock already reverse-split 1-for-5 on 20-Apr-26; another split (1-for-2–250) remains authorized before 28-Sep-26 (🔴)."
+          ],
+          "prevClose": 1.04,
+          "open": 1.805,
+          "gapPct": 73.56,
+          "time": "premarket",
+          "high": 2.87,
+          "hodTimeExact": "05:15 AM ET",
+          "close": 2.36,
+          "fade": 17,
+          "fadeExact": 17.77,
+          "vwap": 1.9979,
+          "vsVwap": "above",
+          "pmHigh": 2.61,
+          "volRaw": "118.6M",
+          "relVol": 45.7,
+          "avgVolM": 2.6
+        },
+        {
+          "sym": "BZFD",
+          "hod": 146,
+          "hodExact": 146.61,
+          "news": [
+            "Why Is BuzzFeed Stock Gaining Today?",
+            "BuzzFeed (BZFD) Stock Soars Over 135% After Hours: What's Going On"
+          ],
+          "tag": "UNDERWRITER MANIP",
+          "name": "BuzzFeed, Inc. Class A Common Stock",
+          "sector": "Communication Services",
+          "country": "US",
+          "floatM": 16.05,
+          "floatSrc": "AE",
+          "marketCap": "$112M",
+          "riskBadges": [
+            "Active ATM $11.4M",
+            "$150.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Recent offering: news 2026-05-11: $120.0M @ $3.0",
+                "Cash runway: -0.5 months → must raise"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Recent offering: news 2026-05-11: $120.0M @ $3.0",
+            "Cash runway: -0.5 months → must raise"
+          ],
+          "insights": [
+            "Primary Catalyst: Byron Allen's Majority Stake Investment Announcement (May 11, 2026)**",
+            "BuzzFeed entered a transaction agreement with Allen Family Digital (affiliate of media mogul Byron Allen's family office) for a $120M investment, acquiring ~52% majority stake via 40M new shares at $3.00 each.",
+            "Byron Allen to become Chairman and CEO upon closing; founder Jonah Peretti transitions to President of BuzzFeed AI.",
+            "Deal framed as a \"financing lifeline\" amid liquidity concerns; expected to close by end of May 2026 (subject to approvals)."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "11-May-26 8-K – Byron Allen buying 52% stake; $20 M immediate cash + $100 M note; shares @ $3 (premium). <https://app.askedgar.io/filing?ticker=BZFD&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1828972%2F000182897226000054%2Fbzfd-20260511.htm&formType=8-K>  🟡 18-May-26 – $5 M debt payment; amendment suggests liquidity tight but should be met post-investment.  🟢 26-May-26 – Deal closing; Byron Allen becomes CEO; governance overhaul.  🟡 Aug-31-26 – Nasdaq $1 bid-price compliance deadline (possible RS).  🟢 Offering risk currently low; warrants OTM; ATM issuance small.  🔴 High cash-burn & debt stress; going-concern warning remains, but new capital gives short respite.  🟢 News flow is fundamentally positive; near-term upside sentiment, but monitor share-registration overhang in ~July-26."
+          ],
+          "prevClose": 0.7299,
+          "open": 1.7,
+          "gapPct": 132.91,
+          "time": "premarket",
+          "high": 1.8,
+          "hodTimeExact": "09:12 AM ET",
+          "close": 1.39,
+          "fade": 22,
+          "fadeExact": 22.78,
+          "vwap": 1.5954,
+          "vsVwap": "below",
+          "pmHigh": 1.85,
+          "volRaw": "130.4M",
+          "relVol": 141.0,
+          "avgVolM": 0.9
+        },
+        {
+          "sym": "BWEN",
+          "hod": 126,
+          "hodExact": 126.6,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "Broadwind, Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 22.1,
+          "floatSrc": "AE",
+          "marketCap": "$99M",
+          "riskBadges": [
+            "$75.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟢  May 28 2026 – Annual Meeting (shareholder vote)\n🟡  Q2-26 earnings & North Carolina plant expansion update – expected Aug 2026\n🟢  Sept 5 2026 – Completion of wind-exit (lease-back ends; cost savings begin)\n🟡  Potential bolt-on M&A funded by asset-sale proceeds (timing TBD)"
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated",
+            "Cash runway: -4.0 months → must raise"
+          ],
+          "insights": [
+            "Q1 2026 Earnings Beat (Released May 12, 2026 - today)**: Broadwind reported revenue of $34.1M (beat estimates of ~$33M, down 7.5% YoY due to Heavy Fabrications decline), GAAP EPS of -$0.02 (beat consensus -$0.07). Strong performance in core segments: Gearing revenue +42% YoY to $8.5M with orders +66% and $30.5M backlog; Industrial Solutions +64% to $9.2M with record $43.3M backlog and operating income $1.6M. Total orders +23% YoY to $37.4M. Adjusted EBITDA $2.2M. Market reacting positively to growth in higher-margin power generation/gearing despite overall revenue dip and small net loss.",
+            "Strategic Pivot and Wind Exit Confirmation**: Reiterated full exit from wind tower market by Q3 2026 (September), following Abilene, TX facility sale to IES Infrastructure (announced May 5, closed April 2026, $17.2M net proceeds providing ~$10M liquidity boost for acquisitions in power gen/infrastructure). Positions company as pure-play precision manufacturer; core segments (Gearing + Industrial Solutions) generated $64M TTM revenue with improving profitability.",
+            "No FY2026 Guidance**: Previously issued guidance withdrawn due to divestitures, shifting focus to smaller but higher-growth core business.",
+            "Not Part of Sector-Wide Movement**: No evidence of broad Industrial Machinery sector surge today; Specialty Industrial Machinery sector performance referenced in general terms (e.g., YTD gains), but BWEN move isolated to company-specific earnings/strategy."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟢  2026-05-12 (8-K/PR) – Q1-26 EPS beat, strong core-segment growth, $17 M cash from Abilene sale <https://app.askedgar.io/news/52479649?ticker=BWEN>",
+            "🟢  2026-05-05 (8-K) – Sold Abilene facility for up to $19.5 M; completes wind-tower exit <https://app.askedgar.io/filing?ticker=BWEN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1120370%2F000143774926014971%2Fbwen20260504_8k.htm&formType=8-K>",
+            "🔴  Offering risk remains high: $75 M shelf effective and cash burn flagged, though no shares issued since 2023.",
+            "🟡  Debt modest but cash thin; revolver + divestiture proceeds offset near-term pressure.",
+            "🟢  Key upcoming catalysts: Annual meeting 5/28/26, Q2 earnings Aug-26, wind-exit completion 9/5/26 – could showcase leaner, higher-margin business."
+          ],
+          "prevClose": 2.03,
+          "open": 2.38,
+          "gapPct": 17.24,
+          "time": "regular session",
+          "high": 4.6,
+          "hodTimeExact": "04:06 PM ET",
+          "close": 4.41,
+          "fade": 4,
+          "fadeExact": 4.13,
+          "vwap": 3.6031,
+          "vsVwap": "above",
+          "pmHigh": 2.44,
+          "volRaw": "21.4M",
+          "relVol": 89.6,
+          "avgVolM": 0.2
+        },
+        {
+          "sym": "ERNA",
+          "hod": 120,
+          "hodExact": 120.25,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "Ernexa Therapeutics Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.13,
+          "floatSrc": "AE",
+          "marketCap": "$15M",
+          "riskBadges": [
+            "Float 1.13M",
+            "Active ATM $3.1M",
+            "Best-efforts (Brookline)",
+            "$50.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [],
+              "prose": "1. 2026-05-11 DEF 14A – Annual meeting set for 07-01-26. Routine governance (board election, auditor, new 2026 equity plan). <https://app.askedgar.io/filing?ticker=ERNA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F748592%2F000149315226022281%2Fformdef14a.htm&formType=DEF%2014A>  🟡\n2. 2026-05-11 Press release – “Virtual Investor KOL Connect” & May-13 webcast; reiterates 100 % survival pre-clinical data for ERNA-101. No new financial terms. <https://app.askedgar.io/news/52446849"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Feb-26 warrants: 21 M pre-split → 840 k post-split, $17 strike (≈82 % OTM); not near-term pressure unless stock doubles.",
+                "Sept-24 bridge notes converted at $0.50 pre-split ($12.50 post-split) – these shares are already counted in O/S after Nov-24 exchange; no new overhang.",
+                "Equity Incentive Plan (proposal) will increase option pool, but immaterial near-term.",
+                "No adjustable-price toxic converts outstanding, but low share count means any new PIPE could be very dilutive."
+              ],
+              "prose": "🟥  High"
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟢  Low (currently) – Nasdaq accepted 1-for-25 RS; company has until 05-15-26 to show $1 bid average; shares now $9+, so rule satisfied.  However a one-year panel monitor remains (to 05-05-27); sustained price deterioration would reignite risk."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Balance-sheet debt essentially cleaned up – only $0.25 M due to related party & small contingent consideration ($0.04 M).",
+                "Current liabilities $3.46 M, cash $9.18 M → 2.6× coverage.",
+                "No significant maturities in 2026 after payoff of promissory notes with Feb raise.",
+                "Primary financial risk is ongoing operating burn (~$1.65 M/qtr) rather than debt."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [
+                "05-06-26 – Notes 90-day restriction on equity issuances (now expired); warns next raise could include Feb investors. 🔴",
+                "05-06-26 – New shelf & ATM only ~$3 M, not very pressuring unless rapid RDO. Sees pre-clinical data as over-hyped & prior gaps fading. 🔴",
+                "10-29-25 – Company habitually uses PIPEs; gaps fade. 🔴",
+                "12-04-24 – Massive share issuance from note/warrant exchange (38 M pre-split) flagged. 🔴",
+                "Overall sentiment: predominantly bearish / dilution-focused.  🔴"
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "May 13 2026 – Virtual Investor “Closing Bell” webcast (pipeline update) 🟡",
+                "May 15 2026 – Deadline to evidence bid-price compliance to Nasdaq 🟡/🔴 (reg-risk)",
+                "Q2-26 – Completion of ERNA-101 cGMP manufacturing 🟡",
+                "Q3-26 – IND filing for ERNA-101 🟡",
+                "Q4-26 – First-in-human Phase 1 trial start 🟡"
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated"
+          ],
+          "insights": [
+            "Positive Preclinical Data Amplification**: On May 11, 2026, Ernexa released a Virtual Investor KOL Connect video featuring CSO Dr. Robert Pierce, highlighting the ovarian cancer landscape and lead candidate ERNA-101's preclinical results (originally announced May 6), which showed complete tumor elimination and 100% survival in syngeneic ovarian cancer models when combined with PD-1 blockade—driving retail excitement and intraday halts.",
+            "Q1 2026 Earnings Release (Filed ~May 11)**: Reported narrowed net loss of $5.5M (vs. $8.2M YoY), bolstered by $10.5M February equity raise (cash at $9.2M end-Q1, ~$8.3M end-April), new $9.2M ATM facility, and post-1-for-25 reverse split (effective May 4, ~1.17M shares OS)—viewed as balance sheet stabilization.",
+            "Upcoming Near-Term Catalyst**: Virtual Investor Closing Bell event on May 13, 2026, at 4:00 PM ET with CEO Sanjeev Luther and CSO Dr. Robert Pierce to discuss ERNA-101 preclinical data, tumor microenvironment remodeling, and corporate overview—anticipated to sustain momentum.",
+            "Strong Social Media/Retail Buzz**: X/Twitter sentiment highly bullish today (May 12), with @stockplaymaker1 (multiple posts, 25+ likes) calling for squeeze above $8/$8.65 to $10-13, noting halts and low float; penny stock accounts like @Billerrr1 hyping \"complete tumor elimination\"; company @ErnexaTx promoted KOL video; Stocktwits buzzing on \"ovarian cancer trial results\" with 60% surge mentions."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-05-06",
+              "text": "theres actually a 90 restriction on equity issuances from the last feb offering for ERNA - so no atm sales and if they did an offering prior to ~May 10th theyd need the investors from the Feb offering to give the go ahead (which means they would prob be involved in any subsquent offering)"
+            },
+            {
+              "date": "2026-05-06",
+              "text": "ERNA\n- new shelf + atm as of March 2026, untapped yet\n- shelf and atm should actually be $3M, but not a lot of shares at these prices (only 500k) - so ATM wont necessarily put pressure on it, only if there was an RDO coming\n- preclinical results not from human trials so not really that big of a deal imo\n- somewhat choppy gaps but all closed weak https://discord.com/channels/1249146793464430633/1308024400884531302/1501562923275915395"
+            }
+          ],
+          "tldr": [
+            "05-11-26 DEF 14A – Routine annual meeting; no cash impact.  <https://app.askedgar.io/filing?ticker=ERNA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F748592%2F000149315226022281%2Fformdef14a.htm&formType=DEF%2014A>",
+            "05-11-26 PR & Webcast – KOL video + May 13 webcast; reiterates pre-clinical data.",
+            "/🔴 05-11-26 10-Q – Cash $9.2 M, burn accelerating; going-concern language.",
+            "05-04-26 – 1-for-25 reverse split to regain Nasdaq compliance (delisting risk mitigated but still monitored).",
+            "Q3-26 – Planned IND filing for ERNA-101 (first real clinical step).",
+            "High dilution risk: history of PIPEs, shelf/ATM now available post lock-up; expect another raise in 2026.",
+            "Debt low; liabilities manageable."
+          ],
+          "prevClose": 7.21,
+          "open": 7.46,
+          "gapPct": 3.47,
+          "time": "regular session",
+          "high": 15.88,
+          "hodTimeExact": "10:49 AM ET",
+          "close": 12.01,
+          "fade": 24,
+          "fadeExact": 24.37,
+          "vwap": 13.3063,
+          "vsVwap": "below",
+          "pmHigh": 7.5669,
+          "volRaw": "19.3M",
+          "relVol": 5.0,
+          "avgVolM": 3.8
+        },
+        {
+          "sym": "STAK",
+          "hod": 89,
+          "hodExact": 89.19,
+          "news": [],
+          "tag": "RIG",
+          "name": "STAK Inc. Class A Ordinary Shares",
+          "sector": "Energy",
+          "country": "CN",
+          "floatM": 10.01,
+          "floatSrc": "AE",
+          "marketCap": "$39M",
+          "riskBadges": [
+            "X1 warrants ITM"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Sub-15M float (10.01M) + active offering mechanics",
+                "Cash runway: 3.5 months → must raise"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Sub-15M float (10.01M) + active offering mechanics",
+            "Cash runway: 3.5 months → must raise"
+          ],
+          "insights": [
+            "No major news or announcements in last 3 days**: No press releases, filings, or headlines from May 9-12, 2026. Most recent notable item is Nasdaq compliance regain on April 14 (~28 days ago), reducing delisting risk but not tied to today.",
+            "Not part of sector-wide movement**: No evidence of broad Oil & Gas Equipment & Services gains on May 12; sector ETF $XES lacks specific performance data for the date, and searches yield no related surges."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "2026-04-14 (Form 6-K) – Regained Nasdaq bid-price compliance; removes delisting overhang but no revenue impact <https://app.askedgar.io/news/51800215?ticker=STAK>",
+            "2026-01-08 (F-1/RDO) – 6 M shares + 9 M $0.46 warrants issued; warrants now ~​$1.14 ITM, creating 47 % potential dilution <https://app.askedgar.io/news/49788052?ticker=STAK>",
+            "Cash runway ~3.5 months; additional financing or warrant exercises likely in 2026",
+            "Next known filing catalyst: FY-26 20-F due by Oct-2026 (date TBD)",
+            "Stock’s recent moves (Mar-May 2026) are momentum/low-float trading; no fundamental news",
+            "Currently in Nasdaq compliance; no active deficiency",
+            "Overall bias: Caution – expect dilution overhang despite active trader interest"
+          ],
+          "prevClose": 1.11,
+          "open": 1.09,
+          "gapPct": -1.8,
+          "time": "regular session",
+          "high": 2.1,
+          "hodTimeExact": "04:24 PM ET",
+          "close": 2.03,
+          "fade": 3,
+          "fadeExact": 3.33,
+          "vwap": 1.703,
+          "vsVwap": "above",
+          "pmHigh": 1.1,
+          "volRaw": "14.7M",
+          "relVol": 9.8,
+          "avgVolM": 1.5
+        },
+        {
+          "sym": "WOK",
+          "hod": 86,
+          "hodExact": 86.99,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "WORK Medical Technology Group LTD Class A Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 1.22,
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 1.22M",
+            "X2 zero-strike warrants (0.0M sh)",
+            "$300.0M shelf",
+            "Toxic price protection",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "2026-05-12 – Social media chatter & high volatility; stock up >200 % intraday on 5/11–5/12 driven by short-squeeze/momentum (<https://x.com/search?q=%24WOK&src=typed_query&05122026>).",
+                "2026-05-11 (6-K press release) – Strategic cooperation with Novabioplus to apply AI to protein/antibody design & develop “BioToken” digital asset model (<https://app.askedgar.io/news/52446852?ticker=WOK>). No financial terms or revenue guidance disclosed.",
+                "Feb 25 AGM approved 1,000× increase in authorized shares (to 20 B) and empowered Board to run another share consolidation.",
+                "2026-01-30 20-F confirms $14.8 M raised via ATM, large shelf ($297 M) remains.",
+                "H1 2026 – Start of manufacturing & sales push for AI Blood Cell Analyzer (RMB10 M 2026 sales target) 🟡"
+              ],
+              "prose": "Most-recent item (social/news):\nImpact: Early-stage partnership; unclear revenue contribution → rated 🟡 (neutral/speculative).\nDilution signals:\nUpcoming catalysts:"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Dilution rating High (1412 % potential per tracker).",
+                "Jan 26 ATM already tapped for ~$14.8 M; plenty left.",
+                "May 25 offering issued 2 × warrants (pre-split $1.00 strike ≈ $100 split-adjusted) → currently OUT-of-the-money at $5.52, so limited near-term exercise but could be repriced/induced.",
+                "Authorized share jump to 20 B shares + high shelf suggest significant future issuance possible.",
+                "No convertibles disclosed; warrant exercise risk currently 🟢 Low, but overall equity dilution threat remains high."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [
+                "Regained Nasdaq minimum-bid compliance on 11-04-25; new 1-for-100 RS helped.",
+                "No active price-based deficiency; market-cap ($4.8 M) is barely above $5 M continued-listing threshold—worth monitoring but no current notice.",
+                "No filing delinquency issues reported."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Net loss FY-25: $1.2 M; cash provided by ops: $1.56 M (cash-flow positive quarter)",
+                "No major long-term debt disclosed; working-capital needs modest but management warns more capital likely for growth & compliance.",
+                "Accounts payable & other current liabilities: not detailed in summary; no imminent debt maturities flagged."
+              ],
+              "prose": "Latest 20-F (filed 01-30-26) shows:"
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [
+                "04-16-26 – Notes WOK prior low-volume gaps faded; no strong bullish history.",
+                "06-27-25 – Groups WOK with “scammy” Univest/Kingswood names; high warrant overhang likened to pump/fade plays.",
+                "05-21-25 – Example of post-offering spikes but implies eventual fade.",
+                "02-20-25 – Highlights pending F-1, lock-up expirations; says typically good shorts once momentum fades."
+              ],
+              "prose": "Overall sentiment: bearish / high dilution play."
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "H1 2026 – Commercial launch of AI-Automated Blood Cell Analyzer 🟡 (execution risk, limited guidance).",
+                "Board-approved share consolidation (4,000:1) can be implemented anytime before 02-25-28 🔴 (often precedes further dilution).",
+                "Continued trader-driven low-float volatility / potential short squeeze events 🟡"
+              ],
+              "prose": "(No late-stage clinical trials or major revenue contracts announced)."
+            }
+          ],
+          "reasons": [
+            "0.0M zero-exercise-price warrants registered — every tick up unlocks free dilution",
+            "Toxic price protection (reset/cashless) — warrant count grows as price falls"
+          ],
+          "insights": [
+            "Primary catalyst: AI-driven biopharma collaboration announcement**",
+            "On May 11, 2026 (published via GlobeNewswire), WORK Medical announced a strategic cooperation agreement (signed April 13, 2026) with Shanghai Novabioplus Biotechnology Co., Ltd. to develop AI-powered projects in membrane protein design, antibody sequence optimization, enzyme/peptide design, and \"BioTokens\" – a model to convert biological data/R&D outputs into verifiable digital assets in a healthcare Web3/AI ecosystem. No specific financial terms disclosed.",
+            "Stock surged +206% on May 11 (from $1.28 to $3.92, volume 4,096x average), adding ~$5M market cap; today's +35.2% gain (45M+ shares) appears as continuation/momentum despite intraday volatility (e.g., dipped -39% to ~$2.37 mid-morning per Yahoo Finance).",
+            "High short interest and low-float momentum play**"
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 2026-05-11 6-K: AI/Novabioplus partnership announced; speculative upside, no $$ terms yet (<https://app.askedgar.io/news/52446852?ticker=WOK>)",
+            "🔴 Capital raise machine: $14.8 M ATM (01-30-26), $5 M RDO & PIPEs in ’25; new auth shares 20 B; Offering Risk/Ability/Frequency all 🔴",
+            "🔴 High dilution potential (1412 %); warrants currently OTM but shelf & huge auth share pool enable more stock issuance.",
+            "🟢 Currently Nasdaq-compliant after 1-for-100 RS (12-29-25); market-cap borderline.",
+            "🟡 Cash-flow positive last quarter, modest net loss FY-25; no big debt, but management still signals future funding needs.",
+            "🔴 Jmt415: historically fades, tied to “scammy” underwriters, good short after spikes (last note 04-16-26)."
+          ],
+          "prevClose": 3.92,
+          "open": 2.47,
+          "gapPct": -36.99,
+          "time": "regular session",
+          "high": 7.33,
+          "hodTimeExact": "01:28 PM ET",
+          "close": 6.66,
+          "fade": 9,
+          "fadeExact": 9.14,
+          "vwap": 4.2583,
+          "vsVwap": "above",
+          "pmHigh": 2.78,
+          "volRaw": "70.6M",
+          "relVol": 9.2,
+          "avgVolM": 7.6
+        },
+        {
+          "sym": "QUBX",
+          "hod": 83,
+          "hodExact": 83.63,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "Tradr 2X Long QUBT Daily ETF",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 2.1,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [
+            "Float 2.1M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [
+            "Post-Earnings Momentum from QUBT**: $QUBX is a 2x leveraged daily ETF tracking Quantum Computing Inc. ($QUBT). $QUBT surged ~20% after-hours on May 11, 2026, following Q1 2026 earnings release showing revenue of $3.7M (up massively from $39K YoY), $1.4B in cash equivalents/investments, $1.6B total assets, and completion of key acquisitions (Luminar Semiconductor for $110M and NuCrypt for $5M). Fab 1 photonic chip foundry is generating early revenue; contract backlog ~$16M. Momentum continued into May 12 trading.",
+            "Analyst Coverage Initiation**: Northland Capital Markets initiated coverage on $QUBT with an Outperform rating and $20 price target (recently referenced in May 11 updates), boosting sentiment ahead of earnings.",
+            "Quantum Sector Tailwinds**: Part of broader quantum computing hype (e.g., prior Nvidia \"Ising\" AI model news in April boosted sector peers like IONQ, QBTS, RGTI), but today's move is primarily $QUBT-specific earnings-driven rather than sector-wide (no uniform surge noted May 10-12).",
+            "Upcoming Catalysts**: No immediate key dates announced; potential Fab 2 expansion planning, Q2 earnings (likely August 2026), and $16M contract execution. Analysts eye photonics commercialization through 2028 funded by cash reserves."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟢 05-12-26 – QUBT Q1 earnings beat (Form: social media/news) → QUBX +37 %. <https://x.com/search?q=%24QUBX&src=typed_query&05122026>",
+            "🟢 05-11-26 – QUBT earnings release (press/8-K) continues momentum. <https://x.com/search?q=%24QUBX&src=typed_query&05112026>",
+            "🟡 Next catalyst: QUBT Q2-26 earnings (Aug 2026 est.).",
+            "🟢 Offering & dilution risk negligible – ETF structure means no baby-shelf, no warrants.",
+            "🟡 No compliance issues known."
+          ],
+          "prevClose": 14.99,
+          "open": 22.5,
+          "gapPct": 50.1,
+          "time": "regular session",
+          "high": 27.526,
+          "hodTimeExact": "09:42 AM ET",
+          "close": 19.78,
+          "fade": 28,
+          "fadeExact": 28.14,
+          "vwap": 22.678,
+          "vsVwap": "below",
+          "pmHigh": 24.27,
+          "volRaw": "5.8M",
+          "relVol": 16.3,
+          "avgVolM": 0.4
+        },
+        {
+          "sym": "CPHI",
+          "hod": 77,
+          "hodExact": 77.85,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "China Pharma Holdings, Inc.",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 40.71,
+          "floatSrc": "AE",
+          "marketCap": "$35M",
+          "riskBadges": [
+            "$50.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "2026-03-03 8-K – Share-for-Patent Acquisition (Prinsepia Utilis Esterol tablets). CPHI to issue 12.6 M restricted shares at $0.55 (≈ 31 % of current OS) to Xiaoyan Zhang. → 🔴 Dilutive. <https://app.askedgar.io/filing?ticker=CPHI&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1106644%2F000121390026023022%2Fea0279672-8k_china.htm&formType=8-K>",
+                "2026-02-10 8-K – Tech-transfer for Topiroxostat Nanoemulsion. Payment $8.82 M in 12.6 M shares @ $0.70 to Xiaoyun Chen (+3 % royalty). Another ~31 % dilution once issued. 🔴 <https://app.askedgar.io/filing?ticker=CPHI&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1106644%2F000121390026014338%2Fea0276369-8k_china.htm&formType=8-K>",
+                "2026-04-01 10-K – FY-25 results: revenue $4.1 M (-10 %), net loss $3.2 M, cash $0.35 M; “substantial doubt” about going concern. 🔴 <https://app.askedgar.io/filing?ticker=CPHI&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1106644%2F000121390026038521%2Fea0283939-10k_china.htm&formType=10-K>",
+                "2026-02-03 – Social-media driven price spike; no fundamental news. 🟡"
+              ],
+              "prose": "Overall News Rating: 🔴 (dilution & going-concern dominate)\nLatest items (most-recent first):\nUpcoming Catalysts:\n🟡 2H-26: Potential NMPA approval of customer product tied to CMO project → could add recurring revenue.\n🔴 Q2-Q3 26: Closing / share issuance for Prinsepia & Topiroxostat patents (unregistered Reg-S) → large dilution when restrictive legend lapses (~6–12 mo)."
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Pending issuance of 12.6 M shares (@ $0.55) and 12.6 M shares (@ $0.70) – both Reg-S, restricted at least 6 mths; together equal ~61 % of current OS.",
+                "Earlier Reg-S patent deals from Dec-25 add another 10.5 M shares (total ~26 M, ‑ adjusted for 1-for-10 split) still subject to leak-out.",
+                "No listed warrants; warrant exercise risk: 🟢 Low."
+              ],
+              "prose": "Dilution Rating : 🔴 High (103 % potential)\nKey Overhangs:\nBottom line: More than doubling of share count possible within a year as lock-ups expire."
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Nasdaq deficiency notice not disclosed. However, the bid is $0.53, below the $1 minimum; if price remains under $1 for 30 consecutive business days, a deficiency letter is likely. Therefore compliance risk: 🟡 Medium (watch for notice in coming weeks)."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Cash & equivalents (12/31/25): $0.35 M",
+                "CEO advance outstanding: $1.4 M",
+                "Bank credit lines: undisclosed amount, but used for working capital.",
+                "No major long-term debt reported.",
+                "‘Substantial doubt’ language in 10-K highlights liquidity strain despite small positive operating cash flow ($0.07 M/qtr)."
+              ],
+              "prose": "Debt/Liquidity Rating: 🟡 – manageable balances but very limited cash and reliance on related-party loans."
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No historical notes from jmt415 found for CPHI."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated"
+          ],
+          "insights": [
+            "No identifiable specific news or announcements**: There are no press releases, earnings reports, or company updates from the last 3 days (May 9-12, 2026) explaining the 44.9% surge. The most recent news items (e.g., 10-K delay in April 2026, patent acquisition in March 2026) are outdated and unrelated to today's movement.",
+            "Not part of a sector-wide movement**: Peers in Drug Manufacturers - Specialty & Generic (e.g., Teva +0.31%, Dr. Reddy's -0.68%, Sanofi -1.87%) are flat to down today, with no broad sector catalyst."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🔴 2026-03-03 8-K: 12.6 M share Reg-S issuance @ $0.55 for Prinsepia patent – ~31 % dilution once free-trading. <https://app.askedgar.io/filing?ticker=CPHI&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1106644%2F000121390026023022%2Fea0279672-8k_china.htm&formType=8-K>",
+            "🔴 2026-02-10 8-K: Additional 12.6 M shares @ $0.70 for Topiroxostat patent + 3 % royalty – another 31 % dilution risk. <https://app.askedgar.io/filing?ticker=CPHI&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1106644%2F000121390026014338%2Fea0276369-8k_china.htm&formType=8-K>",
+            "🔴 2026-04-01 10-K: FY-25 loss $3.2 M, cash $0.35 M, going-concern warning. <https://app.askedgar.io/filing?ticker=CPHI&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1106644%2F000121390026038521%2Fea0283939-10k_china.htm&formType=10-K>",
+            "🟡 Potential late-26 NMPA approval of customer’s drug could lift CMO revenue.",
+            "🟡 Nasdaq bid-price non-compliance risk if <$1 persists – monitor for deficiency notice.",
+            "Overall: CPHI faces heavy share dilution and liquidity strain; modest operating cash flow and small CMO upside provide limited offset."
+          ],
+          "prevClose": 0.5342,
+          "open": 0.396,
+          "gapPct": -25.86,
+          "time": "premarket",
+          "high": 0.95,
+          "hodTimeExact": "04:58 AM ET",
+          "close": 0.8927,
+          "fade": 6,
+          "fadeExact": 6.03,
+          "vwap": 0.6284,
+          "vsVwap": "above",
+          "pmHigh": 0.8006,
+          "volRaw": "12.7M",
+          "relVol": 542.9,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "AEHL",
+          "hod": 76,
+          "hodExact": 76.92,
+          "news": [],
+          "tag": "RIG",
+          "name": "Antelope Enterprise Holdings Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 2.2,
+          "floatSrc": "AE",
+          "marketCap": "$36M",
+          "riskBadges": [
+            "Float 2.2M",
+            "$75.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "🔴",
+              "bullets": [
+                "2026-05-08 (PR) – Announced $190 k realized gain from BTC “Genius Plan” and a token $95 k share-buyback starting 2026-06-06. Also highlighted recently EFFECTIVE $200 M F-3 shelf (90 % earmarked for more BTC buys). <https://app.askedgar.io/news/52405956?ticker=AEHL>",
+                "2026-04-30 (6-K) – Closed PRIVATE PLACEMENT of 12 M Class A shares at $0.207 for $2.48 M cash. Dilution was ~460 % vs. 2.6 M pre-deal OS. <https://app.askedgar.io/filing?ticker=AEHL&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1470683%2F000149315226020766%2Fform6-k.htm&formType=6-K>",
+                "2026-03-03 (6-K/PR) – 1-for-6 reverse split effective 2026-03-04. <https://app.askedgar.io/filing?ticker=AEHL&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1470683%2F000149315226008652%2Fform6-k.htm&formType=6-K>",
+                "2026-03-12 (6-K) – Regained Nasdaq filing-timeliness compliance. <https://app.askedgar.io/filing?ticker=AEHL&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1470683%2F000149315226009620%2Fform6-k.htm&formType=6-K>",
+                "2026-06-06 – Start of $95 k buyback (🟡 neutral/immaterial)."
+              ],
+              "prose": "Most-recent material items:\nImplications:\n– May-8 PR fueled retail run but fundamental impact is de-minimis ($95 k buyback vs. $7 M m-cap).\n– April PIPE massively increased share count; investors who bought at $0.207 (~$1.24 post-RS) are now up ~60 %, so profit-taking risk is high.\n– Reverse split + fresh $200 M shelf + equity line + history of PIPEs point to more dilution ahead.\nUpcoming known date:"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "🔴",
+              "bullets": [
+                "12 M shares (unregistered Section 4(2) PIPE) issued 2026-04-29 at $0.207 (pre-any further split). Already expanded OS from ~2.6 M to 17 M.",
+                "Pending equity-line with three BVI investors allows up to 30 M more shares at ≤ $1.12 (pre-RS terms) – fully unused.",
+                "Convertible notes from 2024 ($1.9 M) convert at 80 % of prior-day close ⇒ variable-price overhang.",
+                "Warrant overhang currently low, but massive shelf capacity ($200 M) could bring new warrants quickly.",
+                "4) Compliance Risk** 🟢**"
+              ],
+              "prose": "Overall: High probability of additional share issuance once trading volume spikes.\n– Bid-price deficiency solved after 1-for-40 RS (2025) and shares now >$1.\n– Reporting deficiency cured on 2026-03-12.\n– No active deficiency notices; next 20-F due mid-2027. Short-term compliance risk low."
+            }
+          ],
+          "reasons": [
+            "Sub-15M float (2.2M) + active offering mechanics",
+            "Cash runway: -4.2 months → must raise"
+          ],
+          "insights": [
+            "Low-float penny stock dynamics and short squeeze potential**: 1.31M float, recent volume spikes (e.g., 418% relative volume earlier), low short interest (0.85% of float as of Apr 30), attracting day traders chasing breakouts",
+            "Technical breakout calls on social media**: X/Twitter traders noting resistance breaks (e.g., $1.69), targets to $1.85-$2.05+; viewed as leveraged BTC play amid Genius Plan updates",
+            "No new news in last 3 days (May 9-12)**: Yahoo Finance/GlobeNewswire show no fresh announcements; prior May 8 PR dominates chatter",
+            "Not part of sector-wide movement**: No recent China construction/tiles news impacting peers; isolated to AEHL's BTC pivot (unrelated to core ceramic tiles business)"
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-05-11",
+              "text": "AEHL also they did the April PIPE right before they wouldnt be able to use that $6 high close in February, so seems intentional"
+            },
+            {
+              "date": "2026-05-11",
+              "text": "AEHL fyi for those wondering why they have no baby shelf limit its because they did a PIPE in April for 12m shares which expanded their shares held by non affiliates to 14M (this is whats used in the 'public float' calculation) - and using the 60 day look back they closed over $6  - so they wont be subject to baby shelf restriction until they file their 20-F next year"
+            },
+            {
+              "date": "2026-05-08",
+              "text": "AEHL this headline almost sounds like a joke lol *Antelope Enterprise Holdings Limited Announces $190,000 in Realized Gains from its \"Genius Plan\" and Authorizes an $95,000 Share Repurchase Program, Validating its Sustainable Capital Recycling Framework*"
+            },
+            {
+              "date": "2026-05-08",
+              "text": "AEHL new shelf in April maybe they actually try to raise this time"
+            }
+          ],
+          "tldr": [
+            "🔴 2026-04-30 6-K – Closed 12 M-share PIPE at $0.207 (<https://app.askedgar.io/filing?ticker=AEHL&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1470683%2F000149315226020766%2Fform6-k.htm&formType=6-K>) – added ~14 M shares, huge dilution.",
+            "🔴 2026-05-08 PR – $190 k BTC gains + $95 k buyback but touts $200 M shelf for more BTC – minimal fundamental value, signals future raises (<https://app.askedgar.io/news/52405956?ticker=AEHL>).",
+            "🟡 2026-06-06 – Tiny ($95 k) buyback begins; likely negligible vs. 17 M OS.",
+            "🔴 Offering risk high, ability high, history of frequent PIPEs; massive unused $200 M shelf & $33 M equity lines remain.",
+            "🔴 Dilution risk elevated: recent 12 M share PIPE, variable-price converts, equity lines.",
+            "🟡 Debt moderate but cash burn far exceeds cash → more funding needed soon."
+          ],
+          "prevClose": 1.43,
+          "open": 1.225,
+          "gapPct": -14.34,
+          "time": "regular session",
+          "high": 2.53,
+          "hodTimeExact": "11:32 AM ET",
+          "close": 2.11,
+          "fade": 16,
+          "fadeExact": 16.6,
+          "vwap": 2.0537,
+          "vsVwap": "above",
+          "pmHigh": 1.31,
+          "volRaw": "49.4M",
+          "relVol": 2.6,
+          "avgVolM": 18.9
+        },
+        {
+          "sym": "HTCO",
+          "hod": 71,
+          "hodExact": 71.91,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "High-Trend International Group Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "SG",
+          "floatM": 5.71,
+          "floatSrc": "AE",
+          "marketCap": "$70M",
+          "riskBadges": [
+            "Float 5.71M",
+            "X1 warrants ITM",
+            "$400.0M shelf",
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst present",
+                "BUT dilution mechanics active — fade risk elevated"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated"
+          ],
+          "insights": [
+            "Primary catalyst: Shareholder approvals for major governance enhancements (announced May 11, 2026)**",
+            "Class A shareholders approved changes at May 7 Extraordinary General Meeting, including boosting Class B ordinary shares voting power from 20 to 100 votes per share, increasing authorized share capital (Class A from 489.9M to 2B shares; Class B from 10.1M to 110.1M), authority for potential reverse share consolidation up to 1,000:1 over next 2 years (at board discretion), and amendments requiring Class B majority consent for key actions.",
+            "Seen as strengthening control, strategic flexibility, and balance sheet; directly tied to +20-21% intraday surge per multiple reports.",
+            "Recent positive overhang removal (May 4 announcement, still influencing sentiment)**"
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🔴 2026-05-11 6-K: Shareholders OK 4× authorised shares & 1 000:1 reverse-split power – clear set-up for future dilution <https://app.askedgar.io/filing?ticker=HTCO&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1928948%2F000121390026054499%2Fea029005001ex99-1.htm&formType=6-K>",
+            "🟢 2026-05-04 6-K: Repaid $4.19 M Streeterville convertible, 630 k shares to be cancelled; removes immediate overhang <https://app.askedgar.io/filing?ticker=HTCO&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1928948%2F000121390026051177%2Fea0288876-6k_hightrend.htm&formType=6-K>",
+            "🟡 2026-04-22 PR: Pivot to lithium cargo; voyages doubled YoY – growth angle but early-stage <https://app.askedgar.io/news/51966557?ticker=HTCO>",
+            "🔴 Dilution risk high: $0.10 convertible notes from Sep/Oct 2024 remain, new 2 B share authorisation, high shelf ($400 M).",
+            "🟢 Cashflow positive; cash ~$10 M, debt ~<$8 M, Nasdaq compliant.",
+            "🟡 Next known catalyst: Q1-FY26 earnings (est. Aug 2026); board may enact reverse split anytime (🔴 potential)."
+          ],
+          "prevClose": 7.05,
+          "open": 8.8,
+          "gapPct": 24.82,
+          "time": "premarket",
+          "high": 12.12,
+          "hodTimeExact": "05:54 AM ET",
+          "close": 11.28,
+          "fade": 6,
+          "fadeExact": 6.93,
+          "vwap": 9.7203,
+          "vsVwap": "above",
+          "pmHigh": 10.98,
+          "volRaw": "10.6M",
+          "relVol": 7.1,
+          "avgVolM": 1.5
+        }
+      ],
+      "hod": 175,
+      "fade": 14,
+      "hodTime": "premarket",
+      "theme": "Active Tape",
+      "note": "TDIC led +175.96% (17% fade). 7/10 held <20% fade. news: TDIC — \"Why Is Dreamland Stock Gaining Tuesday?\"."
+    },
     {
       "date": "2026-05-11",
       "runners": [
