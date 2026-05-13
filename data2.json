@@ -14,8 +14,8 @@
       "runners": [
         {
           "sym": "TDIC",
-          "hod": 175,
-          "hodExact": 175.96,
+          "hod": 266,
+          "hodExact": 266.35,
           "news": [
             "Why Is Dreamland Stock Gaining Tuesday?"
           ],
@@ -77,9 +77,9 @@
           "prevClose": 1.04,
           "open": 1.805,
           "gapPct": 73.56,
-          "time": "premarket",
-          "high": 2.87,
-          "hodTimeExact": "05:15 AM ET",
+          "time": "session",
+          "high": 3.81,
+          "hodTimeExact": "05:00 PM ET",
           "close": 2.36,
           "fade": 17,
           "fadeExact": 17.77,
@@ -394,8 +394,8 @@
         },
         {
           "sym": "WOK",
-          "hod": 86,
-          "hodExact": 86.99,
+          "hod": 203,
+          "hodExact": 203.57,
           "news": [],
           "tag": "DILUTION BAIT",
           "name": "WORK Medical Technology Group LTD Class A Ordinary Shares",
@@ -500,9 +500,9 @@
           "prevClose": 3.92,
           "open": 2.47,
           "gapPct": -36.99,
-          "time": "regular session",
-          "high": 7.33,
-          "hodTimeExact": "01:28 PM ET",
+          "time": "session",
+          "high": 11.9,
+          "hodTimeExact": "07:10 PM ET",
           "close": 6.66,
           "fade": 9,
           "fadeExact": 9.14,
@@ -830,7 +830,7 @@
       ],
       "hod": 175,
       "fade": 14,
-      "hodTime": "premarket",
+      "hodTime": "session",
       "theme": "Active Tape",
       "note": "TDIC led +175.96% (17% fade). 7/10 held <20% fade. news: TDIC — \"Why Is Dreamland Stock Gaining Tuesday?\"."
     },
