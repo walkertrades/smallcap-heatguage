@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-05-19T21:15:18.220085Z",
-  "count": 9317,
+  "exportedAt": "2026-05-20T20:38:46.069423Z",
+  "count": 9327,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,826 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-05-20",
+      "runners": [
+        {
+          "sym": "HCWB",
+          "hod": 276,
+          "hodExact": 276.42,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "HCW Biologics Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 6.32,
+          "floatSrc": "AE",
+          "marketCap": "$15M",
+          "riskBadges": [
+            "Float 6.32M",
+            "Active ATM $0.1M",
+            "X1 zero-strike warrants (0.0M sh)",
+            "X2 warrants ITM",
+            "$100.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "0.0M zero-exercise-price warrants registered — every tick up unlocks free dilution",
+                "Cash runway: -0.3 months → must raise"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "0.0M zero-exercise-price warrants registered — every tick up unlocks free dilution",
+            "Cash runway: -0.3 months → must raise"
+          ],
+          "insights": [
+            "Possible reasons for the price movement:**",
+            "Momentum/volatility in a low-float micro-cap biotech stock following positive Q1 2026 earnings and preclinical updates released on May 14",
+            "Retail trader interest and short-term speculation on the company's immunotherapy pipeline (focused on autoimmune diseases, cancer, and inflammation)",
+            "High trading volume (over 1.5 million shares) indicating speculative buying in a volatile name"
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-05-15",
+              "text": "HCWB so they posted first every profitable quarter with rev of $6.54 m compared to basically nothing last year but that $6.5 m came from a one time license fee, so not really recurring\n- they still have a catalyst coming up before end of june: *The Company remains on track to provide preliminary clinical data readout from the first two dose levels of the Phase 1 clinical study evaluating HCW9302 in alopecia areata in the first half of 2026. *\n- *As of March 31, 2026, the Company believes that substantial doubt exists regarding its ability to continue as a going concern for at least 12 months from the issuance date of the audited financial statements, without additional funding or financial support. *\n- ~5M warrants at $0.60 held by armistice\n- all their previous offerings were with Maxim, this one is with EF Hutton\n- i didnt find many examples of gappers right before an EF hutton offering except NMHI but it didnt have the premarket action this one has https://discord.com/channels/1249146793464430633/1315676068237021285/1504786687354736651"
+            },
+            {
+              "date": "2026-05-15",
+              "text": "HCWB this is a weird one where the S-1 became effective back on 4/30 but they still haven't priced it yet - which is why it doesnt show up under pending offering - will be fixing this so these types still show up\n- they filed a POS AM (post effective amendment) on wednesday to add more shares to the offering so should be announced soon"
+            }
+          ],
+          "tldr": [
+            "🟡 2026-05-14 10-Q/8-K: first profitable quarter ($6.5 M one-off license) + positive BPD pre-clinical data, but cash $1.2 M and going-concern warning <https://app.askedgar.io/filing?ticker=HCWB&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1828673%2F000149315226023131%2Fform10-q.htm&formType=10-Q>",
+            "🔴 Offering set-up – effective S-1 & equity-line with $17.8 M capacity; 5.5 M warrants @ $0.6055 awaiting 06-15-26 shareholder approval; historical high frequency of dilutions.",
+            "🔴 Dilution & cash risk – current cash <1 month; >100 % potential share inflation from low-priced warrants + SPA sales.",
+            "🔴 Nasdaq non-compliance – bid-price hearing held 05-05-26; risk of delisting if reverse-split not executed.",
+            "🟡 Near-term science catalyst – preliminary Phase 1 alopecia data due H1-26; could generate trading buzz but unlikely to remove funding overhang.",
+            "Overall view: highly speculative low-float biotech with chronic financing needs and significant dilution/​delisting risk; traders should beware of potential imminent offering pressure despite occasional headline spikes."
+          ],
+          "prevClose": 1.06,
+          "open": 1.04,
+          "gapPct": -1.89,
+          "time": "regular session",
+          "high": 3.99,
+          "hodTimeExact": "10:42 AM ET",
+          "close": 2.43,
+          "fade": 39,
+          "fadeExact": 39.1,
+          "vwap": 2.4917,
+          "vsVwap": "below",
+          "pmHigh": 1.1,
+          "volRaw": "192.0M",
+          "relVol": 7.4,
+          "avgVolM": 25.8
+        },
+        {
+          "sym": "MWC",
+          "hod": 195,
+          "hodExact": 195.55,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Micware Co., Ltd. American Depositary Shares",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 2.89,
+          "floatSrc": "AE",
+          "marketCap": "$413M",
+          "riskBadges": [
+            "Float 2.89M"
+          ],
+          "sections": [
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "No registered warrants, PIPEs or convertibles disclosed.",
+                "Shares outstanding / float not yet reported in SEC filings, so full dilution math unavailable.",
+                "427,500 ADS green-shoe (15 % of IPO size) could still be sold (expires ~30-Jun-26)."
+              ],
+              "prose": "Overall current dilution pressure appears low-medium (🟡) but watch for a follow-on shelf later in 2026."
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Nasdaq Global Market listing effective 14-May-2026; no deficiency notices. Share price ($4.72) > $1.00 minimum.\nCompliance Risk: 🟢 (Low at this time)"
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Short-term borrowing increased by ¥800 M (~US$5.1 M).",
+                "Long-term funds raised: ¥300 M (~US$1.9 M).",
+                "No further breakdown yet available in a 20-F/10-K.",
+                "With ~$22.8 M gross IPO cash just added, near-term liquidity appears adequate."
+              ],
+              "prose": "Latest disclosed (FY ended 28-Feb-2026, from AGM 6-K):\nDebt/Liabilities Risk: 🟢 (manageable for now)"
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No historical notes on MWC available."
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.89M + RelVol 134.1x"
+          ],
+          "insights": [
+            "Possible reasons for the price movement**",
+            "Post-IPO volatility and retail momentum following its Nasdaq debut on May 14, 2026 (priced at $8 per ADS, upsized offering closed May 15 raising ~$22.8M).",
+            "Low float and high retail interest driving sharp swings (e.g., reports of moves from ~$4.70 to $15–17+ intraday).",
+            "Speculative trading in a newly listed Japanese automotive/mobility software firm with no major fundamental updates."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "18-May-26 13G: Toyota disclosed 11.6 % stake – strong strategic validation.",
+            "18-May-26 6-K: FY26 results show 5 % revenue / 31 % EPS growth; AGM resolutions due 29-May-26.",
+            "15-May-26 6-K: IPO of 2.85 M ADS at $8 raised $22.8 M (dilution); 427.5 k green-shoe open until ~30-Jun-26.",
+            "Offering risk medium: no shelf yet but post-IPO companies often file; watch for future S-1/F-3 or ATM.",
+            "Debt low; ~$23 M fresh cash covers near-term needs; compliant with Nasdaq."
+          ],
+          "prevClose": 4.72,
+          "open": 12.015,
+          "gapPct": 154.56,
+          "time": "premarket",
+          "high": 13.95,
+          "hodTimeExact": "04:56 AM ET",
+          "close": 7.15,
+          "fade": 48,
+          "fadeExact": 48.75,
+          "vwap": 11.1507,
+          "vsVwap": "below",
+          "pmHigh": 26.38,
+          "volRaw": "39.1M",
+          "relVol": 134.1,
+          "avgVolM": 0.3
+        },
+        {
+          "sym": "SLXN",
+          "hod": 147,
+          "hodExact": 147.58,
+          "news": [],
+          "tag": "UNDERWRITER MANIP",
+          "name": "Silexion Therapeutics Corp Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "IL",
+          "floatM": 6.12,
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 6.12M",
+            "Active ATM $2.6M",
+            "X2 warrants ITM",
+            "$100.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "Israeli Ministry of Health cleared Phase 2/3 SIL204 trial; German CTA submitted.",
+                "Q1-26 showed $2.7 M net loss; cash $2.4 M.",
+                "Company raised ~$1 M gross on 2026-05-15 via warrant-exercise inducement (8-K) <https://app.askedgar.io/filing?ticker=SLXN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F2022416%2F000117891326002739%2Fzk2635351.htm&formType=8-K>.",
+                "Same day 10-Q (2026-05-15) disclosed ATM sales of $1.16 M YTD <https://app.askedgar.io/filing?ticker=SLXN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F2022416%2F000117891326002744%2Fzk2635243.htm&formType=10-Q>.",
+                "2026-05-14/13: positive SIL204 pre-clinical immune data & start of GMP manufacturing (8-K) <https://app.askedgar.io/filing?ticker=SLXN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F2022416%2F000117891326002705%2Fexhibit_99-1.htm&formType=8-K>."
+              ],
+              "prose": "Most-recent item (8-K & press release – 2026-05-18) <https://app.askedgar.io/news/52631252?ticker=SLXN>\nNet take: Encouraging clinical progress, but simultaneous dilution tempers enthusiasm."
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "3.99 M new unregistered Series C/D warrants @ $0.50 await shareholder approval & registration – in-the-money vs $0.27 stock; could double float.",
+                "Legacy warrants: 3.0 M @ $4.00 (out of the money), 148 k @ $22.50 (OTM).",
+                "White Lion equity line allows variable-price share sales up to $15 M; shares issued at market highs—continuous overhang.",
+                "Convertible sponsor note $3.4 M (conv. price resets to future financings) remains disputed; 1.2 M principal outstanding.",
+                "Compliance Risk 🟢**"
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Cash & equivalents 3/31/26: $2.4 M; current liabilities $4.1 M (includes $1.55 M related-party note).",
+                "Net working capital ≈ $0 (current liabilities ≈ current assets).",
+                "Promissory note to sponsor ($1.2 M) demanded for repayment; maturity 02-15-27 but under dispute.",
+                "No long-term bank debt; primary liabilities are payables, leases, and related-party note.",
+                "Going-concern language in 10-Q; needs cash within ~3 months."
+              ],
+              "prose": "Key takeaways:\nOverall sentiment: predominantly bearish / dilution-focused."
+            }
+          ],
+          "reasons": [
+            "Recent offering: S-3 2026-05-15",
+            "Cash runway: 2.7 months → must raise"
+          ],
+          "insights": [
+            "Possible reasons for the 34.6% price surge today (May 20, 2026):**",
+            "Momentum from the May 18 Q1 2026 earnings release and business update, which highlighted regulatory progress on SIL204 despite a widened net loss ($2.7M) and low cash ($2.4M as of March 31); post-quarter warrant exercises and equity raises restored shareholders’ equity above Nasdaq’s $2.5M minimum.",
+            "Ongoing buzz around recent positive preclinical immunotherapy data for SIL204 (released May 14) and GMP clinical manufacturing initiation with Catalent (May 13), positioning the company for its planned Phase 2/3 trial in KRAS-driven pancreatic cancer.",
+            "Low float/volatility typical of micro-cap biotechs amplifying moves on modest share volume (66k shares)."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 2026-05-18 8-K/PR: Israeli OK & CTA filed for SIL204 Phase 2/3; positive but still early-stage, no revenue impact <https://app.askedgar.io/news/52631252?ticker=SLXN>",
+            "🔴 2026-05-15 8-K: $1 M warrant-inducement at $0.50 + 3.99 M new warrants (dilutive) <https://app.askedgar.io/filing?ticker=SLXN&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F2022416%2F000117891326002739%2Fzk2635351.htm&formType=8-K>",
+            "🔴 Offering risk high; active ATM ($1.16 M used YTD), $2.6 M shelf, $15 M White Lion equity line, history of frequent Wainwright deals.",
+            "🔴 Dilution overhang: 3.99 M new warrants @ $0.50 (in-the-money), convertible sponsor note with reset feature, potential White Lion sales.",
+            "🟡 Cash ≈ $2.4 M; ~2.7 months runway; going-concern language; must raise again soon.",
+            "🟢 Currently Nasdaq-compliant post Jul-25 1-for-15 split, but under monitoring until 09-23-26."
+          ],
+          "prevClose": 0.269,
+          "open": 0.6299,
+          "gapPct": 134.16,
+          "time": "premarket",
+          "high": 0.666,
+          "hodTimeExact": "05:05 AM ET",
+          "close": 0.5298,
+          "fade": 20,
+          "fadeExact": 20.45,
+          "vwap": 0.5935,
+          "vsVwap": "below",
+          "pmHigh": 0.9975,
+          "volRaw": "326.0M",
+          "relVol": 754.6,
+          "avgVolM": 0.4
+        },
+        {
+          "sym": "GCL",
+          "hod": 123,
+          "hodExact": 123.37,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "GCL Global Holdings Ltd Ordinary Shares",
+          "sector": "Technology",
+          "country": "SG",
+          "floatM": 33.25,
+          "floatSrc": "AE",
+          "marketCap": "$105M",
+          "riskBadges": [
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "No active registration statements; 1.125 M warrants @ $8.00 are >18× out-of-the-money.",
+                "Prior convertible notes ($2.16 conversion) were mostly redeemed or capped; current price $0.43 is far below conversion floors, so no incentive to convert.",
+                "Total warrant overhang ≈ 2 M (including 0.9 M OCBC warrant @ $4.17), also deeply OTM."
+              ],
+              "prose": "Dilution Rating: 🟢 (Low)\nConclusion: Near-term share supply pressure is minimal."
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Nasdaq Bid-Price Deficiency notice (2026-03-23) gives until 2026-09-14 to regain $1 bid. Rating: 🟢 (Low) – Six-month window remains; cure likely via price recovery or potential reverse split if needed."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Cash (03-31-25): US$21.3 M; A/R US$25.8 M.",
+                "Debt: US$10.5 M short-term loan (OCBC facility) + US$1.4 M long-term.",
+                "April 2026: redeemed US$3.18 M of convertibles; balance swapped for warrants; no further note issuances allowed.",
+                "Cash runway ≈ 13 months (cash_need 🟡)."
+              ],
+              "prose": "Rating: 🟡 – Manageable debt, but eventual capital raise likely within a year."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [
+            "Primary catalyst: Expanded $10M strategic investment from ADATA Technology (announced May 19, 2026)**",
+            "GCL’s publishing subsidiary 4Divinity received an additional $10M from ADATA (following prior $3M + $10M tranches, totaling ~$23M). Funds will support global game title acquisitions, digital distribution expansion, and hardware-software synergies for new gaming experiences.",
+            "This directly triggered the ~155% surge and high volume (645k+ shares) on May 20, with heavy after-hours/premarket momentum pushing prices from ~$0.43 to $1.00+ levels.",
+            "Recent developments (last 3 days max, prioritized by recency)**"
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟢 2026-05-19 (6-K) – $10 M strategic investment from ADATA; bolsters cash & validates business <https://app.askedgar.io/filing?ticker=GCL&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F2002045%2F000121390026059012%2Fea0291544-6k_gcl.htm&formType=6-K>",
+            "🟢 Offering & dilution risk low – no active shelf/ATM; all outstanding warrants far OTM; prior convertibles mostly redeemed/exchanged.",
+            "🟡 Cash runway ≈ 13 months; management has hinted at future capital raises; watch for new financing later in 2026.",
+            "🟢 Nasdaq compliance: bid-price deficiency deadline 2026-09-14 gives time; could opt for reverse split if needed.",
+            "🟡 Upcoming events: «Realm of Ink» launch 2026-05-26; additional ADATA tie-ups; longer-term 2027 game releases."
+          ],
+          "prevClose": 0.4317,
+          "open": 0.74,
+          "gapPct": 71.42,
+          "time": "premarket",
+          "high": 0.9643,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 0.7445,
+          "fade": 22,
+          "fadeExact": 22.79,
+          "vwap": 0.8392,
+          "vsVwap": "below",
+          "pmHigh": 1.17,
+          "volRaw": "121.3M",
+          "relVol": 63.8,
+          "avgVolM": 1.9
+        },
+        {
+          "sym": "UZX",
+          "hod": 100,
+          "hodExact": 100.74,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "Linkage Global Inc Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "JP",
+          "floatM": 9.63,
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 9.63M",
+            "$300.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst present",
+                "BUT dilution mechanics active — fade risk elevated",
+                "Cash runway: 1.0 months → must raise"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated",
+            "Cash runway: 1.0 months → must raise"
+          ],
+          "insights": [
+            "Ticker symbol change from LGCB to UZX effective May 18, 2026** (announced May 15): This rebranding directly ties the company to the UZX DAO Foundation following an April 2026 token/share transaction, generating fresh trader interest and momentum in a low-float name.",
+            "Pivot toward AI and digital assets integration**: The move highlights plans to incorporate UZX DAO’s AI technology and crypto ecosystem into Linkage Global’s cross-border e-commerce platform, fueling speculative buying as traders position for a potential “AI + blockchain” narrative shift.",
+            "Low-float momentum and retail trader attention**: With only ~123k shares traded today amid a sharp 26.4% gain and reports of halts/circuit breakers, this appears driven by classic micro-cap volatility rather than fundamental news; traders are chasing the post-ticker-change pop.",
+            "No major new announcements in the last 3 days (May 17–20, 2026)**: The primary catalyst remains the recent ticker transition and associated DAO partnership (announced May 15); earlier April 2026 private placements and board changes are too dated to explain today’s move."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟥 5/19/26 6-K – Ticker change to UZX; no revenue impact, but part of crypto pivot <https://app.askedgar.io/filing?ticker=UZX&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1969401%2F000121390026058707%2Fea0291450-6k_linkage.htm&formType=6-K>",
+            "🟥 Continuous 2026 PPs: 4 M sh @ $0.50 (2/18), 0.83 M sh @ $0.60 (3/18) – resale S-1/F-1 still due → likely stock supply soon.",
+            "🟥 30 M share-for-token deal closed 4/8/26 (12-mo lock-up) – triples OS when free.",
+            "🟡 $100 M equity line (9/26/25) usable once registration effective – more dilution possible.",
+            "🟢 Currently Nasdaq-compliant, but board can authorize up to 100-1 reverse split to stay listed.",
+            "🟥 Cash ≈ $0.5 M; burn ≈ $1.5 M/qtr → <2 months runway; high probability of additional capital raise."
+          ],
+          "prevClose": 0.3379,
+          "open": 0.3571,
+          "gapPct": 5.68,
+          "time": "regular session",
+          "high": 0.6783,
+          "hodTimeExact": "09:50 AM ET",
+          "close": 0.3045,
+          "fade": 55,
+          "fadeExact": 55.11,
+          "vwap": 0.467,
+          "vsVwap": "below",
+          "pmHigh": 0.349,
+          "volRaw": "22.2M",
+          "relVol": 79.6,
+          "avgVolM": 0.3
+        },
+        {
+          "sym": "PHGE",
+          "hod": 90,
+          "hodExact": 90.64,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "BiomX Inc.",
+          "sector": "Healthcare",
+          "country": "IL",
+          "floatM": 6.63,
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 6.63M",
+            "Active ATM $4.8M",
+            "X2 zero-strike warrants (0.1M sh)",
+            "$150.0M shelf",
+            "Toxic price protection",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "923 K pre-funded warrants @ $0.0001 (deep ITM) + 923 K matching common shares for DFSL seller.",
+                "3.69 M 5-yr warrants @ $12 – currently OTM but large overhang if price spikes.",
+                "3.3 K Series Y pref (Jan 26) convert into up to 1.65 M shares at $2; also carries 3.3 M $2 warrants (OTM but far below prior RS-adjusted highs; terms could be repriced via inducement).",
+                "Historical baby-shelf means new ATM/registered raises are limited to ~one-third of MC, but at current prices even small cash needs translate to heavy % dilution.",
+                "Net potential dilution >150 % of current OS if all approved/converted."
+              ],
+              "prose": "Cap table (6.6 M OS) faces >6 M additional low-priced instruments once approved:"
+            }
+          ],
+          "reasons": [
+            "0.1M zero-exercise-price warrants registered — every tick up unlocks free dilution",
+            "Toxic price protection (reset/cashless) — warrant count grows as price falls",
+            "Cash runway: -2.8 months → must raise"
+          ],
+          "insights": [
+            "Possible reasons for the 24.9% move (low-volume speculative trading):**",
+            "Momentum from BiomX’s ongoing pivot from clinical-stage microbiome/phage biotech to a diversified Israeli defense/AI technology platform (acquisitions and product launches in April–May 2026).",
+            "Retail-driven oversold bounce and breakout speculation, as seen in recent X chatter calling it “oversold” or “massive breakout ready.”",
+            "Low-float volatility typical of micro-cap names; only ~54k shares traded suggests thin liquidity amplifying any buying pressure."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "2026-05-06 (PR) Zorronet app launch – early-stage product, no revenue guidance <https://app.askedgar.io/news/52344073?ticker=PHGE>",
+            "2026-04-13 DFSL acquisition financed with 1.85 M new shares + 0.9 M $0.0001 prefunded & 3.7 M $12 warrants + $3 M convertible note; shareholder vote due by ~2026-08-11 <https://app.askedgar.io/filing?ticker=PHGE&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1739174%2F000121390026042811%2Fea0285293-8k_biomx.htm&formType=8-K>",
+            "Cash <3 months, going-concern warning; high chance of further equity raises (Overall Offering Risk 🔴, Cash Need 🔴).",
+            "NYSE-A equity deficiency plan submitted; cure deadline 2027-09-25 – monitor for updates.",
+            "Large overhang: >6 M low- or no-cost warrants/pref shares waiting for shareholder approval (potential > 150 % dilution vs 6.6 M OS).",
+            "Small but growing defense/security contracts (Israel Railways 12-month framework, potential World Cup installs) could validate new business direction but revenue scale unclear."
+          ],
+          "prevClose": 0.374,
+          "open": 0.5261,
+          "gapPct": 40.67,
+          "time": "premarket",
+          "high": 0.713,
+          "hodTimeExact": "05:43 AM ET",
+          "close": 0.5969,
+          "fade": 16,
+          "fadeExact": 16.28,
+          "vwap": 0.5678,
+          "vsVwap": "above",
+          "pmHigh": 0.8,
+          "volRaw": "200.8M",
+          "relVol": 454.5,
+          "avgVolM": 0.4
+        },
+        {
+          "sym": "VIDA",
+          "hod": 89,
+          "hodExact": 89.08,
+          "news": [
+            "VIDA Gets An AI Liftoff After $15 Million IPO"
+          ],
+          "tag": "UNDERWRITER MANIP",
+          "name": "VIDA Global Inc.",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 4.58,
+          "floatSrc": "AE",
+          "marketCap": "$57M",
+          "riskBadges": [
+            "Float 4.58M"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "48 % intraday surge credited to heavy insider buying disclosed 18-19 May (Form 4s):",
+                "Traders highlighting low float (~5 M post-IPO), AI theme.",
+                "Confirms IPO of 3.75 M shares @ $4.00; 30-day 562.5 k share over-allotment option.",
+                "Underwriter Benchmark receives 187,500 five-year warrants, exercisable 14-Nov-2026 @ $4.80 (120 % of IPO price)."
+              ],
+              "prose": "Most–recent item (20-May-2026, social/media buzz) – <https://x.com/search?q=%24VIDA&src=typed_query&05202026>\n– CEO Lyle Pratt bought ~312.9 k sh ($1.2 M @ $3.80-3.96)\n– Director Calicott + Bitcoin Venture GP II each bought 375 k sh\n– Director Romaine bought 6.3 k sh\n18-May-2026 8-K – IPO Closing & Governance Amendments <https://app.askedgar.io/filing?ticker=VIDA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1973062%2F000149315226024189%2Fform8-k.htm&formType=8-K>\n20-May-2026 8"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "187,500 underwriter warrants (exercisable @ $4.80) are OTM at current $2.29.",
+                "562,500 greenshoe shares could be issued by 14-Jun-2026 @ $4.00; with spot < $4 that option is unlikely to be exercised unless price recovers.",
+                "No other registered warrants, convertibles or equity lines disclosed."
+              ],
+              "prose": "→ Current overhang modest; dilution risk LOW near-term."
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [
+                "Newly listed on NYSE American; trading > $1.00 and filings up to date. No active deficiency notices."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No 10-Q/10-K available yet (company just went public). Debt levels and payables unknown until first quarterly report. No debt disclosed in IPO prospectus summary."
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟡 14-Jun-2026 (est.): Expiration of 30-day underwriter greenshoe (up to 562,500 sh @ $4.00).\n🟡 14-Nov-2026: Representative warrants become exercisable (187,500 sh @ $4.80).\n🟡 11-Nov-2026-ish: 180-day IPO lock-up expiration – possible additional share supply.\n🟡 Aug-2026: First post-IPO fiscal-year-end (Jun-30) results expected."
+            }
+          ],
+          "reasons": [
+            "Recent offering: S-1 2026-05-15: $15.0M @ $4.0"
+          ],
+          "insights": [
+            "Cluster of significant insider purchases reported on May 19, 2026, including CEO Lyle Pratt acquiring 187,500 shares (plus earlier buys), Director Christopher Shane Calicott purchasing 375,000 shares, and major shareholder Bitcoin Venture Gp II L.L. Tvp buying 375,000 shares—signaling strong management confidence at depressed post-IPO levels.",
+            "Post-IPO momentum bounce on a very low-float, newly public AI stock (trading only since May 15); thin float often leads to sharp swings on limited volume.",
+            "Retail trader interest in under-the-radar AI/agent plays, with the stock still well below its $4.00 IPO price despite the rebound.",
+            "Recent news/announcements or market sentiment (last 3 days max, most recent first):**"
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 20-May-2026: Stock spiked 48 % on Form 4 insider buys (<https://x.com/search?q=%24VIDA&src=typed_query&05202026>). Positive sentiment but no new business wins yet.",
+            "🟡 18-May-2026: 8-K – IPO closed; 3.75 M shares sold @ $4.00; 562.5 k greenshoe open (<https://app.askedgar.io/filing?ticker=VIDA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1973062%2F000149315226024189%2Fform8-k.htm&formType=8-K>).",
+            "🟡 20-May-2026: 8-K – Underwriter gets 187.5 k warrants @ $4.80, exercisable Nov-2026 (<https://app.askedgar.io/filing?ticker=VIDA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1973062%2F000149315226024189%2Fex3-1.htm&formType=8-K>).",
+            "🟢 Offering risk low in near term; company just raised $15 M and warrants are OTM.",
+            "🟡 Watch for greenshoe decision (by 14-Jun-2026) and first earnings (Aug-2026). Lock-up expiry mid-Nov-2026 could add supply.",
+            "🟢 Currently in compliance; no debt data yet disclosed."
+          ],
+          "prevClose": 2.29,
+          "open": 2.75,
+          "gapPct": 20.09,
+          "time": "premarket",
+          "high": 4.3299,
+          "hodTimeExact": "05:02 AM ET",
+          "close": 4.15,
+          "fade": 4,
+          "fadeExact": 4.15,
+          "vwap": 3.3972,
+          "vsVwap": "above",
+          "pmHigh": 4.5,
+          "volRaw": "44.0M",
+          "relVol": 64.5,
+          "avgVolM": 0.7
+        },
+        {
+          "sym": "MLGO",
+          "hod": 79,
+          "hodExact": 79.37,
+          "news": [],
+          "tag": "RIG",
+          "name": "MicroAlgo, Inc. Ordinary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 3.49,
+          "floatSrc": "AE",
+          "marketCap": "$65M",
+          "riskBadges": [
+            "Float 3.49M",
+            "$100.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "2026-04-01 6-K/20-F – FY-2025 results: Net profit +143 %, diluted EPS +273 %, shareholders’ equity +123 %. Clear operational improvement (<https://app.askedgar.io/filing?ticker=MLGO&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1800392%2F000182912626002992%2Fmicroalgo_6k.htm&formType=6-K>).",
+                "No new dilution filings since June-2025; however several variable-price convertible notes were issued in 2024-25 (see Offering section)."
+              ],
+              "prose": "Most-recent item (PR, 2026-05-20): “Quantum Image Edge Extraction Algorithm for Noisy Images” <https://app.askedgar.io/news/52688547?ticker=MLGO>.\nEffect: Generates buzz but contains no revenue, customer, or contract details ⇒ neutral headline.\nOther material 2026 items:\nPotential catalysts:\n– Q2-26 earnings mid-July 2026 (estimate 2026-07-15)\n– Maturity / conversion window for June-2025 US$35 M 0 % CV note (due ~2026-06-15) could trigger share issuance."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "7) Jmt415 Analyst Notes  (overall sentiment 🔴)****"
+              ],
+              "prose": "Most convertible debt reportedly converted to equity by year-end 2025.  Remaining conventional debt not disclosed in the excerpt; no near-term term-loan maturities noted. Key liability risk is re-issuance of new variable-price notes rather than traditional bank debt.\n2025-05-23 – Warns that two new convertible notes ($56 M) at $0.89 could weigh; float keeps rising.\n2025-02-24 – Expects slow steady sell-off as converts drip; watch VWAP for selling.\n2024-09-24 – Notes another $30 M note at $0.14, "
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "2026-06-15 ± a few days – Possible conversion/maturity of June-2025 US$35 M 0 % CV note  🔴",
+                "Mid-July 2026 (est. 2026-07-15) – Q2-26 earnings release  🟡  (could be green if beats again)",
+                "Ongoing quantum-algorithm PR cycle – unpredictable drops; typically 🟡 unless tied to contracts."
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "Sub-15M float (3.49M) + active offering mechanics"
+          ],
+          "insights": [
+            "Possible reasons for the 22.7% surge (high volume of ~202k shares):**",
+            "Fresh company announcement today on development of a **Quantum Image Edge Extraction Algorithm for Noisy Images**, continuing its quantum computing R&D push.",
+            "Momentum from prior quantum algorithm news (e.g., Multi-Objective Evolutionary Algorithm announced ~3 days ago and Quantum Architecture Search ~12 days ago), fueling speculative interest in this microcap AI/quantum play.",
+            "Technical factors: Recent breakout signals (e.g., breaking lower Bollinger Band on May 18) and short-term upward trend in a volatile name known for sharp moves."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-05-14",
+              "text": "TDIC so not really sure what to expect from it at this point - instead of being flat out dump it could be like MLGO where it was choppy for a bit and then they started selling on the backside -- but ultimately we dont know whos holding the shares, so hard to anticipate what happens next without observing the price action today - so far still seems rigged"
+            }
+          ],
+          "tldr": [
+            "🟡 05-20-26 PR on quantum image algorithm – eye-catching but no revenue; momentum headline <https://app.askedgar.io/news/52688547?ticker=MLGO>",
+            "🟢 04-01-26 FY-25 6-K showed net profit +143 %; fundamental improvement <https://app.askedgar.io/filing?ticker=MLGO&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1800392%2F000182912626002992%2Fmicroalgo_6k.htm&formType=6-K>",
+            "🔴 History of variable-price convertible notes; most claimed converted, but a US$35 M note matures ~06-15-26 and could restart dilution",
+            "🔴 Offering risk high & company frequently raises despite positive cash flow",
+            "🟢 Cash balance ~US$175 M; no immediate going-concern issue",
+            "🟠 Next watch-list items: note-conversion headlines (~Jun) and Q2 earnings (~Jul)"
+          ],
+          "prevClose": 3.83,
+          "open": 3.79,
+          "gapPct": -1.04,
+          "time": "regular session",
+          "high": 6.87,
+          "hodTimeExact": "01:56 PM ET",
+          "close": 5.36,
+          "fade": 21,
+          "fadeExact": 21.98,
+          "vwap": 5.9553,
+          "vsVwap": "below",
+          "pmHigh": 3.8,
+          "volRaw": "9.7M",
+          "relVol": 16.0,
+          "avgVolM": 0.6
+        },
+        {
+          "sym": "PETZ",
+          "hod": 77,
+          "hodExact": 77.77,
+          "news": [],
+          "tag": "RIG",
+          "name": "TDH Holdings, Inc. Common Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 6.46,
+          "floatSrc": "AE",
+          "marketCap": "$12M",
+          "riskBadges": [
+            "Float 6.46M",
+            "$75.0M shelf",
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "OS 10.5 M; float ~7.2 M; prior RS-adjusted figures.",
+                "Legacy 4 M warrants @ $2.44 (unregistered per 2024 jmt415 note); with stock at $0.81 they are far OTM, so limited immediate overhang.",
+                "No convertible notes disclosed; no in-the-money warrants; no new S-1/S-3 on file.",
+                "Overall dilution over last 2 yrs ~39 %, but largely historical (2021–22). Current risk moderate given low offering ability.",
+                "4) Compliance Risk**  🟢**"
+              ],
+              "prose": "Dilution Risk: 🟡  (Medium)\nLatest 20-F shows:"
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "Potential property acquisitions or leasing deals (no dates) – 🟡",
+                "Any future capital-raise announcement (none filed) – 🔴 if occurs",
+                "Annual report / possible shareholder meeting before Sept 2026 – 🟡"
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "Sub-15M float (6.46M) + active offering mechanics",
+            "RelVol 3829.9x — coordinated entry signature"
+          ],
+          "insights": [
+            "Possible reasons for the price movement:**",
+            "Classic low-float Chinese micro-cap momentum play/short squeeze (6.8M share float, sub-$10M market cap prior to move)",
+            "Retail trader momentum spilling over from similar recent squeezes in names like $WOK, $GCL, and $MEHA",
+            "High-volume speculative trading in a volatile penny stock with no fundamental catalyst"
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "2026-04-20 (20-F) – Company posts 122 % revenue growth after pivot to commercial real estate; liquidity strong but small absolute scale. <https://app.askedgar.io/filing?ticker=PETZ&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1684425%2F000121390026045630%2Fea0286521-20f_tdhhold.htm&formType=20-F>",
+            "2026-04-17 (6-K) – Regains Nasdaq board/audit compliance, removing delisting overhang. <https://app.askedgar.io/filing?ticker=PETZ&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1684425%2F000121390026045151%2Fea0286684-6k_tdhhold.htm&formType=6-K>",
+            "Offering risk, ability, frequency all Low; cash runway >10 yrs; near-term dilution unlikely.",
+            "Medium dilution history (-39 % OS growth) & 4 M OTM warrants remain overhang if price spikes > $2.44.",
+            "Balance sheet solid; no imminent debt issues.",
+            "Jmt415 notes: history of pump/trap behavior; maintain caution despite low float and cash cushion."
+          ],
+          "prevClose": 0.81,
+          "open": 1.07,
+          "gapPct": 32.1,
+          "time": "premarket",
+          "high": 1.4399,
+          "hodTimeExact": "04:01 AM ET",
+          "close": 1.15,
+          "fade": 20,
+          "fadeExact": 20.13,
+          "vwap": 1.2543,
+          "vsVwap": "below",
+          "pmHigh": 7.84,
+          "volRaw": "23.2M",
+          "relVol": 3829.9,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "MTVA",
+          "hod": 76,
+          "hodExact": 76.06,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "MetaVia Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 4.24,
+          "floatSrc": "AE",
+          "marketCap": "$16M",
+          "riskBadges": [
+            "Float 4.24M",
+            "X3 zero-strike warrants (0.0M sh)",
+            "$150.0M shelf",
+            "Toxic price protection",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "🟡",
+              "bullets": [],
+              "prose": "Most-recent item (May 20 2026 – Form 8-K PR): peer-reviewed publication shows anti-fibrotic effects of vanoglipel in pre-clinical MASH models <https://app.askedgar.io/news/52686793?ticker=MTVA>.  • Adds mechanistic validation, but does not yet translate to revenue.\nAdditional May catalysts:  • May 18: acceptance of three late-breaking posters for ADA 2026 (June 5-8) <https://app.askedgar.io/filing?ticker=MTVA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1638287%2F0001104659260"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "🔴",
+              "bullets": [
+                "Fully-diluted share-count up 377 % over 2 yrs.  • 7.8 M Series C & D warrants (strike $3.10, reg’d) near the money; partial warrant exercises (1.63 M shares) already occurred in Q1-26.  • Alyeska 13G (May 15) shows >3.2 M warrants with 9.99 % blocker; indicates sophisticated holder that could sell into spikes.  • No toxic convertibles noted, but proxy seeks authority for large reverse split → easier future issuances."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Compliance",
+              "emoji": "🟢",
+              "bullets": [],
+              "prose": "Company regained bid-price compliance on Dec 19 2025 and has no active Nasdaq deficiency letters.  Reverse-split proposal is precautionary; meeting June 8 2026."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "🟢",
+              "bullets": [
+                "No interest-bearing debt.  • Total liabilities only $5.3 M (mainly A/P $1.0 M & related-party payables).  Balance-sheet leverage therefore low."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No archived notes in dataset."
+            }
+          ],
+          "reasons": [
+            "0.0M zero-exercise-price warrants registered — every tick up unlocks free dilution",
+            "Toxic price protection (reset/cashless) — warrant count grows as price falls",
+            "Cash runway: 8.6 months → must raise"
+          ],
+          "insights": [
+            "Possible reasons for the 22.3% price surge and high volume (6.38M+ shares):**",
+            "Positive peer-reviewed publication highlighted today (May 20, 2026) supporting anti-fibrotic potential of vanoglipel (DA-1241) in MASH, with pre-clinical data showing benefits on liver inflammation, lipid metabolism, weight loss, and glucose control.",
+            "Momentum from recent analyst action (HC Wainwright reiterated Buy rating with $20 price target on May 18) and ongoing excitement around DA-1726 obesity data.",
+            "Continued trading momentum following strong Phase 1 weight-loss results (9.1% at 48 mg dose) and Q1 2026 earnings update from mid-May."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "05-20-26 (8-K PR) – positive pre-clinical publication on vanoglipel; good science but early-stage <https://app.askedgar.io/news/52686793?ticker=MTVA>",
+            "05-27-30-26 – EASL poster (DA-1726) upcoming – potential visibility but no pivotal data.",
+            "06-05-08-26 – ADA late-breaking posters; same neutral/early-stage read-through.",
+            "Ongoing dilution risk: Jan-26 $8.1 M offering + ATM; proxy vote (Jun 8) includes 1:5–22 reverse split & bigger option pool.",
+            "Cash ≈ $13.7 M; ≈ 9 mo runway → new funding likely within 2026.",
+            "No interest-bearing debt; low liability stack."
+          ],
+          "prevClose": 1.88,
+          "open": 1.97,
+          "gapPct": 4.79,
+          "time": "regular session",
+          "high": 3.31,
+          "hodTimeExact": "11:09 AM ET",
+          "close": 2.89,
+          "fade": 12,
+          "fadeExact": 12.69,
+          "vwap": 2.7356,
+          "vsVwap": "above",
+          "pmHigh": 2.13,
+          "volRaw": "61.3M",
+          "relVol": 14.0,
+          "avgVolM": 4.4
+        }
+      ],
+      "hod": 276,
+      "fade": 26,
+      "hodTime": "regular session",
+      "theme": "PM-Led Tape",
+      "note": "HCWB led +276.42% (39% fade). 3/10 held <20% fade. news: VIDA — \"VIDA Gets An AI Liftoff After $15 Million IPO\"."
+    },
     {
       "date": "2026-05-19",
       "runners": [
