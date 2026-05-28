@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-05-27T10:28:36.799274Z",
-  "count": 9357,
+  "exportedAt": "2026-05-28T10:09:11.176998Z",
+  "count": 9367,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,731 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-05-27",
+      "runners": [
+        {
+          "sym": "ASTC",
+          "hod": 699,
+          "hodExact": 699.6,
+          "news": [],
+          "tag": "RIG",
+          "name": "Astrotech Corporation (DE) Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 1.43,
+          "floatSrc": "AE",
+          "marketCap": "$32M",
+          "riskBadges": [
+            "Float 1.43M",
+            "$30.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Sub-15M float (1.43M) + active offering mechanics",
+                "RelVol 4100.0x — coordinated entry signature",
+                "Cash runway: 3.4 months → must raise"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Sub-15M float (1.43M) + active offering mechanics",
+            "RelVol 4100.0x — coordinated entry signature",
+            "Cash runway: 3.4 months → must raise"
+          ],
+          "insights": [
+            "Primary catalyst: Astrotech’s Board of Directors approved a Strategic Lunar Resource and Infrastructure Initiative focused on lunar resource development, autonomous lunar industrial infrastructure, and future Moon-based quantum computing/semiconductor manufacturing (announced/reported today, May 27, 2026).** This highly speculative “moon/quantum” PR has driven extreme momentum in the low-float stock.",
+            "Recent news (last 3 days max):**",
+            "Today’s lunar/quantum initiative PR is the dominant driver.",
+            "May 21, 2026: Subsidiary EN-SCAN launched the Labrador HH-GC, a portable gas chromatograph for on-site VOC analysis (positive but older relative to today’s move)."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-05-27",
+              "text": "ASTC had a lot of runs during covid but nothing since then except in March when there were long lines at the airport (Bc they have some airport screening device)\n\nnow trying to ride both the quantum and space theme\n\n*Astrotech Corporation Board of Directors Approves Strategic Lunar Resource and Infrastructure Initiative to Advance Future Moon-Based Quantum Computing Manufacturing*\n\n$2.5M shelf, didnt raise on the March run, but maybe they do on this one - last run there was no news, but since this time there is, maybe they have an agenda"
+            }
+          ],
+          "tldr": [
+            "🟡 5-27-26 8-K / PR: Board green-lights speculative Lunar Resource Initiative; no revenues yet. <https://app.askedgar.io/news/52804056?ticker=ASTC>",
+            "🔴 Cash ≈$6.6 M vs burn $3.7 M/q → <4 months runway; mgmt says more capital needed; high offering risk. (10-Q 5-13-26)",
+            "🟢 No material warrant/convertible overhang; dilution risk currently low, but future shelf/ATM raise likely while price elevated.",
+            "🟢 Clean Nasdaq compliance and no debt.",
+            "🟡 Upcoming catalysts: TSA approval for TRACER 1000; Q4 FY26 earnings (late Sep 26); potential lunar-initiative updates.",
+            "🔴 History of HC Wainwright raises (2020-21) + analyst notes warn of “pump then raise” pattern."
+          ],
+          "prevClose": 2.47,
+          "open": 7.42,
+          "gapPct": 200.4,
+          "time": "regular session",
+          "high": 19.75,
+          "hodTimeExact": "11:56 AM ET",
+          "close": 13.81,
+          "fade": 30,
+          "fadeExact": 30.08,
+          "vwap": 11.3163,
+          "vsVwap": "above",
+          "pmHigh": 8.2699,
+          "volRaw": "146.3M",
+          "relVol": 4100.0,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "BRTX",
+          "hod": 172,
+          "hodExact": 172.22,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "BioRestorative Therapies, Inc. Common Stock (NV)",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 25.47,
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [
+            "Active ATM $1.6M",
+            "X1 warrants ITM",
+            "$75.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No historical jmt415 notes were provided for BRTX."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated",
+            "Cash runway: 1.7 months → must raise"
+          ],
+          "insights": [
+            "Primary catalyst: Activist investor involvement**",
+            "Recent news (last 3 days, prioritizing May 26-27)**",
+            "May 26, 2026**: BioRestorative completed patient dosing in its fully enrolled Phase 2 trial of BRTX-100 (99 patients) for chronic lumbar disc disease. The randomized, double-blind, sham-controlled study now enters blinded follow-up, with topline safety/efficacy data expected in **Q2 2027**. BRTX-100 holds FDA Fast Track designation; prior Type B meeting aligned on Phase 3 elements with no major safety issues noted.",
+            "Earlier May developments (e.g., May 13 preclinical exosome data at ISCT 2026) provided positive context but were not the immediate driver."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-05-27",
+              "text": "BRTX  - some miami hedge fund acquired 4.9% stake, trying to get them to pivot into AI lol"
+            }
+          ],
+          "tldr": [
+            "🟡 2026-05-27 13D-style news: Activist Kaos Capital takes 4.9 % stake, pushing AI pivot <https://app.askedgar.io/news/52802947?ticker=BRTX>.",
+            "🟡 2026-05-26 PR: Phase 2 BRTX-100 fully dosed; topline Q2 2027.",
+            "🔴 Liquidity ≈ 1.7 months; High offering & dilution risk; authorized shares jumped to 1.5 B (vote 2026-05-26).",
+            "🟢 Still within Nasdaq cure window (until 2026-09-22) but management signals possible reverse split.",
+            "🟡 No material debt, but cash burn forces probable raise – watch for ATM revival or warrant inducement near $0.35."
+          ],
+          "prevClose": 0.2498,
+          "open": 0.4032,
+          "gapPct": 61.39,
+          "time": "regular session",
+          "high": 0.68,
+          "hodTimeExact": "10:14 AM ET",
+          "close": 0.4329,
+          "fade": 36,
+          "fadeExact": 36.34,
+          "vwap": 0.5021,
+          "vsVwap": "below",
+          "pmHigh": 0.5494,
+          "volRaw": "514.1M",
+          "relVol": 221.5,
+          "avgVolM": 2.3
+        },
+        {
+          "sym": "AIM",
+          "hod": 157,
+          "hodExact": 157.84,
+          "news": [],
+          "tag": "UNDERWRITER MANIP",
+          "name": "AIM ImmunoTech Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 25.13,
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Active ATM",
+            "X1 warrants ITM",
+            "$100.0M shelf",
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Cash & equivalents 31-Mar-26: $5.8 M; plus ~$6.6 M raised in May (warrant exercise + RDO) → pro-forma cash ≈ $12–13 M.",
+                "Cash burn ≈ $3.26 M/quarter → ~9–12 months runway.",
+                "Debt: Streeterville unsecured note O/S ≈ $1.68 M, 10 % interest, matures Jun-30-27; current portion of note payable on B/S shows $4.0 M due within 12 mo (likely Streeterville amortization schedule).",
+                "Accounts payable & accruals ≈ $1.9 M."
+              ],
+              "prose": "No near-term debt covenant issues disclosed, but continued funding needs for Phase 3 trials likely."
+            }
+          ],
+          "reasons": [
+            "Recent offering: S-3 2026-05-20: $2.4M @ $0.325",
+            "Cash runway: 9.6 months → must raise"
+          ],
+          "insights": [
+            "Recent company-specific developments (last 3 days max, none directly on May 24–27):** No major new press releases in the immediate prior 3 days. Momentum appears driven by follow-through from the May 19–20 announcements (stockholder equity boost to ~$2.1M as of March 31 and promissory note extension to June 2027; $2.4M registered direct offering + private placement of warrants for clinical supply, Phase 3 prep, and working capital). These improved financial flexibility and reduced near-term dilution/liquidity concerns.",
+            "Primary driver for today’s surge:** Ebola-themed retail momentum and anticipation. Traders are highlighting AIM’s FDA orphan drug status for Ampligen (rintatolimod) in Ebola, referencing prior preclinical data (e.g., 100% survival in mouse models). Buzz centers on an upcoming on-demand “Virtual Investor” presentation titled “Ebola: What This Means,” scheduled for June 4, 2026, at 9:00 AM ET. This has sparked comparisons to other Ebola-related biotechs and viral trading volume.",
+            "Upcoming catalysts/timelines after today:**",
+            "June 4, 2026: Virtual Investor KOL/presentation on Ebola potential for Ampligen (key near-term sentiment driver)."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 27-May-26 PR highlights Ampligen Ebola mouse cure; virtual investor call 4-Jun-26 (<https://app.askedgar.io/news/52804641?ticker=AIM>).",
+            "🔴 20-May-26 $2.4 M RDO at $0.325 + 15 M new warrants; shares now trading near deal price – fresh overhang.",
+            "🟡 19-May-26 equity turns positive ($2.1 M) & Streeterville note pushed to 2027 – modest balance-sheet relief (<https://app.askedgar.io/filing?ticker=AIM&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F946644%2F000149315226024353%2Fform8-k.htm&formType=8-K>).",
+            "🔴 Dilution risk very high: >30 M low-priced warrants + equity line; offering frequency high.",
+            "🟡 Cash ~12 M post-May raises → ~1 year runway; further funding likely for Phase 3 pancreatic trial.",
+            "🟢 NYSE American equity deficiency expected to be cured by RDO; compliance deadline 11-Jun-26."
+          ],
+          "prevClose": 0.2327,
+          "open": 0.248,
+          "gapPct": 6.57,
+          "time": "regular session",
+          "high": 0.6,
+          "hodTimeExact": "12:06 PM ET",
+          "close": 0.4011,
+          "fade": 33,
+          "fadeExact": 33.15,
+          "vwap": 0.42,
+          "vsVwap": "below",
+          "pmHigh": 0.2798,
+          "volRaw": "496.3M",
+          "relVol": 18.7,
+          "avgVolM": 26.6
+        },
+        {
+          "sym": "NTCL",
+          "hod": 154,
+          "hodExact": 154.3,
+          "news": [],
+          "tag": "SYMPATHY",
+          "name": "NETCLASS TECHNOLOGY INC Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 44.21,
+          "floatSrc": "AE",
+          "marketCap": "$33M",
+          "riskBadges": [
+            "$100.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Registered resale F-1 (filed 2025-10-17, 1.64 M shares remaining) plus new 27 M share resale F-1 due in June pose sizeable overhangs.",
+                "Outstanding share count already up >3× since IPO (1.8 M → 58.7 M).",
+                "Convertible note (Streeterville, $2.2 M, floor $0.7106) is currently OUT-of-the-money at $0.34; standstill prevents conversion until Sept-2026.",
+                "No publicly listed tradable warrants."
+              ],
+              "prose": "=> Near-term dilution tied mainly to registered resale, not immediate conversions; rated Low for now, but monitor after compliance/reverse-split."
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Nasdaq notice on 2026-01-29 for bid-price deficiency (<$1). 180-day cure period ends 27-Jul-2026. Options: regain $1 for 10 sessions or request additional 180-day extension (requires $1 bid + market-value tests) or enact reverse split. Failure leads to delisting. No other equity, filing or debt-related deficiencies disclosed."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Limited disclosure since no 10-Q/10-K yet (foreign private issuer).",
+                "Convertible Note: $2.2 M principal, 9 % coupon, floor $0.7106, due Aug-2026; standstill in place through Sept-2026.",
+                "No other material debt reported; accounts payable & accrued expenses not disclosed.",
+                "Cash on hand post-April raise estimated ~$5.9 M; quarterly burn ~$0.74 M → ≈24-month runway.",
+                "Overall liability picture moderate but visibility is low until next F-1/F-20F."
+              ],
+              "prose": "Overall sentiment: neutral observation of momentum trading."
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [
+            "Possible reasons for the 35.7% surge (high volume of ~4.7M shares):**",
+            "Speculative retail momentum or short-term trading activity in a low-float microcap stock, common for volatile Chinese-listed names with no immediate fundamental trigger.",
+            "Potential short-covering or algorithmic/retail-driven buying amid broader market volatility, given the stock’s history of sharp moves.",
+            "AI-related sentiment or renewed interest in the company’s education/AI platform focus, even without fresh catalysts (company has emphasized AI progress in prior updates)."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🔴 2026-04-03 6-K – Closed $6 M private placement at $0.222; 27 M new shares + upcoming resale F-1 create dilution overhang <https://app.askedgar.io/filing?ticker=NTCL&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1927578%2F000110465926039676%2Ftm269432d1_6k.htm&formType=6-K>",
+            "🟡 Cash runway ~24 months post-raise; moderate debt (one $2.2 M convertible note, conversion blocked until Sept-26).",
+            "🟡 Offering ability medium (≈$9.9 M shelf, no ATM), historical offering pace low-moderate but accelerating.",
+            "🔴 Nasdaq bid-price deficiency; must hit ≥$1 by 27-Jul-26 or pursue reverse split/extension.",
+            "🟢 No in-the-money warrants; current dilution risk modest until resale F-1 becomes effective."
+          ],
+          "prevClose": 0.2641,
+          "open": 0.2645,
+          "gapPct": 0.15,
+          "time": "regular session",
+          "high": 0.6716,
+          "hodTimeExact": "05:08 PM ET",
+          "close": 0.555,
+          "fade": 17,
+          "fadeExact": 17.36,
+          "vwap": 0.5107,
+          "vsVwap": "above",
+          "pmHigh": 0.2995,
+          "volRaw": "78.7M",
+          "relVol": 41.1,
+          "avgVolM": 1.9
+        },
+        {
+          "sym": "SNGX",
+          "hod": 120,
+          "hodExact": 120.27,
+          "news": [
+            "Soligenix (SNGX) Stock Soars 72% On ThermoVax Platform Promise Amid Ebola Outbreak Caused By Bundibugyo Virus"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Soligenix, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 15.02,
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [
+            "$50.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "Possible BARDA / NIAID contract for Bundibugyo vaccine (🟡 – speculative).  • EU orphan exclusivity pathway for SGX945 Behçet’s (🟡) – study start H2-26.  • FLASH2 subset analysis & partnering outcome (🟡).",
+                "TLDR**",
+                "2026-05-26 ThermoVax Bundibugyo PR – neutral PR, no cash yet 🟡",
+                "2026-04-28 FLASH2 Phase 3 stopped for futility – major setback 🔴",
+                "ATM remains active; 4.7 M shares sold since Jan – high dilution risk 🔴"
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven",
+            "Cash runway: 10.3 months → must raise"
+          ],
+          "insights": [
+            "Primary catalyst: May 26, 2026 press release highlighting suitability of Soligenix’s ThermoVax thermostable vaccine platform for rapid development of a Bundibugyo virus (Ebola) vaccine amid the ongoing outbreak in Congo.** Existing bivalent/trivalent filovirus vaccines using the platform demonstrated thermostability, strong immunogenicity in animals, up to 100% protection in non-human primates, ambient-temperature shipping/storage advantages, single-vial subunit formulations, and potential as stand-alone or booster vaccines. This provides a rapid starting point for vaccine development.",
+            "Stock-specific momentum in a low-float (~14.8M shares) biotech penny stock with high retail interest and volume (over 1M shares traded), leading to sharp intraday and after-hours/premarket gains (reports of 30%+ regular session moves, 70%+ AH, and further extension toward or beyond $1).**",
+            "Speculative trading and momentum chasing following the Ebola-related news, with traders noting the platform’s broader potential beyond the company’s core rare disease pipeline (e.g., HyBryte for CTCL).**",
+            "No broad sector-wide movement in Biotechnology; the surge appears isolated to SNGX and tied directly to the vaccine platform update (other recent biotech names not similarly impacted).**"
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-05-27",
+              "text": "SNGX and NNVC ebola sympathies riding the coattails of CODX\n- NNVC just did an offering two weeks ago, but now tapped out of shelf - has ~8M warants at $1.75-$2 held by armistice they could do a warrant inducement with, but no history of doing so \n- their last financial report indicates they need cash and the $1.33M they raised 2 weeks ago isnt enough\n- SNGX $3M shelf capacity and has been consistently using the ATM but only $800k left. Expect them to file a new ATM or RDO to take advantage of this run\n- SNGX had some pretty trappy action during the august 2024 monkey pox run - https://discord.com/channels/1249146793464430633/1308024400884531302/1509060060284977204\n- NNVC didnt really partake and no gaps since 2022"
+            }
+          ],
+          "tldr": [
+            "2026-05-26 ThermoVax Bundibugyo PR – neutral PR, no cash yet 🟡",
+            "2026-04-28 FLASH2 Phase 3 stopped for futility – major setback 🔴",
+            "ATM remains active; 4.7 M shares sold since Jan – high dilution risk 🔴",
+            "Cash ≈ $6 M → ~10 months runway; no debt 🟡",
+            "Nasdaq currently compliant, but equity cushion slim 🟢"
+          ],
+          "prevClose": 0.513,
+          "open": 0.9863,
+          "gapPct": 92.26,
+          "time": "premarket",
+          "high": 1.13,
+          "hodTimeExact": "04:04 AM ET",
+          "close": 0.8657,
+          "fade": 23,
+          "fadeExact": 23.39,
+          "vwap": 0.9967,
+          "vsVwap": "below",
+          "pmHigh": 1.3,
+          "volRaw": "246.6M",
+          "relVol": 36.9,
+          "avgVolM": 6.7
+        },
+        {
+          "sym": "HOTH",
+          "hod": 118,
+          "hodExact": 118.83,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "Hoth Therapeutics, Inc. Common Stock",
+          "sector": "PHARMACEUTICAL PREPARATIONS",
+          "country": "US",
+          "floatM": 19.1,
+          "floatSrc": "Polygon",
+          "marketCap": "$26M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Ability 🟢 (Shelf capacity reported at $0; only ~$1.6 M ATM capacity remains; no active S-1 or equity line. Registered ability appears limited.)",
+                "Frequency 🔴 (1 RDO + 5 ATM sales + 2 warrant exercises in last 24 months) – HOTH is a frequent diluter.",
+                "Dilution Risk 🟡****",
+                "ATM – ~$1.55 M capacity remaining (Form S-3 in place); shares can be sold on the open market at any time.",
+                "Warrants – 2.86 M unregistered warrants @ $0.85 (exercisable 10/1/26); 3.75 M warrants @ $1.50 (Armistice inducement, out-of-the-money); others older/higher-strike."
+              ],
+              "prose": "Overall Offering Risk 🟢\nRecent offering relevance: 4/01/26 RDO sold 2.86 M shares at $0.70; current price ~$1.04 gives those investors a 48 % paper gain and 2.86 M matching $0.85 warrants are already in-the-money but locked until 10/1/26.\nManagement explicitly states it will continue to raise capital via ATM and other securities sales to fund operations.\nNo convertibles or variable-price preferred noted.  Dilution rating is Medium 🟡."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "No debt on balance sheet.",
+                "Current liabilities $1.43 M vs. cash $4.05 M (3/31/26).  Liquidity tight but not debt-burdened.",
+                "Cash burn ~$2.56 M per quarter → ~5 months runway."
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 19.1M + RelVol 197.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 5/27/26 8-K – HOTH rebrands to Rocket One Inc.; pivot to AI/space. <https://app.askedgar.io/filing?ticker=HOTH&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1711786%2F000121390026061252%2Fea0292213-8k_rocket.htm&formType=8-K>",
+            "🟡 5/28/26 – First day trading as RKTO; potential momentum play but no revenue.",
+            "🔴 Capital needs high: cash ≈ $4 M vs. 5-month burn; ATM still open; frequent past offerings.",
+            "🟡 Dilution overhang: 2.86 M $0.85 warrants become exercisable 10/01/26.",
+            "🟢 No debt; liabilities low.",
+            "🟢 Nasdaq bid-price deficiency deadline 10/27/26 gives time; currently trading just over $1."
+          ],
+          "prevClose": 0.7083,
+          "open": 0.8601,
+          "gapPct": 21.43,
+          "time": "regular session",
+          "high": 1.55,
+          "hodTimeExact": "04:05 PM ET",
+          "close": 1.36,
+          "fade": 12,
+          "fadeExact": 12.26,
+          "vwap": 1.1919,
+          "vsVwap": "above",
+          "pmHigh": 0.9962,
+          "volRaw": "165.8M",
+          "relVol": 197.9,
+          "avgVolM": 0.8
+        },
+        {
+          "sym": "AMSS",
+          "hod": 111,
+          "hodExact": 111.31,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "AMASS Brands Inc. Common Stock",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 4.68,
+          "floatSrc": "AE",
+          "marketCap": "$66M",
+          "riskBadges": [
+            "Float 4.68M"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "🔴",
+              "bullets": [
+                "Closed second tranche of Series C Convertible Preferred Stock with Streeterville Capital.",
+                "Issued 7,000 Series C shares for $6.99 M net.",
+                "Convertible into common at a formula price (not yet disclosed) with 9.99 % ownership cap; Nasdaq “exchange cap” applies.",
+                "Adds fresh cash but introduces sizeable convertible overhang (total authorized 35,000 shares ≈ $38 M stated value).",
+                "Filed Certificate of Designation for Series C Preferred; sets 2 % quarterly dividend, 115 % redemption price, multiple “trigger events” that can worsen terms."
+              ],
+              "prose": "1. 26-May-2026 – 8-K <https://app.askedgar.io/filing?ticker=AMSS&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1851491%2F000157587226000364%2Famass019_8k.htm&formType=8-K>\n2. 20-May-2026 – 8-K & Press Release <https://app.askedgar.io/filing?ticker=AMSS&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1851491%2F000157587226000349%2Famass018_8k.htm&formType=8-K>\nOverall impact: While the Nasdaq uplist aids visibility, the Streeterville convertible preferred deal is"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "🔴",
+              "bullets": [
+                "Series C Convertible Preferred (Streeterville): 35,000 shares authorized; high likelihood of conversion into common. Terms include: 2 % quarterly dividend, 115 % redemption premium, 9.99 % ownership cap per holder, downward price-reset features after six months or on trigger events—hallmarks of potentially toxic convertibles.",
+                "No warrant schedules or other converts disclosed yet, but Series C alone could introduce millions of new shares depending on future conversion price, pressuring the float (currently only 4.7 M).",
+                "No recent RS history shown, but additional conversions could necessitate reverse splits if price weakness persists."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Compliance",
+              "emoji": "🟢",
+              "bullets": [
+                "Newly listed on Nasdaq Capital Market (20-May-2026).",
+                "No deficiency notices reported; bid price ($3.58) well above $1.00 threshold.",
+                "No imminent compliance deadlines disclosed."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "🟡",
+              "bullets": [
+                "No recent 10-Q/10-K available; balance-sheet details unknown.",
+                "Streeterville convertible preferred functions as quasi-debt with 2 % quarterly cash/PIK obligation and potential 18 % default rate—could stress liquidity if not managed.",
+                "Absence of public financials limits visibility into payables or other debt maturities."
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.68M + RelVol 108.0x"
+          ],
+          "insights": [
+            "Possible reasons for the +136.3% move (as of May 27, 2026):**",
+            "Extreme post-direct listing volatility in a low-float stock: AMSS began trading on Nasdaq on May 20 at ~$17, then plunged sharply (e.g., -43% on May 21 with trading halts for volatility), creating conditions for a sharp rebound or short squeeze/meme-style pop on renewed buying interest.",
+            "Recent $6.99M financing via Series C convertible preferred stock (second closing under Securities Purchase Agreement with Streeterville Capital; 8-K filed ~May 26/27), which may have been viewed positively as added liquidity or a vote of confidence despite being a private placement.",
+            "Paid promotional activity and social media buzz: Multiple trader mentions of “84k promo today” and sponsored content (e.g., YouTube video titled “This 1 Stock Just Got MASSIVE Trump Backing” disseminated on behalf of AMASS on May 27), driving retail momentum in a beaten-down name."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-05-27",
+              "text": "AMSS this is a direct listing like a some others i mentioned in the past - most of the 14m shares registered not subject to lock up (looks like its been selling off since the listing) - its a premium beverage company \n- did a convertible preferred deal with Streeterville yesterday but unregistered - also some warrants and convertible notes but the main thing is all the shares registered for resale on the direct listing"
+            }
+          ],
+          "tldr": [
+            "🔴 26-May-26 8-K – Closed $7 M second tranche of Series C Convertible Pref with Streeterville; substantial future dilution risk <https://app.askedgar.io/filing?ticker=AMSS&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1851491%2F000157587226000364%2Famass019_8k.htm&formType=8-K>",
+            "🟡 20-May-26 – Nasdaq direct listing; improves visibility but raised no new common equity <https://app.askedgar.io/filing?ticker=AMSS&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1851491%2F000157587226000349%2Famass018_8k.htm&formType=8-K>",
+            "🔴 Up to ~$30 M of additional Series C Preferred remains available—high probability of more dilutive financings.",
+            "🟢 Currently Nasdaq-compliant; $3.58 stock price above $1 threshold.",
+            "🟡 Financials & debt picture unclear pending first 10-Q/K; Streeterville dividend & redemption terms could pressure cash."
+          ],
+          "prevClose": 3.58,
+          "open": 7.51,
+          "gapPct": 109.78,
+          "time": "premarket",
+          "high": 7.565,
+          "hodTimeExact": "07:22 AM ET",
+          "close": 5.7,
+          "fade": 24,
+          "fadeExact": 24.65,
+          "vwap": 9.8077,
+          "vsVwap": "below",
+          "pmHigh": 15.43,
+          "volRaw": "17.3M",
+          "relVol": 108.0,
+          "avgVolM": 0.2
+        },
+        {
+          "sym": "RCT",
+          "hod": 93,
+          "hodExact": 93.61,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "RedCloud Holdings plc Ordinary Shares",
+          "sector": "Technology",
+          "country": "GB",
+          "floatM": 9.69,
+          "floatSrc": "AE",
+          "marketCap": "$42M",
+          "riskBadges": [
+            "Float 9.69M"
+          ],
+          "sections": [
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [
+                "5) Debt & Liabilities 🟡****",
+                "Senior Convertible Notes: $4.35 M principal, 7 % coupon, matures 1 Mar 2027.",
+                "Unsecured shareholder loans: ~$17 M, mature Mar/May 2027.",
+                "FY-25 total liabilities reduced to $21.4 M (from $86 M in FY-24) after debt-for-equity swaps.",
+                "Cash at 31 Dec 2025: $0.48 M; cash burn ~$9.7 M/quarter ⇒ <1 month runway (company estimate: ‑3.3 months)."
+              ],
+              "prose": "Nasdaq bid-price deficiency notice received 18 Apr 2026; must trade ≥ $1 for 10 consecutive sessions by 12 Oct 2026 or face delisting (possible 180-day extension). No equity or filing delinquency issues noted.\n(No historical jmt415 notes provided in dataset.)"
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.69M + RelVol 197.7x",
+            "Cash runway: -3.3 months → must raise"
+          ],
+          "insights": [
+            "Primary catalyst: Operational launch of previously announced $30M, five-year Saudi Arabia joint venture with Kayanat (announced/activated ~May 27, 2026).** This targets the Kingdom’s ~$68B FMCG market, deploying RedAI/RAID predictive intelligence (built on Anthropic Claude models, trained on $6.9B of FMCG trading data) aligned with Saudi Vision 2030 and the Year of Artificial Intelligence 2026. This directly expands the company’s AI-driven B2B commerce platform into a major new market.",
+            "High trading volume (over 1M shares) with evidence of algorithmic/institutional buying pressure.** Trader commentary on X highlights a “buy program” entering and acquiring millions of shares intraday.",
+            "Recent context (within last ~9 days, prioritizing most recent):** FY25 20-F filing (May 18–19, 2026) with audited revenue of $48.5M (beat prior guidance in some reports) and reaffirmed 2026 revenue guidance of $120M. Earlier JV intent signals (e.g., ACA Capital in South Africa, May 13) and AI agent developments provide supportive backdrop but the Saudi launch appears to be the immediate trigger for today’s surge.",
+            "No clear sector-wide movement noted in Software – Application industry.** The move appears company-specific, driven by the geographic/AI expansion news."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟢 27 May 2026 (PR 6-K) – Saudi JV goes live; $6 M/yr revenue target <https://app.askedgar.io/news/52806177?ticker=RCT>",
+            "🔴 27 Feb 2026 (6-K) – $30 M ELOC + $4 M convertible note @ $1.30; resale F-1 pending 25 Mar 2026",
+            "🔴 Nasdaq bid-price deficiency; cure deadline 12 Oct 2026 <https://app.askedgar.io/news/51900911?ticker=RCT>",
+            "🟢 Offering Risk/Ability/Frequency all low for now, but ⚠️ high dilution potential once ELOC registration effective",
+            "🔴 Cash runway < 1 month; expects more capital raises",
+            "🟡 Debt manageable ($21 M) but maturities in 2027"
+          ],
+          "prevClose": 0.6043,
+          "open": 0.6,
+          "gapPct": -0.71,
+          "time": "regular session",
+          "high": 1.17,
+          "hodTimeExact": "12:48 PM ET",
+          "close": 0.75,
+          "fade": 35,
+          "fadeExact": 35.9,
+          "vwap": 0.8979,
+          "vsVwap": "below",
+          "pmHigh": 0.5999,
+          "volRaw": "56.3M",
+          "relVol": 197.7,
+          "avgVolM": 0.3
+        },
+        {
+          "sym": "RYOJ",
+          "hod": 90,
+          "hodExact": 90.39,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "rYojbaba Co., Ltd. Common Shares",
+          "sector": "Industrials",
+          "country": "JP",
+          "floatM": 2.57,
+          "floatSrc": "AE",
+          "marketCap": "$60M",
+          "riskBadges": [
+            "Float 2.57M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [
+            "Momentum-driven surge in a low-float microcap (typical \"runner\" behavior):** $RYOJ has shown extreme volatility and multi-day gains (e.g., +148% on May 22), with today's +32.5% move accompanied by heavy volume and a Nasdaq LUDP trading halt. It fits patterns seen in other thin-float momentum names.",
+            "No identifiable fundamental news or announcements in the last 3 days (May 24–27, 2026):** Searches across web and recent filings/news show only older items (e.g., March 2026 labor union agreement, April CEO reinstatement, January shareholder letter). Recent articles frame prior surges as volatility/meme-like without new catalysts. A May 21 partnership mention (Guardian Girls Jiu-Jitsu project) appears tied to an earlier move.",
+            "Not part of a broader Consulting Services sector move:** This appears isolated to $RYOJ as a standalone small-cap momentum/meme stock, grouped with unrelated runners rather than industry peers.",
+            "Possible additional factors:** High short interest or borrow fees in low-float names, algorithmic/retail chasing of volume spikes, and \"next meme stock\" speculation (as noted in a recent article). Risk of reversal is high given the parabolic nature."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-05-22",
+              "text": "guess japanese stocks getting some legs with PCLA - RYOJ LFS MRM"
+            },
+            {
+              "date": "2026-05-21",
+              "text": "RYOJ dont see any news - this was the one gap on it last october  *Yojbaba Expands Core Consulting and Health Services Business Internationally Through Partnerships with Koyamada International Foundation and Guardian Girls International*"
+            }
+          ],
+          "tldr": [
+            "27-May-26: Stock up 30%+ on meme-style momentum; no new filings <https://x.com/search?q=%24RYOJ&src=typed_query&05272026>",
+            "03-Mar-26 (6-K): Signed $3.2 M ILU labor-support contract; payments start Jul-26 <https://app.askedgar.io/filing?ticker=RYOJ&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F2012600%2F000149315226008848%2Fform6-k.htm&formType=6-K>",
+            "Dilution / Offering risk low – no shelf, no ATM, minimal warrants.",
+            "Balance sheet positive net cash; cash runway into early 2026.",
+            "Future fund-raise possible once cash runs low, but limited tools today.",
+            "No Nasdaq compliance issues."
+          ],
+          "prevClose": 3.85,
+          "open": 3.82,
+          "gapPct": -0.78,
+          "time": "regular session",
+          "high": 7.33,
+          "hodTimeExact": "01:53 PM ET",
+          "close": 5.15,
+          "fade": 29,
+          "fadeExact": 29.74,
+          "vwap": 5.5991,
+          "vsVwap": "below",
+          "pmHigh": 3.98,
+          "volRaw": "3.6M",
+          "relVol": 1.3,
+          "avgVolM": 2.7
+        },
+        {
+          "sym": "QTTB",
+          "hod": 85,
+          "hodExact": 85.47,
+          "news": [],
+          "tag": "RIG",
+          "name": "Q32 Bio Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 12.65,
+          "floatSrc": "AE",
+          "marketCap": "$310M",
+          "riskBadges": [
+            "Active ATM $75.0M",
+            "$250.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "Phase 2a SIGNAL-AA 36-wk topline (mid-2026) 🟡",
+                "Potential Akebia $3 M milestone (Jun 2026) 🟡",
+                "Needham HC conf replay (thru mid-July) 🟡"
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "Sub-15M float (12.65M) + active offering mechanics",
+            "RelVol 81.7x — coordinated entry signature"
+          ],
+          "insights": [
+            "Recent positive analyst coverage is the primary driver:**",
+            "Mizuho initiated coverage on May 22, 2026, with an Outperform rating and $14 price target.",
+            "Cantor Fitzgerald initiated coverage on May 18, 2026, with an Overweight rating.",
+            "These notes (highlighted in analyst trending lists on May 23) appear to have sparked renewed investor interest and buying pressure, leading to the sharp intraday move on elevated volume (~398K shares)."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🔴 May 27 2026 8-K/PR – $55 M PIPE (6.7 M sh @ $8) with blue-chip biotech funds; cash runway to 1H-2028 but ~40 % dilution. <https://app.askedgar.io/news/52803212?ticker=QTTB>",
+            "🟡 Mid-2026 – Phase 2a SIGNAL-AA topline & OLE data; potential value-moving readout.",
+            "🔴 Active $75 M ATM + High offering ability; dilution risk remains elevated.",
+            "🟢 Balance sheet solid post-financing; ~$105 M cash vs ~$8 M debt, ~3 yrs runway.",
+            "🟢 Nasdaq compliance restored; no bid-price issues.",
+            "🟡 Jmt415 notes mixed – acknowledges solid cash influx but flags history of dilution."
+          ],
+          "prevClose": 7.09,
+          "open": 9.17,
+          "gapPct": 29.34,
+          "time": "regular session",
+          "high": 13.15,
+          "hodTimeExact": "04:02 PM ET",
+          "close": 12.85,
+          "fade": 2,
+          "fadeExact": 2.28,
+          "vwap": 11.2171,
+          "vsVwap": "above",
+          "pmHigh": 10.33,
+          "volRaw": "21.2M",
+          "relVol": 81.7,
+          "avgVolM": 0.3
+        }
+      ],
+      "hod": 699,
+      "fade": 24,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "ASTC led +699.6% (30% fade). 3/10 held <20% fade. news: SNGX — \"Soligenix (SNGX) Stock Soars 72% On ThermoVax Platform Promise Amid Ebola Outbreak Caused By Bundibugyo Virus\"."
+    },
     {
       "date": "2026-05-26",
       "runners": [
