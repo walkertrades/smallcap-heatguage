@@ -42,10 +42,18 @@ function computeHeat(entry, thresholds = DEFAULT_THRESHOLDS) {
   let score = Math.round((hodScore * 0.4 + fadeScore * 0.35 + timeScore * 0.25));
   score = Math.max(0, Math.min(100, score));
 
+  // Black swan override: avg HOD >= 300% with high fades = still HOT tape,
+  // but flag it as a potential trap day. Extreme moves dominate regardless of fade.
+  const BLACK_SWAN_HOD = 300;
+  const isBlackSwan = hod >= BLACK_SWAN_HOD && fade > t.fadeCold;
+
   // State logic — premarket is a RISK FLAG, not an auto-downgrade.
   // Category is chosen from HOD + fade; premarket just adds a warning badge.
   let state;
-  if (hod >= t.hodHot && fade <= t.fadeHot && entry.hodTime === "session") {
+  if (isBlackSwan) {
+    // Extreme tape — classify HOT regardless of fades
+    state = "HOT";
+  } else if (hod >= t.hodHot && fade <= t.fadeHot && entry.hodTime === "session") {
     state = "HOT";
   } else if (hod < t.hodNeutralLo || fade > t.fadeCold) {
     state = "COLD";
@@ -63,6 +71,7 @@ function computeHeat(entry, thresholds = DEFAULT_THRESHOLDS) {
   return {
     score,
     state,
+    isBlackSwan,
     sub: { hodScore: Math.round(hodScore), fadeScore: Math.round(fadeScore), timeScore },
   };
 }

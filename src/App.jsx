@@ -158,7 +158,7 @@ function App({ tweaks }) {
   const scoredEntries = useMemo_App(() => {
     return entries.map((e) => {
       const r = window.computeHeat(e, thresholds);
-      return { ...e, score: r.score, state: r.state };
+      return { ...e, score: r.score, state: r.state, isBlackSwan: r.isBlackSwan || false };
     });
   }, [entries, thresholds]);
 
@@ -392,6 +392,7 @@ function StateCard({ state, rules, latest, streak }) {
   const stateLower = state.toLowerCase();
   const warn = streak.state === "HOT" && streak.count >= 3;
   const pmRisk = latest && latest.hodTime === "premarket";
+  const blackSwanDay = latest && latest.isBlackSwan;
   return (
     <div className={`state-card state-${stateLower}`}>
       <div className="state-card-top">
@@ -402,6 +403,11 @@ function StateCard({ state, rules, latest, streak }) {
           {pmRisk && (
             <span className="pm-chip" title="Premarket-dominant HOD — distribution risk">
               ⚑ PM HOD RISK
+            </span>
+          )}
+          {blackSwanDay && (
+            <span className="pm-chip" title="Extreme tape — HOD avg 300%+ with heavy fades. Trap day risk on follow-through." style={{backgroundColor:"var(--hot-dim,#4a1a00)",color:"var(--hot,#ff6b35)",marginTop:"6px"}}>
+              ⚡ EXTREME TAPE
             </span>
           )}
         </div>
@@ -430,6 +436,15 @@ function StateCard({ state, rules, latest, streak }) {
             <div>
               <div className="warn-title">REVERSAL RISK</div>
               <div className="warn-body">3+ consecutive HOT days. Watch for cooling.</div>
+            </div>
+          </div>
+        )}
+        {blackSwanDay && !warn && (
+          <div className="warn" style={{borderColor:"var(--hot,#ff6b35)"}}>
+            <span className="warn-icon">⚡</span>
+            <div>
+              <div className="warn-title">EXTREME TAPE</div>
+              <div className="warn-body">Avg HOD 300%+ with heavy fades — watch for trap day on follow-through. Size accordingly.</div>
             </div>
           </div>
         )}
