@@ -20,14 +20,16 @@ function computeHeat(entry, thresholds = DEFAULT_THRESHOLDS) {
   const hod = Number(entry.hod);
   const fade = Number(entry.fade);
 
-  // HOD subscore: piecewise
+  // HOD subscore: piecewise — cap raised to hodHot+500 so extreme days get full credit
   let hodScore;
-  if (hod >= t.hodHot + 100) hodScore = 100;
-  else if (hod >= t.hodHot) hodScore = 75 + ((hod - t.hodHot) / 100) * 25;
+  if (hod >= t.hodHot + 500) hodScore = 100;
+  else if (hod >= t.hodHot + 100) hodScore = 85 + ((hod - (t.hodHot + 100)) / 400) * 15;
+  else if (hod >= t.hodHot) hodScore = 75 + ((hod - t.hodHot) / 100) * 10;
   else if (hod >= t.hodNeutralLo) hodScore = 40 + ((hod - t.hodNeutralLo) / (t.hodHot - t.hodNeutralLo)) * 35;
   else hodScore = Math.max(0, (hod / t.hodNeutralLo) * 40);
 
   // Fade subscore (inverse — lower fade = hotter)
+  // Weight reduced to 25% — fade matters but shouldn't override extreme HOD tape
   let fadeScore;
   if (fade <= t.fadeHot) fadeScore = 90 + Math.max(0, ((t.fadeHot - fade) / t.fadeHot) * 10);
   else if (fade <= t.fadeCold) fadeScore = 40 + ((t.fadeCold - fade) / (t.fadeCold - t.fadeHot)) * 50;
@@ -39,7 +41,8 @@ function computeHeat(entry, thresholds = DEFAULT_THRESHOLDS) {
   else if (entry.hodTime === "mixed") timeScore = 50;
   else timeScore = 15; // premarket
 
-  let score = Math.round((hodScore * 0.4 + fadeScore * 0.35 + timeScore * 0.25));
+  // Weights: HOD 50%, fade 25%, time 25%
+  let score = Math.round((hodScore * 0.50 + fadeScore * 0.25 + timeScore * 0.25));
   score = Math.max(0, Math.min(100, score));
 
   // Black swan override: avg HOD >= 300% with high fades = still HOT tape,
