@@ -31,6 +31,10 @@ function DayDetailInline({ entry, thresholds, onClose, onDeleteRunner }) {
   // PM risk flag — shown when premarket-dominant regardless of state
   const pmFlag = entry.hodTime === "premarket";
 
+  // Heavy fade risk flag — shown when avg fade > 40% regardless of HOD
+  const fadeFlag = entry.fade > 40;
+  const extremeFade = entry.fade > 55;
+
   const fmtDate = (iso) => {
     const d = new Date(iso + "T00:00:00");
     return d.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
@@ -65,6 +69,23 @@ function DayDetailInline({ entry, thresholds, onClose, onDeleteRunner }) {
             <div className="pm-flag-title">PREMARKET HOD RISK</div>
             <div className="pm-flag-body">
               Dominant HOD hit before 9:30 — classic distribution pattern. State is {entry.state} from HOD/fade, but size down and treat PM prints as exit liquidity, not entries.
+            </div>
+          </div>
+        </div>
+      )}
+
+      {fadeFlag && (
+        <div className="pm-flag" style={{background: extremeFade ? "oklch(0.22 0.08 0)" : "oklch(0.22 0.06 25)", borderColor: extremeFade ? "oklch(0.55 0.18 0)" : "oklch(0.55 0.14 25)"}}>
+          <span className="pm-flag-icon" style={{color: extremeFade ? "oklch(0.75 0.2 0)" : "oklch(0.80 0.18 30)"}}>⚡</span>
+          <div>
+            <div className="pm-flag-title" style={{color: extremeFade ? "oklch(0.80 0.18 0)" : "oklch(0.85 0.15 30)"}}>
+              {extremeFade ? "EXTREME FADE RISK" : "HEAVY FADE TAPE"}
+            </div>
+            <div className="pm-flag-body">
+              {extremeFade
+                ? `Avg fade ${entry.fade}% — names gave back most of their move. Classic trap day pattern. Follow-through next session is high risk — size way down and wait for confirmation.`
+                : `Avg fade ${entry.fade}% exceeds the cold threshold. Moves ran but didn't hold — take profits early and avoid chasing HOD breaks.`
+              }
             </div>
           </div>
         </div>
