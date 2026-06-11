@@ -393,6 +393,7 @@ function StateCard({ state, rules, latest, streak }) {
   const warn = streak.state === "HOT" && streak.count >= 3;
   const pmRisk = latest && latest.hodTime === "premarket";
   const blackSwanDay = latest && latest.isBlackSwan;
+  const blackSwanDay = latest && latest.isBlackSwan;
   return (
     <div className={`state-card state-${stateLower}`}>
       <div className="state-card-top">
