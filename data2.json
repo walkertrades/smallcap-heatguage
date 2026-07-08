@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-07-07T10:31:31.902189Z",
-  "count": 9627,
+  "exportedAt": "2026-07-08T10:41:29.312160Z",
+  "count": 9637,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,769 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-07-07",
+      "runners": [
+        {
+          "sym": "CLRO",
+          "hod": 135,
+          "hodExact": 135.71,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "ClearOne, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 0.9,
+          "floatSrc": "AE",
+          "marketCap": "$38M",
+          "riskBadges": [
+            "Float 0.9M",
+            "X1 warrants ITM"
+          ],
+          "sections": [
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟢 Q3-2026 – Expected closing of Cortigent merger & ticker change to CRGT\n🔴 Q3-Q4-2026 – Effectiveness of S-1/S-3 & $10–15 M financing (dilution event)\n🔴 2026-10-04 – Nasdaq compliance deadline for equity deficiency\n🟡 2026-12-30 – $1 M loan maturity (potential refinancing)"
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated",
+            "Cash runway: -2.7 months → must raise"
+          ],
+          "insights": [
+            "Primary catalyst: Reverse merger announcement with Cortigent (July 2, 2026)**",
+            "Recent developments (last 3 days, July 4–7, 2026)**",
+            "July 6: Halper Sadeh LLC announced an investigation into whether the merger provides fair value to CLRO shareholders, citing concerns over process, conflicts, and disclosure. This followed the announcement but has not halted trading momentum.",
+            "Lingering effects from the July 2 news, including heavy volume and speculative trading around the event-driven pivot and potential renaming/ticker change."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 2026-07-02/06 (8-K & PR) – Reverse-merger with Cortigent; huge strategic pivot; potential upside but will dilute legacy holders by ~5× <https://app.askedgar.io/filing?ticker=CLRO&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F840715%2F000175392626001137%2Fclro-20260706.htm&formType=8-K>",
+            "🔴 Significant dilution coming: 12.5 M merger shares, 0.86 M advisor shares, 2.5-5 M financing units, ITM $5 warrants & $6.01 converts held by controlling investor.",
+            "🟡 Offering risk & ability currently low (no effective shelf yet), but S-3 filed and S-1 financing expected; risk will rise once effective.",
+            "🟡 Nasdaq equity deficiency must be cured by ~2026-10-04; reverse-merger + financing intended to solve this but failure could threaten listing.",
+            "🟡 Cash ≈$1 M vs ~$4 M quarterly burn; obtained $1 M 11 % loan (2026-07-01) but runway still <3 months.",
+            "🟢 Near-term upside catalyst: Q3-26 merger close & new neuro-tech narrative; tight 0.9 M float can fuel volatility."
+          ],
+          "prevClose": 7,
+          "open": 9.59,
+          "gapPct": 37.0,
+          "time": "regular session",
+          "high": 16.5,
+          "hodTimeExact": "02:27 PM ET",
+          "close": 13.84,
+          "fade": 16,
+          "fadeExact": 16.12,
+          "vwap": 11.9102,
+          "vsVwap": "above",
+          "pmHigh": 9.7,
+          "volRaw": "83.8M",
+          "relVol": 16.5,
+          "avgVolM": 5.1
+        },
+        {
+          "sym": "CRNX",
+          "hod": 98,
+          "hodExact": 98.98,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "Crinetics Pharmaceuticals, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 98.91,
+          "floatSrc": "AE",
+          "marketCap": "$8.8B",
+          "riskBadges": [
+            "$900.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "2026-07-06 (8-K & press release): Vertex Pharmaceuticals (VRTX) to acquire Crinetics for $85 cash per share (~$10 B equity value). Deal unanimously approved; expected to close in Q3 2026. <https://app.askedgar.io/filing?ticker=CRNX&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1658247%2F000114036126027642%2Fef20077399_form8k.htm&formType=8-K>",
+                "2026-06-30: PR announcing Q2-26 earnings date (08-04-26). 🟡 Neutral. <https://app.askedgar.io/news/60202663?ticker=CRNX>",
+                "2026-06-14: Multiple positive clinical data presentations for PALSONIFY & atumelnant at ENDO 2026. 🟢 Supporting pipeline value. <https://app.askedgar.io/news/53185836?ticker=CRNX>",
+                "2) Offering Risk / Ability / Frequency**",
+                "Offering Ability: 🔴  High – Shelf capacity $900 M; ATM $350 M (historically active)."
+              ],
+              "prose": "– Rating: 🟢 Fundamental value driver; 100% premium, cash take-out.\nPotential upcoming catalysts:\n🟢 Q3 2026 – Shareholder vote / regulatory approvals & deal close.\n🟡 2026-08-04 – Q2 financials (may be superseded by M&A timeline).\nNo indications of new equity offerings post-deal announcement; likelihood of further dilution is minimal ahead of merger.\nOverall Offering Risk: 🟡  (Medium)\nManagement has not guided to additional financings, and Vertex acquisition makes further equity raises unlikely be"
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated"
+          ],
+          "insights": [
+            "Primary driver: Acquisition by Vertex Pharmaceuticals**",
+            "Recent news/announcements (last 3 days max, prioritized by recency)**",
+            "July 6/7, 2026: Vertex acquisition announcement (main catalyst; company press release and widespread coverage on Yahoo Finance, StockTitan, TipRanks, etc.).",
+            "Earlier context (within ~1 week): Positive ENDO 2026 data presentations on atumelnant (Phase 2 CAH results) and long-term Paltusotine data, plus a July 2 UBS Buy initiation ($55 target), but these are secondary to the buyout."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "2026-07-06: Vertex (VRTX) buying CRNX for $85 cash (8-K & PR) – ~100% premium; dominant catalyst.",
+            "Balance sheet strong: $1.3 B cash, no debt; ~32 months runway.",
+            "Historical offering ability high, but merger makes further raises unlikely.",
+            "Minimal outstanding dilution (no warrants/convertibles); last equity raise Oct-24.",
+            "No compliance issues; listing to end upon deal close (Q3 2026 expected)."
+          ],
+          "prevClose": 42.03,
+          "open": 83.58,
+          "gapPct": 98.86,
+          "time": "premarket",
+          "high": 83.6314,
+          "hodTimeExact": "04:14 AM ET",
+          "close": 83.53,
+          "fade": 0,
+          "fadeExact": 0.12,
+          "vwap": 83.5489,
+          "vsVwap": "below",
+          "pmHigh": 83.99,
+          "volRaw": "81.0M",
+          "relVol": 50.8,
+          "avgVolM": 1.6
+        },
+        {
+          "sym": "TVRD",
+          "hod": 92,
+          "hodExact": 92.03,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "Tvardi Therapeutics, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 3.96,
+          "floatSrc": "AE",
+          "marketCap": "$29M",
+          "riskBadges": [
+            "Float 3.96M",
+            "Active ATM $12.5M",
+            "$300.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "2H 2026 – Top-line Phase 1b/2 REVERT trial (TTI-101 in HCC) 🟡",
+                "IND submission & Phase 2 start for TTI-109 in derm / GI once funding secured 🟡",
+                "ATM usage at any time 🔴",
+                "No near-term Nasdaq hearings (compliant – equity positive)."
+              ],
+              "prose": "Latest item (8-K press release, 2026-07-07): Positive Phase 1 healthy-volunteer data for TTI-109 showed full conversion to active moiety, equivalent exposure to TTI-101 and markedly better GI tolerability, with up-to-60 % reductions in STAT3-driven immune-cell subsets. <https://app.askedgar.io/filing?ticker=TVRD&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1346830%2F000110465926080930%2Ftm2619879d1_ex99-1.htm&formType=8-K>\nImpact: Encouraging scientific signal but still very e"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "66.6 % potential dilution flagged (legacy preferred & option pools).",
+                "No registered warrants or convertibles currently in-the-money, but newly effective shelf allows quick issuance of common stock or pre-funded warrants.",
+                "150 M shares authorized versus 9.4 M OS implies very large capacity."
+              ],
+              "prose": "Bottom line: While offering frequency has been low historically, the company now has the tools and the need to issue shares; monitor ATM activity and any S-1 add-ons."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "No financial debt after 2025 note-to-equity conversion.",
+                "Current liabilities $11.3 M (A/P + accruals) versus $25.3 M current assets → 2.2× current ratio.",
+                "Lease liabilities minimal; no near-term maturities.",
+                "Cash + ST investments 3-31-2026: $25 M."
+              ],
+              "prose": "Cash burn Q1 2026: $7 M ➜ ~9 months runway (into Q4 2026)."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated",
+            "Cash runway: -0.3 months → must raise"
+          ],
+          "insights": [
+            "Primary catalyst: Positive Phase 1 results for next-generation STAT3 inhibitor TTI-109 announced today (July 7, 2026).** The study confirmed the prodrug design, achieved TTI-101-equivalent exposure with improved tolerability, and showed pharmacodynamic evidence of STAT3 target engagement. This was a key anticipated readout (originally targeted for June 2026) that validates the company’s pipeline approach.",
+            "Strong volume and momentum on the news-driven move.** Over 285k shares traded amid the clinical update, driving the ~20.9% gain.",
+            "No major sector-wide Biotechnology movement identified.** Searches did not surface broad biotech rallies or peer surges correlating with today’s action; the move appears company-specific.",
+            "Recent developments (last 3 days, July 4–7, 2026):** The TTI-109 Phase 1 data release is the dominant event. Earlier Q1 2026 results and business updates (May 8, 2026) highlighted the upcoming readout and cash runway into Q4 2026 but did not trigger today’s spike."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "07-07-2026 (8-K) – Positive Phase 1 TTI-109 data; interesting but early-stage. <https://app.askedgar.io/filing?ticker=TVRD&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1346830%2F000110465926080930%2Ftm2619879d1_ex99-1.htm&formType=8-K>",
+            "Offering risk currently low, but shelf/ATM effective since 05-01-2026 means new shares can hit the market at any time.",
+            "High dilution potential (66 %), High cash need (runway only to Q4 2026).",
+            "Upcoming catalyst 2H 2026 – REVERT HCC data (TTI-101).",
+            "No debt and back in Nasdaq equity compliance."
+          ],
+          "prevClose": 2.01,
+          "open": 2.13,
+          "gapPct": 5.97,
+          "time": "regular session",
+          "high": 3.8599,
+          "hodTimeExact": "11:13 AM ET",
+          "close": 3.1,
+          "fade": 19,
+          "fadeExact": 19.69,
+          "vwap": 3.1423,
+          "vsVwap": "below",
+          "pmHigh": 2.18,
+          "volRaw": "70.9M",
+          "relVol": 170.7,
+          "avgVolM": 0.4
+        },
+        {
+          "sym": "TDTH",
+          "hod": 73,
+          "hodExact": 73.63,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "Trident Digital Tech Holdings Ltd American Depository Shares",
+          "sector": "Technology",
+          "country": "SG",
+          "floatM": 1.71,
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 1.71M"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "🔴",
+              "bullets": [
+                "Founder/CEO Soon Huat Lim to convert US$8 M of related-party debt into 901.4 M Class B ordinary shares (conversion price ≈ US$0.008875 pre-consolidation).  While removing debt, it inflates share count massively and concentrates voting power in the founder.",
+                "Same packet of 6-K filings proposes (i) 240-for-1 Cayman-only share consolidation, (ii) authorised share-cap increase from 5 B to 120 B pre-consolidation (500 M post), and (iii) termination of Citibank ADS facility so TDTH ordinary shares trade directly on Nasdaq.",
+                "Extraordinary General Meeting (EGM) on 8 Jul 2026 to approve the above.",
+                "June-July 2026 press releases highlighted launches of “Sikaflow” in Ghana (6-K news 2026-06-23) and “RDC-PASS” digital-ID in DRC (news 2026-06-18); both are early-stage deployments with no disclosed revenue."
+              ],
+              "prose": "Most-recent (Form 6-K, EX-99.4, 2026-06-30; press release 2026-07-06) <https://app.askedgar.io/filing?ticker=TDTH&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1983550%2F000121390026073786%2Fea029645401ex99-4.htm&formType=6-K>\nNews rating: 🔴 (primary item is a large related-party share issuance constituting ~95 % dilution)."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants",
+            "Cash runway: 3.1 months → must raise"
+          ],
+          "insights": [
+            "Primary catalyst: July 6, 2026 announcement of Founder/CEO converting US$8 million in debt to restricted Class B equity, combined with plans for a 240-for-1 Cayman share consolidation, authorized capital increase, and redesignation of share capital.** This is intended to strengthen the balance sheet, reduce leverage, and facilitate a transition to direct Nasdaq ordinary-share trading (ending the ADR/ADS program effective July 16, 2026). An extraordinary general meeting (EGM) is scheduled for July 8, 2026, to approve these changes.",
+            "Upcoming catalyst: July 8, 2026 EGM vote on the capital restructuring measures, which, if approved, would immediately precede the mandatory exchange of ADSs for Class B ordinary shares and direct Nasdaq trading under the existing TDTH symbol.** This could provide further momentum or clarity post-vote.",
+            "Company-specific developments (no broader sector movement noted in IT Services):** The move aligns with prior positioning for enterprise AI commercialization, a planned Digital Innovations Group partnership, and other African digital infrastructure projects (e.g., DRCPASS in DRC, Sikaflow in Ghana), but the immediate surge ties directly to the July 6 capital structure news. No evidence of sector-wide IT Services gains.",
+            "Other possible contributing factors:** Low-float dynamics amplifying volatility on the news-driven volume (440k+ shares traded); potential short covering or momentum trading into the EGM; positioning ahead of the direct-listing transition and AI strategy execution. No earnings, major contracts, or other announcements in the last 3 days (July 4–7, 2026)."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🔴 06 Jul 2026 (6-K/PR): Founder converting US$8 M debt into 901 M Class B shares; huge ~95 % dilution but removes debt.",
+            "🟡 08 Jul 2026 EGM: Votes on debt conversion, 240:1 consolidation, ADS termination; likely passes, may cause volatility.",
+            "🟡 Jun-26 launches: “Sikaflow” (Ghana) & “RDC-PASS” (DRC) digital platforms—early-stage, no revenue yet.",
+            "🟢 Nasdaq compliance regained 26 May 2026; no near-term delisting threat.",
+            "🔴 Cash runway ≈ 3 months; management exploring more financings; high future dilution risk.",
+            "🔴 Jmt415 notes (Mar-25) flag prior pump/dump behaviour post-lock-up; remains cautious."
+          ],
+          "prevClose": 1.82,
+          "open": 3,
+          "gapPct": 64.84,
+          "time": "premarket",
+          "high": 3.16,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 2.56,
+          "fade": 18,
+          "fadeExact": 18.99,
+          "vwap": 2.9382,
+          "vsVwap": "below",
+          "pmHigh": 3.93,
+          "volRaw": "40.7M",
+          "relVol": 31.7,
+          "avgVolM": 1.3
+        },
+        {
+          "sym": "CCHH",
+          "hod": 66,
+          "hodExact": 66.5,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "CCH Holdings Ltd Class A Ordinary Shares",
+          "sector": "Consumer Defensive",
+          "country": "TW",
+          "floatM": 24.98,
+          "floatSrc": "AE",
+          "marketCap": "$14M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "Signed three-year, US$50 M contract to provide maintenance & technical support for data-center infrastructure projects in Malaysia. Management positions this as a “high-growth” segment alongside core restaurant ops. Contract value (~US$16-17 M/yr) exceeds 2025 total revenue (US$9.6 M) – clearly material ➜ 🟢.",
+                "06-30-26 6-K: Appointment of independent director Chung Wai Wong – governance neutral 🟡.",
+                "05-20-26 6-K: Adoption of 2026 Equity Incentive Plan – potential dilution 🟡/🔴.",
+                "03-30-26 6-K: Reg S private placement for up to 18 M shares at $0.20 (≈ 44 % of current OS) – dilution risk 🔴."
+              ],
+              "prose": "Most-recent news (Press release 2026-07-07) <https://app.askedgar.io/news/60301857?ticker=CCHH>\nUpcoming catalysts:\n– Aug-03-26: Nasdaq $1 bid-price cure deadline (🟥 risk).\n– Closing of 18 M share Reg S private placement (date TBD, 🟥 if consummated).\n– Ramp-up of Malaysia data-center contract (🟢 revenue visibility; starts 2H-26).\n– Potential expansion of tech-infra services to other APAC regions (🟡).\nNo indication of shelf/ATM yet, but 5 B authorized shares leave room for future issuances."
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Up to 18 M new shares (≈ 45 % of current OS) may hit the market once Reg S private placement closes & becomes unrestricted (usually six-month seasoning). Potential to double the float.",
+                "2026 Equity Incentive Plan allows additional stock/option grants (share reserve not disclosed, but authorized pool very large).",
+                "No registered warrants/convertibles disclosed; however, massive authorized share count suggests future issuances likely.",
+                "Lock-up on ~15 M IPO shares expired Apr-26 (jmt415 note) – adds secondary supply."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [
+                "Nasdaq minimum-bid deficiency notice issued Feb-04-26; cure deadline Aug-03-26 (~4 weeks away). Needs ≥ $1.00 bid for 10 trading days or faces delisting/RS.",
+                "March-04-26 shareholder meeting approved a reverse-split (ratio unspecified). RS could be executed any time to regain compliance."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "$2 M term loan due Jan-25-27 (nine months after bid-price deadline); no other long-term debt disclosed.",
+                "2025 operating cash burn & negative operating cash flow; management cites \"substantial doubt\" about going concern.",
+                "Accounts payable and other current liabilities undisclosed in snippet; no imminent covenant breach flagged."
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [
+            "Primary catalyst: Landmark $50M agreement announced today (July 7, 2026) for CCH Holdings (CCHH) to provide maintenance services solutions for data center infrastructure in Malaysia.** This diversifies beyond its core hotpot restaurant business (brands like Chicken Claypot House and Zi Wei Yuan) while keeping the restaurant operations as a stable foundation. The news directly drove the sharp intraday surge.",
+            "No other major company-specific news or announcements in the last 3 days (July 4–7, 2026).** Older 2026 guidance on acquisitions, new brands (e.g., Foong Hotpot & Bistro), U.S./Africa expansion, and a New York City restaurant opening remains in place but is not new.",
+            "Social media/X sentiment: Positive trader excitement and momentum chasing.** @OpenOutcrier highlighted the pre-market +20% move tied to the data center deal. Multiple posts from @DarkpoolAI tracked rapid gains (e.g., +8% to +52% from alert levels around $0.52), with scanner alerts and hashtags like #pennystock and #stockstotrade indicating retail momentum. No high-follower analyst commentary noted in recent posts.",
+            "Not part of any sector-wide Food Distribution or restaurant movement.** The move appears isolated to this specific corporate development; no broader industry news or peer reactions referenced."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟢 07-07-26 (PR, <https://app.askedgar.io/news/60301857?ticker=CCHH>): Signed US$50 M / 3-yr Malaysian data-center O&M contract – could more than double revenue.",
+            "🔴 Capital raise risk: Up to 18 M shares @ $0.20 Reg S PIPE filed 03-30-26 (<https://app.askedgar.io/filing?ticker=CCHH&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F2074123%2F000121390026035877%2Fea028388001-6k_cchhold.htm&formType=6-K>). Would raise $3.6 M but add ~45 % new shares; shares become free-trading after seasoning.",
+            "🔴 Nasdaq bid-price non-compliance; 08-03-26 deadline. Reverse-split already approved and likely if price < $1.",
+            "🟡 Debt manageable ($2 M due 1/27) but going-concern warning; further equity or RS-linked deals probable.",
+            "🟠 jmt415 notes: History of post-IPO volatility, \"scammy\" reputation, lock-up expired April-26."
+          ],
+          "prevClose": 0.4499,
+          "open": 0.6761,
+          "gapPct": 50.28,
+          "time": "premarket",
+          "high": 0.7491,
+          "hodTimeExact": "08:46 AM ET",
+          "close": 0.3498,
+          "fade": 53,
+          "fadeExact": 53.3,
+          "vwap": 0.6089,
+          "vsVwap": "below",
+          "pmHigh": 0.84,
+          "volRaw": "151.9M",
+          "relVol": 15.9,
+          "avgVolM": 9.5
+        },
+        {
+          "sym": "SKIN",
+          "hod": 56,
+          "hodExact": 56.31,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "SkinHealth Systems Inc. Class A Common Stock",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 85.91,
+          "floatSrc": "AE",
+          "marketCap": "$146M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "Jmt415 Analyst Notes 🟠****"
+              ],
+              "prose": "🟢 Q2 2026 earnings (est. Aug 6-10 2026) – potential upside if new product clearance drives guidance.\n🟢 HydraScalp relaunch (Q2 26) & new booster launch (Q4 26) – product revenue catalysts.\n🟡 Nasdaq bid-price monitoring through 11-04-26 – could require reverse split if shares slip back below $1.\n🟡 Potential additional debt exchange/refinancing ahead of Oct-26 maturity.\nNo archived jmt415 notes provided in the data set."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [
+            "Primary catalyst: FDA clearance announcement (July 7, 2026)**",
+            "No other material company-specific news in the last 3 days (July 4–7, 2026)**",
+            "Upcoming potential catalysts**",
+            "Sector/industry context**"
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟢 07-07-26 (Press Release) – FDA clears SkinStylus for periorbital wrinkles <https://app.askedgar.io/news/60301426?ticker=SKIN>; expands indications, could boost sales; stock above $1 bid.",
+            "🟢 Offering risk low – no shelf/ATM, $204 M cash, no equity raise likely near term.",
+            "🔴 Dilution overhang – $250 M 2028 converts at $2.86 & $103 M 2026 converts (OTM) still exist; 86 % historical dilution.",
+            "🟡 Debt manageable but sizable; interest expense rising; 2026 maturity a watch item.",
+            "🟢 Nasdaq compliance regained for now; has until 11-04-26 if price slips.",
+            "🟡 Next catalyst: Q2 earnings (~Aug 2026) & HydraScalp relaunch; monitor sales traction and bid-price stability."
+          ],
+          "prevClose": 0.7549,
+          "open": 0.7715,
+          "gapPct": 2.2,
+          "time": "regular session",
+          "high": 1.18,
+          "hodTimeExact": "12:01 PM ET",
+          "close": 1.11,
+          "fade": 5,
+          "fadeExact": 5.93,
+          "vwap": 1.0335,
+          "vsVwap": "above",
+          "pmHigh": 0.9937,
+          "volRaw": "88.0M",
+          "relVol": 64.4,
+          "avgVolM": 1.4
+        },
+        {
+          "sym": "SKYQ",
+          "hod": 55,
+          "hodExact": 55.66,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "Sky Quarry Inc. Common Stock",
+          "sector": "Energy",
+          "country": "US",
+          "floatM": 4.04,
+          "floatSrc": "AE",
+          "marketCap": "$17M",
+          "riskBadges": [
+            "Float 4.04M",
+            "$1000.0M shelf",
+            "RegSHO"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "Converted $3.985 M of high-cost merchant-cash-advance (MCA) debt into a single 8 % promissory note with structured weekly amortisation. CEO provided a personal guarantee (company indemnifies him).",
+                "Improves debt profile but still adds near-term cash‐flow strain (payments begin at $15 K/week and step up over 85 weeks).",
+                "Foreland Refinery repairs complete; commercial operations targeted for July 2026. >100 k bbl storage; ~10 k bbl inventory on site. Management expects near-term customer deliveries and cash-flow generation."
+              ],
+              "prose": "Most-recent filing (8-K, 02-Jul-26) <https://app.askedgar.io/filing?ticker=SKYQ&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1812447%2F000109690626001038%2Fskyq-20260629_8k.htm&formType=8-K>\nKey value-driver PR (8-K & PR, 22-Jun-26) <https://app.askedgar.io/filing?ticker=SKYQ&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1812447%2F000109690626000977%2Fskyq-20260622_8k.htm&formType=8-K>\nSocial / trading colour (26-Jun → 07-Jul-26): heavy retail momentum; multi"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "OS up ~52 % YoY (dilution_rating 🔴). Remaining authorised room is ample (2 B authorised).",
+                "Outstanding warrant overhang ≈ 2.0 M @ $5.60 and 1.2 M @ $6.72 (registered status not specified). Not yet price-threatening but supply if shares rally.",
+                "Equity incentives & debt conversions continue (69.8 k shares issued for debt Q1-26; 33 k for services; 426 k subscription shares).",
+                "Expanded ATM (if made effective) could add ~4 M shares (>80 % of current OS) at market."
+              ],
+              "prose": "Overall: High dilution over past year and clear intent to raise more capital."
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [
+                "Regained Nasdaq $1.00 bid compliance on 30-Mar-26 after 1-for-8 RS; deficiency matter closed.",
+                "No other open Nasdaq notices; next equity or bid-price deadline > 3 months away.",
+                "Reg SHO: stock appears on threshold list (elevated fails-to-deliver) – may fuel volatility but not an immediate delisting issue."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Total debt (31-Mar-26): $9.9 M short-term + $0.9 M long-term; MCA rolled into 8 % note (Jul-26) but still requires ≥ $15 K weekly repayments rising to $70 K by late 27.",
+                "Accounts payable/accrued: $5.3 M; working-capital deficit ~($15.1 M).",
+                "Interest expense Q1-26: $0.33 M; net loss $2.32 M on just $0.0004 M revenue.",
+                "Cash 31-Mar-26: $0.07 M; est. 07-Jul-26 cash ≈ $2.5 M after ATM sales (per 10-Q) – ~7 months runway (cash_need 🟡)."
+              ],
+              "prose": "Conclusion: Balance-sheet remains highly stretched; successful refinery start crucial."
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [
+                "02-Apr-26 – Warned SKYQ likely to tap shelf/EL for cash amid oil-news spike; neutral to slightly bearish on dilution risk. 🟡",
+                "13-Apr-26 – Surprised company avoided delisting; notes high likelihood of raise; sceptical of management. 🔴",
+                "21-Apr-26 – Compares favourably to XRTX run; suggests oil theme supportive. 🟢",
+                "2025 notes – Highlighted equity-line, management churn, potential delisting; cautious. 🔴"
+              ],
+              "prose": "Overall tone mixed; net 🟡 (neutral)."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated",
+            "Cash runway: 7.0 months → must raise"
+          ],
+          "insights": [
+            "Possible reasons for today's +20.5% move (high volume of ~2.36M shares):**",
+            "Momentum and anticipation around the Foreland Refinery (Nevada’s only operating refinery) entering production phase, with commercial operations expected to commence in July 2026. The June 22 announcement highlighted completed repairs, ~100,000 barrels of storage capacity, ~10,000 barrels on-site inventory, and a shift to customer deliveries, refining margins, and cash flow generation.",
+            "Recent positive corporate update: On July 2, 2026, the company announced restructuring of merchant debt into a unified promissory note, which may improve balance sheet perception.",
+            "Retail trader interest and technical rebound signals, as evidenced by multiple traders adding $SKYQ to watchlists today with mentions of strong rebound potential from key demand zones."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟢 July 2026 refinery start-up is a near-term fundamental catalyst that could begin generating real revenue; watch for production PRs.",
+            "🔴 Liquidity tight (< 1 month cash pre-ATM; mgmt pursuing $12.6 M ATM & crowdfunding). High likelihood of continued equity sales.",
+            "🟡 Latest 8-K (02-Jul-26) <https://app.askedgar.io/filing?ticker=SKYQ&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1812447%2F000109690626001038%2Fskyq-20260629_8k.htm&formType=8-K> consolidated $3.99 M MCA debt into 8 % note – improves structure but locks in rising weekly payments.",
+            "🟢 Nasdaq compliant after 1-for-8 RS (15-Mar-26); no immediate delisting threat.",
+            "🔴 Dilution last 12 m = 52 %; 1.24 M ATM shares sold YTD; ~0.6 M ATM room + plan to expand shelf – overhang persists.",
+            "🟡 Stock on Reg-SHO threshold list; low float (~4 M) + retail buzz = volatile."
+          ],
+          "prevClose": 2.12,
+          "open": 2.45,
+          "gapPct": 15.57,
+          "time": "premarket",
+          "high": 3.3,
+          "hodTimeExact": "05:04 AM ET",
+          "close": 3,
+          "fade": 9,
+          "fadeExact": 9.09,
+          "vwap": 2.7369,
+          "vsVwap": "above",
+          "pmHigh": 2.8,
+          "volRaw": "32.8M",
+          "relVol": 1.5,
+          "avgVolM": 22.3
+        },
+        {
+          "sym": "BJDX",
+          "hod": 55,
+          "hodExact": 55.17,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "Bluejay Diagnostics, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 4.75,
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 4.75M",
+            "Best-efforts (Aegis Capital Corp.)",
+            "X2 zero-strike warrants (0.0M sh)",
+            "$25.0M shelf",
+            "RegSHO",
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "0.0M zero-exercise-price warrants registered — every tick up unlocks free dilution",
+                "Toxic price protection (reset/cashless) — warrant count grows as price falls"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "0.0M zero-exercise-price warrants registered — every tick up unlocks free dilution",
+            "Toxic price protection (reset/cashless) — warrant count grows as price falls"
+          ],
+          "insights": [
+            "Possible reasons for the price movement:**",
+            "Momentum from the July 2, 2026, update on advancing the Symphony IL-6 sepsis pilot study (SYMON-III or related), which highlights progress in ER/critical care diagnostics for sepsis triage and monitoring.",
+            "Continued trader interest and technical momentum following a ~7.89% gain on July 6 amid \"upbeat coverage of its latest diagnostic technology developments.\"",
+            "Broader appeal of the Symphony platform (analyzer + pre-loaded cartridges for rapid IL-6 testing from whole blood) in a high-need area like point-of-care sepsis diagnostics."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 2026-07-02 8-K: Minor update on IL-6 sepsis pilot; neutral fundamental impact. <https://x.com/search?q=%24BJDX&src=typed_query&07072026>",
+            "🔴 2026-06-08/02: $8.5 M PIPE (+7.3 M warrants) closed; large potential dilution, resale S-3 due ~07-17-26. <https://app.askedgar.io/filing?ticker=BJDX&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1704287%2F000121390026066364%2Fea0293390-8k_bluejay.htm&formType=8-K>",
+            "🟡 Cash ≈ $10-11 M pro-forma; burn ≈ $1.5 M/qtr → runway to Q1-27; management still seeks ≥ $20 M more.",
+            "🔴 High dilution overhang (warrants & employee plan could triple share count); history of frequent raises.",
+            "🟢 No active Nasdaq deficiency; board pre-approved reverse split provides cushion."
+          ],
+          "prevClose": 1.16,
+          "open": 1.53,
+          "gapPct": 31.9,
+          "time": "premarket",
+          "high": 1.8,
+          "hodTimeExact": "05:20 AM ET",
+          "close": 1.45,
+          "fade": 19,
+          "fadeExact": 19.44,
+          "vwap": 1.6419,
+          "vsVwap": "below",
+          "pmHigh": 2.15,
+          "volRaw": "89.8M",
+          "relVol": 51.1,
+          "avgVolM": 1.8
+        },
+        {
+          "sym": "JLHL",
+          "hod": 49,
+          "hodExact": 49.59,
+          "news": [],
+          "tag": "SYMPATHY",
+          "name": "Julong Holding Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "KY",
+          "floatM": 1.47,
+          "floatSrc": "AE",
+          "marketCap": "$94M",
+          "riskBadges": [
+            "Float 1.47M"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Most-recent corporate item (Form 6-K, 2026-06-16) announced routine board/committee changes; no financial impact. <https://app.askedgar.io/filing?ticker=JLHL&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F2007846%2F000149315226028812%2Fform6-k.htm&formType=6-K>\nPrice action since April 2026 has been dominated by low-float momentum trading. Multiple 40–150 % intraday swings (April–July) occurred without fundamental catalysts; social-media chatter and high borrow fees suggest peri"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Outstanding warrants/convertibles: none reported.",
+                "Registered resale statements: none.",
+                "Float remains ~1.5 M (≈7 % of O/S). No mechanism exists for large near-term share issuance, so dilution pressure is minimal."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No Nasdaq deficiency letters disclosed. Current price ($4.91) is well above the $1 minimum bid. Equity and filing requirements appear met."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Cash: RMB 62 M (~US $8.7 M)",
+                "No significant long-term debt reported.",
+                "Company states cash plus operating cash flow should fund at least 12 months of operations."
+              ],
+              "prose": "Latest disclosed balance sheet (FY-2025 20-F, period ended 2025-09-30) shows:\nNo looming maturities or liquidity concerns flagged."
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [
+                "TLDR**",
+                "🟡 2026-06-16 Form 6-K: Board/committee reshuffle; no revenue impact <https://app.askedgar.io/filing?ticker=JLHL&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F2007846%2F000149315226028812%2Fform6-k.htm&formType=6-K>",
+                "🟡 Recent 4-month rally driven by low-float momentum & short-squeeze chatter; no fundamental catalysts (April–July 2026 social-media activity)",
+                "🟢 Dilution & offering risk low—no shelf, ATM, warrants, or PIPE history since $5.8 M IPO (2025-06-26) <https://app.askedgar.io/filing?ticker=JLHL&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F2007846%2F000164117225016900%2Fform6-k.htm&formType=6-K>",
+                "🟢 Cash of ~$8.7 M and positive operating cash flow; no material debt or going-concern warning (20-F filed 2026-02-13)"
+              ],
+              "prose": "No historical notes from analyst “jmt415” were provided for JLHL."
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [
+            "Possible reasons for the 31.3% surge (with ~488K shares traded, well above average):**",
+            "Extreme volatility in a low-float microcap (float ~1.4M shares), leading to rapid price swings and multiple trading halts today (described on X as a “halt festival” with LUDP volatility pauses).",
+            "Typical behavior for this NASDAQ-listed Chinese microcap in the intelligent infrastructure/engineering sector, where low liquidity amplifies moves on modest volume or sentiment shifts.",
+            "Recent news/announcements/market sentiment (last 3 days max, i.e., July 4–7, 2026; most recent first):**"
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "2026-06-16 Form 6-K: Board/committee reshuffle; no revenue impact <https://app.askedgar.io/filing?ticker=JLHL&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F2007846%2F000149315226028812%2Fform6-k.htm&formType=6-K>",
+            "Recent 4-month rally driven by low-float momentum & short-squeeze chatter; no fundamental catalysts (April–July 2026 social-media activity)",
+            "Dilution & offering risk low—no shelf, ATM, warrants, or PIPE history since $5.8 M IPO (2025-06-26) <https://app.askedgar.io/filing?ticker=JLHL&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F2007846%2F000164117225016900%2Fform6-k.htm&formType=6-K>",
+            "Cash of ~$8.7 M and positive operating cash flow; no material debt or going-concern warning (20-F filed 2026-02-13)",
+            "No Nasdaq compliance issues; shares trade >$4 vs. $1 minimum",
+            "Other catalysts: Potential FY-2026 interim results (Aug/Sept 2026) – neutral until details emerge"
+          ],
+          "prevClose": 3.69,
+          "open": 3.85,
+          "gapPct": 4.34,
+          "time": "regular session",
+          "high": 5.52,
+          "hodTimeExact": "10:24 AM ET",
+          "close": 4.32,
+          "fade": 21,
+          "fadeExact": 21.74,
+          "vwap": 4.6185,
+          "vsVwap": "below",
+          "pmHigh": 4.57,
+          "volRaw": "3.8M",
+          "relVol": 11.5,
+          "avgVolM": 0.3
+        },
+        {
+          "sym": "NPT",
+          "hod": 45,
+          "hodExact": 45.74,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "Texxon Holding Limited Ordinary shares",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 3.56,
+          "floatSrc": "AE",
+          "marketCap": "$60M",
+          "riskBadges": [
+            "Float 3.56M",
+            "Best-efforts (D. Boral Capital LLC)"
+          ],
+          "sections": [
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "Share split / reverse-split decision – Board authorized to act any time before 2027-05-22.  🔴 if reverse split for bid-price compliance; 🟡 if forward split for optics/liquidity.",
+                "Henan 600 kt polystyrene plant trial production update (initially targeted Apr-2026, still unconfirmed).  🟡 until evidence of actual production/offtake deals.",
+                "Next earnings release – FY2026 Q4 & year-end (fiscal year ends 2026-06-30).  Date TBD, likely Nov-2026.  🟡 (could clarify cash & project status).",
+                "Any follow-on/F-1 take-down pricing – could hit at any time.  🔴"
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [
+            "Low-float momentum/volatility-driven move typical for this thinly traded micro-cap (historical precedent of a 131% single-day spike in June 2026 attributed to low float, order flow, and trading dynamics rather than fundamentals).",
+            "Retail trader interest or short-term speculative buying, amplified by the stock's history of sharp swings (e.g., prior halts/pauses and rapid rebounds).",
+            "No identifiable fundamental catalyst; earnings released June 30 showed revenue decline and a net loss, which did not prevent prior volatility.",
+            "Recent news, announcements, or market sentiment (last 3 days max; none identified):**"
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🔴 2026-05-28 6-K: AGM approved broad 1-for-20 RS authority & new equity plan – signals likely future dilution. <https://app.askedgar.io/filing?ticker=NPT&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F2014337%2F000121390026062185%2Fea0292462-6k_texxon.htm&formType=6-K>",
+            "🔴 Offering risk high: F-1 EFFECT (2026-03-25) suggests shelf/secondary; baby-shelf capacity ~<$7 M; cash burn & big cap-ex make raise likely.",
+            "🟡 Dilution risk medium now (no warrants disclosed), but float is tiny; any raise could double/triple float quickly.",
+            "🟡 Compliance: no notices yet, but sub-$2 stock & RS authorization imply looming bid-price issue.",
+            "🔴 Financials weak – only ~$2.5 M cash vs $52 M working-capital deficit; heavy debt for polystyrene plant; going-concern flagged.",
+            "🟡 Upcoming catalysts: Reverse/forward split decision (by 2027-05-22); update on 600 kt PS plant trial production (targeted Apr-2026, still pending); next FY26 results (est. Nov-2026)."
+          ],
+          "prevClose": 2.47,
+          "open": 2.57,
+          "gapPct": 4.05,
+          "time": "regular session",
+          "high": 3.5999,
+          "hodTimeExact": "09:44 AM ET",
+          "close": 2.68,
+          "fade": 25,
+          "fadeExact": 25.55,
+          "vwap": 2.8473,
+          "vsVwap": "below",
+          "pmHigh": 2.56,
+          "volRaw": "1.2M",
+          "relVol": 0.2,
+          "avgVolM": 7.8
+        }
+      ],
+      "hod": 135,
+      "fade": 18,
+      "hodTime": "regular session",
+      "theme": "Choppy Mixed",
+      "note": "CLRO led +135.71% (16% fade). 7/10 held <20% fade."
+    },
     {
       "date": "2026-07-06",
       "runners": [
