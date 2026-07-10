@@ -14,8 +14,8 @@
       "runners": [
         {
           "sym": "JLHL",
-          "hod": 386,
-          "hodExact": 386.92,
+          "hod": 970,
+          "hodExact": 970,
           "news": [],
           "tag": "RETAIL PUMP",
           "name": "Julong Holding Limited Class A Ordinary Shares",
@@ -84,8 +84,8 @@
           "open": 3.73,
           "gapPct": 21.9,
           "time": "regular session",
-          "high": 14.8999,
-          "hodTimeExact": "01:19 PM ET",
+          "high": 32.77,
+          "hodTimeExact": "16:24 PM ET",
           "close": 12.79,
           "fade": 14,
           "fadeExact": 14.16,
