@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-07-13T22:24:58.025289Z",
-  "count": 9677,
+  "exportedAt": "2026-07-15T10:53:15.099184Z",
+  "count": 9687,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,877 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-07-14",
+      "runners": [
+        {
+          "sym": "NXTC",
+          "hod": 354,
+          "hodExact": 354.13,
+          "news": [
+            "NXTC Stock Alert: Halper Sadeh LLC is Investigating Whether NextCure, Inc. is Obtaining a Fair Price for its Shareholders",
+            "NextCure and Avere Therapeutics Announce Merger to Advance Once-Weekly Oral IL-23 Therapy"
+          ],
+          "tag": "NEWS-DRIVEN",
+          "name": "NextCure, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 3.46,
+          "floatSrc": "AE",
+          "marketCap": "$24M",
+          "riskBadges": [
+            "Float 3.46M",
+            "Active ATM $13.2M",
+            "X1 warrants ITM",
+            "$180.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "NXTC will merge with privately-held Avere Tx in an all-stock reverse merger.  Existing NXTC holders will own only ~1.21 % of the combined company (to trade as “AVRX”).  A $320 M PIPE (incl. $251 M converts) will close concurrently.  NXTC holders also get a 2-year CVR on any monetisation of legacy assets.",
+                "25-Jun-26 – Share-plan expansion (8-K) – share reserve up 80 k 🟡",
+                "04-Jun-26 – KOL replay for SIM0505 Phase 1 data 🟡",
+                "01-Jun-26 – Multiple 8-Ks with positive SIM0505 Phase 1 ORR 55 % 🟢 (early but encouraging efficacy)",
+                "07-May-26 – Q1-26 10-Q & business update; Fast-Track designation for SIM0505 🟢"
+              ],
+              "prose": "Most-recent item (14-Jul-26, 8-K/Press <https://app.askedgar.io/news/60434588?ticker=NXTC>):\nNews rating = 🔴 (huge dilution + change-of-control, effectively ends NXTC as presently constituted).\nOther 2026 filings/news (selected):\nUpcoming catalysts:"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Dilution rating = High (248 %).",
+                "No open warrant overhang today (warrant risk = 🟢 Low).",
+                "However, the announced reverse merger will issue massive new shares (and convert $251 M of notes) leaving current holders with ~1 % ownership – an extreme future dilution event.",
+                "Company has shown willingness to use ATM (2024 & 2026) and do private placements (Jun-25, Nov-25). Expect continued issuance until merger closes."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Balance-sheet light; total liabilities $11.3 M (mainly payables & leases).  No term debt or convertible preferred outstanding before merger.  Ability to service obligations depends on continued equity raises."
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No prior jmt415 notes were provided for NXTC."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated",
+            "Cash runway: 6.4 months → must raise"
+          ],
+          "insights": [
+            "Primary catalyst: All-stock merger agreement with privately held Avere Therapeutics (announced July 14, 2026).** The combined company will operate as Avere Therapeutics and trade on Nasdaq under ticker $AVRX. NXTC stockholders expected to own ~1.21% of the combined entity. Deal includes a concurrent $320 million private placement/financing (including $251M in convertible notes converting to equity at closing) to fund development of Avere’s lead asset AVR-001 (oral IL-23 inhibitor for autoimmune diseases, e.g., psoriasis and ulcerative colitis).",
+            "Deal structure and rationale driving the surge.** Reverse-merger style transaction expected to close in H2 2026. Provides NXTC with immediate access to substantial capital and a new pipeline focused on immune-mediated diseases, shifting from its prior oncology focus (NC318/NC410). Early data on AVR-001 noted once-weekly dosing and psoriasis responses comparable to other oral IL-23 inhibitors; Avere holds ex-China rights via Hansoh Pharma licensing deal (up to $2.18B in milestones).",
+            "No other material company-specific news in the prior 3 days (July 11–13, 2026).** Searches for updates on NC318, NC410, or other pipeline items returned only older data (2023 and prior). The merger appears to be the sole near-term driver.",
+            "Upcoming potential catalysts (post-July 14, 2026).** Cash runway expected to extend through Phase 2b psoriasis data readout, Phase 3 psoriasis trial initiation, and Phase 2b ulcerative colitis trial start for the combined entity."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-07-14",
+              "text": "NXTC from what im seeing it doesnt really have any business trading up here, its basically a failed biotech and this merger is their face saving exit - that said with VEEE and SOBR this merger thing is kind of a mini theme prob the reason people willing to chase this up"
+            },
+            {
+              "date": "2026-07-14",
+              "text": "NXTC another merger play - the 2.1 says Avere pre money valuation s $250M, and $570m post money after the pipe and NXTC shareholder get 1.89% so thats around $11M or ~$3/share\n- note this is indpendent of its cash - its cash gets paid back to existing NXTC holders as a dividend, but only what's left after transaction and wind-down costs, so likely a lot less than the ~$19M they have right now. They also get a CVR worth 90% of any future proceeds from the old ADC pipeline, which is upside that only pays if those assets get monetized"
+            }
+          ],
+          "tldr": [
+            "14-Jul-26 8-K: Reverse-merger with Avere; NXTC holders diluted to 1.2 % ownership; huge $320 M financing attached – 🟥",
+            "Offering ability high; ATM active & more raises likely pre-close – 🟥",
+            "Cash ~6 mo runway; management cites going-concern risk – 🟡",
+            "Balance sheet light on debt; liabilities modest – 🟢",
+            "Positive SIM0505 Phase 1 data & Fast-Track designation provide some asset value, but legacy programs shift to CVR post-merger – 🟡",
+            "Key catalyst: Merger completion 2H-26 (dilutive but transforms company focus) – 🟥"
+          ],
+          "prevClose": 2.18,
+          "open": 9.24,
+          "gapPct": 323.85,
+          "time": "premarket",
+          "high": 9.9,
+          "hodTimeExact": "07:15 AM ET",
+          "close": 6.58,
+          "fade": 33,
+          "fadeExact": 33.54,
+          "vwap": 7.6495,
+          "vsVwap": "below",
+          "pmHigh": 12.3,
+          "volRaw": "110.5M",
+          "relVol": 952.9,
+          "avgVolM": 0.1
+        },
+        {
+          "sym": "EOSER",
+          "hod": 101,
+          "hodExact": 101.79,
+          "news": [],
+          "tag": "SYMPATHY",
+          "name": "Eos Energy Enterprises, Inc. Right",
+          "sector": "MISCELLANEOUS ELECTRICAL MACHINERY, EQUIPMENT & SUPPLIES",
+          "country": "US",
+          "floatM": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0224,
+          "open": 0.022,
+          "gapPct": -1.79,
+          "time": "regular session",
+          "high": 0.0452,
+          "hodTimeExact": "11:34 AM ET",
+          "close": 0.04,
+          "fade": 11,
+          "fadeExact": 11.5,
+          "vwap": 0.0382,
+          "vsVwap": "above",
+          "pmHigh": 0.0289,
+          "volRaw": "165.0M",
+          "relVol": 3.0,
+          "avgVolM": 54.3
+        },
+        {
+          "sym": "VEEE",
+          "hod": 96,
+          "hodExact": 96.26,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "Twin Vee PowerCats Co. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 0.53,
+          "floatSrc": "AE",
+          "marketCap": "$21M",
+          "riskBadges": [
+            "Float 0.53M",
+            "$100.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "🟢",
+              "bullets": [
+                "13 Jul 2026 – 8-K & press release: Twin Vee to merge with USFM Corporation (a Greenland critical-minerals explorer) and spin off its boat business into a private CVR trust. VEEE holders get 10 % of the new mining company + a contingent right to boat-unit proceeds. Closing targeted Q3 2026. <https://app.askedgar.io/filing?ticker=VEEE&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1855509%2F000173112226000931%2Fe7774_8k.htm&formType=8-K>",
+                "13 Jul 2026 – Support Agreement filed (8-K exhib.) confirms key shareholders will vote FOR deal. <https://app.askedgar.io/filing?ticker=VEEE&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1855509%2F000173112226000931%2Fe7774_ex99-1.htm&formType=8-K>",
+                "10 Jul 2026 – FY-2025 10-K posted (no new catalyst).",
+                "Q3 2026 – Shareholder vote & closing of USFM reverse-merger / CVR spin-off.",
+                "23 Jul 2026 – CEO employment agreement expiration (could spark leadership update)."
+              ],
+              "prose": "News Rating 🟢 (fundamental change)\nIndications of dilution?  No new shares issued in July filings; reverse-merger structure does NOT inject cash into VEEE, so future equity raises before close are still possible.\nUpcoming catalysts 🟡"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "🟡",
+              "bullets": [
+                "No material warrants or convertibles are currently in-the-money (none registered, none pending).",
+                "Post-split OS is only 537 k shares; any future raise could be highly dilutive to existing holders.",
+                "The 6.5 M (pre-split) shares placed in Mar-2026 are deep under water vs today’s $36, so those investors are unlikely to exit at current levels, limiting immediate overhang."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "🟢",
+              "bullets": [
+                "Total liabilities: $6.0 M, including $0.5 M SBA EIDL loan and $2.2 M long-term operating lease.",
+                "Cash & equivalents: $5.5 M.",
+                "Accounts payable + accrued: $2.6 M."
+              ],
+              "prose": "Balance sheet (31 Mar 2026) shows minimal debt:\nNo near-term debt maturities beyond routine payables."
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "🟠",
+              "bullets": [
+                "13 Jul 2026 – 🟠  Notes merger is a reverse-merger into a mining shell; valuation unclear; existing holders get 10 % + CVR.",
+                "06 Jun 2025 – 🔴  Flagged frequent ThinkEquity offerings and choppy trading after gaps.",
+                "08 May 2025 – 🔴  Highlighted proposed offering right after price spike."
+              ],
+              "prose": "Overall tone skews cautious due to habitual dilutions but acknowledges current merger could change narrative."
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "Shareholder vote / Form S-4 filing for USFM merger (expected August 2026) 🟡",
+                "Q2 2026 earnings (estimated early Aug 2026) 🟡",
+                "23 Jul 2026 CEO contract decision 🟡"
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated",
+            "Cash runway: 4.7 months → must raise"
+          ],
+          "insights": [
+            "Primary driver: Announcement of strategic merger and business restructuring**",
+            "Recent developments (last 3 days max)**",
+            "July 13, 2026: Merger announcement and related press release (primary catalyst; detailed on company IR site and covered by Yahoo Finance, TipRanks, StockTitan, etc.).",
+            "No other material company-specific news or announcements in the immediate prior days. Earlier Q1 2026 earnings (May 7) and repeat order (May 6) are outside the 3-day window."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-07-14",
+              "text": "NXTC from what im seeing it doesnt really have any business trading up here, its basically a failed biotech and this merger is their face saving exit - that said with VEEE and SOBR this merger thing is kind of a mini theme prob the reason people willing to chase this up"
+            },
+            {
+              "date": "2026-07-13",
+              "text": "SOBR i think some shorts got bagged Friday bc some people tossing around the notion of potential ch 11 bankruptcy just bc they were shutting down operations, but theyre doing a merger so kind of riding VEEE's coattails at this point"
+            },
+            {
+              "date": "2026-07-13",
+              "text": "- VEEE merger - isn't really being bought for its boats. A private Greenland critical-minerals company (USFM) is reverse-merging into VEEE's stock listing, and the old boat business gets spun off separately into a trust for current shareholders.\n- Current VEEE shareholders end up with two things: 10% of the new combined mining company, plus a CVR that pays out whatever the boat business eventually sells for.\n- no way to infer any kind of valuation based on what we have so far"
+            }
+          ],
+          "tldr": [
+            "13 Jul 2026 8-K: Reverse-merger with USFM pivots VEEE into critical-minerals; boat unit spun into CVR; close Q3 2026. <https://app.askedgar.io/filing?ticker=VEEE&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1855509%2F000173112226000931%2Fe7774_8k.htm&formType=8-K>",
+            "Offering ability low but cash runway ≈ 5 months; more capital likely pre-close.",
+            "History of frequent low-priced ThinkEquity offerings = high dilution frequency.",
+            "Regained Nasdaq bid compliance after 1-for-37 split; no active notices.",
+            "Debt modest ($0.5 M EIDL); balance-sheet risk low.",
+            "Jmt415: cautious—merger could reset story, but past dilutions linger."
+          ],
+          "prevClose": 24.86,
+          "open": 19.29,
+          "gapPct": -22.41,
+          "time": "regular session",
+          "high": 48.79,
+          "hodTimeExact": "12:24 PM ET",
+          "close": 38.51,
+          "fade": 21,
+          "fadeExact": 21.07,
+          "vwap": 37.0776,
+          "vsVwap": "above",
+          "pmHigh": 25.09,
+          "volRaw": "24.8M",
+          "relVol": 5.9,
+          "avgVolM": 4.2
+        },
+        {
+          "sym": "UBXG",
+          "hod": 89,
+          "hodExact": 89.68,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "U-BX Technology Ltd. Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 1.55,
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 1.55M",
+            "X1 zero-strike warrants (0.0M sh)",
+            "$50.0M shelf",
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "0.0M zero-exercise-price warrants registered — every tick up unlocks free dilution",
+                "Toxic price protection (reset/cashless) — warrant count grows as price falls"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "0.0M zero-exercise-price warrants registered — every tick up unlocks free dilution",
+            "Toxic price protection (reset/cashless) — warrant count grows as price falls"
+          ],
+          "insights": [
+            "Possible reasons for the price movement:**",
+            "Extreme low float (~1.2M shares post-reverse splits) and micro-cap structure driving outsized volatility and momentum trading on limited volume.",
+            "Continuation of recent volatility-fueled surges, with the stock repeatedly hitting trading halts (e.g., LUDP volatility pause on July 13) that attract day traders and scanners.",
+            "Potential short squeeze dynamics or retail momentum chasing, typical for post-reverse-split names with elevated short interest and thin trading."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-07-14",
+              "text": "UBXG has offering potential imo - FT Global has the right of first refusal until 2027 so a deal would likely go through them - from what i see if there is an offering coming the stock is usually weak with not much fight https://discord.com/channels/1249146793464430633/1315676068237021285/1526580729109155920"
+            }
+          ],
+          "tldr": [
+            "27-May-26 6-K – 1-for-25 reverse split to regain Nasdaq compliance; typical red flag for micro-caps. <https://app.askedgar.io/filing?ticker=UBXG&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1888525%2F000121390026061322%2Fea0292212-6k_ubxtech.htm&formType=6-K>",
+            "28-Apr-26 6-K – Closed $4.55 M registered direct offering @ $7.50 (post-split) with 30 % warrant coverage; fresh supply still overhangs. <https://app.askedgar.io/filing?ticker=UBXG&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1888525%2F000121390026048520%2Fea0287902-6k_ubxtech.htm&formType=6-K>",
+            "Shelf capacity $45 M gives management high ability to dilute again; historical cadence ~2 raises per year.",
+            "Cash runway appears comfortable (~8 yrs at current burn) and no debt, reducing immediate need to raise—though acquisitions could be a pretext.",
+            "Recent 50-100 % price spikes (Jun-Jul-26) were purely low-float/short-squeeze moves; no upcoming known catalysts.",
+            "Overall: speculative low-float China micro-cap with medium dilution risk and frequent capital raises; traders should watch for new filings if volume spikes."
+          ],
+          "prevClose": 6.3,
+          "open": 9.04,
+          "gapPct": 43.49,
+          "time": "regular session",
+          "high": 11.95,
+          "hodTimeExact": "09:50 AM ET",
+          "close": 4.61,
+          "fade": 61,
+          "fadeExact": 61.42,
+          "vwap": 8.793,
+          "vsVwap": "below",
+          "pmHigh": 11.13,
+          "volRaw": "9.9M",
+          "relVol": 9.2,
+          "avgVolM": 1.1
+        },
+        {
+          "sym": "LEDS",
+          "hod": 74,
+          "hodExact": 74.88,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "SemiLEDS Corporation",
+          "sector": "Technology",
+          "country": "TW",
+          "floatM": 3.5,
+          "floatSrc": "AE",
+          "marketCap": "$19M",
+          "riskBadges": [
+            "Float 3.5M",
+            "Active ATM $0.2M",
+            "$20.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "Q3 FY26 earnings beat: revenue $9.1 M (vs $1.1 M Q2), GAAP net income $1.5 M (first profitable quarter in years), gross margin 27 %, cash ↑ to $6 M. Management “anticipates additional buy-sell orders in Q4 FY26.”",
+                "14-Apr-2026 8-K & PR <https://app.askedgar.io/news/51796649?ticker=LEDS>: Q2 FY26 miss (rev down 58 %, net loss $0.6 M).",
+                "14-Apr-2026 10-Q <https://app.askedgar.io/filing?ticker=LEDS&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1333822%2F000119312526153745%2Fleds-20260228.htm&formType=10-Q> flagged Nasdaq equity deficiency.",
+                "5-Mar-2025 8-K <https://app.askedgar.io/filing?ticker=LEDS&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1333822%2F000095017025033054%2Fleds-20250228.htm&formType=8-K>: Debt-conversion, 0.96 M shares at $1.66 to related parties; fully issued."
+              ],
+              "prose": "Most-recent item (14-Jul-2026 8-K & PR) <https://app.askedgar.io/filing?ticker=LEDS&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1333822%2F000119312526302426%2Fleds-ex99_1.htm&formType=8-K>\nImpact: Today’s Q3 beat is a clear fundamental positive; no new dilution announced. Equity deficiency risk may ease if Q3 equity level ($3.1 M) is accepted by Nasdaq."
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "No outstanding registered warrants or convertible notes reported.",
+                "Share count rose ~12 % (0.96 M shares) in Feb-2025 from debt conversion; already reflected in OS.",
+                "With no shelf/ATM and low warrant exposure, incremental dilution risk is currently low, but management has signaled willingness to seek future equity if liquidity tightens."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [
+                "Nasdaq notified non-compliance with $2.5 M equity requirement (30-Jan-2026).",
+                "Q3 balance sheet shows equity of $3.1 M, which may cure the deficiency, but company awaits Nasdaq confirmation (decision likely by late Jul-2026).",
+                "Bid-price ≥$1 (stock at $1.87) so price is not an issue."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Total liabilities 5/31/26: $14.5 M vs. assets $17.5 M; current ratio ≈1.0.",
+                "Long-term & current debt total ≈$1.3 M; additional related-party payables $1.2 M.",
+                "Two NT-dollar notes mature Jul-2027; interest expense modest ($10 K in Q3).",
+                "Accrued liabilities jumped to $6.1 M (Q3) – watch cash outflows.",
+                "Overall leverage moderate but liquidity tight if buy-sell orders slow again."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "Q4 FY26 earnings & potential additional buy-sell equipment orders – expected Oct-2026 🟡 (positive potential but timing/size uncertain).",
+                "Nasdaq equity-compliance review – expected decision by late Jul-2026 🟡 (could turn green if compliance regained or 🔴 if delisting notice).",
+                "Possible further debt-for-equity conversions or capital raises – ongoing 🔴 (would be dilutive if needed)."
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated"
+          ],
+          "insights": [
+            "Primary catalyst: Strong Q3 FY2026 earnings release today (July 14, 2026, before market open).** Revenue surged to $9.1 million (vs. $1.1 million in Q2), GAAP net income reached $1.5 million ($0.18 diluted EPS) vs. a $603k loss ($0.07 loss) prior quarter, gross margin improved to 27% (vs. 1%), and operating margin turned positive at 16% (vs. -79%). Cash rose to $6.0M from $4.0M. The company noted anticipation of additional buy-sell purchase orders in Q4.",
+            "No other material company-specific news or announcements in the last 3 days.** Prior developments (e.g., world’s smallest PPG sensor head via subsidiary TSLC + SCIVAX, or 2025 CrayoNano UV-C LED partnership) are older and not tied to today’s move. Nasdaq compliance notice from February 2026 is also stale.",
+            "Not part of a broad semiconductors sector rally today.** While the semiconductor industry has performed strongly overall in 2026 (sector up significantly YTD with AI/memory/equipment leaders leading), no evidence links today’s broad sector action to this micro-cap name’s spike."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟢 14-Jul-2026 8-K/PR: Q3 FY26 earnings beat – revenue +724 % QoQ to $9.1 M; first profit ($0.18 EPS); cash ↑ to $6 M. <https://app.askedgar.io/filing?ticker=LEDS&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1333822%2F000119312526302426%2Fleds-ex99_1.htm&formType=8-K>",
+            "🟢 Offering / dilution risk low – no active shelf or ATM; last issuance Feb-2025 debt-conversion already absorbed.",
+            "🟡 Nasdaq equity-deficiency notice from Jan-2026; Q3 equity now >$2.5 M, awaiting ruling (decision likely late Jul-2026).",
+            "🟡 Liquidity adequate near-term ($6 M cash, positive cash flow), but business remains lumpy; further capital raises possible if buy-sell orders fade.",
+            "🟡 Next catalyst: Q4 FY26 earnings & additional buy-sell orders (Oct-2026 est.).",
+            "Overall: Positive earnings surprise and low float could keep momentum, but watch for Nasdaq decision and variability of revenue."
+          ],
+          "prevClose": 1.52,
+          "open": 1.7,
+          "gapPct": 11.84,
+          "time": "regular session",
+          "high": 2.6582,
+          "hodTimeExact": "10:24 AM ET",
+          "close": 2.24,
+          "fade": 15,
+          "fadeExact": 15.73,
+          "vwap": 2.217,
+          "vsVwap": "above",
+          "pmHigh": 1.89,
+          "volRaw": "44.4M",
+          "relVol": 3753.3,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "SHPH",
+          "hod": 72,
+          "hodExact": 72.3,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "Shuttle Pharmaceuticals Holdings, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.07,
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.07M",
+            "Best-efforts (E.F. Hutton & Co.)",
+            "X3 warrants ITM",
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "🟡",
+              "bullets": [
+                "Mid-Aug 26 – target date for first DOGE miners fully operational 🟡",
+                "Aug 12 26 (est.) – Q2-26 earnings/10-Q 🟡",
+                "2H26 – Ropidoxuridine GBM Phase 2 enrollment completion 🟡"
+              ],
+              "prose": "Most-recent material filing (8-K, 30 Jun 26) <https://app.askedgar.io/filing?ticker=SHPH&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1757499%2F000149315226031375%2Fform8-k.htm&formType=8-K> announced United Dogecoin’s progress toward building low-cost data-center / power infrastructure and deploying ElphaPex DOGE miners (expected fully on-line ~Aug 25 – late Aug 26).\nImpact: Neutral-to-speculative; no revenue, cost, or funding details. Seen mainly as a momentum/hype driver, n"
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "🔴",
+              "bullets": [
+                "May-26 securities need shareholder approval & registration – timing unclear, but once effective the float could increase >30-fold.",
+                "Most overhang instruments have anti-dilution provisions (down-round adjustments).",
+                "Compliance Risk** 🟢**",
+                "1-for-10 reverse split effected 11 Jun 26 to cure bid-price deficiency; shares now >$1.",
+                "Nasdaq gave until 30 Jun 25 (prior to split) to regain $1 bid; extension likely achieved post-split."
+              ],
+              "prose": "Dilution Rating 🔴  (3535 % potential share expansion)\nKey overhangs:\n1. Series B-2 Preferred (2,200 sh) ➜ ~10 M shares @ $1.03 (in-the-money).\n2. Series B-1 Preferred (8,403 sh to sellers + 750 sh to EF Hutton) ➜ ~34 M shares @ $1.24 (also in-the-money).\n3. Pre-funded warrants tied to merger/PIPE up to ~158 M shares (ex price $0.0001) – milestone-based but huge overhang.\n4. Legacy October-24 2.95 M 100 % cov. warrants @ $1.53 (not registered yet).\nRegistration/approvals:\nBottom-line: Even with n"
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "🟡",
+              "bullets": [
+                "Cash: $1.09 M (before $11 M PIPE cash; unclear timing of receipt).",
+                "Current liabilities: $8.3 M – includes $4.4 M acquisition payable & $2.0 M contingent consideration.",
+                "18 % revolving loan up to $2 M signed Feb 25 – matures Feb 27 26.",
+                "Working-capital deficit ~$5.8 M; management cites “substantial doubt” about going concern despite pro-forma PIPE cash."
+              ],
+              "prose": "10-Q 15 May 26 (period ended 31 Mar 26) shows:\nInterpretation: Balance-sheet leverage is moderate but payables/acquisition liabilities loom; cash cushion limited if PIPE funds delayed."
+            }
+          ],
+          "reasons": [
+            "X3 warrant tranches ITM (15.4M shares)",
+            "Dilution rating: High (3535.1%)"
+          ],
+          "insights": [
+            "Possible reasons for the $SHPH price surge (up ~60% today on low volume of ~98k shares):**",
+            "Speculative momentum and retail trader interest in this low-float penny stock, fueled by its ongoing pivot into Dogecoin (DOGE) mining via the United Dogecoin merger (announced late April/early May 2026).",
+            "Recent insider buying activity by major shareholder HRT Financial (multiple purchases July 9–10, 2026, at ~$3.11–$3.38 per share, increasing holdings).",
+            "Broader hype around the company’s transformation from a clinical-stage oncology (radiation sensitizer) biotech into a public DOGE mining entity, including prior updates on mining rig purchases and infrastructure plans (June 2026 press releases)."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 30 Jun 26 8-K – United Dogecoin data-center & miner deployment update; hype-worthy but no revenue yet <https://app.askedgar.io/filing?ticker=SHPH&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1757499%2F000149315226031375%2Fform8-k.htm&formType=8-K>",
+            "🔴 Massive potential dilution pending: >44 M shares from May-26 B-1/B-2 preferred + 150 M+ pre-funded warrants, all already issued but need approval/registration. Prices ($1.03–1.24) are below current $2.96 ➜ in-the-money.",
+            "🟡 Offering risk low short-term (no shelf/ATM), but history of frequent PIPEs; next raise likely once registration effective.",
+            "🟡 Cash ~ $1.1 M 3/31/26; working-capital deficit $5.8 M, but PIPE adds $11 M gross; going-concern language remains.",
+            "🟢 Currently bid-price compliant after 1-for-10 split (11 Jun 26).",
+            "🔴 Jmt415 views SHPH as serial promo/fader with high dilution history."
+          ],
+          "prevClose": 2.96,
+          "open": 4.41,
+          "gapPct": 48.99,
+          "time": "premarket",
+          "high": 5.1,
+          "hodTimeExact": "08:06 AM ET",
+          "close": 4.16,
+          "fade": 18,
+          "fadeExact": 18.43,
+          "vwap": 4.5789,
+          "vsVwap": "below",
+          "pmHigh": 5.34,
+          "volRaw": "52.7M",
+          "relVol": 15.1,
+          "avgVolM": 3.5
+        },
+        {
+          "sym": "CNEY",
+          "hod": 65,
+          "hodExact": 65.29,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "CN Energy Group Inc. Class A Ordinary Shares",
+          "sector": "Basic Materials",
+          "country": "CN",
+          "floatM": 7.67,
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 7.67M",
+            "$100.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Convertible note: Floor $0.10412 vs. current $0.66 → deep in-the-money; ~28 M shares could be issued if fully converted (dilution >300 %).  Note is REGISTERED (per 6-K Oct-24) so shares are free-trading on conversion.",
+                "Equity line: Remaining ~$0.9 M already registered; additional amounts require fresh registration but company has shelf.",
+                "Historical PIPEs & acquisition shares (50 M shares Mar-25, 2 M shares Apr-25 @ $5) still subject to resale once registered / lock-ups expire.",
+                "Reverse splits totalling 1:750 since 2023 show management’s willingness to shrink float and re-dilute."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [
+                "Bid-price deficiency cured on 05-Mar-26; now in a one-year monitoring period ending Mar-27. Must keep bid ≥ $1. Current price $0.66 puts company again below threshold → risk of new notice.",
+                "No delinquent filing issues noted."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Convertible note: $3.1 M principal, 7 % due Jan-28, convertible at 80 % of prior-day close (floor $0.10412).",
+                "Accounts payable & working-capital deficit not detailed since no 10-Q/K filed post Sept-25; mgmt cites $61 M *positive* working capital, but quality uncertain (heavy receivables?).",
+                "No other major term debt disclosed, but liquidity remains tight.",
+                "Jmt415 Historical Notes 🔴****"
+              ],
+              "prose": "🔴\n– 05-May-25: \"No new filings; gaps usually fade, can be tricky; China sympathy name.\"\n– 24-Apr-25: Highlighted $20 M Streeterville pre-paid purchase (convertible down to $0.025 floor) and 50 M share acquisition; noted repeated compliance issues and high dilution potential.\n– 04-Dec-24: Emphasized serial reverse splits/dilution; typically fades after pops.\nOverall sentiment from jmt415 has been consistently cautious/bearish (🔴)."
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟢 Pathenbot U.S. rollout – Expansion into central/eastern U.S. (date TBD)\n🔴 Potential new bid-price deficiency notice if shares stay < $1 (could trigger another RS)\n🔴 Further equity-line draws or shelf takedowns at any time\n🟡 Integration updates on Blessing Logistics acquisition (no timetable announced)"
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated",
+            "Cash runway: -4.9 months → must raise"
+          ],
+          "insights": [
+            "No identifiable fundamental news or company-specific announcements in the last 3 days (July 11–14, 2026) explaining the move.** Searches across news sources show the most recent developments are older (e.g., May 2026 Pathenbot order, March 2026 Nasdaq compliance regain, February 2026 acquisition plans). The ~25% gain with elevated volume (~152k shares) on a low-float microcap (~$4M market cap) is characteristic of speculative retail momentum trading rather than fundamentals.",
+            "No evidence of sector-wide movement in Chemicals - Specialty.** No broader industry news or peer moves referenced in available data around this date.",
+            "Overall context:** $CNEY remains a highly speculative, low-priced Chinese microcap with ongoing profitability challenges. Such sharp intraday moves are common in this name due to low liquidity and trader interest rather than new developments."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 News – Latest fundamental item is May 22 6-K on Pathenbot U.S. launch; early-stage, revenue unclear. <https://app.askedgar.io/filing?ticker=CNEY&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1780785%2F000147793226003413%2Fcney_6k.htm&formType=6-K>",
+            "🔴 Offering/Dilution – Active $20 M Streeterville equity-line & $3.1 M convertible note (floor $0.104) are in-the-money; high historical dilution (≈ 89 %) and $100 M shelf in place.",
+            "🔴 Cash Need – Only ~$0.39 M cash as of Sept-25; runway exhausted, expects “significant additional capital.”",
+            "🟢 Compliance – Regained Nasdaq bid-price compliance Mar 06 26 but now trading below $1 again; under one-year monitoring until Mar 27 27.",
+            "🔴 Overall – Micro-float China nano-cap with serial PIPEs, convertibles and reverse splits. Recent spikes appear purely momentum-driven; fundamental catalysts limited and dilution risk remains high."
+          ],
+          "prevClose": 0.4797,
+          "open": 0.4923,
+          "gapPct": 2.63,
+          "time": "regular session",
+          "high": 0.7929,
+          "hodTimeExact": "04:04 PM ET",
+          "close": 0.75,
+          "fade": 5,
+          "fadeExact": 5.41,
+          "vwap": 0.6955,
+          "vsVwap": "above",
+          "pmHigh": 0.4797,
+          "volRaw": "55.6M",
+          "relVol": 64.3,
+          "avgVolM": 0.9
+        },
+        {
+          "sym": "HAO",
+          "hod": 60,
+          "hodExact": 60.94,
+          "news": [],
+          "tag": "UNDERWRITER MANIP",
+          "name": "Haoxi Health Technology Limited Class A Ordinary Shares",
+          "sector": "Communication Services",
+          "country": "CN",
+          "floatM": 11.98,
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Best-efforts (EF Hutton LLC)",
+            "X1 zero-strike warrants (0.0M sh)",
+            "$80.0M shelf",
+            "Toxic price protection",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Recent offering: F-3 2026-07-10: $4.0M @ $0.4",
+                "Placement agent: EF Hutton LLC — supply unload mechanics active"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Recent offering: F-3 2026-07-10: $4.0M @ $0.4",
+            "Placement agent: EF Hutton LLC — supply unload mechanics active"
+          ],
+          "insights": [
+            "Primary catalyst: Strategic Cooperation Framework with NOVA MEDIA announced today (July 14, 2026) to develop an AI Digital Marketing System.** This involves NOVA MEDIA building an AI digital human and content-generation system for Haoxi's healthcare marketing clients across platforms like Douyin, WeChat, Toutiao, and Weibo. Multiple pre-market alerts and posts highlighted this news starting around 6:30 AM ET.",
+            "Recent financing context (last 3-4 days):** On July 10, 2026, the company announced a $4 million registered direct offering (10 million Class A ordinary shares or pre-funded warrants at $0.40/share or $0.33 exercise price for warrants). Closing targeted on or about July 13, 2026. This follows a prior $6.5M offering closed in May 2026.",
+            "Other recent developments:** A 1-for-128 reverse share split was announced/effected in May 2026 (with prior splits and shareholder approval for potential future large splits up to 1-for-8,000). No earnings or other major operational updates in the last 3 days.",
+            "No sector-wide movement:** Searches show no broad rally or notable performance across other Advertising Agencies industry stocks tied to this move; the activity appears company-specific and headline-driven."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "14-Jul-26 6-K: AI partnership with NOVA MEDIA – interesting but no dollars attached.",
+            "13-Jul-26 6-K: Closed $4 M RDO (0.40/share + 9.7 M prefunded warrants). Overhang + possible 30-Sep-26 add-on.",
+            "Offering ability, frequency & dilution risk all HIGH; shelf $76 M remains largely unused.",
+            "Cash runway appears comfortable (≈3.4 yrs) but relies on equity raises; no debt details.",
+            "Compliance: currently OK post-reverse-split, but sub-$1 bid could re-trigger notice later in 2026."
+          ],
+          "prevClose": 0.2655,
+          "open": 0.2811,
+          "gapPct": 5.88,
+          "time": "premarket",
+          "high": 0.4273,
+          "hodTimeExact": "06:38 AM ET",
+          "close": 0.285,
+          "fade": 33,
+          "fadeExact": 33.3,
+          "vwap": 0.3596,
+          "vsVwap": "below",
+          "pmHigh": 0.6315,
+          "volRaw": "114.8M",
+          "relVol": 18.8,
+          "avgVolM": 6.1
+        },
+        {
+          "sym": "VMAR",
+          "hod": 59,
+          "hodExact": 59.57,
+          "news": [],
+          "tag": "UNDERWRITER MANIP",
+          "name": "Vision Marine Technologies Inc. Common Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CA",
+          "floatM": 2.25,
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 2.25M",
+            "Best-efforts (ThinkEquity)",
+            "X1 warrants ITM",
+            "$200.0M shelf",
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "Reported Q3-26 revenue +27 % Q/Q to $18.4 M; nine-month revenue $48.6 M.",
+                "Positive operating cash flow ($2.4 M) but YTD net loss –$11.9 M; going-concern language remains.",
+                "Highlights real-estate optimization (Florida property sales) to raise ≈ $13.1 M gross and save ≈ $3.5 M/yr opex (PR 9-Jul-26 <https://app.askedgar.io/news/60350534?ticker=VMAR>).",
+                "No new equity registration statements; however, 3.77 M (≈0.38 M post-split) shares sold 1-15 Jun-26 via ATM at $0.38 raising $1.49 M (ATM USED, 15-Jun-26 <https://app.askedgar.io/news/53232036?ticker=VMAR>).",
+                "Upcoming potential catalysts:"
+              ],
+              "prose": "Most-recent filing: 6-K (financials/Q3 update) filed 13-Jul-26 <https://app.askedgar.io/filing?ticker=VMAR&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1813783%2F000110465926083111%2Fvmar-20260531x6k.htm&formType=6-K>\n– Closing of 1400 S. Federal property sale by 30-Aug-26 (🟢).\n– Next full-year results (late Nov-26) (🟡).\nNo delisting notices currently disclosed; bid-price reset via 1-for-10 r/s on 17-Jun-26."
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Current O/S only 0.74 M (post-split).",
+                "No large in-the-money warrants/CBs disclosed as Registered & effective.",
+                "Prior 2025 unit offering (prefunded warrants @ $0.375 pre-split) now ≈$3.75 post-split, still above current price → out-of-the-money.",
+                "Reverse split cleaned up float; near-term forced conversions unlikely."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [
+                "No active Nasdaq deficiency letters in disclosures.",
+                "1-for-10 reverse split on 17-Jun-26 restored $1 bid compliance.",
+                "Equity >$2.5 M (6-K shows S/H equity $6.0 M) – above $2.5 M Nasdaq CM requirement."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Total liabilities 31-May-26: ≈$39 M (includes ~$10.2 M floor-plan debt).",
+                "Highly leveraged vs micro-cap size; forbearance agreements in place to manage covenants.",
+                "Real-estate divestitures expected to add ≈$5.6 M net equity and reduce annual opex by ~$3.5 M.",
+                "Cash balance low ($0.8 M) but positive operating cash flow & ATM proceeds provide short-term liquidity."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [
+                "08-Nov-24: Notes looming cash crunch, certain use of ATM & history of PIPEs – 🔴.",
+                "10-Jan-25: Flags much bigger float pre-RS & aggressive ATM usage – 🔴.",
+                "15-Jan-25: Highlights $5.8 M PIPE and possible shelf over-usage – 🔴.",
+                "16-Dec-25: Mentions S-1 near-effect; implies more dilution coming – 🔴."
+              ],
+              "prose": "Overall tone: Predominantly bearish on dilution & cash needs → 🔴."
+            }
+          ],
+          "reasons": [
+            "Recent offering: S-3 2026-07-13",
+            "Placement agent: ThinkEquity — supply unload mechanics active"
+          ],
+          "insights": [
+            "Possible reasons for the 73% surge (as of July 14, 2026 trading):**",
+            "Follow-through from recent positive operational news (July 7–9) on Florida real estate optimization, property sales, and consolidations expected to generate substantial cash proceeds and cost savings.",
+            "Broader retail trader interest and alerts pushing the stock higher in pre-market/early trading, with reports of rapid moves from ~$1.8–2.0 levels to over $3.30.",
+            "Recent news/announcements/market sentiment (last 3 days max, most recent first):**"
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "13-Jul-26 6-K shows Q3 revenue +27 % Q/Q to $18.4 M; first 9 mos rev $48.6 M but net loss –$11.9 M. <https://app.askedgar.io/filing?ticker=VMAR&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1813783%2F000110465926083111%2Fvmar-20260531x6k.htm&formType=6-K>",
+            "Real-estate sale agreements (PR 09-Jul-26) to raise ≈$13.1 M gross / save ~$3.5 M yr; closing by 30-Aug-26 could be near-term cash boost. <https://app.askedgar.io/news/60350534?ticker=VMAR>",
+            "June-26 ATM usage (3.8 M sh pre-split @ $0.38) shows ongoing dilution appetite; shelf/ATM now tapped out. <https://app.askedgar.io/news/53232036?ticker=VMAR>",
+            "Offering Risk low & Offering Ability currently low (no remaining shelf/ATM); Dilution risk low with few ITM warrants.",
+            "High offering frequency/history means future capital raise likely once new registration filed.",
+            "Jmt415 prior notes (Jan-25, Dec-25) highlight serial dilution & cash strain.",
+            "Debt ~ $39 M; floor-plan debt $10 M; cash $0.8 M but positive op-cash-flow."
+          ],
+          "prevClose": 1.41,
+          "open": 1.81,
+          "gapPct": 28.37,
+          "time": "premarket",
+          "high": 2.25,
+          "hodTimeExact": "04:04 AM ET",
+          "close": 1.32,
+          "fade": 41,
+          "fadeExact": 41.33,
+          "vwap": 1.9933,
+          "vsVwap": "below",
+          "pmHigh": 3.35,
+          "volRaw": "94.2M",
+          "relVol": 26.8,
+          "avgVolM": 3.5
+        },
+        {
+          "sym": "HODO",
+          "hod": 54,
+          "hodExact": 54.1,
+          "news": [],
+          "tag": "RETAIL PUMP",
+          "name": "House of Doge Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 2.41,
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 2.41M",
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.41M + RelVol 55.8x",
+                "Cash runway: 0.8 months → must raise"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.41M + RelVol 55.8x",
+            "Cash runway: 0.8 months → must raise"
+          ],
+          "insights": [
+            "Possible reasons for the 22% price movement today (July 14, 2026):**",
+            "Low-float volatility and thin trading volume (only ~67k shares traded) amplifying percentage moves on modest retail interest or momentum buying.",
+            "Ongoing hype and spillover from its identity as the “official corporate arm of the Dogecoin Foundation,” potentially attracting meme/Doge-related traders.",
+            "Short-squeeze speculation, with at least one X post today explicitly calling it a “squeezing” stock and comparing it to names like $GME/$AMC."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡 07 Jul 26 8-K & shareholder letter outlines Dogecoin-centric growth vision but no revenue yet. <https://app.askedgar.io/news/60302258?ticker=HODO>",
+            "🔴 Capital structure highly dilutive: May-26 secured convert ($0.71 strike) + Yorkville toxic note & $100 M equity line (S-1 pending).",
+            "🔴 Cash <1 month; additional funding almost certain.",
+            "🟢 Nasdaq bid-price compliance restored after 1-for-8 reverse split (1 Jun 26).",
+            "🟡 Near-term catalysts (DOGE Pay, sports season) are brand/utility stories, not guaranteed revenue.",
+            "🟠 Jmt415 commentary historically neutral; no strong bias."
+          ],
+          "prevClose": 1.22,
+          "open": 1.21,
+          "gapPct": -0.82,
+          "time": "regular session",
+          "high": 1.88,
+          "hodTimeExact": "11:41 AM ET",
+          "close": 1.3,
+          "fade": 30,
+          "fadeExact": 30.85,
+          "vwap": 1.5664,
+          "vsVwap": "below",
+          "pmHigh": 1.31,
+          "volRaw": "10.3M",
+          "relVol": 55.8,
+          "avgVolM": 0.2
+        }
+      ],
+      "hod": 354,
+      "fade": 27,
+      "hodTime": "premarket",
+      "theme": "Active Tape",
+      "note": "NXTC led +354.13% (33% fade). 4/10 held <20% fade. news: NXTC — \"NXTC Stock Alert: Halper Sadeh LLC is Investigating Whether NextCure, Inc. is Obtaining a Fair Price for its Shareholders\"."
+    },
     {
       "date": "2026-07-13",
       "runners": [
