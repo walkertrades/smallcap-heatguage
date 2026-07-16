@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-07-15T10:53:15.099184Z",
-  "count": 9687,
+  "exportedAt": "2026-07-16T10:45:46.910097Z",
+  "count": 9697,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,912 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-07-15",
+      "runners": [
+        {
+          "sym": "CPHI",
+          "hod": 160,
+          "hodExact": 160.25,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "China Pharma Holdings, Inc.",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 28.21,
+          "floatSrc": "AE",
+          "marketCap": "$45M",
+          "riskBadges": [
+            "$50.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "🟡",
+              "bullets": [
+                "15-Jul-26 – Social-media scan (no Form; URL search) shows ~21 % price spike with NO company news <https://x.com/search?q=%24CPHI&src=typed_query&07152026>  → neutral/slightly speculative; no fundamentals.",
+                "15-May-26 – 10-Q (Form 10-Q) <https://app.askedgar.io/filing?ticker=CPHI&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1106644%2F000121390026057705%2Fea0290433-10q_china.htm&formType=10-Q>  → Red: going-concern warning; cash $0.17 M; CEO loan $1.47 M; may raise capital.",
+                "14-May-26 – Press Release / 8-K (PR & 8-K) – Company \"unaware of any material info\" behind stock spike <https://app.askedgar.io/news/52558462?ticker=CPHI>  → Neutral.",
+                "03-Mar-26 – 8-K – Issued 12.6 M restricted shares (@ $0.55) to buy Prinsepia Utilis patent (Reg S) <https://app.askedgar.io/filing?ticker=CPHI&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1106644%2F000121390026023022%2Fea0279672-8k_china.htm&formType=8%20K>  → Red (non-cash but dilutive).",
+                "Dec-25 – Two additional share-for-patent deals (7 M @ $1.40; 3.5 M @ $1.80) – both Reg S (8-K) → Red."
+              ],
+              "prose": "Upcoming catalyst: NMPA decision on CMO project registration (submitted Q3-25; timing TBD) – 🟡 (uncertain timing/revenue impact).\nNo FDA-type milestones (China-focused), no earnings date announced yet (likely Aug 2026 for Q2-26)."
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "🔴",
+              "bullets": [
+                "High (🔴) per model (100 %+ share growth in 12 months). OS jumped from 15.5 M (12-31-25) to 40.5 M (3-31-26) after issuing 25 M restricted shares for patents.",
+                "Another 12.6 M restricted shares (Feb-26) not yet free-trading until ~Aug-26 (6-month Rule 144) – potential selling overhang.",
+                "No registered warrants / convertibles outstanding; warrant exercise risk rated low (🟢)."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Compliance",
+              "emoji": "🟡",
+              "bullets": [],
+              "prose": "No active Nasdaq/NYSE deficiency notices disclosed.  However, price trades below $1 and could trigger future NYSE American deficiency if sustained; prior reverse-split (1-for-10) in Apr-25 suggests exchange vigilance."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "🟡",
+              "bullets": [
+                "Total liabilities 3-31-26: $8.12 M (mostly a $1.93 M short-term bank credit line, $1.47 M CEO loan, payables ~$3.7 M).",
+                "Cash only $0.17 M; quarterly burn ~$0.05 M, implying ≈ 7 months runway (per model).  Management may need fresh capital.",
+                "No long-term debt maturities disclosed beyond small lease liabilities; liquidity is main concern."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "🟡",
+              "bullets": [],
+              "prose": "No historical notes from jmt415 were provided in the data set."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated",
+            "Cash runway: 7.3 months → must raise"
+          ],
+          "insights": [
+            "No specific company news, announcements, or catalysts identified in the last 3 days (July 12–15, 2026) to explain the ~21% surge.** Recent company statements (e.g., May 2026 confirmation of no undisclosed material information amid prior unusual trading) and older developments (patent acquisitions, 10-K delay with narrowing losses) predate this move by weeks/months.",
+            "Typical microcap/penny stock volatility likely driving the move.** CPHI is a low-float Chinese specialty/generic pharma name (often trading under $1 with erratic volume); such stocks frequently experience sharp, unexplained swings on low absolute volume (here ~237k shares) due to retail momentum, short covering, or algorithmic trading absent fundamentals.",
+            "No evidence of sector-wide movement.** No broad rally noted in Drug Manufacturers - Specialty & Generic or Chinese pharma peers; isolated X commentary references broader Chinese med/biopharma buybacks and BD/licensing activity (not tied directly to CPHI or this date)."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡  15-Jul-26: Stock up ~21% on no news (social-media chatter only); Form – none, URL <https://x.com/search?q=%24CPHI&src=typed_query&07152026>.",
+            "🔴 15-May-26 10-Q shows going-concern doubt, cash $0.17 M, CEO loan $1.47 M, may raise capital; dilution +100% YoY.",
+            "🔴 03-Mar-26 8-K: Issued 12.6 M restricted shares (@ $0.55) for patent; those shares become eligible for resale ~Aug-26.",
+            "🟡 14-May-26 PR/8-K: Company says no undisclosed info behind May spike.",
+            "Upcoming 🟡 NMPA approval for CMO project (timing uncertain) – potential revenue bump but speculative.",
+            "Offering risk & ability medium (🟡); equity-line $0.6 M + shelf $9.8 M leave room for future dilution."
+          ],
+          "prevClose": 0.6148,
+          "open": 0.5964,
+          "gapPct": -2.99,
+          "time": "regular session",
+          "high": 1.6,
+          "hodTimeExact": "12:15 PM ET",
+          "close": 1.1,
+          "fade": 31,
+          "fadeExact": 31.25,
+          "vwap": 1.256,
+          "vsVwap": "below",
+          "pmHigh": 0.59,
+          "volRaw": "81.6M",
+          "relVol": 43.9,
+          "avgVolM": 1.9
+        },
+        {
+          "sym": "NVVE",
+          "hod": 126,
+          "hodExact": 126.52,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "Nuvve Holding Corp. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 0.53,
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [
+            "Float 0.53M",
+            "Active ATM $3.3M",
+            "X1 zero-strike warrants (0.0M sh)",
+            "X1 warrants ITM",
+            "$100.0M shelf",
+            "RegSHO"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "Announced agreement to acquire a 42 MW battery-storage project in Romania; modest (€0.48 MM) cash outlay, closing deadline 22 Oct 2026.  Fundamentally positive but early-stage and non-revenue for now → 🟡.",
+                "1-for-18 reverse split (8-K, 1 Jul 2026) to regain Nasdaq $1 bid compliance → corporate action viewed as negative for common holders → 🔴.",
+                "Filed Certificate of Designation for 150 K Series B preferred shares convertible at $1.25 (pre-split) to satisfy Omnia/Oelion acquisition milestones (8-K, 25 Jun 2026) → potential future dilution but tied to non-cash deal → 🔴.",
+                "Term loan $1.5 MM with weekly amortization (8-K, 18 Jun 2026) → increases debt load → 🔴.",
+                "Launch of monthly “European Power Market Brief” (News, 1 Jul 2026) → neutral publicity item → 🟡."
+              ],
+              "prose": "Most-recent material filing (8-K, 2 Jul 2026) <https://app.askedgar.io/filing?ticker=NVVE&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1836875%2F000183687526000053%2Fnvve-20260622.htm&formType=8-K>\nKey developments since late June 2026\nNear-term potential catalysts\nNo indications of cash-raising registration statements since 8-K on Series B; however, a $25 MM equity line S-1 (filed 8 Jan 2026) is effective and can be tapped at 93 % of VWAP, subject to baby-shelf limits."
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Dilution rating High (58 K % of current OS) driven by legacy convertible notes, Series A/B preferred & warrants, many with variable or ratchet pricing.",
+                "Key instruments near/at-the-money post-split:",
+                "Series B pref (Jun-26): converts at ~$22.50 post-split, unregistered, contingent on milestones; still a potential 6.7 MM pre-split ≈ 0.37 MM post-split shares → 🟡 for now."
+              ],
+              "prose": "– Series A pref (Nov-25): converts at 90 % of market VWAP with 20 % floor (split-adj ≈ $14). Registered via effective S-1 (Jan 2026).  🔴 Registered.\n– Multiple 2025 convertible notes (split-adj conv prices $14–$30) include monthly/acceleration conversion features and full-ratchet anti-dilution.  Registration effective 19 Jan 2026 per jmt415 note (42 MM pre-split ≈ 2.3 MM post-split shares).  🔴 Registered.\n– Consultant warrants (May 2025) at $18.9–$27.0 post-split, not in-the-money yet but could "
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [
+                "Nasdaq issued delisting determination (22 May 2026) for bid-price deficiency; trading continues pending appeal.  Reverse split attempted to cure, but Nasdaq may still require evidence of sustained $1 bid and minimum shareholder-equity.",
+                "Stockholders’ equity was negative (-$2.4 MM) at YE-25; equity requirement notice (min $2.5 MM) still outstanding (deadline not disclosed post-RS).",
+                "Any adverse panel decision within next 1-2 months could force delisting or additional corporate actions."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "YE-25 cash only $5.5 MM vs quarterly burn ~$4.9 MM → <1 quarter runway; internal model (AskEdgar) shows –3.0 months cash.",
+                "Debt: $1.76 MM term loans at YE-25 + new $1.5 MM ACH Capital term loan (Jun-26) with heavy weekly amortization ($43 K) and 39 % implied APR.  Failure to refinance could stress liquidity.",
+                "Accounts payable & accrued ~$11 MM (10-K).  Overall balance-sheet stress remains high."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [
+                "26 Jan 2026 – Warned of 42 MM shares (pre-split) just registered from notes & equity line. Tone: caution on dilution 🔴.",
+                "13 Nov 2025 – Flagged reverse-split risk and typical fade behaviour. 🔴.",
+                "5 Nov 2025 – “Reverse split approved… mostly faders” 🔴.",
+                "9 May 2025 – Detailed variable-price note mechanics; bearish on dilution 🔴.",
+                "28 Feb 2025 – Noted 1 MM note + warrant approval; historically fades after spikes 🟠."
+              ],
+              "prose": "Overall sentiment from jmt415 leans negative → aggregate rating 🟥 red_circle (bearish dilution/RS focus)."
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "Nasdaq appeal decision (expected summer 2026) 🔴.",
+                "Q2-26 earnings & operational update (est. 8 Aug 2026) 🟡.",
+                "42 MW Romanian BESS acquisition closing deadline 22 Oct 2026 🟡 (could flip 🟢 if financing secured).",
+                "Potential milestone conversion of Series B pref tied to Omnia/Oelion agreements (timing TBD) 🔴."
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "0.0M zero-exercise-price warrants registered — every tick up unlocks free dilution",
+            "Cash runway: -2.6 months → must raise"
+          ],
+          "insights": [
+            "Primary driver: Post-reverse stock split low-float momentum and volatility**",
+            "No major fundamental news or announcements in the last 3 days (July 12–15, 2026)**",
+            "Social media / X sentiment (recent posts)**",
+            "Not part of a broader Specialty Retail or EV/green-energy sector move**"
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🔴  Reverse split (1-for-18) effective 6 Jul 2026 to cure bid-price deficiency; low float (~0.53 MM shares) now fuels volatile moves (8-K, 1 Jul 2026).",
+            "🔴  High dilution overhang: >2 MM post-split shares already registered from variable-price notes/Series A pref; $25 MM equity line S-1 effective (8 Jan 2026).",
+            "🔴  Cash runway <1 quarter; new $1.5 MM high-cost term loan adds pressure (8-K, 18 Jun 2026).",
+            "🔴  Nasdaq delisting proceedings underway; appeal outcome in coming weeks (8-K, 22 May 2026).",
+            "🟡  Agreement to acquire 42 MW Romanian battery project could expand asset base but small upfront cost; closing by 22 Oct 2026 (8-K, 2 Jul 2026).",
+            "🟡  Q2 2026 earnings (early-Aug) and equity update next scheduled info event."
+          ],
+          "prevClose": 15.8,
+          "open": 17.21,
+          "gapPct": 8.92,
+          "time": "regular session",
+          "high": 35.7899,
+          "hodTimeExact": "10:23 AM ET",
+          "close": 21.56,
+          "fade": 39,
+          "fadeExact": 39.76,
+          "vwap": 26.3157,
+          "vsVwap": "below",
+          "pmHigh": 18.4,
+          "volRaw": "5.8M",
+          "relVol": 1.9,
+          "avgVolM": 3.0
+        },
+        {
+          "sym": "SOBR",
+          "hod": 124,
+          "hodExact": 124.79,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "SOBR Safe, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 2.46,
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 2.46M",
+            "X4 warrants ITM",
+            "Toxic price protection",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Very light balance-sheet debt – only ~$55 K notes payable & ~$0.1 M accrued interest (mar-26).",
+                "Accounts payable/other accrued: ~$0.9 M.",
+                "Cash collapsed from $4.8 M (Dec-25) to $2.1 M (Mar-26); cash burn ≈ $0.7 M/month ⇒ cash already **gone** as of July.",
+                "Management: “substantial doubt” going concern; counting on capital raise and/or CWV financing.",
+                "Financial Condition & Cash Need 🔴****"
+              ],
+              "prose": "Cash Need rating High – model shows **-0.38 months** cash left.\nManagement plans further expense cuts and external financing to bridge to merger.\nAny delay or failure of the CWV deal likely forces another PIPE or bankruptcy.\nOverall tone: caution on repeated dilution / fade tendencies."
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "06 Aug 26 (est.) – Q2 26 earnings/10-Q (🟡)",
+                "Shareholder S-4 / vote date for merger – to be announced (🟢 if scheduled)",
+                "Potential additional PIPE / warrant-inducement before merger (🔴 high risk)"
+              ],
+              "prose": ""
+            }
+          ],
+          "reasons": [
+            "X4 warrant tranches ITM (2.8M shares)",
+            "Dilution rating: High (284.0%)",
+            "Cash runway: -0.4 months → must raise"
+          ],
+          "insights": [
+            "Possible reasons for today's 28.2% surge (high volume of 223k shares):**",
+            "Momentum/speculative trading around the pending business combination with Clean World Ventures (green energy pivot), following the July 10 restructuring announcement that signals commitment to the deal.",
+            "Low-float volatility and trader interest in micro-cap event-driven plays, with premarket activity noted on X pushing toward higher levels.",
+            "Broader context of Nasdaq listing extension and cash preservation moves keeping event traders engaged."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-07-15",
+              "text": "SOBR warrant exercise"
+            },
+            {
+              "date": "2026-07-15",
+              "text": "SOBR also still need that $5.5M for this biz combination"
+            },
+            {
+              "date": "2026-07-15",
+              "text": "SOBR kinda forgot this def a warrant exercise candidate"
+            },
+            {
+              "date": "2026-07-14",
+              "text": "NXTC from what im seeing it doesnt really have any business trading up here, its basically a failed biotech and this merger is their face saving exit - that said with VEEE and SOBR this merger thing is kind of a mini theme prob the reason people willing to chase this up"
+            }
+          ],
+          "tldr": [
+            "🔴 07-10-26 8-K – Company shutting down legacy business; survival hinges on CWV reverse merger <https://app.askedgar.io/filing?ticker=SOBR&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1425627%2F000147793226004260%2Fsobr_8k.htm&formType=8-K>",
+            "🔴 Offering, dilution & cash need all HIGH; >1 M in-the-money warrants plus inevitable huge share issuance to CWV.",
+            "🟡 Nasdaq extension until 15 Sep 26 tied to merger; delisting threat remains if deal slips.",
+            "🟡 Next catalysts – 31 Jul 26 shutdown of alcohol-detection ops; S-4 filing & shareholder vote date; early-Aug Q2 results.",
+            "🟠 jmt415 notes warn of frequent fades and likely warrant-inducement raises."
+          ],
+          "prevClose": 1.17,
+          "open": 1.68,
+          "gapPct": 43.59,
+          "time": "regular session",
+          "high": 2.63,
+          "hodTimeExact": "09:45 AM ET",
+          "close": 2.07,
+          "fade": 21,
+          "fadeExact": 21.29,
+          "vwap": 1.9491,
+          "vsVwap": "above",
+          "pmHigh": 1.94,
+          "volRaw": "176.1M",
+          "relVol": 11.7,
+          "avgVolM": 15.0
+        },
+        {
+          "sym": "AEHG",
+          "hod": 103,
+          "hodExact": 103.2,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "Leverage Shares 2X Long AEHR Daily ETF",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 0.2,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [
+            "Float 0.2M"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "14-Jul-2026 (press release / earnings, link <https://x.com/search?q=%24AEHG&src=typed_query&07142026>):  Underlying holding AEHR reported a Q4-26 EPS beat, record $93 M backlog, FY-27 revenue guidance above consensus, and >$8 M in new silicon-carbide (SiC) burn-in orders—including a capacity expansion tied to a top-2 global automaker.  AEHR rallied ~23 % after hours, pushing AEHG up roughly twice that on July 15 pre-market.  Rating: 🟢 (clear fundamental upside).",
+                "09-Jul-2026 (press release, link <https://x.com/search?q=%24AEHG&src=typed_query&07092026>):  AEHR announced a follow-on production order from its lead silicon-photonics customer for a fully-automated FOX-XP system, underpinning demand in AI/datacenter optics.  Rating: 🟢."
+              ],
+              "prose": "Social sentiment across X has been strongly positive, with traders highlighting AEHR’s \"toll-booth\" role in AI and EV SiC ecosystems.\nNo dilution-related 8-K, S-1, or shelf filings have appeared because AEHG is an ETF."
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "No warrants, convertibles, or preferred shares exist for AEHG.",
+                "No reverse splits have been executed or announced."
+              ],
+              "prose": "Conclusion: Dilution risk is negligible 🟢."
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "AEHG is an ETF listed on NASDAQ.  There are no current bid-price or filing deficiencies on record.  Compliance risk: Low 🟢."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [],
+              "prose": "ETFs do not carry operating debt; they hold a portfolio of securities (in this case AEHR swaps/derivatives) and are marked-to-market daily.  No credit facilities or maturities apply.  Debt risk: Low 🟢."
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No historical comments from analyst “jmt415” were found in the data set.  Neutral 🟡."
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "14-Jul-2026, 5:00 p.m. ET – AEHR conference call to detail FY-26 results and outlook.  Management commentary on additional SiC and photonics orders could extend momentum.",
+                "Q1-FY27 order announcements (timing TBD) – AEHR typically issues order press releases intra-quarter; any large follow-on wins would be bullish for AEHG."
+              ],
+              "prose": "No known negative corporate actions (splits, delisting hearings) are scheduled."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [
+            "AEHG is a 2X leveraged daily ETF tracking AEHR (Aehr Test Systems), so its outsized move directly amplifies AEHR’s post-earnings surge (AEHR reported strong results after the July 14 close).**",
+            "Primary catalyst: AEHR’s fiscal Q4 2026 earnings beat (reported July 14, 2026) with revenue of $18.8M (vs. $14.1M YoY), swing to GAAP profitability ($1.4M net income), record quarterly bookings (~$60.7M mentioned in commentary), and $100M+ effective backlog.**",
+            "Additional positive factors from the release: Upbeat FY2027 revenue guidance ($130–150M, implying strong growth), driven by accelerating demand in AI data centers (silicon photonics/wafer-level burn-in) and silicon carbide for EVs.**",
+            "Recent developments (last 3 days, most recent first): July 14 earnings release and guidance; July 9 follow-on production order from lead silicon photonics customer for automated FOX-XP system (already in production ramp); earlier July announcements of >$8M in new SiC orders tied to EV programs.**"
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "14-Jul-2026 (press release/earnings) – AEHR beat earnings, raised outlook, and announced >$8 M in new SiC orders; AEHR +23 % AH, AEHG levered response. <https://x.com/search?q=%24AEHG&src=typed_query&07142026>",
+            "09-Jul-2026 (press release) – Follow-on FOX-XP photonics system order reinforces AI/datacenter demand. <https://x.com/search?q=%24AEHG&src=typed_query&07092026>",
+            "14-Jul-2026, 5 p.m. ET – AEHR earnings call; watch for additional backlog commentary.",
+            "No offering, dilution, debt, or compliance overhangs because AEHG is an ETF."
+          ],
+          "prevClose": 7.19,
+          "open": 12.25,
+          "gapPct": 70.38,
+          "time": "regular session",
+          "high": 14.61,
+          "hodTimeExact": "09:38 AM ET",
+          "close": 10.225,
+          "fade": 30,
+          "fadeExact": 30.01,
+          "vwap": 11.9102,
+          "vsVwap": "below",
+          "pmHigh": 12.4,
+          "volRaw": "1.5M",
+          "relVol": 9.1,
+          "avgVolM": 0.2
+        },
+        {
+          "sym": "VIVS",
+          "hod": 88,
+          "hodExact": 88.07,
+          "news": [],
+          "tag": "RIG",
+          "name": "VivoSim Labs, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 5.28,
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 5.28M",
+            "Active ATM $0.8M",
+            "$150.0M shelf",
+            "Toxic price protection",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Sub-15M float (5.28M) + active offering mechanics",
+                "RelVol 653.3x — coordinated entry signature",
+                "Cash runway: 7.3 months → must raise"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Sub-15M float (5.28M) + active offering mechanics",
+            "RelVol 653.3x — coordinated entry signature",
+            "Cash runway: 7.3 months → must raise"
+          ],
+          "insights": [
+            "Possible reasons for the price movement:**",
+            "Significant intraday momentum and speculative retail trading in this low-market-cap (~$2M) biotech stock, evidenced by nearly 1M shares traded and a massive +152.8% surge.",
+            "Continued interest following earlier positive data presentations on its NAMkind 3D human tissue models for toxicology (e.g., high liver-toxicity prediction accuracy).",
+            "Typical volatility in micro-cap biotech names listed as pre-market movers (noted in trader alerts for July 15, 2026)."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-07-15",
+              "text": "VIVS (formerly ONVO)\n- heres how it did on the last Eli Lily news (I believe this $5M payment is related to that) https://discord.com/channels/1249146793464430633/1308024400884531302/1344187282571399219\n- looks like they filed their 10-K on time so they should be able to use what little is left of their shelf/atm ~$2M"
+            }
+          ],
+          "tldr": [
+            "07-15-26 (News, 8-K): $5 M cash milestone from Eli Lilly + >500 % FY-27 revenue guide <https://app.askedgar.io/news/60465567?ticker=VIVS>",
+            "Cash runway ≈1-2 months; high likelihood of more ATM/raise despite baby-shelf limits.",
+            "Dilution overhang: 3.95 M $1.71 warrants + habitual ATM history.",
+            "Potential future Lilly milestones ($45 M) – timing uncertain, could extend runway.",
+            "No long-term debt; balance-sheet clean but thin.",
+            "Bid-price fell below $1 again; may face new Nasdaq notice before monitor ends 04-30-26."
+          ],
+          "prevClose": 0.8348,
+          "open": 1.49,
+          "gapPct": 78.49,
+          "time": "premarket",
+          "high": 1.57,
+          "hodTimeExact": "08:07 AM ET",
+          "close": 0.8529,
+          "fade": 45,
+          "fadeExact": 45.68,
+          "vwap": 1.537,
+          "vsVwap": "below",
+          "pmHigh": 3.64,
+          "volRaw": "115.5M",
+          "relVol": 653.3,
+          "avgVolM": 0.2
+        },
+        {
+          "sym": "ERNA",
+          "hod": 63,
+          "hodExact": 63.37,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "Ernexa Therapeutics Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.91,
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 0.91M",
+            "Active ATM $5.2M",
+            "Best-efforts (Brookline)",
+            "$50.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "3) Dilution Risk 🔴****",
+                "Dilution rating: High (1 060 % potential per model).",
+                "Registered warrants: Feb-26 deal added 21 M warrants @ $0.68 pre-split (~$17 split-adj.), currently OTM but could become relevant on big runs.",
+                "September 2024 $3.9 M 12 % convertible notes (convert @ $0.50 pre-split / $12.50 split-adj.) were expected to convert after shareholder approval; these shares should now be in OS/float.",
+                "No variable-price converts reported; warrant-exercise risk rated Low for now, but company still has sizeable authorised but unissued shares plus fresh ATM."
+              ],
+              "prose": "Offering Risk 🟡  (Medium)\nOffering Ability 🟡  (Medium) – Shelf capacity ≈ $5.2 M; new $9.2 M ATM opened May-26 (untapped); warrants OTM ($17 strike).\nOffering Frequency 🟡  (Medium) – 1 registered RDO + 5 PIPEs in last 24 mo; history of PIPE financings with insiders.\nContext: Feb-06-26 best-efforts RDO raised $10.5 M at $0.50 (pre-split, $12.50 split-adj.) – investors/warrants $0.68 ($17 split-adj.), now deeply OTM at $6.06, reducing near-term warrant overhang. 90-day issuance lock-up from that d"
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated"
+          ],
+          "insights": [
+            "Recent catalyst: July 14, 2026 GlobeNewswire/CEO Corner release** highlighting ERNA-101’s differentiated platform (iMSC delivering IL-7/IL-15 to convert “cold” tumors), progress toward becoming a clinical-stage company, planned Q3 2026 IND submission, and first-in-human Phase 1 study start in Q4 2026. This appears to be the primary driver of continued momentum into July 15.",
+            "Preclinical validation momentum** (earlier data referenced in recent coverage): ERNA-101 + PD-1 blockade showed complete tumor clearance and 100% long-term survival in ovarian cancer models; the new CEO commentary reinforces this as a key differentiator.",
+            "Low-float momentum/squeeze dynamics**: ~0.68M float with low short interest but thin liquidity noted in real-time trader commentary, contributing to sharp intraday/pre-market moves (reports of +97% pre-market and significant intraday gains).",
+            "Upcoming catalysts/timelines** (post-July 15, 2026): Q3 2026 IND filing for ERNA-101 (ovarian cancer); Q4 2026 initiation of first-in-human Phase 1; potential initial clinical readout in 1H 2027; parallel ERNA-201 (autoimmune) pre-IND meeting targeted for Q4 2026. Earlier manufacturing milestones already completed."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-07-15",
+              "text": "ERNA\n- surprisingly last run didnt do any offering nor did they report using the ATM, although the 10q was may 11, so possible they couldve sold on the way down\n- at the moment they have around $4M shelf/atm capacity assuming they didnt sell any of the ATM since May\n- if they want to take advantage of their 60 day high close theyll want to do it now because soon they wont be able to reference a $13 closing price for their shelf capacity - if they use the ATM it overall wont be that many shares at these prices though, only like 400k shares\n- usually closing weak but last time held up decently on similar news about ERNA-101 https://discord.com/channels/1249146793464430633/1308024400884531302/1526919148842651678"
+            }
+          ],
+          "tldr": [
+            "🟡 7-15-26 (PR) – Independent CRO confirms ERNA-101 pre-clinical efficacy; positive but still non-clinical <https://app.askedgar.io/news/60464986?ticker=ERNA>",
+            "🟡 Offering risk Medium; fresh $9.2 M ATM + shelf/PIPE history mean more raises likely once volume/price allow.",
+            "🔴 Dilution overhang large (historic 10× share growth; 21 M OTM warrants); high modelled dilution risk.",
+            "🟢 Balance sheet decent short-term (cash ~$8 M; burn $1.6 M/qtr; ~14 mo runway; low debt).",
+            "🟢 Nasdaq compliance restored after 1:25 reverse split on 5-04-26.",
+            "🟡 Upcoming events: IND filing Q3-26; Phase 1 initiation Q4-26 (early-stage, non-revenue)."
+          ],
+          "prevClose": 6.06,
+          "open": 8.51,
+          "gapPct": 40.43,
+          "time": "premarket",
+          "high": 9.9,
+          "hodTimeExact": "08:02 AM ET",
+          "close": 6.73,
+          "fade": 32,
+          "fadeExact": 32.02,
+          "vwap": 9.3807,
+          "vsVwap": "below",
+          "pmHigh": 12.8,
+          "volRaw": "26.1M",
+          "relVol": 525.5,
+          "avgVolM": 0.0
+        },
+        {
+          "sym": "JLHL",
+          "hod": 56,
+          "hodExact": 56.96,
+          "news": [],
+          "tag": "FUNDAMENTAL",
+          "name": "Julong Holding Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 1.47,
+          "floatSrc": "AE",
+          "marketCap": "$234M",
+          "riskBadges": [
+            "Float 1.47M"
+          ],
+          "sections": [
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Latest 20-F (FY25 filed 2-13-2026) shows modest total liabilities (~US$6 M) versus assets ~US$49 M; no material interest-bearing debt.",
+                "Positive operating cash flow of ≈US$0.2 M last quarter; cash of US$8.7 M; no near-term maturities flagged.",
+                "6) Jmt415 Analyst Notes :grey_question:****"
+              ],
+              "prose": "No prior commentary from jmt415 is available for JLHL."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [
+            "No identifiable fundamental catalyst (e.g., earnings, contracts, or announcements) in the last 3 days or recently; price action is driven purely by speculative/momentum trading.**",
+            "Multiple sources (Quiver Quant, StocksToTrade, Benzinga references) explicitly note \"no fresh corporate catalyst\" or \"no clear catalyst\" for recent massive swings, including a 129%+ surge earlier in July 2026 and prior 318% session moves.",
+            "Typical pattern for this low-float Nasdaq-listed Chinese micro-cap (intelligent infrastructure solutions): extreme volatility from retail momentum, FOMO, and short-squeeze dynamics rather than company news.",
+            "Recent developments (last 3 days max, as of July 15, 2026):** None material."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "🟡  2026-07-15: Stock up ~20% on no news; recent action purely momentum driven (<https://x.com/search?q=%24JLHL&src=typed_query&07152026>).",
+            "🟢  Capital structure benign: no shelf/ATM, no warrants; Low Offering & Dilution Risk.",
+            "🟢  Balance sheet light but adequate – ~$8.7 M cash, little debt, positive cash flow.",
+            "🟢  No current Nasdaq compliance issues.",
+            "🟡  Upcoming catalysts absent; price likely to keep exhibiting high volatility due to ~1.4 M float and 93% insider lock-up."
+          ],
+          "prevClose": 7.9,
+          "open": 8.55,
+          "gapPct": 8.23,
+          "time": "regular session",
+          "high": 12.4,
+          "hodTimeExact": "11:17 AM ET",
+          "close": 10.75,
+          "fade": 13,
+          "fadeExact": 13.31,
+          "vwap": 10.2707,
+          "vsVwap": "above",
+          "pmHigh": 10.97,
+          "volRaw": "10.6M",
+          "relVol": 1.9,
+          "avgVolM": 5.7
+        },
+        {
+          "sym": "ELVA",
+          "hod": 55,
+          "hodExact": 55.89,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "Electrovaya Inc. Common Shares",
+          "sector": "Industrials",
+          "country": "CA",
+          "floatM": 37.72,
+          "floatSrc": "AE",
+          "marketCap": "$590M",
+          "riskBadges": [
+            "X1 warrants ITM",
+            "$100.0M shelf",
+            "High offering risk"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "Electrovaya signed a commercial supply agreement with AMAZON to deploy its “Infinity” batteries in Amazon’s material-handling equipment.",
+                "Amazon receives warrants for up to 13.88 M ELVA shares; full vesting is tied to US$280 M of cumulative purchases.",
+                "A portion of warrants vested immediately (undisclosed amount) at a strike equal to the 5-day VWAP before 15-Jul-26.",
+                "27-May-26 6-K – FQ2’26 results: revenue $33.6 M (+28 % YoY), net income $2.06 M, cash $20.4 M. <https://app.askedgar.io/filing?ticker=ELVA&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1844450%2F000165495426005378%2Felva_6k.htm&formType=6-K>  🟢",
+                "Analyst PT increase (Roth to $20) – 04-Jun-26 🟡"
+              ],
+              "prose": "Most-recent (15-Jul-26) — 6-K / Press Release <https://app.askedgar.io/news/60467131?ticker=ELVA>\nImpact: Large-cap customer validation + potential nine-figure revenue stream ⇒ fundamentally positive despite future dilution; rated 🟢.\nOther 2026 filings:\nNo negative corporate actions since the Nov-25 equity raise."
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [
+                "Registered open warrants are limited; historical warrant overhang only ~3.5 % of OS (low).",
+                "New Amazon warrants (13.9 M, ~27 % of OS) are NOT yet reflected in dilution table and will be issued under a separate exemption; they vest only if Amazon buys $280 M of product.",
+                "No toxic convertibles or variable-price notes disclosed.  Overall near-term dilution pressure is low unless another cash raise is announced."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No Nasdaq deficiency notices for bid-price, equity or filings.  Reg-SHO list: not on.  No deadlines within three months."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Long-term EXIM Bank loan: $31.9 M (3/31/26).",
+                "Bank of Montreal ABL facility: $20 M (unused availability $7.8 M).",
+                "Accounts payable & capex rising due to Jamestown build-out; however, positive EBITDA and $20 M cash provide runway.  No near-term maturities flagged."
+              ],
+              "prose": ""
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No historical notes available for ELVA."
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [],
+              "prose": "🟡 Summer-26 – Jamestown, NY assembly line begins operations.\n🟡 Late-Summer-26 – Factory-acceptance testing of cell line in Korea.\n🟡 FY-end 30-Sep-26 – Guidance for >30 % revenue growth.\n🟢 Amazon purchase milestones (warrant vesting) – could generate up to $280 M orders (timing TBD).\n🟡 2027 – Commercial launch of ultra-fast-charge & energy-storage products."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated"
+          ],
+          "insights": [
+            "No major company-specific news, announcements, or filings identified in the last 3 days (July 12–15, 2026) to directly explain the ~20% surge.** The most recent earnings (Q2 FY2026, ended March 31, 2026) were released May 14, 2026, showing revenue of $18M (+20% YoY) and positive adjusted EBITDA/net profit. An analyst target raise (Roth Capital to $20 from $12) occurred in early June 2026. Recent coverage notes a ~20%+ decline in early July amid broader clean energy/battery sector selling pressure and investor caution.",
+            "Possible reasons for the price movement include:**",
+            "Technical rebound or short-covering after the sharp early-July decline (stock fell over 20% from early July levels, closing ~$7.89 on July 14).",
+            "Potential speculative trading, rumors, or unconfirmed catalysts not yet reflected in public news."
+          ],
+          "jmtNotes": [
+            {
+              "date": "2026-07-15",
+              "text": "ELVA seems like pretty good news w Amazon - no real gap history on this one \n\n'As part of the agreement, Amazon will receive warrants to purchase up to 13,880,345 common shares of Electrovaya, which become fully vested upon Amazon achieving cumulative future purchases of US$280 million'\n\nthey did $33M in rev their last 6 months (~$60m/year) - not sure how long they expect Amazon to total $280M in purchases though"
+            }
+          ],
+          "tldr": [
+            "🟢 15-Jul-26 (6-K/PR) – Amazon commercial agreement; warrants for 13.9 M shares tied to up to $280 M purchases. Big customer validation; potential revenue catalyst despite future dilution. <https://app.askedgar.io/news/60467131?ticker=ELVA>",
+            "🔴 High offering ability & history (two raises since Dec-24); watch for more capital raises if share price stays elevated.",
+            "🟢 Financials improving: Q2-26 revenue +20 % YoY, fifth straight profitable quarter, $20 M cash.",
+            "🟡 Debt load ($32 M EXIM) but manageable with positive cash flow and credit facility.",
+            "🟢 No Nasdaq compliance issues; low warrant/convertible overhang today."
+          ],
+          "prevClose": 7.89,
+          "open": 12.2,
+          "gapPct": 54.63,
+          "time": "premarket",
+          "high": 12.3,
+          "hodTimeExact": "09:11 AM ET",
+          "close": 11.76,
+          "fade": 4,
+          "fadeExact": 4.39,
+          "vwap": 11.5445,
+          "vsVwap": "above",
+          "pmHigh": 14.71,
+          "volRaw": "30.0M",
+          "relVol": 86.5,
+          "avgVolM": 0.3
+        },
+        {
+          "sym": "KUST",
+          "hod": 55,
+          "hodExact": 55.45,
+          "news": [],
+          "tag": "DILUTION BAIT",
+          "name": "Kustom Entertainment, Inc. Common Stock",
+          "sector": "Communication Services",
+          "country": "US",
+          "floatM": 0.64,
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 0.64M",
+            "X1 zero-strike warrants (0.0M sh)",
+            "Toxic price protection"
+          ],
+          "sections": [
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Debt fell to ~$0.66 M (current+LT) after extinguishing convertibles.",
+                "Accounts payable $4.3 M; deferred revenue $7.9 M (festival tickets).",
+                "Promissory note from Cycurion will *add* $4.25 M note receivable, not a liability."
+              ],
+              "prose": "No near-term large maturities; leverage light."
+            },
+            {
+              "title": "Analyst Notes",
+              "emoji": "",
+              "bullets": [
+                "25 Jun 26 (🟠) – notes that Q1 fade likely tied to ELOC usage; neutral observation.",
+                "02 Apr 25 (🔴) – called previous PIPE “super dilutive” with cashless warrants & Nasdaq hearing.",
+                "14 Aug 24 (🔴) – detailed warrant resets & sub-$1 true cost basis; bearish on dilution."
+              ],
+              "prose": "Overall tone: mostly dilution-focused/bearish → 🔴."
+            },
+            {
+              "title": "Other Catalysts",
+              "emoji": "",
+              "bullets": [
+                "TLDR**",
+                "🟢 06-25-26 8-K: binding sale of Video Solutions to Cycurion for up to $5.5 M closes ~15 Jul 26 <https://app.askedgar.io/filing?ticker=KUST&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1342958%2F000149315226030046%2Fform8-k.htm&formType=8-K> – non-dilutive cash and completes pivot.",
+                "🔴 Dilution risk still high: $22.7 M remaining on ELOC; >1 k % potential share expansion.",
+                "🟢 Debt very small; asset sale brings cash + note, easing near-term liquidity.",
+                "🟢 Currently Nasdaq-compliant; must keep price ≥ $1 through 02 Sep 26."
+              ],
+              "prose": "1. Quarterly Cycurion note interest & amortization starting Q3-26 🟢 (non-dilutive cash).\n2. Fall-26 first Gilley’s Park City events 🟡.\n3. Possible additional ELOC draws 🔴."
+            }
+          ],
+          "reasons": [
+            "0.0M zero-exercise-price warrants registered — every tick up unlocks free dilution",
+            "Toxic price protection (reset/cashless) — warrant count grows as price falls"
+          ],
+          "insights": [
+            "Possible reasons for the ~49.5% surge (high volume of ~850k+ shares):**",
+            "Momentum from the company's completed pivot to live entertainment (divestiture of legacy Video Solutions segment), with recent positive developments on the deal (e.g., binding agreement and potential closing/asset transfer around mid-July referenced in trader commentary).",
+            "Record attendance success at the 30th anniversary Country Stampede festival (42,000+ fans, June 25–27, 2026), signaling strong demand and execution in the core entertainment business.",
+            "Low-float penny stock dynamics, with trader attention, volume spikes, and comparisons to other runners (e.g., $VTAK) driving speculative buying."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "06-25-26 8-K: binding sale of Video Solutions to Cycurion for up to $5.5 M closes ~15 Jul 26 <https://app.askedgar.io/filing?ticker=KUST&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1342958%2F000149315226030046%2Fform8-k.htm&formType=8-K> – non-dilutive cash and completes pivot.",
+            "Dilution risk still high: $22.7 M remaining on ELOC; >1 k % potential share expansion.",
+            "Debt very small; asset sale brings cash + note, easing near-term liquidity.",
+            "Currently Nasdaq-compliant; must keep price ≥ $1 through 02 Sep 26.",
+            "Record festival attendance (07-01-26 PR) and Gilley’s partnership support growth narrative, but revenue impact still early.",
+            "Historical pattern of frequent dilutive financings (High frequency flag).  New traders should watch for ELOC draws in 8-K’s or S-3’s."
+          ],
+          "prevClose": 1.01,
+          "open": 1.49,
+          "gapPct": 47.52,
+          "time": "premarket",
+          "high": 1.57,
+          "hodTimeExact": "04:36 AM ET",
+          "close": 1.31,
+          "fade": 16,
+          "fadeExact": 16.56,
+          "vwap": 1.6179,
+          "vsVwap": "below",
+          "pmHigh": 2.22,
+          "volRaw": "84.9M",
+          "relVol": 9.4,
+          "avgVolM": 9.0
+        },
+        {
+          "sym": "AEHR",
+          "hod": 53,
+          "hodExact": 53.03,
+          "news": [],
+          "tag": "NEWS-DRIVEN",
+          "name": "Aehr Test Systems",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 29.19,
+          "floatSrc": "AE",
+          "marketCap": "$2.8B",
+          "riskBadges": [
+            "Active ATM $40.0M",
+            "$75.0M shelf"
+          ],
+          "sections": [
+            {
+              "title": "News / Why it's running",
+              "emoji": "",
+              "bullets": [
+                "Q4/FY26 earnings beat: swung to GAAP profit; record bookings $60.7 M; effective backlog $100 M.",
+                "FY-27 revenue guide $130-150 M (≈+160-200 % YoY) and non-GAAP margin 18-22 %.",
+                "Cash rose to $116.5 M; no debt.",
+                "Market reacted with 25-40 % after-hours pop; sentiment overwhelmingly bullish.",
+                "09-Jul – Follow-on FOX-XP order from lead silicon-photonics customer (delivery in <6 mo). 🟢  <https://www.benzinga.com/pressreleases/26/07/ac60352862/aehr-receives-follow-production-order-lead-silicon-photonics-customer-fully-automated-fox-xp-wafer-l>"
+              ],
+              "prose": "Most-recent filing (8-K, press release) <https://app.askedgar.io/filing?ticker=AEHR&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1040470%2F000165495426006655%2Faehr_ex991.htm&formType=8-K> – 14-Jul-26\nAdditional very recent releases (all 2026):\nNet takeaway: Strong operational momentum and guidance outweigh the completed ATM dilution; overall news tone is solidly positive."
+            },
+            {
+              "title": "Dilution Risk",
+              "emoji": "",
+              "bullets": [],
+              "prose": "Registered/walk-up warrants: none outstanding.  Recent ATM usage added ~0.8 M shares (≈2.6 % OS) – already in OS count.  No convertible debt, no preferreds.  Ongoing incremental ATM sales possible but near-term impact modest given $2.2 B market-cap and $40 M shelf room."
+            },
+            {
+              "title": "Compliance",
+              "emoji": "",
+              "bullets": [],
+              "prose": "No Nasdaq bid-price, equity, or filing deficiencies disclosed.  Stock trades well above $1 and equity >$10 M."
+            },
+            {
+              "title": "Debt & Liabilities",
+              "emoji": "",
+              "bullets": [
+                "Cash & equivalents $36.9 M then; later rose to $116.5 M post-ATM/ops.",
+                "Total liabilities only $18.3 M (mostly lease obligations & payables)",
+                "No interest-bearing debt outstanding.",
+                "Accounts payable down to $2.1 M; working-capital strong.  No near-term refinancing risk.",
+                "Jmt415 Analyst Notes 🟠****"
+              ],
+              "prose": "Balance-sheet (Q3/FY26 10-Q filed 08-Apr-26):\nNo historical notes were provided for AEHR in the dataset."
+            }
+          ],
+          "reasons": [
+            "Material news catalyst present",
+            "BUT dilution mechanics active — fade risk elevated"
+          ],
+          "insights": [
+            "Primary driver: Strong Q4/FY2026 earnings beat released after market close on July 14, 2026.**",
+            "Massive FY2027 revenue guidance of $130–150M (160–200% YoY growth), far above street expectations (~$85M).**",
+            "Recent positive news (within last 3 days):** July 9 follow-on production order from a lead silicon photonics customer for a fully automated FOX-XP Wafer-Level Burn-In System; July 14 earnings release and guidance as the dominant catalyst.",
+            "Sector context:** Part of broader semiconductor strength in 2026 (AI-driven rally, with indices and names like NVDA showing gains), but AEHR’s move is primarily company-specific rather than a broad sector rotation. Semis as a group have performed well YTD amid AI infrastructure demand."
+          ],
+          "jmtNotes": [],
+          "tldr": [
+            "14-Jul-26 8-K/Press Release – Blow-out FY26 Q4 results; FY-27 revenue guide +160-200 %; record $100 M backlog <https://app.askedgar.io/filing?ticker=AEHR&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1040470%2F000165495426006655%2Faehr_ex991.htm&formType=8-K>",
+            "09-Jul-26 follow-on FOX-XP order signals accelerating silicon-photonics demand <https://www.benzinga.com/pressreleases/26/07/ac60352862/aehr-receives-follow-production-order-lead-silicon-photonics-customer-fully-automated-fox-xp-wafer-l>",
+            "20-Apr-26 8-K – Company completed $60 M ATM; ~$40 M shelf room still open <https://app.askedgar.io/filing?ticker=AEHR&filingUrl=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1040470%2F000165495426003746%2Faehr_8k.htm&formType=8-K>",
+            "Offering risk medium; high ability & remaining ATM capacity could cap upside on extreme spikes.",
+            "Cash rich ($116 M) & debt-free; 199-month runway.",
+            "No active warrants / low dilution (≈1.4 % in last 12 mo).",
+            "No compliance issues."
+          ],
+          "prevClose": 72.01,
+          "open": 98.155,
+          "gapPct": 36.31,
+          "time": "regular session",
+          "high": 110.2,
+          "hodTimeExact": "09:38 AM ET",
+          "close": 87.79,
+          "fade": 20,
+          "fadeExact": 20.34,
+          "vwap": 95.6279,
+          "vsVwap": "below",
+          "pmHigh": 99.39,
+          "volRaw": "13.0M",
+          "relVol": 6.9,
+          "avgVolM": 1.9
+        }
+      ],
+      "hod": 160,
+      "fade": 25,
+      "hodTime": "regular session",
+      "theme": "Choppy Mixed",
+      "note": "CPHI led +160.25% (31% fade). 3/10 held <20% fade."
+    },
     {
       "date": "2026-07-14",
       "runners": [
